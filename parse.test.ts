@@ -1,8 +1,16 @@
 import { expect, test, describe } from "bun:test";
 import data from "./src/data.json";
+import { Abschnitt } from "./parse";
+
+const str = await Bun.file("./src/data.json").text()
 
 describe("Abschnittsnummer 4", () => {
-    const section = data["4"];
+    const data = JSON.parse(str, reviver) as Map<string, Abschnitt>;
+    const section = data.get("4")
+
+    if (!section) {
+        throw new Error("No section")
+    }
 
     test("has correct abschnittsnummer", () => {
         expect(section.abschnittsnummer).toBe("4");
@@ -53,11 +61,11 @@ describe("Abschnittsnummer 4", () => {
     });
 
     test("has correct priority", () => {
-        expect(section.prioritaet.radnetzfunktion).toBe(3);
-        expect(section.prioritaet.bewertung_soll_ist).toBe(3);
-        expect(section.prioritaet.radverkehrsmengen).toBe(4);
-        expect(section.prioritaet.prioritaet_1).toBe(10);
-        expect(section.prioritaet.prioritaet_2).toBe(null);
+        expect(section.prioritaet?.radnetzfunktion).toBe(3);
+        expect(section.prioritaet?.bewertung_soll_ist).toBe(3);
+        expect(section.prioritaet?.radverkehrsmengen).toBe(4);
+        expect(section.prioritaet?.prioritaet_1).toBe(10);
+        expect(section.prioritaet?.prioritaet_2).toBe(undefined);
     });
 
     describe("kfzVerkehr", () => {
@@ -72,7 +80,7 @@ describe("Abschnittsnummer 4", () => {
         });
 
         test("has correct sicherheitsabstandParken", () => {
-            expect(kfzVerkehr.sicherheitsabstandParken).toBe(null);
+            expect(kfzVerkehr.sicherheitsabstandParken).toBe("Parken nicht vorhanden oder nicht relevant");
         });
 
         test("has correct zulässigeHöchstgeschwindigkeit", () => {
@@ -80,3 +88,13 @@ describe("Abschnittsnummer 4", () => {
         });
     });
 });
+
+
+function reviver(key, value) {
+    if (typeof value === 'object' && value !== null) {
+        if (value.dataType === 'Map') {
+            return new Map(value.value);
+        }
+    }
+    return value;
+}
