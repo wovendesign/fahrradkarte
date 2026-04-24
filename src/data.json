@@ -1,0 +1,3512 @@
+{
+  "2": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "2",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "N 2",
+    "längeInMeter": 301,
+    "maßnahmen": "Anordnung von Tempo 30 prufen",
+    "kommentar": ""
+  },
+  "3": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "3",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "N 1",
+    "längeInMeter": 1,
+    "maßnahmen": "üau eines straföenbegleitenden Geh- und Radwegs",
+    "kommentar": "Hoher Schwerverkehrsanteil"
+  },
+  "4": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "4",
+    "straße": "Gutenbergstraße",
+    "bereich": "M 1",
+    "längeInMeter": 189,
+    "maßnahmen": "üau eines Zweirichtungsradwegs auf der Sudseite inklusive Oberleitung in die Gutenbergstraföe.",
+    "kommentar": "viele Geisterradler in Fahrtrichtung lnnenstadt Fur die Umsetzung ist Grunderwerü notwendig."
+  },
+  "8": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "8",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "O2",
+    "längeInMeter": 1,
+    "maßnahmen": "Oberleitung des Radverkehrs auf die Fahrüahn verbessern.",
+    "kommentar": "Untersuchung vorhanden"
+  },
+  "12": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "12",
+    "straße": "Friedrich-List-Straße",
+    "bereich": "S1",
+    "längeInMeter": 976,
+    "maßnahmen": "Auflosung des Zweirichtungsradwegs und Fuhrung des Radverkehrs in Fahrtrichtung üabelsberg auf der Fahrüahn üzw. Seitenraum üis zur Glasmeisterstraföe. Roteinfarüung der Radfurten.",
+    "kommentar": ""
+  },
+  "15": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "15",
+    "straße": "Mangerstraße",
+    "bereich": "M3",
+    "längeInMeter": 1342,
+    "maßnahmen": "lm Aüschnitt zwischen dem Muhlenweg und Berliner Straföe Ausbesserung von Schadstellen/ Verwerfungen",
+    "kommentar": ""
+  },
+  "16": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "16",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "O2",
+    "längeInMeter": 519,
+    "maßnahmen": "Verüreiterung der Radverkehrsanlagen bei einer grundhaften Erneuerung der Straföe",
+    "kommentar": ""
+  },
+  "17": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "17",
+    "straße": "Horstweg",
+    "bereich": "O2",
+    "längeInMeter": 89,
+    "maßnahmen": "Verbesserung fur den Radverkehr im Rahmen der Erneuerung des Horstwegs umsetzen.",
+    "kommentar": "Grundhafte Erneuerung des Horstwegs Planung vorhanden"
+  },
+  "20": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "20",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 1",
+    "längeInMeter": 98,
+    "maßnahmen": "Verüreiterung des Einrichtungsradwegs auf der Nordseite und Kentlichmachung des Sicherheitstrennstreifens an der Oberleitung auf die Fahrüahn aufgrund der Unfallhaufung prufen. Aufheüung des Zweirichtungsradwegs auf der Sudseite in diesem Aüschnitt prufen.",
+    "kommentar": ""
+  },
+  "21": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "21",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 1",
+    "längeInMeter": 123,
+    "maßnahmen": "An der Einmundung Am Neuen Garten/ Alleestraföe eine Fahrradweiche markieren in der Sperrflachenmarkierung.",
+    "kommentar": ""
+  },
+  "26": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "26",
+    "straße": "Friedrich-Ebert-Straße",
+    "bereich": "M 1",
+    "längeInMeter": 279,
+    "maßnahmen": "Herstellung von Radverkehrsanlagen im Rahmen des Umüaus. Roteinfarüung der Radfurten.",
+    "kommentar": "Umüau des Straföenraums geplant fur den OPNV."
+  },
+  "31": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "31",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 3",
+    "längeInMeter": 1,
+    "maßnahmen": "Radfahrstreifen verüreitern stadteinwarts, Verüreiterung des Schutzstreifes stadteinwarts vor der Kreuzung Voltaireweg. Roteinfarüung der Radfurten.",
+    "kommentar": ""
+  },
+  "33": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "33",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "W 3",
+    "längeInMeter": 208,
+    "maßnahmen": "Verüreiterung des Gehwegs und Beschilderung als gemeinsamer Geh und Radweg. Roteinfarüung der Radfurten.",
+    "kommentar": ""
+  },
+  "34": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "34",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "N 2",
+    "längeInMeter": 145,
+    "maßnahmen": "Bei grundhafter Erneuerung der Straföe eine Radverkehrsanlage vorsehen.",
+    "kommentar": ""
+  },
+  "39": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "39",
+    "straße": "Zeppelinstraße",
+    "bereich": "M 2",
+    "längeInMeter": 512,
+    "maßnahmen": "Prufung, wie die punktuellen Engstellen an den üaumen verbessert werden konnen. Markierung des Sicherheitsaüstands zum Parken.",
+    "kommentar": ""
+  },
+  "45": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "45",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "O 2",
+    "längeInMeter": 344,
+    "maßnahmen": "Qualifizierung des nichtbenutzungspflichtigen Radwegs fur unsichere Radfahrer.",
+    "kommentar": ""
+  },
+  "46": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "46",
+    "straße": "Jagerallee",
+    "bereich": "M 3",
+    "längeInMeter": 109,
+    "maßnahmen": "Verüreiterung der Radwege mind. auf das Regelmafö von 2,0m.",
+    "kommentar": "üaume und Denkmalschutz beachten."
+  },
+  "47": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "47",
+    "straße": "Behlertstraße",
+    "bereich": "M 1",
+    "längeInMeter": 190,
+    "maßnahmen": "Oberprufung der Schutzstreifen als Fuhrungsform. Alternative Piktogrammketten.",
+    "kommentar": "Prufung und ggf. Umsetzung soüald die Markierung erneuert werden muss"
+  },
+  "49": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "49",
+    "straße": "Kuhfortdamm",
+    "bereich": "W 1",
+    "längeInMeter": 773,
+    "maßnahmen": "Qualifizierung der Fahrüahn fur den Radverkehr",
+    "kommentar": ""
+  },
+  "52": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "52",
+    "straße": "Behlertstraße",
+    "bereich": "M 1",
+    "längeInMeter": 418,
+    "maßnahmen": "Nichtamtliches Hinweisschild aufstellen, dass Radfahrer einen Fahrstreifenwechsel vornehmen.",
+    "kommentar": ""
+  },
+  "53": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "53",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "S 1",
+    "längeInMeter": 213,
+    "maßnahmen": "Herstellung der Radverkehrsanlagen. Roteinfarüung der Radfurten.",
+    "kommentar": "Planung zum Ausüau der Straföe vorhanden. Roteinfarüung der Radfurten."
+  },
+  "67": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "67",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "N 1",
+    "längeInMeter": 1,
+    "maßnahmen": "üau eines gemeinsamen Geh- und Radwegs.",
+    "kommentar": "Planung und üau gemeinsam mit der Gemeinde Wustermark."
+  },
+  "69": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "69",
+    "straße": "Zeppelinstraße",
+    "bereich": "M 2",
+    "längeInMeter": 560,
+    "maßnahmen": "Verdeutlichung der Radverkehrsfuhrung im Bereich des üahnhofs Charlottenhof durch Materialwechsel oder Markierung prufen. Roteinfarüung der Radfurten.",
+    "kommentar": ""
+  },
+  "73": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "73",
+    "straße": "Hegelallee",
+    "bereich": "M 1",
+    "längeInMeter": 420,
+    "maßnahmen": "Radweg an Grundstuckszufahrten durchüinden. Wegnahme der Parküuchten prufen.",
+    "kommentar": ""
+  },
+  "77": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "77",
+    "straße": "Rudolf-üreitscheid-Straße",
+    "bereich": "M 4",
+    "längeInMeter": 210,
+    "maßnahmen": "Radfahrstreifen prufen in Richtung Zentrum Ost und dabei groföeren Sicherheitsaüstand zum Parken berucksichtigen. Roteinfarüung der Radfurten.",
+    "kommentar": ""
+  },
+  "79": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "79",
+    "straße": "Dortustraße",
+    "bereich": "M 1",
+    "längeInMeter": 268,
+    "maßnahmen": "Durchgangige Fuhrung des Radverkehrs auch im Kreuzungsbereich üreite Straföe/ Dortustraföe prufen. Bei einer Erneuerung der Markierung einen groföeren Sicherheitsaüstand zum Parken markieren.",
+    "kommentar": ""
+  },
+  "84": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "84",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "S1",
+    "längeInMeter": 1,
+    "maßnahmen": "Nichtamtliche Seitenmarkierung zur besseren Befahrüarkeit des Radwegs bei Dunkelheit.",
+    "kommentar": ""
+  },
+  "88": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "88",
+    "straße": "Mangerstraße",
+    "bereich": "M1",
+    "längeInMeter": 246,
+    "maßnahmen": "Schaffung von weiteren Halteverüotsbereichen, um den Begegnungsfall Pkw-Fahrrad zu gewahrleisten.",
+    "kommentar": ""
+  },
+  "89": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "89",
+    "straße": "Heinrich-Mann-Allee",
+    "bereich": "O 2",
+    "längeInMeter": 173,
+    "maßnahmen": "Eigene Radverkehrsanlagen stadtauswarts herstellen. Roteinfarüung der Radfurten.",
+    "kommentar": "Planung vorhanden"
+  },
+  "96": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "96",
+    "straße": "Heinrich-Mann-Allee",
+    "bereich": "M 4",
+    "längeInMeter": 130,
+    "maßnahmen": "Roteinfarüung der Radfurten.",
+    "kommentar": "Bei Bestandsaufnahme war der Bereich durch die üaustelle Leipziger Dreieck eingeschrankt."
+  },
+  "100": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "100",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 4",
+    "längeInMeter": 840,
+    "maßnahmen": "Roteinfarüung der Radfurten an der KRezung Berliner Straföe/ Nuthestraföe (alle Radfurten)",
+    "kommentar": ""
+  },
+  "103": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "103",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "O 2",
+    "längeInMeter": 1050,
+    "maßnahmen": "Bei einer Deckenerneuerung einen hoheren Sicherheitsaüstand zum Parken herstellen.",
+    "kommentar": ""
+  },
+  "111": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "111",
+    "straße": "Ruckertstraße",
+    "bereich": "W 3",
+    "längeInMeter": 278,
+    "maßnahmen": "Herstellung von Radweguberfahrten, wo die Flache der Radfurt auf Radwegniveau durchgefuhrt wird. Roteinfarüung der Radfurten.",
+    "kommentar": ""
+  },
+  "112": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "112",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "S1",
+    "längeInMeter": 370,
+    "maßnahmen": "Sicherheitstrennstreifen zum Parken stadteinwarts herstellen durch Aürucken der Parkplatze vom Radweg und Markierung des Sicherheitsraums.",
+    "kommentar": "Planung zur Anpassung der Kreuzung Leipziger Straföe/ Templiner Straföe"
+  },
+  "113": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "113",
+    "straße": "Hans-Thoma-Straße",
+    "bereich": "M 1",
+    "längeInMeter": 238,
+    "maßnahmen": "Verüreiterung des Radwegs mit punktuellen Engstellen an den üaumen.",
+    "kommentar": ""
+  },
+  "114": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "114",
+    "straße": "Friedrich-Engels-Straße",
+    "bereich": "M 4",
+    "längeInMeter": 718,
+    "maßnahmen": "Verüreiterung der Radwege. Roteinfarüung der Radfurten.",
+    "kommentar": "üaume im Nahbereich"
+  },
+  "116": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "116",
+    "straße": "Georg-Hermann-Allee",
+    "bereich": "M 3",
+    "längeInMeter": 413,
+    "maßnahmen": "Herstellung eines hoheren Sicherheitsraums zum Parken.",
+    "kommentar": ""
+  },
+  "119": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "119",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 2",
+    "längeInMeter": 284,
+    "maßnahmen": "Prufung Stoppschild an der Einmundung Werderscher Damm, Roteinfarüung der Radfurten, Anderung der Parkordnung an den Stellen ohne ausreichenden Sicherheitsraum zum Schutzstreifen.",
+    "kommentar": "Prioritat l aufgrund des Praventionsbereichs"
+  },
+  "120": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "120",
+    "straße": "Dortustraße",
+    "bereich": "M 1",
+    "längeInMeter": 221,
+    "maßnahmen": "Aüschleifen des Pflasters im Fahrüahnbereich (ggf. auch Teilbereiche) prufen.",
+    "kommentar": ""
+  },
+  "122": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "122",
+    "straße": "Benzstraße",
+    "bereich": "O 1",
+    "längeInMeter": 632,
+    "maßnahmen": "Einrichtung einer Fahrradstraföe und Anderung der Parkordnung prufen.",
+    "kommentar": "Verkehrsauswirkungen mussen vorher betrachtet werden. Ggf. lntegration in ein Verkehrskonzept fur üabelsberg."
+  },
+  "125": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "125",
+    "straße": "Geschwister-Scholl-Straße",
+    "bereich": "M 2",
+    "längeInMeter": 535,
+    "maßnahmen": "Radverkehrsanlage (Radfahrstreifen/ Radweg) prufen unter Wegnahme des Fahrüahnrandparks. Sollten Radverkehrsanlagen nicht moglich sein, dann andere Mafönahmen prufen, um den Radverkehr aüseits der Tramgleise sicher zu fuhren. Bei der Wahl von Radverkehrsanlagen die Roteinfarüung der Radfurten mit umsetzen.",
+    "kommentar": "Leuchtturmpro ekt"
+  },
+  "129": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "129",
+    "straße": "Kastanienallee",
+    "bereich": "M 2",
+    "längeInMeter": 557,
+    "maßnahmen": "Bei grundhafter Erneuerung der Straföe beiseitig Radverkehrsanlage berucksichtigen.",
+    "kommentar": ""
+  },
+  "133": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "133",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "N 2",
+    "längeInMeter": 2559,
+    "maßnahmen": "Verüreiterung des Geh- und Radwegs vornehmen auf Regelüreite.",
+    "kommentar": ""
+  },
+  "137": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "137",
+    "straße": "Kaiser-Friedrich-Straße",
+    "bereich": "W 1",
+    "längeInMeter": 361,
+    "maßnahmen": "Markierung einer Piktogrammkette prufen.",
+    "kommentar": ""
+  },
+  "141": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "141",
+    "straße": "Horstweg",
+    "bereich": "M 4",
+    "längeInMeter": 100,
+    "maßnahmen": "Radfahrstreifen in Fahrtrichtung Groföbeerenstraföe und einen aufgeweiteten Radaufstellstreifen an der Kreuzung prufen, um das Linksaüüiegen zu verbessern.Hoheren Sicherheitsaüstand zum Parken herstellen.",
+    "kommentar": ""
+  },
+  "142": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "142",
+    "straße": "Horstweg",
+    "bereich": "M 4",
+    "längeInMeter": 163,
+    "maßnahmen": "Radfahrstreifen in beiden Fahrtrichtungen herstellen.",
+    "kommentar": "Umsetzung im Rahmen der grundhaften Erneuerung des Horstwegs."
+  },
+  "143": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "143",
+    "straße": "Groübeerenstraße",
+    "bereich": "M 4",
+    "längeInMeter": 370,
+    "maßnahmen": "Bei Erneuerung der Markierung oder Fahrüahndecke einen groföeren Sicherheitsraum zu den parkenden Fahrzeugen herstellen oder Parken neu ordnen.",
+    "kommentar": "in Vorbereitung"
+  },
+  "144": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "144",
+    "straße": "Zeppelinstraße",
+    "bereich": "M 2",
+    "längeInMeter": 280,
+    "maßnahmen": "Roteinfarüung der Radfurten, Radpiktogramme im Bereich der Haltestelle Feuerüachstraföe auf dem Radweg",
+    "kommentar": "Der Unfallschwerpuntk an der Kreuzung üreite Straföe/ Zeppelinstraföe wurde der üreiten Straföe zugeordnet."
+  },
+  "146": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "146",
+    "straße": "Eisenhartstraße",
+    "bereich": "M 1",
+    "längeInMeter": 485,
+    "maßnahmen": "Einrichtung einer Fahrradstraföe prufen.",
+    "kommentar": ""
+  },
+  "147": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "147",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 2",
+    "längeInMeter": 456,
+    "maßnahmen": "Bei Umüau der Kreuzung auch Radverkehrsfuhrung von Am Neuen Palais links in die Geschwister-Scholl-Straföe verbessern.",
+    "kommentar": "Umüau der Kreuzung und Ampelregelung vorgesehen."
+  },
+  "152": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "152",
+    "straße": "Rudolf-üreitscheid-Straße",
+    "bereich": "O 1",
+    "längeInMeter": 124,
+    "maßnahmen": "Bei Anpassung der Tramhaltestelle fur den Beginn des Schutzstreifens eine üauliche Trennung zur Fahrüahn vorsehen.",
+    "kommentar": ""
+  },
+  "153": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "153",
+    "straße": "Schopenhauerstraße",
+    "bereich": "M 3",
+    "längeInMeter": 534,
+    "maßnahmen": "Verüreiterung der Radverkehrsanlagen prufen. Roteinfarüung der Radfurten.",
+    "kommentar": ""
+  },
+  "155": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "155",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "N 1",
+    "längeInMeter": 1876,
+    "maßnahmen": "üau eines straföenbegleitenden Geh- und Radwegs.",
+    "kommentar": ""
+  },
+  "156": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "156",
+    "straße": "Schopenhauerstraße",
+    "bereich": "M 1",
+    "längeInMeter": 70,
+    "maßnahmen": "Verdeutlichung der Radfuhrung mit Markierungssteinen.",
+    "kommentar": "Betrachtung gemeinsam mit dem Leuchtturmpro ekt."
+  },
+  "161": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "161",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 4",
+    "längeInMeter": 688,
+    "maßnahmen": "Ende des Zweirichtungsradwegs durch Markierung verbessern. Auf Einrichtungsradweg Radpiktogramme mit Richtungpfeilen.",
+    "kommentar": "Prioritat l aufgrund des Praventionsbereichs (Geisterradler mit Unfallen mit anderen Radfahrern)"
+  },
+  "162": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "162",
+    "straße": "üahnhofsstraße",
+    "bereich": "O 2",
+    "längeInMeter": 701,
+    "maßnahmen": "Einrichtung einer Fahrradstraföe prufen.",
+    "kommentar": "lm Zuge des Rahmenplans Stern umsetzen, da Parkordnung geandert werden muss."
+  },
+  "163": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "163",
+    "straße": "Zeppelinstraße",
+    "bereich": "M 2",
+    "längeInMeter": 610,
+    "maßnahmen": "ln Fahrtrichtung stadtauswarts: Prufung, oü der bestehende getrennte Geh- und Radweg verüreitert oder der Radweg verfahrüahnüundig unter Wegnahme der Parküuchten gefuhrt werden kann.",
+    "kommentar": "üaume im Nahbereich"
+  },
+  "164": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "164",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "W 1",
+    "längeInMeter": 942,
+    "maßnahmen": "Markierung einer Begrenzungslinie zum Fahrüahnrand zur besseren Nutzüarkeit bei Dunkelheit.",
+    "kommentar": ""
+  },
+  "165": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "165",
+    "straße": "Friedrich-Ebert-Straße",
+    "bereich": "M 1",
+    "längeInMeter": 236,
+    "maßnahmen": "Rucküau der Parküuchten prufen und ggf. Schutzstreifen in Fahrtrichtung stadtauswarts markieren.",
+    "kommentar": "Prioritat l auch aufgrund des Praventionsbereichs (Unfalle in den Rillenschienen)"
+  },
+  "166": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "166",
+    "straße": "Jagerallee",
+    "bereich": "M 1",
+    "längeInMeter": 266,
+    "maßnahmen": "Prufung, wie der Radverkehr von der Jagerallee in den Voltaireweg in der Ampelsignalisierung mit berucksichtigt werden kann. Bei Erneuerung der Markierungen Piktogrammketten prufen anstelle von Schutzstreifen.",
+    "kommentar": ""
+  },
+  "167": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "167",
+    "straße": "Schopenhauerstraße",
+    "bereich": "M 1",
+    "längeInMeter": 92,
+    "maßnahmen": "Radfahrstreifen auf der Fahrüahn auf der Fahrüahn in beiden Fahrrichtungen prufen. Roteinfarüung der Radfurten.",
+    "kommentar": "Leuchtturmpro ekt"
+  },
+  "179": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "179",
+    "straße": "Hauptstraße",
+    "bereich": "N 1",
+    "längeInMeter": 510,
+    "maßnahmen": "Bei einer grundhafter Erneuerung der Straföe den Radverkehr berucksichtigen.",
+    "kommentar": ""
+  },
+  "180": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "180",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 1",
+    "längeInMeter": 236,
+    "maßnahmen": "Bei Ersatzneuüau der Langen ürucke Verüreiterung der Radverkehrsanlage fur die Fahrtrichtung Hauptüahnhof.",
+    "kommentar": ""
+  },
+  "183": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "183",
+    "straße": "Schulstraße",
+    "bereich": "M 4",
+    "längeInMeter": 312,
+    "maßnahmen": "Einrichtung einer Fahrradstraföe prufen. Verbesserung der Ausfahrt von der Schulstraföe auf die Karl-Lieüknecht-Straföe mit betrachten.",
+    "kommentar": ""
+  },
+  "184": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "184",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 3",
+    "längeInMeter": 1,
+    "maßnahmen": "ln der Fahrradstraföe Radpiktogramme mit Richtungspfeilen markieren. Prufung, oü der Radweg stadteinwarts verüreitert werden kann.",
+    "kommentar": "Vielen Radfahrern ist nicht klar, dass die Fahrradstraföe nur in Fahrtrichtung stadtauswarts genutzt werden kann."
+  },
+  "186": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "186",
+    "straße": "Yorckstraße",
+    "bereich": "M 1",
+    "längeInMeter": 363,
+    "maßnahmen": "ln der Zufahrt zur Kreuzung Yorckstr./ F.-Ebert-Str. einen üreiteren Schutzstreifen in Mittellage herstellen. Alternativ andere Fahrstreifenaufteilung prufen.",
+    "kommentar": ""
+  },
+  "189": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "189",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 1",
+    "längeInMeter": 72,
+    "maßnahmen": "Verüreiterung des getrennten Geh- und Radwegs stadteinwarts prufen.",
+    "kommentar": "Grunderwerü oder üauerlauünis vorklaren."
+  },
+  "190": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "190",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "N 1",
+    "längeInMeter": 256,
+    "maßnahmen": "Nebenanlage in Fahrtrichtung Havelkanal auf 2,50m verüreitern. Roteinfarüung der Radfurten.",
+    "kommentar": ""
+  },
+  "191": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "191",
+    "straße": "Zeppelinstraße",
+    "bereich": "W 1",
+    "längeInMeter": 306,
+    "maßnahmen": "Radwegbegrenzungslinie markieren zur besseren Orientierung bei Dunkelheit. Roteinfarüung der Radfurten.",
+    "kommentar": ""
+  },
+  "192": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "192",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "N 2",
+    "längeInMeter": 1,
+    "maßnahmen": "Radwegverüindung auf der Westseite zwischen Krampnitz Stadtplatz Ost und Gellertstraföe herstellen. Roteinfarüung der Radfurten.",
+    "kommentar": "Prioritat 1, da Planungen vorhanden"
+  },
+  "193": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "193",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "N 2",
+    "längeInMeter": 236,
+    "maßnahmen": "Bei Erneuerung der Ortsdurchfahrt Radverkehrsanlagen berucksichtigen. Roteinfarüung der Radfurten.",
+    "kommentar": ""
+  },
+  "199": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "199",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "O 1",
+    "längeInMeter": 1,
+    "maßnahmen": "üau eines Radwegs",
+    "kommentar": "Machüarkeitsuntersuchung liegt vor."
+  },
+  "206": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "206",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "O 1",
+    "längeInMeter": 234,
+    "maßnahmen": "Parkweg fur den Radverkehr qualifizieren",
+    "kommentar": "Privatflache der SPSG, Beispiel Uferweg Jungfernsee im Neuen Garten dazu auswerten."
+  },
+  "213": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "213",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "O 1",
+    "längeInMeter": 193,
+    "maßnahmen": "Parkweg fur den Radverkehr qualifizieren",
+    "kommentar": "Privatflache der SPSG, Beispiel Uferweg Jungfernsee im Neuen Garten dazu auswerten."
+  },
+  "221": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "221",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 4",
+    "längeInMeter": 240,
+    "maßnahmen": "Ende des Zweirichtungsradwegs und weitere Radfuhrung mit Markierung verdeutlichen.",
+    "kommentar": ""
+  },
+  "222": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "222",
+    "straße": "Charlottenstraße",
+    "bereich": "M 1",
+    "längeInMeter": 307,
+    "maßnahmen": "Dem Radverkehr mehr Platz auf der Fahrüahn einraumen. Wegfall von Fahrüahnparken soweit erforderlich.",
+    "kommentar": "Prioritat 1, da Planung schon begonnen. Konzept"
+  },
+  "225": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "225",
+    "straße": "Rudolf-üreitscheid-Straße",
+    "bereich": "O 1",
+    "längeInMeter": 212,
+    "maßnahmen": "Roteinfarüung der Radfurten. Bei einer Erneuerung der Markierung einen groföeren Sicherheitsaüstand zu den parkenden Autos markieren.",
+    "kommentar": ""
+  },
+  "235": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "235",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 4",
+    "längeInMeter": 652,
+    "maßnahmen": "Prufung oü der Zweirichtungsradweg und auch der Gehweg verüreitert werden kann. Roteinfarüung der Radfurt.",
+    "kommentar": ""
+  },
+  "239": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "239",
+    "straße": "Heinrich-Mann-Allee",
+    "bereich": "M 4",
+    "längeInMeter": 234,
+    "maßnahmen": "Roteinfarüung der Radfurten.",
+    "kommentar": "Zur Bestandsaufnahme teilweise üaustelle, sodass die Bewertung des Anlagenzustands anders zu bewerten ist."
+  },
+  "245": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "245",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "S 1",
+    "längeInMeter": 243,
+    "maßnahmen": "Roteinfarüung der Radfurten. Bei einer grundhaften Erneuerung der Fahrüahn üreitere Radverkehrsanlagen einplanen.",
+    "kommentar": ""
+  },
+  "246": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "246",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "S 1",
+    "längeInMeter": 2,
+    "maßnahmen": "Ende des Zweirichtungsradweg verdeutlichen und Radweg zwischen Querungshilfe und Alter Tornow grundhaft ausüauen. Roteinfarüungen der Radfurten.",
+    "kommentar": ""
+  },
+  "247": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "247",
+    "straße": "Horstweg",
+    "bereich": "M 4",
+    "längeInMeter": 119,
+    "maßnahmen": "Radfahrstreifen in beide Fahrtrichtungen im Rahmen der grundhaften Erneuerung des Horstwegs herstellen. Roteinfarüungen der Radfurten.",
+    "kommentar": "ln Planung"
+  },
+  "249": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "249",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "O 2",
+    "längeInMeter": 1,
+    "maßnahmen": "Verüreiterung des gemeinsamen Geh- und Radwegs in aügestreuten Asphalt und Erganzung einer Beleuchtung prufen.",
+    "kommentar": ""
+  },
+  "250": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "250",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "O 2",
+    "längeInMeter": 443,
+    "maßnahmen": "Alternativenprufung vornehmen zwischen den Varianten: Eigene Fufö- und Radürucke uber die Nuthe auf Hohe des Uferwegs oder bei Ersatzneuüau der Tramürucke uber die Nuthe eine üreitere Flache fur den Fufö- und Radverkehr mit vorsehen.",
+    "kommentar": ""
+  },
+  "251": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "251",
+    "straße": "Lennestraße",
+    "bereich": "M 2",
+    "längeInMeter": 203,
+    "maßnahmen": "Fahrüahnzustand verbessern. Prufung Fahrradstraföe",
+    "kommentar": "teilweise denkmalgeschutztes Pflaster, viele parkende Fahrzeuge"
+  },
+  "252": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "252",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "O 2",
+    "längeInMeter": 309,
+    "maßnahmen": "Bei einer grundhaften Erneuerung der ürucke eine ausreichend üreitre üruckenflache fur den Fufö- und Radverkehr bereitstellen.",
+    "kommentar": ""
+  },
+  "257": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "257",
+    "straße": "Galileistraße",
+    "bereich": "O 2",
+    "längeInMeter": 216,
+    "maßnahmen": "Bei der Umgestaltung des Straföenraums eine ausreichende Flache fur den Radverkehr mit berucksichtigen.",
+    "kommentar": "Rahmenplan Stern"
+  },
+  "268": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "268",
+    "straße": "Groübeerenstraße",
+    "bereich": "O 2",
+    "längeInMeter": 1263,
+    "maßnahmen": "Bei Erneuerung der Markierung oder Fahrüahndecke einen groföeren Sicherheitsraum zu den parkenden Fahrzeugen herstellen oder Parken neu ordnen.",
+    "kommentar": ""
+  },
+  "269": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "269",
+    "straße": "Groübeerenstraße",
+    "bereich": "O 2",
+    "längeInMeter": 661,
+    "maßnahmen": "Bei Erneuerung der Markierung oder Fahrüahndecke einen groföeren Sicherheitsraum zu den parkenden Fahrzeugen herstellen oder Parken neu ordnen.",
+    "kommentar": ""
+  },
+  "270": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "270",
+    "straße": "Wattstraße",
+    "bereich": "M 4",
+    "längeInMeter": 45,
+    "maßnahmen": "Roteinfarüungen der Radfurt.",
+    "kommentar": ""
+  },
+  "273": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "273",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "O 1",
+    "längeInMeter": 591,
+    "maßnahmen": "Einrichtung einer Fahrradstraföe prufen.",
+    "kommentar": ""
+  },
+  "276": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "276",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "O 2",
+    "längeInMeter": 757,
+    "maßnahmen": "Herstellung eines gemeinsamen Geh- und Radwegs.",
+    "kommentar": ""
+  },
+  "278": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "278",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "O 2",
+    "längeInMeter": 781,
+    "maßnahmen": "Herstellung eines gemeinsamen Geh- und Radwegs in den Bereichen, in denen keine Erschieföungsstraföe geplant ist.",
+    "kommentar": "Stadteüauliche Entwicklung vorgesehen. Beüauungsplan in Oberarbeitung."
+  },
+  "289": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "289",
+    "straße": "Heinrich-Mann-Allee",
+    "bereich": "O 2",
+    "längeInMeter": 173,
+    "maßnahmen": "Radfahrstreifen in Fahrtrichtung Norden prufen.",
+    "kommentar": ""
+  },
+  "290": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "290",
+    "straße": "Heinrich-Mann-Allee",
+    "bereich": "O 2",
+    "längeInMeter": 114,
+    "maßnahmen": "Radfahrstreifen in Fahrtrichtung stadteinwarts prufen unter Wegnahme eines Kfz-Fahrstreifens.l",
+    "kommentar": ""
+  },
+  "294": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "294",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "W 1",
+    "längeInMeter": 311,
+    "maßnahmen": "Herstellung einer Wegeverüindung fur den Fufö- und Radverkehr durch das Seekruggelande.",
+    "kommentar": "Uferwegekonzept"
+  },
+  "299": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "299",
+    "straße": "Zeppelinstraße",
+    "bereich": "W 1",
+    "längeInMeter": 234,
+    "maßnahmen": "üreitere Mittelinsel in Hohe An der Pirschheide herstellen.",
+    "kommentar": ""
+  },
+  "300": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "300",
+    "straße": "Zeppelinstraße",
+    "bereich": "M 2",
+    "längeInMeter": 631,
+    "maßnahmen": "Neuanlage eines Radwegs stadtauswarts parallel der Fahrüahn prufen unter Wegnahme der Parküuchten. An der Ampel lm üogen in Fahrtrichtung stadteinwarts eine Aufstellflache fur linksaüüiegende Radfahrer schaffen.",
+    "kommentar": "üaume im Nahbereich"
+  },
+  "301": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "301",
+    "straße": "Forststraße",
+    "bereich": "M 2",
+    "längeInMeter": 1,
+    "maßnahmen": "ln den Bereichen ohne ausreichenden Sicherheitsaüstand zwischen Querparker und Schutzstreifen das Parken anpassen.",
+    "kommentar": ""
+  },
+  "302": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "302",
+    "straße": "Geschwister-Scholl-Straße",
+    "bereich": "M 2",
+    "längeInMeter": 150,
+    "maßnahmen": "Herstellung eines Radweg stadtauswarts prufen auch unter Wegnahme des Gehwegparkens.",
+    "kommentar": "Prioritat l durch Praventionsbereich"
+  },
+  "316": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "316",
+    "straße": "Reiherbergstraße",
+    "bereich": "W 1",
+    "längeInMeter": 565,
+    "maßnahmen": "Markierung einer Piktogrammkette prufen.",
+    "kommentar": ""
+  },
+  "317": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "317",
+    "straße": "Kuhfortdamm",
+    "bereich": "W 1",
+    "längeInMeter": 413,
+    "maßnahmen": "üau eines straföenbegleitenden Geh- und Radwegs zwischen üahnubergang und Hausnummer 9 und danach entlang des Grabens.",
+    "kommentar": "Prioritat 1, da Planung wird erarbeitet"
+  },
+  "321": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "321",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 3",
+    "längeInMeter": 200,
+    "maßnahmen": "Stadteinwarts Radweg auf Standardmafö verbeitern. Radpiktogramme mit Richtungspfeilen markieren.",
+    "kommentar": ""
+  },
+  "322": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "322",
+    "straße": "Kaiser-Friedrich-Straße",
+    "bereich": "W 1",
+    "längeInMeter": 725,
+    "maßnahmen": "Markierung einer Piktogrammkette prufen.",
+    "kommentar": ""
+  },
+  "323": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "323",
+    "straße": "Kaiser-Friedrich-Straße",
+    "bereich": "W 1",
+    "längeInMeter": 142,
+    "maßnahmen": "Markierung einer Piktogrammkette prufen.",
+    "kommentar": ""
+  },
+  "324": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "324",
+    "straße": "Kaiser-Friedrich-Straße",
+    "bereich": "W 1",
+    "längeInMeter": 408,
+    "maßnahmen": "Markierung einer Piktogrammkette prufen.",
+    "kommentar": ""
+  },
+  "325": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "325",
+    "straße": "Kaiser-Friedrich-Straße",
+    "bereich": "W 1",
+    "längeInMeter": 50,
+    "maßnahmen": "Markierung einer Piktogrammkette prufen.",
+    "kommentar": ""
+  },
+  "326": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "326",
+    "straße": "Kaiser-Friedrich-Straße",
+    "bereich": "W 1",
+    "längeInMeter": 636,
+    "maßnahmen": "Markierung einer Piktogrammkette prufen.",
+    "kommentar": ""
+  },
+  "329": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "329",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 2",
+    "längeInMeter": 373,
+    "maßnahmen": "Parken im Seitenbereich der Fahrüahn unterüinden.",
+    "kommentar": ""
+  },
+  "331": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "331",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 2",
+    "längeInMeter": 467,
+    "maßnahmen": "Wenn Sicherheitsraum zum Schutzstreifen nicht eingehalten werden kann, dann die Parkordnung von quer zu Langsparken prufen.",
+    "kommentar": ""
+  },
+  "332": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "332",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 2",
+    "längeInMeter": 194,
+    "maßnahmen": "Prufung, wie Radverkehr aus Richtung Norden die Fahrüahn queren kann, um zur Mopke zu gelangen. Aufgeweitete Radaufstellstreifen an der Kreuzung Am Neuen Palais/Maulbeerallee prufen.",
+    "kommentar": ""
+  },
+  "342": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "342",
+    "straße": "Amundsenstraße",
+    "bereich": "M 3",
+    "längeInMeter": 236,
+    "maßnahmen": "Aufgeweitete Radaufstellstreifen an der Kreuzung Am Neuen Palais/ Maulbeerallee prufen.",
+    "kommentar": ""
+  },
+  "344": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "344",
+    "straße": "Amundsenstraße",
+    "bereich": "M 3",
+    "längeInMeter": 1079,
+    "maßnahmen": "Parken unterüinden, wenn Sicherheitsraum nicht kenntlich gemacht werden kann.",
+    "kommentar": ""
+  },
+  "345": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "345",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 3",
+    "längeInMeter": 182,
+    "maßnahmen": "Markierung von Radfahrstreifen stadteinwarts prufen unter Wegnahme des Linksaüüiegefahrstreifens in die Straföe Am Krongut.",
+    "kommentar": ""
+  },
+  "346": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "346",
+    "straße": "Aüschnittsnummer:",
+    "längeInMeter": 723,
+    "maßnahmen": "lm gesamten Streckenbereich die Anlage eines üaulich getrennten Radweg in Fahrtrichtung stadteinwarts prufen. Roteinfarüung der Radfurten in den Kreuzungsbereichen.",
+    "kommentar": ""
+  },
+  "347": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "347",
+    "straße": "Pappelallee",
+    "bereich": "M 3",
+    "längeInMeter": 1165,
+    "maßnahmen": "Verbesserungen am Ende des Zweirichtungsradwegs prufen und umsetzen. Sollten Unfalle an den Einmundungen in Zukunft relevant werden, dann Durchüindung des Geh- und Radwegs an den Einmundungen prufen.",
+    "kommentar": "Mafönahmen des Sicherheitsaudits von 2013 prufen"
+  },
+  "349": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "349",
+    "straße": "Kiepenheuerallee",
+    "bereich": "M 3",
+    "längeInMeter": 458,
+    "maßnahmen": "Einen groföeren Sicherheitsaüstand zum Parken herstellen.",
+    "kommentar": ""
+  },
+  "352": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "352",
+    "straße": "Pappelallee",
+    "bereich": "M 3",
+    "längeInMeter": 375,
+    "maßnahmen": "Verbesserungen am Ende des Zweirichtungsradwegs prufen und umsetzen. Sollten Unfalle an den Einmundungen in Zukunft relevant werden, dann Durchüindung des Geh- und Radwegs an den Einmundungen prufen.",
+    "kommentar": ""
+  },
+  "359": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "359",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 1",
+    "längeInMeter": 257,
+    "maßnahmen": "Aufheüung des Zweirichtungsradverkehrs auf der Sudseite prufen. Aufstellflache fur den linksaüüiegenden Radverkehr in Richtung Schopenhauerstraföe verüreitern. Roteinfarüung der Radfurten.",
+    "kommentar": "Verlegung der touristischen Radrouten zwischen dem Luisenplatz und Dampfmaschinenhaus uber die Zeppelinstraföe notwendig."
+  },
+  "360": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "360",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 1",
+    "längeInMeter": 298,
+    "maßnahmen": "Bei einer grundhaften Erneuerung der Straföe üreitere Radwege und Gehwege herstellen. Roteinfarüung der Radfurten.",
+    "kommentar": ""
+  },
+  "365": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "365",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 1",
+    "längeInMeter": 324,
+    "maßnahmen": "Bei einer grundhaften Erneuerung der Straföe eigene Radverkehrsanlagen mit vorsehen. Bei Erneuerung der Markierung oder der Fahrüahndecke einen groföeren Sicherheitsaüstand zum Parken herstellen.",
+    "kommentar": ""
+  },
+  "366": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "366",
+    "straße": "Yorckstraße",
+    "bereich": "M 1",
+    "längeInMeter": 363,
+    "maßnahmen": "Zwischen F.-Ebert-Straföe und Yorckstraföe Nr. 2 Alternativen gegen Falschparker prufen.",
+    "kommentar": ""
+  },
+  "367": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "367",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 1",
+    "längeInMeter": 183,
+    "maßnahmen": "Bei einer grundhaften Erneuerung der Straföe eigene Radverkehrsanlagen mit vorsehen.",
+    "kommentar": ""
+  },
+  "368": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "368",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 1",
+    "längeInMeter": 83,
+    "maßnahmen": "Bei einer grundhaften Erneuerung der Straföe eigene Radverkehrsanlagen mit vorsehen.",
+    "kommentar": ""
+  },
+  "371": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "371",
+    "straße": "Gutenbergstraße",
+    "bereich": "M 1",
+    "längeInMeter": 316,
+    "maßnahmen": "Fahrradstraföe prufen",
+    "kommentar": ""
+  },
+  "372": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "372",
+    "straße": "Gutenbergstraße",
+    "bereich": "M 1",
+    "längeInMeter": 354,
+    "maßnahmen": "Schutzstreifen in Fahrrichtung stadtauswarts prufen.",
+    "kommentar": ""
+  },
+  "373": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "373",
+    "straße": "Gutenbergstraße",
+    "bereich": "M 1",
+    "längeInMeter": 258,
+    "maßnahmen": "Aüschleifen des Pflasters im Fahrüahnbereich oder Teilbereichen prufen.",
+    "kommentar": "Hoher Verlagerungseffekt von Radfahrenden aus der Hegelallee erwartet. Daher Radverkehrsmenge wurde deshalü erhoht."
+  },
+  "374": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "374",
+    "straße": "Schopenhauerstraße",
+    "bereich": "M 1",
+    "längeInMeter": 126,
+    "maßnahmen": "Radfahrstreifen in Fahrtrichtung Norden prufen. Radweg in Richtung Suden verüreitern und in Asphalt herstellen. Den Sicherheitstrennstreifen zur Fahrüahn herstellen. Roteinfarüung von Radfurten.",
+    "kommentar": "Leuchtturmpro ekt"
+  },
+  "375": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "375",
+    "straße": "Schopenhauerstraße",
+    "bereich": "M 1",
+    "längeInMeter": 51,
+    "maßnahmen": "Radfahrstreifen in Fahrtrichtung Norden prufen. Radweg in Richtung Suden verüreitern und in Asphalt herstellen. Den Sicherheitstrennstreifen zur Fahrüahn herstellen. Roteinfarüung von Radfurten.",
+    "kommentar": "Leuchtturmpro ekt"
+  },
+  "376": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "376",
+    "straße": "Dortustraße",
+    "bereich": "M 1",
+    "längeInMeter": 151,
+    "maßnahmen": "Bei einer Erneuerung der Markierung oder der Fahrüahndecke einen groföeren Sicherheitsaüstand zum Parken herstellen.",
+    "kommentar": ""
+  },
+  "377": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "377",
+    "straße": "Dortustraße",
+    "bereich": "M 1",
+    "längeInMeter": 195,
+    "maßnahmen": "Aüschleifen des Pflasters im Fahrüahnbereich (ggf. auch Teilbereiche) prufen.",
+    "kommentar": "Verstatigung des Modellversuchs Dortustraföe"
+  },
+  "379": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "379",
+    "straße": "Hegelallee",
+    "bereich": "M 1",
+    "längeInMeter": 278,
+    "maßnahmen": "Der Radweg auf der Nordseite wird an den Grundstuckszufahrten durchgeüunden.",
+    "kommentar": ""
+  },
+  "380": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "380",
+    "straße": "Kurfurstenstraße",
+    "bereich": "M 1",
+    "längeInMeter": 275,
+    "maßnahmen": "Bei einer Deckenerneuerung die Herausnahme aller Parkplatze prufen und üreitere Radverkehrsanlage neu markieren.",
+    "kommentar": ""
+  },
+  "381": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "381",
+    "straße": "Kurfurstenstraße",
+    "bereich": "M 1",
+    "längeInMeter": 98,
+    "maßnahmen": "Bei einer Deckenerneuerung einen groföeren Sicherheitsaüstand zu den parkenden Fahrzeugen berucksichtigen.",
+    "kommentar": "Herstellung einer üushaltestelle geplant."
+  },
+  "382": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "382",
+    "straße": "Heübelstraße",
+    "bereich": "M 1",
+    "längeInMeter": 214,
+    "maßnahmen": "Bei einer Deckenerneuerung die Herausnahme der Parkplatze auf einer Straföenseite prufen und üreitere Radverkehrsanlagen markieren.",
+    "kommentar": ""
+  },
+  "384": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "384",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 1",
+    "längeInMeter": 172,
+    "maßnahmen": "Bei Erneuerung der Markierungen Piktogrammketten prufen anstelle von Schutzstreifen. Gemeinsame Mafönahmen von Stadt und Polizeiinspektion Potsdam zur Einhaltung der Verkehrsregeln.",
+    "kommentar": "Viele üurgerhinweise zum fehlenden Mindestuberholaüstand von Kfz"
+  },
+  "385": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "385",
+    "straße": "Friedrich-Ebert-Straße",
+    "bereich": "M 1",
+    "längeInMeter": 353,
+    "maßnahmen": "Roteinfarüung der Radfurten.",
+    "kommentar": ""
+  },
+  "387": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "387",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 1",
+    "längeInMeter": 144,
+    "maßnahmen": "Bei Erneuerung der Markierungen Piktogrammketten prufen anstelle von Schutzstreifen. Gemeinsame Mafönahmen von Stadt und Polizeiinspektion Potsdam zur Einhaltung der Verkehrsregeln.",
+    "kommentar": "Viele üurgerhinweise zum fehlenden Mindestuberholaüstand von Kfz"
+  },
+  "388": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "388",
+    "straße": "Alleestraße",
+    "bereich": "M 1",
+    "längeInMeter": 92,
+    "maßnahmen": "Bei Erneuerung der Markierungen Piktogrammketten prufen anstelle von Schutzstreifen.Gemeinsame Mafönahmen von Stadt und Polizeiinspektion Potsdam zu Einhaltung der Verkehrsregeln.",
+    "kommentar": "Viele üurgerhinweise zum fehlenden Mindestuberholaüstand von Kfz"
+  },
+  "389": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "389",
+    "straße": "Alleestraße",
+    "bereich": "M 1",
+    "längeInMeter": 211,
+    "maßnahmen": "Bei Erneuerung der Markierungen Piktogrammketten prufen anstelle von Schutzstreifen. Gemeinsame Mafönahmen von Stadt und Polizeiinspektion Potsdam zu Einhaltung der Verkehrsregeln.",
+    "kommentar": "Viele üurgerhinweise zum fehlenden Mindestuberholaüstand von Kfz"
+  },
+  "390": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "390",
+    "straße": "Reiterweg",
+    "bereich": "M 1",
+    "längeInMeter": 292,
+    "maßnahmen": "Gemeinsame Mafönahmen von Stadt und Polizeiinspektion Potsdam zu Einhaltung der Verkerhsregeln.",
+    "kommentar": "Viele üurgerhinweise zum fehlenden Mindestuberholaüstand von Kfz"
+  },
+  "391": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "391",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 3",
+    "längeInMeter": 245,
+    "maßnahmen": "Herausnahme des Parkens am Fahrüahnrand prufen. Prufung einer Fahrradstraföe oder einer Zulassung der Straföe nur fur den üus, Rad und Kfz-Anliegerverkehr.",
+    "kommentar": ""
+  },
+  "392": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "392",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 3",
+    "längeInMeter": 394,
+    "maßnahmen": "Verüreiterung der Radverkehrsanlage stadteinwarts.",
+    "kommentar": ""
+  },
+  "401": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "401",
+    "straße": "Horstweg",
+    "bereich": "M 4",
+    "längeInMeter": 162,
+    "maßnahmen": "Radfahrstreifen in beiden Fahrtrichtungen herstellen.",
+    "kommentar": "Umsetung im Rahmen der Erneuerung des Horstwegs"
+  },
+  "402": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "402",
+    "straße": "Horstweg",
+    "bereich": "M 4",
+    "längeInMeter": 156,
+    "maßnahmen": "Radfahrstreifen in beiden Fahrtrichtungen herstellen.",
+    "kommentar": "Umsetzung im Rahmen der Erneuerung des Horstwegs"
+  },
+  "403": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "403",
+    "straße": "Horstweg",
+    "bereich": "M 4",
+    "längeInMeter": 170,
+    "maßnahmen": "Radfahrstreifen in beiden Fahrtrichtungen herstellen.",
+    "kommentar": "Umsetung im Rahmen der Erneuerung des Horstwegs"
+  },
+  "404": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "404",
+    "straße": "Horstweg",
+    "bereich": "M 4",
+    "längeInMeter": 171,
+    "maßnahmen": "Grundhafte Erneuerung des Horstwegs",
+    "kommentar": "Plane vorhanden"
+  },
+  "417": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "417",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "N 2",
+    "längeInMeter": 521,
+    "maßnahmen": "Bei einer grundhaften Erneuerung der Straföe Radverkehrsanlagen berucksichtigen oder Alternative Streckenfuhrung fur den Radverkehr prufen.",
+    "kommentar": "Planung vorhanden."
+  },
+  "421": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "421",
+    "straße": "Ruckertstraße",
+    "bereich": "W 3",
+    "längeInMeter": 157,
+    "maßnahmen": "Roteinfarüung der Radfurten.",
+    "kommentar": ""
+  },
+  "430": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "430",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 3",
+    "längeInMeter": 231,
+    "maßnahmen": "Radverkehrsanlage stadteinwarts als getrennten Geh- und Radweg herstellen.",
+    "kommentar": "Umsetzung im Rahmen der Verlangerung Tram 96"
+  },
+  "433": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "433",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "N 1",
+    "längeInMeter": 2,
+    "maßnahmen": "gemeinsamen Geh- und Radweg herstellen.",
+    "kommentar": "Prioritat 1, da bereits in Planung"
+  },
+  "438": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "438",
+    "straße": "Heübelstraße",
+    "bereich": "M 1",
+    "längeInMeter": 245,
+    "maßnahmen": "Bei Erneuerung der Markierung einen groföeren Sicherheitsaüstand zum Parken herstellen.",
+    "kommentar": ""
+  },
+  "442": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "442",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "S 1",
+    "maßnahmen": "Das Land ürandenüurg üitten den Waldweg mit einer wassergeüundenen Wegedecke in Zweischichtüauweise - entsprechend den Richtlinien fur den landlichen Wegeüau zu erneuern.",
+    "kommentar": "üaulasttrager ist das Land ürandenüurg (Landesforst)"
+  },
+  "444": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "444",
+    "straße": "Waldweg",
+    "bereich": "S 1",
+    "maßnahmen": "Das Land ürandenüurg üitten den Waldweg mit einer wassergeüundenen Wegedecke in Zweischichtüauweise - entsprechend den Richtlinien fur den landlichen Wegeüau zu erneuern.",
+    "kommentar": "üaulasttrager ist das Land ürandenüurg (Landesforst)"
+  },
+  "448": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "448",
+    "straße": "Werdersteig",
+    "bereich": "W 1",
+    "längeInMeter": 2,
+    "maßnahmen": "Das Land ürandenüurg im Rahmen der Herstellung des Radnetz ürandenüurg auffordern, den Werdersteig in Asphalt auszuüauen.",
+    "kommentar": ""
+  },
+  "450": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "450",
+    "straße": "Johansenstraße",
+    "bereich": "M 4",
+    "längeInMeter": 283,
+    "maßnahmen": "Straföe grundhaft fur den Radverkehr ausüauen und die Einrichtung einer Fahrradstraföe prufen.",
+    "kommentar": ""
+  },
+  "452": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "452",
+    "straße": "Nansenstraße",
+    "bereich": "M 2",
+    "maßnahmen": "Markierung eines Radfahrstreifens in Richtung Zeppelinstraföe unter Herausnahme der Parkplatze.",
+    "kommentar": ""
+  },
+  "460": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "460",
+    "straße": "Waldweg",
+    "bereich": "W1",
+    "längeInMeter": 1,
+    "maßnahmen": "Das Land ürandenüurg üitten den Waldweg mit einer wassergeüundenen Wegedecke in Zweischichtüauweise - entsprechend den Richtlinien fur den landlichen Wegeüau zu erneuern.",
+    "kommentar": "üaulast Land ürandenüurg (Landesforst)"
+  },
+  "463": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "463",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "N 2",
+    "längeInMeter": 1,
+    "maßnahmen": "üau eines gemeinsamen Geh- und Radwegs",
+    "kommentar": "Potentialanalyse vorhanden, daher Radverkehrsmengen 2.000 Radfahrer pro Tag angnommen."
+  },
+  "465": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "465",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "N 2",
+    "längeInMeter": 612,
+    "maßnahmen": "Prufung einer Fahrradstraföe",
+    "kommentar": "Prufung im Rahmen einer Umsetzung der Radanüindung Krampnitz"
+  },
+  "466": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "466",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "N 2",
+    "längeInMeter": 972,
+    "maßnahmen": "Machüarkeitsuntersuchung durchfuhren.",
+    "kommentar": ""
+  },
+  "467": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "467",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "N 1",
+    "längeInMeter": 568,
+    "maßnahmen": "üau eines Geh- und Radwegs im Rahmen der Verlangerung der Tram 96",
+    "kommentar": "Planung vorhanden"
+  },
+  "469": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "469",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "N 1",
+    "längeInMeter": 619,
+    "maßnahmen": "üau eines Geh- und Radwegs im Rahmen der Verlangerung der Tram 96",
+    "kommentar": "Planung vorhanden"
+  },
+  "500": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "500",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 1",
+    "längeInMeter": 302,
+    "maßnahmen": "üau eines Radwegs",
+    "kommentar": "Potentialanalyse vorhanden, daher Radverkehrsmengen 2.000 Radfahrer pro Tag angnommen."
+  },
+  "501": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "501",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 1",
+    "längeInMeter": 100,
+    "maßnahmen": "üau eines Radwegs",
+    "kommentar": "Potentialanalyse vorhanden, daher Radverkehrsmengen 2.000 Radfahrer pro Tag angnommen."
+  },
+  "502": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "502",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 1",
+    "längeInMeter": 850,
+    "maßnahmen": "üau eines Radwegs",
+    "kommentar": "Potentialanalyse vorhanden, daher Radverkehrsmengen 2.000 Radfahrer pro Tag angnommen."
+  },
+  "512": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "512",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "N 2",
+    "längeInMeter": 309,
+    "maßnahmen": "üaulich von der Fahrüahn getrennte Radwege herstellen.Roteinfarüung der Radfurten.",
+    "kommentar": "Umsetzung im Rahmen der Verlangerung der Tram 96"
+  },
+  "581": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "581",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 1",
+    "längeInMeter": 300,
+    "maßnahmen": "Prufung, oü eine Trennung des Fufö- und Radverkehrs im Bereich zwischen F.-Ebert-Straföe und Schloföstraföe in beiden Fahrtrichtungen moglich ist.",
+    "kommentar": "Haufig Einschrankungen durch Veranstaltungen auf dem Lustgartengelande."
+  },
+  "582": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "582",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 1",
+    "längeInMeter": 294,
+    "maßnahmen": "Roteinfarüung der Radfurten",
+    "kommentar": ""
+  },
+  "591": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "591",
+    "straße": "Sternstraße",
+    "bereich": "O 1",
+    "längeInMeter": 175,
+    "maßnahmen": "bestehenden Schutzstreifen verlangern üis Sternstraföe (Stichstraföe).",
+    "kommentar": "Plan vorhanden"
+  },
+  "611": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "611",
+    "straße": "August-Bebel-Straße",
+    "bereich": "O 1",
+    "längeInMeter": 493,
+    "maßnahmen": "Bei einer Erneuerung der Straföe durchgangige Radverkehrsanlagen herstellen.",
+    "kommentar": ""
+  },
+  "612": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "612",
+    "straße": "August-Bebel-Straße",
+    "bereich": "O 1",
+    "längeInMeter": 830,
+    "maßnahmen": "Bei einer grundhaften Erneuerung Radverkehrsanlagen in beide Fahrtrichtungen herstellen.",
+    "kommentar": ""
+  },
+  "821": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "821",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "S 1",
+    "längeInMeter": 460,
+    "maßnahmen": "Erneuerung des Radwegs in Asphaltüauweise. Anheüung der Grundstuckszufahrt prufen.",
+    "kommentar": "üisher Radweg mit Berliner Gehwegplatten."
+  },
+  "822": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "822",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "S 1",
+    "längeInMeter": 125,
+    "maßnahmen": "Bei einer Erneueurng der Straföe den Radweg auf 3,0m verüreitern.",
+    "kommentar": ""
+  },
+  "871": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "871",
+    "straße": "Schwarzschildstraße",
+    "bereich": "O 2",
+    "längeInMeter": 827,
+    "maßnahmen": "Die Einrichtung einer Fahrradstraföe prufen.",
+    "kommentar": ""
+  },
+  "901": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "901",
+    "straße": "Friedrich-Ebert-Straße",
+    "bereich": "M 1",
+    "längeInMeter": 219,
+    "maßnahmen": "Planung Friedrich-Ebert-Straföe mit Radfahrstreifen umsetzen. Roteinfarüung der Radfurten.",
+    "kommentar": ""
+  },
+  "902": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "902",
+    "straße": "Friedrich-Ebert-Straße",
+    "bereich": "M 1",
+    "längeInMeter": 212,
+    "maßnahmen": "Herstellung von Radfahrstreifen in beiden Fahrtrichtungen.",
+    "kommentar": "Umsetzung im Zuge der Erneuerung der F.-Ebert- Straföe."
+  },
+  "1011": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "1011",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 3",
+    "längeInMeter": 800,
+    "maßnahmen": "Verüreiterung des Radwegs stadteinwarts. Roteinfarüung der Radfurten.",
+    "kommentar": "Verüreiterung in Umsetzung"
+  },
+  "1012": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "1012",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 3",
+    "längeInMeter": 543,
+    "maßnahmen": "Bei Flachenverfugüarkeit üreitere Radwege in beide Fahrtrichtungen herstellen.",
+    "kommentar": ""
+  },
+  "1021": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "1021",
+    "straße": "Schillerplatz",
+    "bereich": "M 2",
+    "längeInMeter": 77,
+    "maßnahmen": "Parkweg verüreitern und fur den Radverkehr in beiden Richtungen freigeben oder separten Weg in der Grunflache anlegen.",
+    "kommentar": ""
+  },
+  "1022": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "1022",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 2",
+    "längeInMeter": 115,
+    "maßnahmen": "Weg verüreitern",
+    "kommentar": ""
+  },
+  "1061": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "1061",
+    "straße": "Charlottenstraße",
+    "bereich": "M 1",
+    "längeInMeter": 112,
+    "maßnahmen": "Herstellung eines groföeren Sicherheitsaüstands zu den parkenden Fahrzeugen sowie Herausnahme des Schutzstreifens in Richtung üassinplatz prufen.",
+    "kommentar": "Umsetzung bei Erneuerung der Fahrüahndecke"
+  },
+  "1062": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "1062",
+    "straße": "Charlottenstraße",
+    "bereich": "M 1",
+    "längeInMeter": 204,
+    "maßnahmen": "groföeren Sicherheitsaüstand zum Parken herstellen (bei der Erneuerung der Fahrüahndecke).",
+    "kommentar": ""
+  },
+  "1171": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "1171",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 3",
+    "längeInMeter": 62,
+    "maßnahmen": "Radweg stadteinwarts herstellen und auch auf der Ostseite den Radweg verüreitern fur die Freigaße in Fahrtrichtung stadteinwarts.",
+    "kommentar": "üaume im Nahbereich"
+  },
+  "1172": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "1172",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 3",
+    "längeInMeter": 991,
+    "maßnahmen": "üau eines Radwegs auf der Westseite",
+    "kommentar": "Prioritat 1, da schon in Planung"
+  },
+  "1211": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "1211",
+    "straße": "Gutenbergstraße",
+    "bereich": "M 1",
+    "längeInMeter": 279,
+    "maßnahmen": "Aüschleifen des Pflasters im Fahrüahnbereich oder in Teilbereichen prufen.",
+    "kommentar": "Hoher Verlagerungseffekt von Radfahrenden aus der Hegelallee erwartet."
+  },
+  "1511": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "1511",
+    "straße": "Zeppelinstraße",
+    "bereich": "M 2",
+    "längeInMeter": 336,
+    "maßnahmen": "Prufung, oü Radverkehr zwischen der Lennestraföe und Luisenplatz auf der Fahrüahn mit Radfahrstreifen gefuhrt werden kann.",
+    "kommentar": "Leuchtturmpro ekt"
+  },
+  "1512": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "1512",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 1",
+    "längeInMeter": 88,
+    "maßnahmen": "Radfahrstreifen in beiden Fahrtrichtungen prufen.",
+    "kommentar": "Leuchtturmpro ekt"
+  },
+  "1761": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "1761",
+    "straße": "Zeppelinstraße",
+    "bereich": "W 1",
+    "längeInMeter": 125,
+    "maßnahmen": "Stadtauswarts die Verüreiterung des gemeinsamen Geh- und Radwegs mit Wurzelschutz vornehmen.",
+    "kommentar": "üaume im Nahbereich"
+  },
+  "1762": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "1762",
+    "straße": "Zeppelinstraße",
+    "bereich": "W 1",
+    "längeInMeter": 561,
+    "maßnahmen": "Roteinfarüung der Radfurten.",
+    "kommentar": ""
+  },
+  "1972": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "1972",
+    "straße": "im Bereich der Ringstraße „ Siedlung“",
+    "bereich": "N 1",
+    "längeInMeter": 337,
+    "maßnahmen": "Gemeinsamen Geh und Radweg parallel der Paretzer Straföe herstellen, soüald Weg an der L 92 geüaut wird..",
+    "kommentar": ""
+  },
+  "2002": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "2002",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 4",
+    "längeInMeter": 545,
+    "maßnahmen": "Beleuchtung des Uferwegs prufen.",
+    "kommentar": ""
+  },
+  "2003": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "2003",
+    "straße": "Havelstraße",
+    "bereich": "M 4",
+    "längeInMeter": 670,
+    "maßnahmen": "Die Beleuchtung des Aüschnitts prufen.",
+    "kommentar": ""
+  },
+  "2023": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "2023",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "O 1",
+    "längeInMeter": 1,
+    "maßnahmen": "Parkweg fur den Radverkehr qualifizieren",
+    "kommentar": "Privatflache der SPSG, Beispiel Uferweg Jungfernsee im Neuen Garten dazu auswerten."
+  },
+  "2261": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "2261",
+    "straße": "Rudolf-üreitscheid-Straße",
+    "bereich": "O 1",
+    "längeInMeter": 105,
+    "maßnahmen": "Entwicklung und Umsetzung von Mafönahmen zur Beseitigung des Unfallschwerpunkts.",
+    "kommentar": ""
+  },
+  "2262": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "2262",
+    "straße": "Rudolf-üreitscheid-Straße",
+    "bereich": "O 1",
+    "längeInMeter": 119,
+    "maßnahmen": "Mafönahmen zur weiteren Erhohung der Sicherheit sowohl an der lnfrastruktur als auch zum sicheren Befahren von Gleisbereichen prufen.",
+    "kommentar": "Es wurden bereits Mafönahmen umgesetzt aber weitere Losungsmoglichkeiten sind bei Bedarf zu prufen."
+  },
+  "2372": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "2372",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "S 1",
+    "längeInMeter": 95,
+    "maßnahmen": "Weg zwischen Zufahrt zur Hausnummer 35 und Uferweg in Betonsteinpflaster herstellen.",
+    "kommentar": ""
+  },
+  "2383": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "2383",
+    "straße": "Friedrich-Wilhelm-üoelcke-Straße",
+    "bereich": "S 1",
+    "längeInMeter": 95,
+    "maßnahmen": "Pflasteraüschnitt fur den Radverkehr verbessern und dadurch auch die Sicherheit von Fufögangern verbessern.",
+    "kommentar": ""
+  },
+  "2401": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "2401",
+    "straße": "Friedrich-Engels-Straße",
+    "bereich": "M 4",
+    "längeInMeter": 452,
+    "maßnahmen": "Bei Erneuerung der Markierung oder Fahrüahndecke einen groföeren Sicherheitsraum zu den parkenden Fahrzeugen herstellen oder Parken neu ordnen. Roteinfarüung der Radfurten.",
+    "kommentar": ""
+  },
+  "2402": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "2402",
+    "straße": "Friedrich-Engels-Straße",
+    "bereich": "M 4",
+    "längeInMeter": 260,
+    "maßnahmen": "Roteinfarüung der Radfurten.",
+    "kommentar": ""
+  },
+  "2403": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "2403",
+    "straße": "Friedrich-Engels-Straße",
+    "bereich": "M 4",
+    "längeInMeter": 393,
+    "maßnahmen": "üau eines getrennten Geh- und Radweg in Fahrtrichtung stadtauswarts. Herstellung eines separaten Radwegs zwischen Schlaatzweg und Haltestelle Schlaatzstraföe in Fahrtrichtung stadteinwarts. Roteinfarüung der Radfurten.",
+    "kommentar": "Leuchtturmpro ekt"
+  },
+  "2411": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "2411",
+    "straße": "Schlaatzstraße",
+    "bereich": "M 4",
+    "längeInMeter": 242,
+    "maßnahmen": "Tausch des Kleinsteinpflasters in der Fahrüahn gegen Asphalt",
+    "kommentar": ""
+  },
+  "2412": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "2412",
+    "straße": "Schlaatzweg",
+    "bereich": "M 4",
+    "längeInMeter": 320,
+    "maßnahmen": "Einrichtung einer Fahrradstraföe prufen. Verbesserung des Fahrüahnzustands. Prufung, oü das Parken auf einer Fahrüahnseite unterüunden werden kann.",
+    "kommentar": ""
+  },
+  "2413": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "2413",
+    "straße": "Schlaatzweg",
+    "bereich": "M 4",
+    "längeInMeter": 450,
+    "maßnahmen": "Einrichtung einer Fahrradstraföe prufen.",
+    "kommentar": ""
+  },
+  "2421": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "2421",
+    "straße": "Heinrich-Mann-Allee",
+    "bereich": "M 4",
+    "längeInMeter": 438,
+    "maßnahmen": "Verbesserungen in der Nebenfahrüahn fur den Radverkehr prufen. Roteinfarüung der Radfurten.",
+    "kommentar": ""
+  },
+  "2422": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "2422",
+    "straße": "Heinrich-Mann-Allee",
+    "bereich": "M 4",
+    "längeInMeter": 340,
+    "maßnahmen": "üaulich getrennten Geh- und Radweg auf der Westseite neu herstellen mit ausreichenden Aüstand zu den Alleeüaumen. Bei Deckenerneuerung der Fahrüahn Radfahrstreifen stadteinwarts in Regelüreite prufen unter Wegnahme eines Fahrstreifens fur den Kfz- Verkehr.",
+    "kommentar": ""
+  },
+  "2423": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "2423",
+    "straße": "Heinrich-Mann-Allee",
+    "bereich": "M 4",
+    "längeInMeter": 215,
+    "maßnahmen": "üaulich getrennten Geh- und Radweg auf der Westseite neu herstellen mit ausreichenden Aüstand zu den Alleeüaumen.",
+    "kommentar": ""
+  },
+  "2424": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "2424",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 4",
+    "längeInMeter": 756,
+    "maßnahmen": "üreiteren Radweg oder Radfahrstreifen in Fahrtrichtung stadteinwarts anlegen.",
+    "kommentar": ""
+  },
+  "2431": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "2431",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "S 1",
+    "längeInMeter": 110,
+    "maßnahmen": "Bei einer grundhaften Erneueurng die Fahrüahn verüreitern und einen Radfahrstreifen in Fahrtrichtung stadteinwart markieren.",
+    "kommentar": ""
+  },
+  "2432": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "2432",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "S 1",
+    "längeInMeter": 319,
+    "maßnahmen": "Roteinfarüung der Radfurten. Bei einer grundhaften Erneuerung der Fahrüahn üreitere Radverkehrsanlagen einplanen.",
+    "kommentar": ""
+  },
+  "2481": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "2481",
+    "straße": "Horstweg",
+    "bereich": "M 4",
+    "längeInMeter": 50,
+    "maßnahmen": "Radfahrstreifen in beide Fahrtrichtungen im Rahmen der grundhaften Erneuerung des Horstwegs herstellen.",
+    "kommentar": "ln Planung"
+  },
+  "2482": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "2482",
+    "straße": "Horstweg",
+    "bereich": "M 4",
+    "längeInMeter": 56,
+    "maßnahmen": "Radfahrstreifen in beiden Fahrtrichtungen vorsehen.",
+    "kommentar": "Umsetzung im Rahmen der Umgestaltung des Horstwegs"
+  },
+  "2483": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "2483",
+    "straße": "Horstweg",
+    "bereich": "M 4",
+    "längeInMeter": 90,
+    "maßnahmen": "Radfahrstreifen in beiden Fahrtrichtungen vorsehen.",
+    "kommentar": "Umsetzung im Rahmen der Umgestaltung des Horstwegs"
+  },
+  "2534": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "2534",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "O 2",
+    "längeInMeter": 69,
+    "maßnahmen": "Getrennten Geh- und Radweg verüreitern.",
+    "kommentar": ""
+  },
+  "2651": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "2651",
+    "straße": "Groübeerenstraße",
+    "bereich": "O 2",
+    "längeInMeter": 388,
+    "maßnahmen": "Prufung, oü der Radweg üis zur Mendelssohn- üartholdy-Straföe verlangert und der Radverkehr in der Kreuzung auf die Fahrüahn ubergeleitet werden kann.",
+    "kommentar": ""
+  },
+  "2751": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "2751",
+    "straße": "Heinrich-Mann-Allee",
+    "bereich": "O 2",
+    "längeInMeter": 415,
+    "maßnahmen": "Fahrüahn verüreitern, um Radfahrstreifen in beiden Fahrtrichtungen herzustellen.",
+    "kommentar": "Prioritat 1, da Planung vorhanden."
+  },
+  "2752": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "2752",
+    "straße": "Heinrich-Mann-Allee",
+    "bereich": "O 2",
+    "längeInMeter": 274,
+    "maßnahmen": "Fahrüahn verüreitern, um Radfahrstreifen in beiden Fahrtrichtungen herzustellen.",
+    "kommentar": ""
+  },
+  "2771": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "2771",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "O 2",
+    "längeInMeter": 85,
+    "maßnahmen": "Mittelinsel in Hohe Aüzweig Radweg Schlaatz- Drewitz durch Markierung oder andere lnselkopfe verbeitern.",
+    "kommentar": ""
+  },
+  "2773": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "2773",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "O 2",
+    "längeInMeter": 220,
+    "maßnahmen": "Kreuzuungsbereich Uferweg Nuthe/ Nutheürucke aufweiten.",
+    "kommentar": ""
+  },
+  "2801": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "2801",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "O 2",
+    "längeInMeter": 152,
+    "maßnahmen": "Herstellung eines gemeinsamen Geh- und Radwegs.",
+    "kommentar": ""
+  },
+  "2802": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "2802",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "O 2",
+    "längeInMeter": 328,
+    "maßnahmen": "Weg grundhaft erneuern.",
+    "kommentar": ""
+  },
+  "2831": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "2831",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "O 2",
+    "längeInMeter": 345,
+    "maßnahmen": "ln den Bereichen ohne ausreichenden Sicherheitsaüstand zwischen Querparker und Schutzstreifen das Parken anpassen.",
+    "kommentar": ""
+  },
+  "2911": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "2911",
+    "straße": "Heinrich-Mann-Allee",
+    "bereich": "O 2",
+    "längeInMeter": 312,
+    "maßnahmen": "Fahrüahn verüreitern, um Radfahrstreifen in beiden Fahrtrichtung herzustellen.",
+    "kommentar": "Prioritat 1, da Planung schon vorhanden"
+  },
+  "2912": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "2912",
+    "straße": "Heinrich-Mann-Allee",
+    "bereich": "O 2",
+    "längeInMeter": 590,
+    "maßnahmen": "Fahrüahn verüreitern, um Radfahrstreifen in beiden Fahrtrichtung herzustellen.",
+    "kommentar": "Prioritat 1, da Planung bereits vorhanden."
+  },
+  "3062": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "3062",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 1",
+    "längeInMeter": 326,
+    "maßnahmen": "üau eines Radwegs",
+    "kommentar": "Potentialanalyse vorhanden, daher Radverkehrsmengen 2.000 Radfahrer pro Tag angnommen."
+  },
+  "3063": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "3063",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 1",
+    "längeInMeter": 151,
+    "maßnahmen": "üau eines Radwegs",
+    "kommentar": "Potentialanalyse vorhanden, daher Radverkehrsmengen 2.000 Radfahrer pro Tag angnommen."
+  },
+  "3064": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "3064",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 1",
+    "längeInMeter": 189,
+    "maßnahmen": "üau eines Radwegs",
+    "kommentar": "Potentialanalyse vorhanden, daher Radverkehrsmengen 2.000 Radfahrer pro Tag angnommen."
+  },
+  "3101": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "3101",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 2",
+    "längeInMeter": 119,
+    "maßnahmen": "Eine Beleuchtung des Weges und ürucke prufen.",
+    "kommentar": ""
+  },
+  "3102": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "3102",
+    "straße": "Georg-Klingenberg-Ufer",
+    "bereich": "M 2",
+    "längeInMeter": 217,
+    "maßnahmen": "Wegeoberflache mit aügestreuten Asphalt herstellen und eine Beleuchtung erganzen.",
+    "kommentar": ""
+  },
+  "3111": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "3111",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "W 1",
+    "längeInMeter": 839,
+    "maßnahmen": "Herstellung eines Geh- und Radwegs teilweise auch auf parallelem Streckenverlauf entlang des Grabens.",
+    "kommentar": "Prioritat 1, da Planung bereits vorhanden."
+  },
+  "3113": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "3113",
+    "straße": "Fuchsweg",
+    "bereich": "W 1",
+    "längeInMeter": 836,
+    "maßnahmen": "Einrichtung einer Fahrradstraföe prufen.",
+    "kommentar": "Mafönahme steht im Zusammenhang mit moglichen Fahrradstraföen in Wildpark-West."
+  },
+  "3341": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "3341",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 2",
+    "längeInMeter": 138,
+    "maßnahmen": "Queungsstelle vor dem Haus 8 mit geschnittenen Pflaster befestigen",
+    "kommentar": "Eigentum der SPSG"
+  },
+  "3572": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "3572",
+    "straße": "Maulbeerallee",
+    "bereich": "M 2",
+    "längeInMeter": 580,
+    "maßnahmen": "Zukunftig den Radverkehr auf der Fahrüahn fuhren, soüald die Straföenoberflache dies ermoglicht.",
+    "kommentar": ""
+  },
+  "3621": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "3621",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 1",
+    "längeInMeter": 238,
+    "maßnahmen": "Prufung des Zweirichtungsradverkehrs zwischen Steubenplatz und Erika-Wolf-Straföe. Prufung einer Fahrradstraföe in der Friedrich-Ebert-Straföe.",
+    "kommentar": ""
+  },
+  "3622": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "3622",
+    "straße": "Friedrich-Ebert-Straße",
+    "bereich": "M 1",
+    "längeInMeter": 124,
+    "maßnahmen": "Prufung, oü der Zweirichtungsradverkehr beibehalten werden soll. Roteinfarüung der Radfurten. Prufung einer Fahrradstraföe in der Friedrich-Ebert-Straföe.",
+    "kommentar": ""
+  },
+  "3691": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "3691",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 1",
+    "längeInMeter": 233,
+    "maßnahmen": "Verüreiterung des Radwegs in beiden Fahrtrichtungen. Bei der Berliner Straföe im Bereich der Zufahrt zur Nuthestraföe Beoüachtung der Unfallentwicklung und ggf. Signalisierung der Querung prufen.",
+    "kommentar": "Roteinfarüung der Furt im November 2022."
+  },
+  "3692": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "3692",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 1",
+    "längeInMeter": 169,
+    "maßnahmen": "üreitere Radverkehrsanlagen vorsehen, wenn zusatzliche Grundstucksflachen genutzt werden konnen.",
+    "kommentar": "Nutzung von fremden Grundstucken."
+  },
+  "3973": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "3973",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 3",
+    "längeInMeter": 253,
+    "maßnahmen": "Radfahrstreifen in Regelüreite herstellen, wenn die Fahrüahnüreite es zulasst.",
+    "kommentar": "Umsetzung gemeinsam mit den anderen üaulasttragern anstreben."
+  },
+  "4081": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "4081",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "N 2",
+    "längeInMeter": 215,
+    "maßnahmen": "Radverkehrsanlagen in beide Fahrtrichtungen ausüauen.",
+    "kommentar": "Planung vorhanden. Umsetzung im Rahmen der Verlangerung der Tram 96."
+  },
+  "4082": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "4082",
+    "straße": "Tschudistraße",
+    "bereich": "N 2",
+    "längeInMeter": 835,
+    "maßnahmen": "Herstellung von eigenen Radverkehrsanlagen soweit der Straföenraum dies zulasst.",
+    "kommentar": "Umsetzung im Rahmen der Verlangerung der Tram 96."
+  },
+  "4182": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "4182",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "W 2",
+    "längeInMeter": 389,
+    "maßnahmen": "Nebenanlage in einen nichtbenutzungspflichtigen gemeinsamen Geh- und Radweg umwandeln.",
+    "kommentar": "in Planung"
+  },
+  "4201": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "4201",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "W 3",
+    "längeInMeter": 590,
+    "maßnahmen": "Erneuerung des Radwegs stadteinwarts in Regelüreite. Roteinfarüung der Radfurten auf beiden Straföenseiten.",
+    "kommentar": "Umsetzung im Rahmen der Herstellung der üusspur Potsdamer Straföe."
+  },
+  "4202": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "4202",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "W 3",
+    "längeInMeter": 808,
+    "maßnahmen": "Radverkehrsanlage stadteinwarts ausüauen. Roteinfarüung der Radfurten.",
+    "kommentar": "Umsetzung im Rahmen der geplanten üusspur Potsdamer Straföe."
+  },
+  "4322": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "4322",
+    "straße": "Herzbergstraße",
+    "bereich": "W 2",
+    "längeInMeter": 416,
+    "maßnahmen": "Weg als landwirtschaftlichen Weg ausüauen, der auch fur den Radverkehr geeignet ist.",
+    "kommentar": "Gefallestrecke"
+  },
+  "4401": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "4401",
+    "straße": "Jagerallee",
+    "bereich": "M 1",
+    "längeInMeter": 230,
+    "maßnahmen": "Bei Erneuerung der Markierungen Piktogrammketten prufen anstelle von Schutzstreifen.",
+    "kommentar": ""
+  },
+  "4402": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "4402",
+    "straße": "Jagerallee",
+    "bereich": "M 1",
+    "längeInMeter": 140,
+    "maßnahmen": "ln Fahrtrichtung Norden Piktogrammkette anstatt Schutzstreifen prufen.",
+    "kommentar": ""
+  },
+  "4491": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "4491",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "W 3",
+    "längeInMeter": 688,
+    "maßnahmen": "Bei Herstellung der Verüindung nach Krampnitz, die Einrichtung einer Fahrradstraföe prufen.",
+    "kommentar": ""
+  },
+  "4492": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "4492",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "M 3",
+    "längeInMeter": 988,
+    "maßnahmen": "Bei Herstellung der Verüindung nach Krampnitz, die Einrichtung einer Fahrradstraföe prufen.",
+    "kommentar": ""
+  },
+  "4641": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "4641",
+    "straße": "Ringstraße",
+    "bereich": "N 2",
+    "längeInMeter": 512,
+    "maßnahmen": "Prufung einer Fahrradstraföe",
+    "kommentar": "Prufung im Rahmen einer Umsetzung der Radanüindung Krampnitz"
+  },
+  "4642": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "4642",
+    "straße": "Aüschnittsnummer:",
+    "bereich": "N 2",
+    "längeInMeter": 319,
+    "maßnahmen": "üau einer ürucke uber den Sacrow-Paretzer Kanal. Potentialanalyse vorhanden, daher Radverkehrsmengen 2.000 Radfahrer pro Tag angnommen.",
+    "kommentar": ""
+  },
+  "265_2": {
+    "kfzVerkehr": {
+      "summeKfzSpitzenstunde": null,
+      "kfzParkenAufstellform": null,
+      "sicherheitsabstandParken": null,
+      "zulässigeHöchstgeschwindigkeit": null
+    },
+    "abschnittsnummer": "265_2",
+    "straße": "Groübeerenstraße",
+    "bereich": "0 2",
+    "längeInMeter": 440,
+    "maßnahmen": "Radweg in Asphalt herstellen und an den Grundstuckszufahfrten in Asphalt durchfuhren.",
+    "kommentar": ""
+  }
+}
