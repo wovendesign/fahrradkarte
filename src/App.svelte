@@ -1,16 +1,15 @@
-<script>
-import MapLibre from "svelte-maplibre/MapLibre.svelte";
-import GeoJSON from "svelte-maplibre/GeoJSON.svelte";
-import LineLayer from "svelte-maplibre/LineLayer.svelte";
+<script lang="ts">
+import { LineLayer, GeoJSON, MapLibre } from "svelte-maplibre";
 import zielnetz from "./radverkehrskonzept_zielnetz.geojson?url";
 
 let selectedFeature = $state(null);
-let mapRef = $state(null);
+let mapRef: Map<any, any> | null = $state(null);
 
-function handleClick(e) {
+function handleClick(e: MouseEvent) {
 	if (!mapRef) return;
 	const features = mapRef.queryRenderedFeatures(e.point);
-	if (features.length > 0) {
+	console.log(features);
+	if (features.length > 0 && features[0].layer.id === "zielnetz") {
 		selectedFeature = features[0].properties;
 	}
 }
@@ -29,22 +28,14 @@ function handleClick(e) {
     >
       <GeoJSON data={zielnetz} generateId>
         <LineLayer
-          id="visible-layer"
+          id="zielnetz"
           layout={{ 'line-cap': 'round', 'line-join': 'round' }}
           paint={{
             'line-width': 6,
-            'line-color': '#0066cc',
-            'line-opacity': 0.8,
+            'line-color': ['get', 'color'],
+            'line-opacity': 1,
           }}
-        />
-        <LineLayer
-          id="hit-area"
-          layout={{ 'line-cap': 'round', 'line-join': 'round' }}
-          paint={{
-            'line-width': 20,
-            'line-color': '#ff0000',
-            'line-opacity': 0,
-          }}
+          interactive
         />
       </GeoJSON>
     </MapLibre>
@@ -52,7 +43,7 @@ function handleClick(e) {
 
   <aside class="sidebar">
     {#if selectedFeature}
-      <button class="close-btn" onclick={() => selectedFeature = null}>×</button>
+      <button class="close-btn" onclick={() => selectedFeature = null} type="button">Close</button>
       <div class="details">
         <h2>Route Details</h2>
         {#each Object.entries(selectedFeature) as [key, value]}
