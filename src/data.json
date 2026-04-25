@@ -93,9 +93,9 @@
       }
     ],
     [
-      "22 1",
+      "22_1",
       {
-        "abschnittsnummer": "22 1",
+        "abschnittsnummer": "22_1",
         "straße": "Charlottenstraße",
         "abschnitt": "Schopenhauerstraße bis Dortustraße",
         "bereich": "M 1",
@@ -124,9 +124,9 @@
       }
     ],
     [
-      "22 2",
+      "22_2",
       {
-        "abschnittsnummer": "22 2",
+        "abschnittsnummer": "22_2",
         "straße": "Charlottenstraße",
         "abschnitt": "zw. Dortustraße und Friedrich-Ebert-Straße",
         "bereich": "M 1",
@@ -186,9 +186,9 @@
       }
     ],
     [
-      "32 2",
+      "32_2",
       {
-        "abschnittsnummer": "32 2",
+        "abschnittsnummer": "32_2",
         "straße": "Berliner Straße",
         "abschnitt": "zw. Schiffbauergasse (Süd) und Otto-Nagel-Straße",
         "bereich": "M 1",
@@ -278,9 +278,9 @@
       }
     ],
     [
-      "58 1",
+      "58_1",
       {
-        "abschnittsnummer": "58 1",
+        "abschnittsnummer": "58_1",
         "straße": "Breite Straße",
         "abschnitt": "zw. Humboldtstraße und Schloßstraße",
         "bereich": "M 1",
@@ -309,9 +309,9 @@
       }
     ],
     [
-      "58 2",
+      "58_2",
       {
-        "abschnittsnummer": "58 2",
+        "abschnittsnummer": "58_2",
         "straße": "Breite Straße",
         "abschnitt": "zw. Schloßstraße und Dortustraße",
         "bereich": "M 1",
@@ -429,9 +429,9 @@
       }
     ],
     [
-      "90 1",
+      "90_1",
       {
-        "abschnittsnummer": "90 1",
+        "abschnittsnummer": "90_1",
         "straße": "Friedrich-Ebert-Straße",
         "abschnitt": "zw. Charlottenstraße und Gutenbergstraße",
         "bereich": "M 1",
@@ -459,9 +459,9 @@
       }
     ],
     [
-      "90 2",
+      "90_2",
       {
-        "abschnittsnummer": "90 2",
+        "abschnittsnummer": "90_2",
         "straße": "Friedrich-Ebert-Straße",
         "abschnitt": "zw. Gutenbergstraße und Kurfürstenstraße",
         "bereich": "M 1",
@@ -490,9 +490,9 @@
       }
     ],
     [
-      "106 1",
+      "106_1",
       {
-        "abschnittsnummer": "106 1",
+        "abschnittsnummer": "106_1",
         "straße": "Charlottenstraße",
         "abschnitt": "zw. Friedrich-Ebert-Straße und Am Bassin",
         "bereich": "M 1",
@@ -521,9 +521,9 @@
       }
     ],
     [
-      "106 2",
+      "106_2",
       {
-        "abschnittsnummer": "106 2",
+        "abschnittsnummer": "106_2",
         "straße": "Charlottenstraße",
         "abschnitt": "zw. Am Bassin und Hebbelstraße",
         "bereich": "M 1",
@@ -611,9 +611,9 @@
       }
     ],
     [
-      "121 1",
+      "121_1",
       {
-        "abschnittsnummer": "121 1",
+        "abschnittsnummer": "121_1",
         "straße": "Gutenbergstraße",
         "abschnitt": "zwischen Schopenhauerstraße und Dortustraße",
         "bereich": "M 1",
@@ -702,9 +702,9 @@
       }
     ],
     [
-      "151 2",
+      "151_2",
       {
-        "abschnittsnummer": "151 2",
+        "abschnittsnummer": "151_2",
         "straße": "Zeppelinstraße / Schopenhauerstraße",
         "abschnitt": "zw. Luisenplatz und Luisenplatz",
         "bereich": "M 1",
@@ -947,9 +947,9 @@
       }
     ],
     [
-      "306 2",
+      "306_2",
       {
-        "abschnittsnummer": "306 2",
+        "abschnittsnummer": "306_2",
         "straße": "Radweg parallel der Magdeburger Bahn",
         "abschnitt": "zw. den beiden Eisenbahnbrücken über die Zuläufe zur Neustädter Havelbucht",
         "bereich": "M 1",
@@ -978,9 +978,9 @@
       }
     ],
     [
-      "306 3",
+      "306_3",
       {
-        "abschnittsnummer": "306 3",
+        "abschnittsnummer": "306_3",
         "straße": "Radweg parallel der Magdeburger Bahn",
         "abschnitt": "Im Bereich der Eisenbahnbrücke",
         "bereich": "M 1",
@@ -1009,9 +1009,9 @@
       }
     ],
     [
-      "306 4",
+      "306_4",
       {
-        "abschnittsnummer": "306 4",
+        "abschnittsnummer": "306_4",
         "straße": "Radweg parallel der Magdeburger Bahn",
         "abschnitt": "zw. Auf dem Kiewitt und Eisenbahnbrücke",
         "bereich": "M 1",
@@ -1101,9 +1101,9 @@
       }
     ],
     [
-      "362 1",
+      "362_1",
       {
-        "abschnittsnummer": "362 1",
+        "abschnittsnummer": "362_1",
         "straße": "Breite Straße/ Friedrich-Ebert-Straße",
         "abschnitt": "zw. Humboldtstraße und Erika-Wolf-Straße",
         "bereich": "M 1",
@@ -1131,9 +1131,9 @@
       }
     ],
     [
-      "362 2",
+      "362_2",
       {
-        "abschnittsnummer": "362 2",
+        "abschnittsnummer": "362_2",
         "straße": "Friedrich-Ebert-Straße",
         "abschnitt": "zw. Erika-Wolf-Straße und Am Kanal",
         "bereich": "M 1",
@@ -1281,9 +1281,9 @@
       }
     ],
     [
-      "369 1",
+      "369_1",
       {
-        "abschnittsnummer": "369 1",
+        "abschnittsnummer": "369_1",
         "straße": "Berliner Straße",
         "abschnitt": "zw. Nuthestraße und Holzmarktstraße",
         "bereich": "M 1",
@@ -1312,9 +1312,9 @@
       }
     ],
     [
-      "369 2",
+      "369_2",
       {
-        "abschnittsnummer": "369 2",
+        "abschnittsnummer": "369_2",
         "straße": "Berliner Straße",
         "abschnitt": "zw. Holzmarktstraße und Türkstraße",
         "bereich": "M 1",
@@ -1892,9 +1892,9 @@
       }
     ],
     [
-      "440 1",
+      "440_1",
       {
-        "abschnittsnummer": "440 1",
+        "abschnittsnummer": "440_1",
         "straße": "Jägerallee",
         "abschnitt": "zw. Ulanenweg und Jägerallee Hausnummer 32",
         "bereich": "M 1",
@@ -1922,9 +1922,9 @@
       }
     ],
     [
-      "440 2",
+      "440_2",
       {
-        "abschnittsnummer": "440 2",
+        "abschnittsnummer": "440_2",
         "straße": "Jägerallee",
         "abschnitt": "zw. Jägerallee Hausnummer 32 und Hegelallee",
         "bereich": "M 1",
@@ -2045,9 +2045,9 @@
       }
     ],
     [
-      "25 1",
+      "25_1",
       {
-        "abschnittsnummer": "25 1",
+        "abschnittsnummer": "25_1",
         "straße": "Lennestraße",
         "abschnitt": "zw. Weg zur Hans-Sachs-Straße und Feuerbachstraße",
         "bereich": "M 2",
@@ -2076,9 +2076,9 @@
       }
     ],
     [
-      "25 2",
+      "25_2",
       {
-        "abschnittsnummer": "25 2",
+        "abschnittsnummer": "25_2",
         "straße": "Feuerbachstraße",
         "abschnitt": "zw. Lennestraße und Zeppelinstraße",
         "bereich": "M 2",
@@ -2106,9 +2106,9 @@
       }
     ],
     [
-      "30 1",
+      "30_1",
       {
-        "abschnittsnummer": "30 1",
+        "abschnittsnummer": "30_1",
         "straße": "Geschwister-Scholl-Straße",
         "abschnitt": "zw. Kastanienallee und Geschwister-Scholl-Straße Hausnummer 67",
         "bereich": "M 2",
@@ -2137,9 +2137,9 @@
       }
     ],
     [
-      "30 2",
+      "30_2",
       {
-        "abschnittsnummer": "30 2",
+        "abschnittsnummer": "30_2",
         "straße": "Geschwister-Scholl-Straße",
         "abschnitt": "zw. Hausnummer 67 und Hans-Sachs-Straße",
         "bereich": "M 2",
@@ -2228,9 +2228,9 @@
       }
     ],
     [
-      "102 1",
+      "102_1",
       {
-        "abschnittsnummer": "102 1",
+        "abschnittsnummer": "102_1",
         "straße": "Schillerplatz",
         "abschnitt": "zw. Uferpark an der Havel und Zeppelinstraße",
         "bereich": "M 2",
@@ -2258,9 +2258,9 @@
       }
     ],
     [
-      "102 2",
+      "102_2",
       {
-        "abschnittsnummer": "102 2",
+        "abschnittsnummer": "102_2",
         "straße": "Uferpark an der Havel",
         "abschnitt": "zw. Schillerplatz und Wielandstraße",
         "bereich": "M 2",
@@ -2442,9 +2442,9 @@
       }
     ],
     [
-      "151 1",
+      "151_1",
       {
-        "abschnittsnummer": "151 1",
+        "abschnittsnummer": "151_1",
         "straße": "Zeppelinstraße",
         "abschnitt": "zw. Breite Straße und Luisenplatz",
         "bereich": "M 2",
@@ -2565,9 +2565,9 @@
       }
     ],
     [
-      "310 1",
+      "310_1",
       {
-        "abschnittsnummer": "310 1",
+        "abschnittsnummer": "310_1",
         "straße": "Uferweg Templiner See/ Schafgrabenbrücke",
         "abschnitt": "zw. Wielandstraße und Georg-Klingenberg-Ufer",
         "bereich": "M 2",
@@ -2595,9 +2595,9 @@
       }
     ],
     [
-      "310 2",
+      "310_2",
       {
-        "abschnittsnummer": "310 2",
+        "abschnittsnummer": "310_2",
         "straße": "Georg-Klingenberg-Ufer",
         "abschnitt": "zw. Schafgrabenbrücke und Havelwelle",
         "bereich": "M 2",
@@ -2715,9 +2715,9 @@
       }
     ],
     [
-      "334 1",
+      "334_1",
       {
-        "abschnittsnummer": "334 1",
+        "abschnittsnummer": "334_1",
         "straße": "Weg südl. der Communs",
         "abschnitt": "zw. Mopke und Haus 8 der Uni Potsdam",
         "bereich": "M 2",
@@ -2746,9 +2746,9 @@
       }
     ],
     [
-      "357 2",
+      "357_2",
       {
-        "abschnittsnummer": "357 2",
+        "abschnittsnummer": "357_2",
         "straße": "Maulbeerallee",
         "abschnitt": "zw. Kronprinzenweg und Sizilianischer Garten",
         "bereich": "M 2",
@@ -2897,9 +2897,9 @@
       }
     ],
     [
-      "101 1",
+      "101_1",
       {
-        "abschnittsnummer": "101 1",
+        "abschnittsnummer": "101_1",
         "straße": "Nedlitzer Straße",
         "abschnitt": "Kiepenheuerallee und Am Pfingstberg",
         "bereich": "M 3",
@@ -2958,9 +2958,9 @@
       }
     ],
     [
-      "117 1",
+      "117_1",
       {
-        "abschnittsnummer": "117 1",
+        "abschnittsnummer": "117_1",
         "straße": "Nedlitzer Straße",
         "abschnitt": "zw. Viereckremise und Zum Exerzierhaus",
         "bereich": "M 3",
@@ -3352,9 +3352,9 @@
       }
     ],
     [
-      "32 1",
+      "32_1",
       {
-        "abschnittsnummer": "32 1",
+        "abschnittsnummer": "32_1",
         "straße": "Berliner Straße",
         "abschnitt": "zw. Nuthestraße und Schiffbauergasse (Süd)",
         "bereich": "M 3",
@@ -3382,9 +3382,9 @@
       }
     ],
     [
-      "101 2",
+      "101_2",
       {
-        "abschnittsnummer": "101 2",
+        "abschnittsnummer": "101_2",
         "straße": "Nedlitzer Straße",
         "abschnitt": "zw. Am Pfingstberg und G.-Herrmann-Allee",
         "bereich": "M 3",
@@ -3412,9 +3412,9 @@
       }
     ],
     [
-      "117 2",
+      "117_2",
       {
-        "abschnittsnummer": "117 2",
+        "abschnittsnummer": "117_2",
         "straße": "Nedlitzer Straße",
         "abschnitt": "zw. Zum Exerzierhaus und Amundsenstraße",
         "bereich": "M 3",
@@ -3443,9 +3443,9 @@
       }
     ],
     [
-      "397 3",
+      "397_3",
       {
-        "abschnittsnummer": "397 3",
+        "abschnittsnummer": "397_3",
         "straße": "Glienicker Brücke",
         "abschnitt": "zw. Königstraße und Schwanenallee",
         "bereich": "M 3",
@@ -3474,9 +3474,9 @@
       }
     ],
     [
-      "449 2",
+      "449_2",
       {
-        "abschnittsnummer": "449 2",
+        "abschnittsnummer": "449_2",
         "straße": "Am Golfplatz/Viereckremise",
         "abschnitt": "zw. Am Vogelherd und Nedlitzer Straße",
         "bereich": "M 3",
@@ -3504,9 +3504,9 @@
       }
     ],
     [
-      "14 1",
+      "14_1",
       {
-        "abschnittsnummer": "14 1",
+        "abschnittsnummer": "14_1",
         "straße": "Horstweg",
         "abschnitt": "zw. Großbeerenstraße und Dieselstraße",
         "bereich": "M 4",
@@ -3534,9 +3534,9 @@
       }
     ],
     [
-      "14 2",
+      "14_2",
       {
-        "abschnittsnummer": "14 2",
+        "abschnittsnummer": "14_2",
         "straße": "Horstweg",
         "abschnitt": "zw. Dieselstraße und Lotte-Laserstein-Straße",
         "bereich": "M 4",
@@ -3565,9 +3565,9 @@
       }
     ],
     [
-      "14 3",
+      "14_3",
       {
-        "abschnittsnummer": "14 3",
+        "abschnittsnummer": "14_3",
         "straße": "Horstweg",
         "abschnitt": "zw. Lotte-Laserstein-Straße und Höhe Rudolf-Moos-Str.",
         "bereich": "M4",
@@ -3596,9 +3596,9 @@
       }
     ],
     [
-      "40 4",
+      "40_4",
       {
-        "abschnittsnummer": "40 4",
+        "abschnittsnummer": "40_4",
         "straße": "Horstweg",
         "abschnitt": "zw. Landesamt für Verbaucherschutz und An der Alten Zauche",
         "bereich": "M 4",
@@ -3841,9 +3841,9 @@
       }
     ],
     [
-      "200 3",
+      "200_3",
       {
-        "abschnittsnummer": "200 3",
+        "abschnittsnummer": "200_3",
         "straße": "Havelstraße",
         "abschnitt": "zw. Angelsportverein und Nuthestraße",
         "bereich": "M 4",
@@ -3962,9 +3962,9 @@
       }
     ],
     [
-      "241 1",
+      "241_1",
       {
-        "abschnittsnummer": "241 1",
+        "abschnittsnummer": "241_1",
         "straße": "Schlaatzstraße",
         "abschnitt": "zw. Friedrich-Engels-Straße und Schlaatzweg",
         "bereich": "M 4",
@@ -3992,9 +3992,9 @@
       }
     ],
     [
-      "242 1",
+      "242_1",
       {
-        "abschnittsnummer": "242 1",
+        "abschnittsnummer": "242_1",
         "straße": "Heinrich-Mann-Allee",
         "abschnitt": "zw. Brauhausberg und Friedhofsgasse",
         "bereich": "M 4",
@@ -4053,9 +4053,9 @@
       }
     ],
     [
-      "248 1",
+      "248_1",
       {
-        "abschnittsnummer": "248 1",
+        "abschnittsnummer": "248_1",
         "straße": "Horstweg",
         "abschnitt": "zw. Nuthebrücke und südliche Auffahrt Nuthestraße",
         "bereich": "M 4",
@@ -4114,9 +4114,9 @@
       }
     ],
     [
-      "40 1",
+      "40_1",
       {
-        "abschnittsnummer": "40 1",
+        "abschnittsnummer": "40_1",
         "straße": "Horstweg",
         "abschnitt": "zw. Heinrich-Mann-Allee und Hermann-Muthesius-Straße",
         "bereich": "M 4",
@@ -4145,9 +4145,9 @@
       }
     ],
     [
-      "40 2",
+      "40_2",
       {
-        "abschnittsnummer": "40 2",
+        "abschnittsnummer": "40_2",
         "straße": "Horstweg",
         "abschnitt": "zw. Hermann-Muthesius-Straße und Teltower Damm",
         "bereich": "M 4",
@@ -4176,9 +4176,9 @@
       }
     ],
     [
-      "40 3",
+      "40_3",
       {
-        "abschnittsnummer": "40 3",
+        "abschnittsnummer": "40_3",
         "straße": "Horstweg",
         "abschnitt": "zw. Teltower Damm und Einfahrt Landesamt für Verbraucherschutz",
         "bereich": "M 4",
@@ -4207,9 +4207,9 @@
       }
     ],
     [
-      "200 2",
+      "200_2",
       {
-        "abschnittsnummer": "200 2",
+        "abschnittsnummer": "200_2",
         "straße": "Uferweg Nuthepark /Havelstraße",
         "abschnitt": "zw. Spielplatz im Nuthepark und Angelsportverien",
         "bereich": "M 4",
@@ -4236,9 +4236,9 @@
       }
     ],
     [
-      "240 1",
+      "240_1",
       {
-        "abschnittsnummer": "240 1",
+        "abschnittsnummer": "240_1",
         "straße": "Friedrich-Engels-Straße",
         "abschnitt": "zw. Lutherplatz und Brücke Nuthestraße",
         "bereich": "M 4",
@@ -4266,9 +4266,9 @@
       }
     ],
     [
-      "240 2",
+      "240_2",
       {
-        "abschnittsnummer": "240 2",
+        "abschnittsnummer": "240_2",
         "straße": "Friedrich-Engels-Straße",
         "abschnitt": "zw. Brücke Nuthestraße und Zufahrt Märkisches Medienzentrum",
         "bereich": "M 4",
@@ -4296,9 +4296,9 @@
       }
     ],
     [
-      "240 3",
+      "240_3",
       {
-        "abschnittsnummer": "240 3",
+        "abschnittsnummer": "240_3",
         "straße": "Friedrich-Engels-Straße",
         "abschnitt": "zw. Zufahrt Märkisches Medienzentrum und Schlaatzstraße",
         "bereich": "M 4",
@@ -4327,9 +4327,9 @@
       }
     ],
     [
-      "241 3",
+      "241_3",
       {
-        "abschnittsnummer": "241 3",
+        "abschnittsnummer": "241_3",
         "straße": "Schlaatzweg",
         "abschnitt": "zw. Schlaatzweg Hausnummer 9 und Übergang gem. Geh-/Radweg",
         "bereich": "M 4",
@@ -4357,9 +4357,9 @@
       }
     ],
     [
-      "241 2",
+      "241_2",
       {
-        "abschnittsnummer": "241 2",
+        "abschnittsnummer": "241_2",
         "straße": "Schlaatzweg",
         "abschnitt": "zw. Schlaatzstraße und Schlaatzweg Hausnummer 9",
         "bereich": "M 4",
@@ -4387,9 +4387,9 @@
       }
     ],
     [
-      "242 2",
+      "242_2",
       {
-        "abschnittsnummer": "242 2",
+        "abschnittsnummer": "242_2",
         "straße": "Heinrich-Mann-Allee",
         "abschnitt": "zw. Friedhofsgasse und Am Alten Friedhof",
         "bereich": "M 4",
@@ -4417,9 +4417,9 @@
       }
     ],
     [
-      "242 3",
+      "242_3",
       {
-        "abschnittsnummer": "242 3",
+        "abschnittsnummer": "242_3",
         "straße": "Heinrich-Mann-Allee",
         "abschnitt": "zw. Am Alten Friedhof und Drevesstraße",
         "bereich": "M 4",
@@ -4447,9 +4447,9 @@
       }
     ],
     [
-      "242 4",
+      "242_4",
       {
-        "abschnittsnummer": "242 4",
+        "abschnittsnummer": "242_4",
         "straße": "Heinrich-Mann-Allee (Hauptfahrbahn)",
         "abschnitt": "zw. Horstweg und Drevesstraße",
         "bereich": "M 4",
@@ -4477,9 +4477,9 @@
       }
     ],
     [
-      "248 2",
+      "248_2",
       {
-        "abschnittsnummer": "248 2",
+        "abschnittsnummer": "248_2",
         "straße": "Horstweg",
         "abschnitt": "zw. Brücke Nuthestraße und Anschluss Nuthestraße in Richtung Teltow",
         "bereich": "M 4",
@@ -4508,9 +4508,9 @@
       }
     ],
     [
-      "248 3",
+      "248_3",
       {
-        "abschnittsnummer": "248 3",
+        "abschnittsnummer": "248_3",
         "straße": "Horstweg",
         "abschnitt": "zw. Anschluss Nuthestraße in Richtung Potsdam Innenstadt und Brücke Nuthestraße",
         "bereich": "M 4",
@@ -4721,9 +4721,9 @@
       }
     ],
     [
-      "197 2",
+      "197_2",
       {
-        "abschnittsnummer": "197 2",
+        "abschnittsnummer": "197_2",
         "straße": "Paretzer Straße",
         "abschnitt": "im Bereich der Ringstraße „ Siedlung“",
         "bereich": "N 1",
@@ -4904,9 +4904,9 @@
       }
     ],
     [
-      "51 2",
+      "51_2",
       {
-        "abschnittsnummer": "51 2",
+        "abschnittsnummer": "51_2",
         "straße": "Am Wiesenrand",
         "abschnitt": "zw. Am Stinthorn und Am Kirchberg",
         "bereich": "N 2",
@@ -5026,9 +5026,9 @@
       }
     ],
     [
-      "408 1",
+      "408_1",
       {
-        "abschnittsnummer": "408 1",
+        "abschnittsnummer": "408_1",
         "straße": "Am Wiesenrand",
         "abschnitt": "zw. Am Kirchberg und Am Rehweg",
         "bereich": "N 2",
@@ -5057,9 +5057,9 @@
       }
     ],
     [
-      "408 2",
+      "408_2",
       {
-        "abschnittsnummer": "408 2",
+        "abschnittsnummer": "408_2",
         "straße": "Tschudistraße",
         "abschnitt": "zw. Am Rehweg und Amundsenstraße",
         "bereich": "N 2",
@@ -5149,9 +5149,9 @@
       }
     ],
     [
-      "464 1",
+      "464_1",
       {
-        "abschnittsnummer": "464 1",
+        "abschnittsnummer": "464_1",
         "straße": "Ringstraße",
         "abschnitt": "zw. Zum Kirchberg und An der Mole",
         "bereich": "N 2",
@@ -5180,9 +5180,9 @@
       }
     ],
     [
-      "464 2",
+      "464_2",
       {
-        "abschnittsnummer": "464 2",
+        "abschnittsnummer": "464_2",
         "straße": "An der Mole/ Brücke über den Sacrow-Paretzer Kanal",
         "abschnitt": "zw. Ringstraße und Fahrländer Damm",
         "bereich": "N 2",
@@ -5271,9 +5271,9 @@
       }
     ],
     [
-      "59 1",
+      "59_1",
       {
-        "abschnittsnummer": "59 1",
+        "abschnittsnummer": "59_1",
         "straße": "Sternstraße",
         "abschnitt": "zw. Zum Kirchsteigfeld und Neuendorfer Straße",
         "bereich": "O 1",
@@ -5302,9 +5302,9 @@
       }
     ],
     [
-      "61 1",
+      "61_1",
       {
-        "abschnittsnummer": "61 1",
+        "abschnittsnummer": "61_1",
         "straße": "August-Bebel-Straße",
         "abschnitt": "zw. Rudolf-Breitscheid-Straße und Marlene-Dietrich-Allee",
         "bereich": "O 1",
@@ -5332,9 +5332,9 @@
       }
     ],
     [
-      "61 2",
+      "61_2",
       {
-        "abschnittsnummer": "61 2",
+        "abschnittsnummer": "61_2",
         "straße": "August-Bebel-Straße",
         "abschnitt": "zw. Marlene-Dietrich-Allee und Großbeerenstraße",
         "bereich": "O 1",
@@ -5454,9 +5454,9 @@
       }
     ],
     [
-      "202 3",
+      "202_3",
       {
-        "abschnittsnummer": "202 3",
+        "abschnittsnummer": "202_3",
         "straße": "Park Babelsberg (Drive)",
         "abschnitt": "zw. Liegewiese und Parkzugang Lankestraße",
         "bereich": "O 1",
@@ -5574,9 +5574,9 @@
       }
     ],
     [
-      "226 1",
+      "226_1",
       {
-        "abschnittsnummer": "226 1",
+        "abschnittsnummer": "226_1",
         "straße": "Rudolf-Breitscheid-Straße",
         "abschnitt": "zw. Karl-Liebknecht-Straße und Gleiskurve",
         "bereich": "O 1",
@@ -5604,9 +5604,9 @@
       }
     ],
     [
-      "226 2",
+      "226_2",
       {
-        "abschnittsnummer": "226 2",
+        "abschnittsnummer": "226_2",
         "straße": "Rudolf-Breitscheid-Straße",
         "abschnitt": "zw. Gleiskurve Tram und Wattstraße",
         "bereich": "O 1",
@@ -5786,9 +5786,9 @@
       }
     ],
     [
-      "87 1",
+      "87_1",
       {
-        "abschnittsnummer": "87 1",
+        "abschnittsnummer": "87_1",
         "straße": "Schwarzschildstraße",
         "abschnitt": "zw. Neuendorfer Straße und Röhrenstraße",
         "bereich": "O 2",
@@ -6029,9 +6029,9 @@
       }
     ],
     [
-      "265 1",
+      "265_1",
       {
-        "abschnittsnummer": "265 1",
+        "abschnittsnummer": "265_1",
         "straße": "Großbeerenstraße",
         "abschnitt": "zw. Neuendorfer Straße und Flotowstraße",
         "bereich": "O 2",
@@ -6148,9 +6148,9 @@
       }
     ],
     [
-      "275 2",
+      "275_2",
       {
-        "abschnittsnummer": "275 2",
+        "abschnittsnummer": "275_2",
         "straße": "Heinrich-Mann-Allee",
         "abschnitt": "zw. Zum Jagenstein und Am Moosfeen",
         "bereich": "O 2",
@@ -6178,9 +6178,9 @@
       }
     ],
     [
-      "280 2",
+      "280_2",
       {
-        "abschnittsnummer": "280 2",
+        "abschnittsnummer": "280_2",
         "straße": "Uferweg Nuthe",
         "abschnitt": "zw. Am Stadtrand Hausnummer 20 und Trambrücke",
         "bereich": "O 2",
@@ -6208,9 +6208,9 @@
       }
     ],
     [
-      "291 1",
+      "291_1",
       {
-        "abschnittsnummer": "291 1",
+        "abschnittsnummer": "291_1",
         "straße": "Heinrich-Mann-Allee",
         "abschnitt": "zw. An der Alten Zauche und Eduard-Claudius-Straße",
         "bereich": "O 2",
@@ -6239,9 +6239,9 @@
       }
     ],
     [
-      "275 1",
+      "275_1",
       {
-        "abschnittsnummer": "275 1",
+        "abschnittsnummer": "275_1",
         "straße": "Heinrich-Mann-Allee",
         "abschnitt": "zw Am Moosfeen und Einstiegshaltestelle Bahnhof Rehbrücke",
         "bereich": "O 2",
@@ -6299,9 +6299,9 @@
       }
     ],
     [
-      "277 1",
+      "277_1",
       {
-        "abschnittsnummer": "277 1",
+        "abschnittsnummer": "277_1",
         "straße": "Wetzlarer Straße",
         "abschnitt": "Anschluss Nuthestraße und Abzweig Radweg Schlaatz/ Drewitz",
         "bereich": "O 2",
@@ -6360,9 +6360,9 @@
       }
     ],
     [
-      "280 1",
+      "280_1",
       {
-        "abschnittsnummer": "280 1",
+        "abschnittsnummer": "280_1",
         "straße": "Uferweg Nuthe",
         "abschnitt": "Weg zw. Nuthebrücke in Verlängerung der Wetzlarer Straße und Am Stadtrand",
         "bereich": "O 2",
@@ -6390,9 +6390,9 @@
       }
     ],
     [
-      "283 1",
+      "283_1",
       {
-        "abschnittsnummer": "283 1",
+        "abschnittsnummer": "283_1",
         "straße": "Drewitzer Straße",
         "abschnitt": "zw. Friedrich-Wolf-Straße und Haus Nr. 40a",
         "bereich": "O 2",
@@ -6420,9 +6420,9 @@
       }
     ],
     [
-      "253 4",
+      "253_4",
       {
-        "abschnittsnummer": "253 4",
+        "abschnittsnummer": "253_4",
         "straße": "Im Schäferfeld",
         "abschnitt": "zw. Pietschkestraße und Neuendorfer Straße",
         "bereich": "O 2",
@@ -6450,9 +6450,9 @@
       }
     ],
     [
-      "277 3",
+      "277_3",
       {
-        "abschnittsnummer": "277 3",
+        "abschnittsnummer": "277_3",
         "straße": "Weg in Verlängerung der Wetzlarer Straße",
         "abschnitt": "zw. P+R Parkplatz Wetzlarer Straße und Uferweg Nuthe",
         "bereich": "O 2",
@@ -6539,9 +6539,9 @@
       }
     ],
     [
-      "291 2",
+      "291_2",
       {
-        "abschnittsnummer": "291 2",
+        "abschnittsnummer": "291_2",
         "straße": "Heinrich-Mann-Allee",
         "abschnitt": "zw. E.-Claudius-Straße und Zum Jagenstein",
         "bereich": "O 2",
@@ -6570,9 +6570,9 @@
       }
     ],
     [
-      "11 1",
+      "11_1",
       {
-        "abschnittsnummer": "11 1",
+        "abschnittsnummer": "11_1",
         "straße": "Leipziger Straße",
         "abschnitt": "zw. Heinrich-Mann-Allee und Bushaltestelle Finkenweg/Leipziger Str.",
         "bereich": "S 1",
@@ -6600,9 +6600,9 @@
       }
     ],
     [
-      "11 2",
+      "11_2",
       {
-        "abschnittsnummer": "11 2",
+        "abschnittsnummer": "11_2",
         "straße": "Leipziger Straße",
         "abschnitt": "zw. Leipziger Straße Hausnummer 51 und Templiner Straße",
         "bereich": "S1",
@@ -6692,9 +6692,9 @@
       }
     ],
     [
-      "82 1",
+      "82_1",
       {
-        "abschnittsnummer": "82 1",
+        "abschnittsnummer": "82_1",
         "straße": "Michendorfer Chaussee",
         "abschnitt": "zw. Brauhausberg und Preussenschänke",
         "bereich": "S 1",
@@ -6723,9 +6723,9 @@
       }
     ],
     [
-      "82 2",
+      "82_2",
       {
-        "abschnittsnummer": "82 2",
+        "abschnittsnummer": "82_2",
         "straße": "Michendorfer Chaussee",
         "abschnitt": "zw. Preussenschänke und Zufahrt Autohandel",
         "bereich": "S 1",
@@ -6783,9 +6783,9 @@
       }
     ],
     [
-      "237 2",
+      "237_2",
       {
-        "abschnittsnummer": "237 2",
+        "abschnittsnummer": "237_2",
         "straße": "Tornowstraße (Stichstraße) - Fähre",
         "abschnitt": "zw. Tornowstraße und Haltestelle Fähre",
         "bereich": "S 1",
@@ -6813,9 +6813,9 @@
       }
     ],
     [
-      "238 3",
+      "238_3",
       {
-        "abschnittsnummer": "238 3",
+        "abschnittsnummer": "238_3",
         "straße": "Friedrich-Wilhelm-Boelcke-Straße",
         "abschnitt": "zw. Uferweg Wassrwerk und Am Speicher",
         "bereich": "S 1",
@@ -6843,9 +6843,9 @@
       }
     ],
     [
-      "243 1",
+      "243_1",
       {
-        "abschnittsnummer": "243 1",
+        "abschnittsnummer": "243_1",
         "straße": "Templiner Straße",
         "abschnitt": "zw. Michendorfer Chaussee und Paetowstraße",
         "bereich": "S 1",
@@ -6873,9 +6873,9 @@
       }
     ],
     [
-      "243 2",
+      "243_2",
       {
-        "abschnittsnummer": "243 2",
+        "abschnittsnummer": "243_2",
         "straße": "Templiner Straße",
         "abschnitt": "zw. Paetowstraße und Ulrich-von-Hutten-Straße",
         "bereich": "S 1",
@@ -7114,9 +7114,9 @@
       }
     ],
     [
-      "176 1",
+      "176_1",
       {
-        "abschnittsnummer": "176 1",
+        "abschnittsnummer": "176_1",
         "straße": "Zeppelinstraße",
         "abschnitt": "zw. Forststraße und Haltestelle Zum Bahnhof Pirschheide",
         "bereich": "W 1",
@@ -7145,9 +7145,9 @@
       }
     ],
     [
-      "176 2",
+      "176_2",
       {
-        "abschnittsnummer": "176 2",
+        "abschnittsnummer": "176_2",
         "straße": "Zeppelinstraße",
         "abschnitt": "zw. Wanderweg Wildpark und Zum Bhf. Pirschheide",
         "bereich": "W 1",
@@ -7266,9 +7266,9 @@
       }
     ],
     [
-      "311 1",
+      "311_1",
       {
-        "abschnittsnummer": "311 1",
+        "abschnittsnummer": "311_1",
         "straße": "Werderscher Damm",
         "abschnitt": "zw. Kuhfortdamm und südliche Eisenbahnbrücke Berliner Außenring",
         "bereich": "W 1",
@@ -7297,9 +7297,9 @@
       }
     ],
     [
-      "311 3",
+      "311_3",
       {
-        "abschnittsnummer": "311 3",
+        "abschnittsnummer": "311_3",
         "straße": "Fuchsweg",
         "abschnitt": "zw. Werderscher Damm und Wildpark West",
         "bereich": "W 1",
@@ -7599,9 +7599,9 @@
       }
     ],
     [
-      "418 2",
+      "418_2",
       {
-        "abschnittsnummer": "418 2",
+        "abschnittsnummer": "418_2",
         "straße": "Bornimer Chaussee",
         "abschnitt": "zw. Mühlenbergstraße und Ortsschild",
         "bereich": "W 2",
@@ -7630,9 +7630,9 @@
       }
     ],
     [
-      "432 2",
+      "432_2",
       {
-        "abschnittsnummer": "432 2",
+        "abschnittsnummer": "432_2",
         "straße": "Herzbergstraße",
         "abschnitt": "zw. Weißdornweg und Am Großen Herzberg",
         "bereich": "W 2",
@@ -7721,9 +7721,9 @@
       }
     ],
     [
-      "420 1",
+      "420_1",
       {
-        "abschnittsnummer": "420 1",
+        "abschnittsnummer": "420_1",
         "straße": "Potsdamer Straße",
         "abschnitt": "zw. Amundsenstraße und Florastraße",
         "bereich": "W 3",
@@ -7752,9 +7752,9 @@
       }
     ],
     [
-      "420 2",
+      "420_2",
       {
-        "abschnittsnummer": "420 2",
+        "abschnittsnummer": "420_2",
         "straße": "Potsdamer Straße",
         "abschnitt": "zw. Florastraße und Lindstedter Chaussee",
         "bereich": "W 3",
@@ -7813,9 +7813,9 @@
       }
     ],
     [
-      "449 1",
+      "449_1",
       {
-        "abschnittsnummer": "449 1",
+        "abschnittsnummer": "449_1",
         "straße": "Am Golfplatz",
         "abschnitt": "zw. Lerchensteig und Amundsenstraße",
         "bereich": "W 3",

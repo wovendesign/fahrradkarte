@@ -3,6 +3,8 @@ import data from "./src/data.json";
 import { Abschnitt } from "./parse";
 
 const str = await Bun.file("./src/data.json").text()
+const data = JSON.parse(str, reviver) as Map<string, Abschnitt>;
+const section = data.get("129")
 
 describe("Abschnittsnummer 4", () => {
     const data = JSON.parse(str, reviver) as Map<string, Abschnitt>;
@@ -265,6 +267,23 @@ describe("Abschnittsnummer 129", () => {
         });
     });
 });
+
+describe("Abschnittsnummer 151_2", () => {
+    const data = JSON.parse(str, reviver) as Map<string, Abschnitt>;
+    const section = data.get("151_2")
+
+    if (!section) {
+        throw new Error("No section")
+    }
+
+    test("has correct abschnittsnummer", () => {
+        expect(section.abschnittsnummer).toBe("151_2");
+    });
+
+    test("has correct kommentar", () => {
+        expect(section?.kommentar).toBe("Leuchtturmprojekt")
+    })
+})
 
 function reviver(key, value) {
     if (typeof value === 'object' && value !== null) {

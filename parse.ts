@@ -41,7 +41,7 @@ async function main() {
 
     for (const table of tables) {
         // console.log("table")
-        const abschnittsnummer = table.querySelector("tbody > tr:nth-child(2) > td:nth-child(2) > p:nth-child(2)")?.textContent
+        const abschnittsnummer = table.querySelector("tbody > tr:nth-child(2) > td:nth-child(2) > p:nth-child(2)")?.textContent.trim().replace(" ", "_")
         if (!abschnittsnummer) {
             console.log("No abschnittsnummer")
             continue
