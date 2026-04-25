@@ -4,10 +4,14 @@
 	import * as turf from "@turf/turf";
 	import type { Feature, LineString, FeatureCollection, Position } from "geojson";
 
+	type EditMode = "splitting" | "editing";
+
 	let mapRef: maplibregl.Map | null = $state(null);
 	let geojsonData = $state<FeatureCollection | null>(null);
 	let selectedFeatureIndex = $state<number | null>(null);
 	let selectedFeature = $state<Record<string, unknown> | null>(null);
+	let editMode = $state<EditMode>("splitting");
+	let editingId = $state<string>("");
 
 	// Load GeoJSON data
 	$effect(() => {
@@ -23,8 +27,13 @@
 		if (selectedFeatureIndex !== null && geojsonData) {
 			const feature = geojsonData.features[selectedFeatureIndex];
 			selectedFeature = feature?.properties ?? null;
+			// In editing mode, sync the id field
+			if (editMode === "editing" && selectedFeature) {
+				editingId = (selectedFeature.id as string) ?? "";
+			}
 		} else {
 			selectedFeature = null;
+			editingId = "";
 		}
 	});
 
@@ -34,7 +43,7 @@
 		return `hsl(${hue}, 70%, 50%)`;
 	}
 
-// Split line at a given point
+	// Split line at a given point
 	function splitLineAtPoint(
 		coords: Position[],
 		clickPoint: Position
@@ -59,8 +68,6 @@
 		const splitIndex = Math.max(0, Math.min(coords.length - 1, closestIndex));
 
 		// Both segments include the split vertex so they connect perfectly
-		// Segment 1: start → split vertex (inclusive)
-		// Segment 2: split vertex (inclusive) → end
 		const beforeCoords = coords.slice(0, splitIndex + 1);
 		const afterCoords = coords.slice(splitIndex);
 
@@ -75,7 +82,6 @@
 
 		if (!targetFeature) return;
 
-		// Use MapLibre's generated ID (which is the feature index when generateId is used)
 		const clickedIndex = targetFeature.id as number;
 		const originalFeature = geojsonData.features[clickedIndex];
 
@@ -84,6 +90,14 @@
 			return;
 		}
 
+		if (editMode === "editing") {
+			// In editing mode, just select the feature
+			selectedFeature = originalFeature.properties ?? null;
+			selectedFeatureIndex = clickedIndex;
+			return;
+		}
+
+		// Path Splitting mode
 		// Check if it's a LineString or MultiLineString
 		if (
 			originalFeature.geometry.type !== "LineString" &&
@@ -147,6 +161,20 @@
 		selectedFeatureIndex = clickedIndex + 1;
 	}
 
+	function updateFeatureId() {
+		if (selectedFeatureIndex === null || !geojsonData) return;
+
+		const updatedFeatures = [...geojsonData.features];
+		const feature = updatedFeatures[selectedFeatureIndex];
+		if (feature && feature.properties) {
+			feature.properties.id = editingId;
+			geojsonData = {
+				...geojsonData,
+				features: updatedFeatures
+			};
+		}
+	}
+
 	function saveToFile() {
 		if (!geojsonData) return;
 
@@ -163,6 +191,14 @@
 </script>
 
 <div class="container">
+	<div class="mode-selector">
+		<label for="mode-select">Edit Mode:</label>
+		<select id="mode-select" bind:value={editMode}>
+			<option value="splitting">Path Splitting</option>
+			<option value="editing">Information Editing</option>
+		</select>
+	</div>
+
 	<div class="map-wrapper">
 		<MapLibre
 			bind:map={mapRef}
@@ -195,17 +231,36 @@
 			<button class="close-btn" onclick={() => (selectedFeatureIndex = null)} type="button">Close</button>
 			<div class="details">
 				<h2>Route Details</h2>
-				{#each Object.entries(selectedFeature) as [key, value]}
-					<div class="property">
-						<span class="key">{key}:</span>
-						<span class="value">{value}</span>
+				{#if editMode === "editing"}
+					<div class="property id-edit">
+						<label for="id-input">ID:</label>
+						<input
+							type="text"
+							id="id-input"
+							bind:value={editingId}
+							onchange={updateFeatureId}
+						/>
 					</div>
+				{/if}
+				{#each Object.entries(selectedFeature) as [key, value]}
+					{#if key !== "id" || editMode !== "editing"}
+						<div class="property">
+							<span class="key">{key}:</span>
+							<span class="value">{value}</span>
+						</div>
+					{/if}
 				{/each}
 			</div>
 		{:else}
 			<div class="placeholder">
 				<p>Tap a route on the map to see details</p>
-				<p class="hint">Click on a route to split it</p>
+				<p class="hint">
+					{#if editMode === "splitting"}
+						Click on a route to split it
+					{:else}
+						Click on a route to edit its information
+					{/if}
+				</p>
 			</div>
 		{/if}
 		<button class="save-btn" onclick={saveToFile} type="button">Save to File</button>
@@ -217,6 +272,32 @@
 		display: flex;
 		height: 100vh;
 		flex-direction: column;
+	}
+
+	.mode-selector {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+		padding: 0.75rem 1rem;
+		background: #333;
+		color: white;
+	}
+
+	.mode-selector label {
+		font-size: 0.9rem;
+	}
+
+	.mode-selector select {
+		padding: 0.25rem 0.5rem;
+		border-radius: 4px;
+		border: none;
+		background: #555;
+		color: white;
+		cursor: pointer;
+	}
+
+	.mode-selector select:hover {
+		background: #666;
 	}
 
 	.map-wrapper {
@@ -248,6 +329,27 @@
 		gap: 0.5rem;
 		padding: 0.25rem 0;
 		border-bottom: 1px solid #eee;
+		font-size: 0.9rem;
+	}
+
+	.property.id-edit {
+		padding: 0.5rem;
+		background: #e8f5e9;
+		border-radius: 4px;
+		border: none;
+		margin-bottom: 0.5rem;
+	}
+
+	.property.id-edit label {
+		font-weight: 600;
+		min-width: 30px;
+	}
+
+	.property.id-edit input {
+		flex: 1;
+		padding: 0.25rem 0.5rem;
+		border: 1px solid #ccc;
+		border-radius: 4px;
 		font-size: 0.9rem;
 	}
 
