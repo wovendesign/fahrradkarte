@@ -28,10 +28,11 @@
 				<GeoJSON id="routes" data={geojsonData} generateId>
 					<LineLayer
 						id="zielnetz"
+						filter={["has", "id"]}
 						layout={{ "line-cap": "round", "line-join": "round" }}
 						paint={{
 							"line-width": 6,
-							"line-color": ["get", "color"],
+							"line-color": "#333",
 							"line-opacity": 1
 						}}
 					/>
@@ -43,12 +44,13 @@
 							"text-font": ["Open Sans Bold", "Arial Unicode MS Bold"],
 							"text-size": 12,
 							"text-anchor": "center",
+							"text-rotation-alignment": "viewport",
 							"symbol-placement": "line-center"
 						}}
 						paint={{
 							"text-color": "#ffffff",
 							"text-halo-color": "#000000",
-							"text-halo-width": 2
+							"text-halo-width": 2,
 						}}
 					/>
 				</GeoJSON>
