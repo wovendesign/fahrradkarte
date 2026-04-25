@@ -48,7 +48,6 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "Strecke auf der Nordseite Präventionsbereich mit Fahrunfällen an der Überleitung auf Fahrbahn.",
         "maßnahmen": "Verbreiterung des Einrichtungsradwegs auf der Nordseite und Kentlichmachung des Sicherheitstrennstreifens an der Überleitung auf die Fahrbahn aufgrund der Unfallhäufung prüfen. Aufhebung des Zweirichtungsradwegs auf der Südseite in diesem Abschnitt prüfen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 3,
@@ -79,12 +78,11 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "An der Einmündung Am Neuen Garten/ Alleestraße eine Fahrradweiche markieren in der Sperrflächenmarkierung.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -239,7 +237,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 4,
-          "prioritaet_1": 7
+          "prioritaet_2": 7
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -265,12 +263,11 @@
         "bewertungGesamt": 3,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Nichtamtliches Hinweisschild aufstellen, dass Radfahrer einen Fahrstreifenwechsel vornehmen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 4,
-          "prioritaet_1": 7
+          "prioritaet_2": 7
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -327,7 +324,6 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Roteinfärbung der Radfurten",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
@@ -358,12 +354,11 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Radweg an Grundstückszufahrten durchbinden. Wegnahme der Parkbuchten prüfen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 4,
-          "prioritaet_1": 8
+          "prioritaet_2": 8
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -389,12 +384,11 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Durchgängige Führung des Radverkehrs auch im Kreuzungsbereich Breite Straße/ Dortustraße prüfen. Bei einer Erneuerung der Markierung einen größeren Sicherheitsabstand zum Parken markieren.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -420,12 +414,11 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Schaffung von weiteren Halteverbotsbereichen, um den Begegnungsfall Pkw-Fahrrad zu gewährleisten.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 6
+          "prioritaet_2": 6
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -451,7 +444,6 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "Präventionsbereich",
         "maßnahmen": "Planung Friedrich-Ebert-Straße mit Radfahrstreifen umsetzen. Roteinfärbung der Radfurten.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 3,
@@ -518,7 +510,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 4,
-          "prioritaet_1": 8
+          "prioritaet_2": 8
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -544,12 +536,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "größeren Sicherheitsabstand zum Parken herstellen (bei der Erneuerung der Fahrbahndecke).",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 4,
-          "prioritaet_1": 8
+          "prioritaet_2": 8
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -575,7 +566,6 @@
         "bewertungGesamt": 6,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Verbreiterung des Radwegs mit punktuellen Engstellen an den Bäumen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 3,
@@ -606,12 +596,11 @@
         "bewertungGesamt": 6,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Abschleifen des Pflasters im Fahrbahnbereich (ggf. auch Teilbereiche) prüfen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50/ 7",
@@ -668,7 +657,6 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Fahrradstraße in der Russischen Kolonie prüfen und den Radverkehr in der Friedrich-Ebert-Straße in Fahrtrichtung Norden gegenüber dem Tramverkehr bevorrechtigen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 3,
@@ -699,12 +687,11 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Einrichtung einer Fahrradstraße prüfen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -823,12 +810,11 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Prüfung, wie der Radverkehr von der Jägerallee in den Voltaireweg in der Ampelsignalisierung mit berücksichtigt werden kann. Bei Erneuerung der Markierungen Piktogrammketten prüfen anstelle von Schutzstreifen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 4,
-          "prioritaet_1": 8
+          "prioritaet_2": 8
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -885,7 +871,6 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Bei Ersatzneubau der Langen Brücke Verbreiterung der Radverkehrsanlage für die Fahrtrichtung Hauptbahnhof.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 3,
@@ -916,12 +901,11 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "In der Zufahrt zur Kreuzung Yorckstr./ F.-Ebert-Str. einen breiteren Schutzstreifen in Mittellage herstellen. Alternativ andere Fahrstreifenaufteilung prüfen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -952,7 +936,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 4,
-          "prioritaet_1": 8
+          "prioritaet_2": 8
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -983,7 +967,7 @@
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 7
+          "prioritaet_2": 7
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "0",
@@ -1014,7 +998,7 @@
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 3,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 8
+          "prioritaet_2": 8
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "0",
@@ -1045,7 +1029,7 @@
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 7
+          "prioritaet_2": 7
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "0",
@@ -1102,7 +1086,6 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Bei einer grundhaften Erneuerung der Straße breitere Radwege und Gehwege herstellen. Roteinfärbung der Radfurten.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 3,
@@ -1133,7 +1116,6 @@
         "bewertungGesamt": 6,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Prüfung des Zweirichtungsradverkehrs zwischen Steubenplatz und Erika-Wolf-Straße. Prüfung einer Fahrradstraße in der Friedrich-Ebert-Straße.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 3,
@@ -1164,7 +1146,6 @@
         "bewertungGesamt": 6,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Prüfung, ob der Zweirichtungsradverkehr beibehalten werden soll. Roteinfärbung der Radfurten. Prüfung einer Fahrradstraße in der Friedrich-Ebert-Straße.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 3,
@@ -1195,12 +1176,11 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Bei einer grundhaften Erneuerung der Straße eigene Radverkehrsanlagen mit vorsehen. Bei Erneuerung der Markierung oder der Fahrbahndecke einen größeren Sicherheitsabstand zum Parken herstellen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 6
+          "prioritaet_2": 6
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -1226,12 +1206,11 @@
         "bewertungGesamt": 2,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Zwischen F.-Ebert-Straße und Yorckstraße Nr. 2 Alternativen gegen Falschparker prüfen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 0,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 3
+          "prioritaet_2": 3
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -1257,12 +1236,11 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Bei einer grundhaften Erneuerung der Straße eigene Radverkehrsanlagen mit vorsehen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 6
+          "prioritaet_2": 6
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -1288,12 +1266,11 @@
         "bewertungGesamt": 6,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Bei einer grundhaften Erneuerung der Straße eigene Radverkehrsanlagen mit vorsehen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 3,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 7
+          "prioritaet_2": 7
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -1324,7 +1301,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 4,
-          "prioritaet_1": 8
+          "prioritaet_2": 8
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -1355,7 +1332,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 4,
-          "prioritaet_1": 8
+          "prioritaet_2": 8
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -1381,7 +1358,6 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Fahrradstraße prüfen",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
@@ -1412,7 +1388,6 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Schutzstreifen in Fahrrichtung stadtauswärts prüfen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
@@ -1536,12 +1511,11 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Bei einer Erneuerung der Markierung oder der Fahrbahndecke einen größeren Sicherheitsabstand zum Parken herstellen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -1572,7 +1546,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "20",
@@ -1598,12 +1572,11 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Der Radweg auf der Nordseite wird an den Grundstückszufahrten durchgebunden.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 4,
-          "prioritaet_1": 8
+          "prioritaet_2": 8
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -1629,12 +1602,11 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Bei einer Deckenerneuerung die Herausnahme aller Parkplätze prüfen und breitere Radverkehrsanlage neu markieren.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 4,
-          "prioritaet_1": 8
+          "prioritaet_2": 8
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -1665,7 +1637,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 4,
-          "prioritaet_1": 7
+          "prioritaet_2": 7
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -1691,12 +1663,11 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Bei einer Deckenerneuerung die Herausnahme der Parkplätze auf einer Straßenseite prüfen und breitere Radverkehrsanlagen markieren.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -1727,7 +1698,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 4,
-          "prioritaet_1": 7
+          "prioritaet_2": 7
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -1753,7 +1724,6 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Roteinfärbung der Radfurten.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 3,
@@ -1789,7 +1759,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 4,
-          "prioritaet_1": 7
+          "prioritaet_2": 7
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -1820,7 +1790,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -1877,12 +1847,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Bei Erneuerung der Markierung einen größeren Sicherheitsabstand zum Parken herstellen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 6
+          "prioritaet_2": 6
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -1913,7 +1882,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -1939,12 +1908,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Bei Erneuerung der Markierungen Piktogrammketten prüfen anstelle von Schutzstreifen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 4,
-          "prioritaet_1": 8
+          "prioritaet_2": 8
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -1970,7 +1938,6 @@
         "bewertungGesamt": 6,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "In Fahrtrichtung Norden Piktogrammkette anstatt Schutzstreifen prüfen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 3,
@@ -2006,7 +1973,7 @@
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 3,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 8
+          "prioritaet_2": 8
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "0",
@@ -2037,7 +2004,7 @@
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 7
+          "prioritaet_2": 7
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "0",
@@ -2068,7 +2035,7 @@
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 3,
-          "prioritaet_1": 8
+          "prioritaet_2": 8
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "0",
@@ -2099,7 +2066,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -2125,12 +2092,11 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Einrichtung einer Fahrradstraße prüfen und bei Umsetzung Fahrbahndecke erneuern.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 4,
-          "prioritaet_1": 7
+          "prioritaet_2": 7
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -2218,7 +2184,6 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Prüfung, wie die punktuellen Engstellen an den Bäumen verbessert werden können. Markierung des Sicherheitsabstands zum Parken.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 3,
@@ -2249,7 +2214,6 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeiten Strecke, Einmündung auf dem Kiewitt Unfallschwerpunkt mit rechtsabbiegenden Kfz und geradeausfahrenden Radfahrern aus der Zeppelinstraße.",
         "maßnahmen": "Verdeutlichung der Radverkehrsführung im Bereich des Bahnhofs Charlottenhof durch Materialwechsel oder Markierung prüfen. Roteinfärbung der Radfurten.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
@@ -2280,12 +2244,11 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Parkweg verbreitern und für den Radverkehr in beiden Richtungen freigeben oder separten Weg in der Grünfläche anlegen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 6
+          "prioritaet_2": 6
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -2311,12 +2274,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Weg verbreitern",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 6
+          "prioritaet_2": 6
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "keine Angabe",
@@ -2404,12 +2366,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Bei grundhafter Erneuerung der Straße beiseitig Radverkehrsanlage berücksichtigen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 4
+          "prioritaet_2": 4
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -2471,7 +2432,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -2533,7 +2494,7 @@
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 3,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 8
+          "prioritaet_2": 8
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -2590,12 +2551,11 @@
         "bewertungGesamt": 3,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "In den Bereichen ohne ausreichenden Sicherheitsabstand zwischen Querparker und Schutzstreifen das Parken anpassen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 0,
-          "prioritaet_1": 3
+          "prioritaet_2": 3
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -2621,12 +2581,11 @@
         "bewertungGesamt": 3,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Eine Beleuchtung des Weges und Brücke prüfen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 0,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 3
+          "prioritaet_2": 3
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "keine Angabe",
@@ -2652,12 +2611,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Wegeoberfläche mit abgestreuten Asphalt herstellen und eine Beleuchtung ergänzen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 4
+          "prioritaet_2": 4
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "keine Angabe",
@@ -2683,12 +2641,11 @@
         "bewertungGesamt": 2,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Parken im Seitenbereich der Fahrbahn unterbinden.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 0,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 4
+          "prioritaet_2": 4
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -2714,12 +2671,11 @@
         "bewertungGesamt": 3,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Wenn Sicherheitsraum zum Schutzstreifen nicht eingehalten werden kann, dann die Parkordnung von quer zu Längsparken prüfen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -2745,12 +2701,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Prüfung, wie Radverkehr aus Richtung Norden die Fahrbahn queren kann, um zur Mopke zu gelangen. Aufgeweitete Radaufstellstreifen an der Kreuzung Am Neuen Palais/Maulbeerallee prüfen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 6
+          "prioritaet_2": 6
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -2781,7 +2736,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 6
+          "prioritaet_2": 6
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "keine Angabe",
@@ -2807,12 +2762,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Zukünftig den Radverkehr auf der Fahrbahn führen, sobald die Straßenoberfläche dies ermöglicht.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 6
+          "prioritaet_2": 6
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -2838,12 +2792,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Markierung eines Radfahrstreifens in Richtung Zeppelinstraße unter Herausnahme der Parkplätze.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 7
+          "prioritaet_2": 7
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -2869,12 +2822,11 @@
         "bewertungGesamt": 3,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Im Abschnitt zwischen dem Mühlenweg und Berliner Straße Ausbesserung von Schadstellen/ Verwerfungen",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -2900,12 +2852,11 @@
         "bewertungGesamt": 3,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Radfahrstreifen verbreitern stadteinwärts, Verbreiterung des Schutzstreifes stadteinwärts vor der Kreuzung Voltaireweg. Roteinfärbung der Radfurten.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 7
+          "prioritaet_2": 7
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -2936,7 +2887,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 4,
-          "prioritaet_1": 8
+          "prioritaet_2": 8
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -2993,12 +2944,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Herstellung eines höheren Sicherheitsraums zum Parken.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 4
+          "prioritaet_2": 4
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -3029,7 +2979,7 @@
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 3,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 8
+          "prioritaet_2": 8
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -3055,7 +3005,6 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Verbreiterung der Radverkehrsanlagen prüfen. Roteinfärbung der Radfurten.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
@@ -3117,12 +3066,11 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Aufgeweitete Radaufstellstreifen an der Kreuzung Am Neuen Palais/ Maulbeerallee prüfen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 6
+          "prioritaet_2": 6
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -3148,12 +3096,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Parken unterbinden, wenn Sicherheitsraum nicht kenntlich gemacht werden kann.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 6
+          "prioritaet_2": 6
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -3179,12 +3126,11 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Markierung von Radfahrstreifen stadteinwärts prüfen unter Wegnahme des Linksabbiegefahrstreifens in die Straße Am Krongut.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 3,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 8
+          "prioritaet_2": 8
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -3210,12 +3156,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "Präventionsbereich im Bereich der Zufahrt Supermärkte Potsdamer Straße Nr. 177. Sicherheitserhöhende Maßnahmen wurden geprüft und umgesetzt.",
         "maßnahmen": "Im gesamten Streckenbereich die Anlage eines baulich getrennten Radweg in Fahrtrichtung stadteinwärts prüfen. Roteinfärbung der Radfurten in den Kreuzungsbereichen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 7
+          "prioritaet_2": 7
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -3246,7 +3191,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -3272,12 +3217,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Einen größeren Sicherheitsabstand zum Parken herstellen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 4
+          "prioritaet_2": 4
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -3303,12 +3247,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Verbesserungen am Ende des Zweirichtungsradwegs prüfen und umsetzen. Sollten Unfälle an den Einmündungen in Zukunft relevant werden, dann Durchbindung des Geh- und Radwegs an den Einmündungen prüfen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 4,
-          "prioritaet_1": 8
+          "prioritaet_2": 8
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -3334,7 +3277,6 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Herausnahme des Parkens am Fahrbahnrand prüfen. Prüfung einer Fahrradstraße oder einer Zulassung der Straße nur für den Bus, Rad und Kfz-Anliegerverkehr.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 3,
@@ -3365,12 +3307,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Verbreiterung der Radverkehrsanlage stadteinwärts.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 4,
-          "prioritaet_1": 8
+          "prioritaet_2": 8
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -3401,7 +3342,7 @@
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 3,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 8
+          "prioritaet_2": 8
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -3427,7 +3368,6 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Stadteinwärts Radweg auf Standardmaß verbeitern. Radpiktogramme mit Richtungspfeilen markieren.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 3,
@@ -3458,7 +3398,6 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Bei Flächenverfügbarkeit breitere Radwege in beide Fahrtrichtungen herstellen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
@@ -3525,7 +3464,7 @@
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 7
+          "prioritaet_2": 7
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -3551,12 +3490,11 @@
         "bewertungGesamt": 2,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Bei Herstellung der Verbindung nach Krampnitz, die Einrichtung einer Fahrradstraße prüfen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 0,
           "radverkehrsmengen": 0,
-          "prioritaet_1": 2
+          "prioritaet_2": 2
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -3582,12 +3520,11 @@
         "bewertungGesamt": 6,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Radfahrstreifen in Fahrtrichtung Großbeerenstraße und einen aufgeweiteten Radaufstellstreifen an der Kreuzung prüfen, um das Linksabbiegen zu verbessern.Höheren Sicherheitsabstand zum Parken herstellen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 3,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 7
+          "prioritaet_2": 7
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -3618,7 +3555,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -3649,7 +3586,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 3,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 7
+          "prioritaet_2": 7
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -3680,7 +3617,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 6
+          "prioritaet_2": 6
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -3706,7 +3643,6 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Radfahrstreifen prüfen in Richtung Zentrum Ost und dabei größeren Sicherheitsabstand zum Parken berücksichtigen. Roteinfärbung der Radfurten.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 3,
@@ -3768,7 +3704,6 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Roteinfärbung der Radfurten an der KRezung Berliner Straße/ Nuthestraße (alle Radfurten)",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
@@ -3892,12 +3827,11 @@
         "bewertungGesamt": 3,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Einrichtung einer Fahrradstraße prüfen. Verbesserung der Ausfahrt von der Schulstraße auf die Karl-Liebknecht-Straße mit betrachten.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 7
+          "prioritaet_2": 7
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -3923,12 +3857,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Die Beleuchtung des Abschnitts prüfen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 6
+          "prioritaet_2": 6
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -3954,7 +3887,6 @@
         "bewertungGesamt": 3,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Ende des Zweirichtungsradwegs und weitere Radführung mit Markierung verdeutlichen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
@@ -3985,12 +3917,11 @@
         "bewertungGesamt": 2,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Prüfung ob der Zweirichtungsradweg und auch der Gehweg verbreitert werden kann. Roteinfärbung der Radfurt.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 4,
-          "prioritaet_1": 8
+          "prioritaet_2": 8
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "keine Angabe",
@@ -4047,12 +3978,11 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Tausch des Kleinsteinpflasters in der Fahrbahn gegen Asphalt",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 3,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 8
+          "prioritaet_2": 8
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -4078,7 +4008,6 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Verbesserungen in der Nebenfahrbahn für den Radverkehr prüfen. Roteinfärbung der Radfurten.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 3,
@@ -4114,7 +4043,7 @@
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 3,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 8
+          "prioritaet_2": 8
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -4145,7 +4074,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 6
+          "prioritaet_2": 6
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -4171,12 +4100,11 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Roteinfärbungen der Radfurt.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 3,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 8
+          "prioritaet_2": 8
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -4207,7 +4135,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 3,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 7
+          "prioritaet_2": 7
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -4238,7 +4166,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 6
+          "prioritaet_2": 6
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -4269,7 +4197,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 6
+          "prioritaet_2": 6
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -4295,7 +4223,6 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Beleuchtung des Uferwegs prüfen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
@@ -4326,7 +4253,6 @@
         "bewertungGesamt": 3,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Bei Erneuerung der Markierung oder Fahrbahndecke einen größeren Sicherheitsraum zu den parkenden Fahrzeugen herstellen oder Parken neu ordnen. Roteinfärbung der Radfurten.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
@@ -4357,7 +4283,6 @@
         "bewertungGesamt": 3,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Roteinfärbung der Radfurten.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
@@ -4419,12 +4344,11 @@
         "bewertungGesamt": 1,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Einrichtung einer Fahrradstraße prüfen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 0,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -4450,12 +4374,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Einrichtung einer Fahrradstraße prüfen. Verbesserung des Fahrbahnzustands. Prüfung, ob das Parken auf einer Fahrbahnseite unterbunden werden kann.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 7
+          "prioritaet_2": 7
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -4481,7 +4404,6 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Baulich getrennten Geh- und Radweg auf der Westseite neu herstellen mit ausreichenden Abstand zu den Alleebäumen. Bei Deckenerneuerung der Fahrbahn Radfahrstreifen stadteinwärts in Regelbreite prüfen unter Wegnahme eines Fahrstreifens für den Kfz- Verkehr.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 3,
@@ -4512,7 +4434,6 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Baulich getrennten Geh- und Radweg auf der Westseite neu herstellen mit ausreichenden Abstand zu den Alleebäumen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
@@ -4543,7 +4464,6 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Breiteren Radweg oder Radfahrstreifen in Fahrtrichtung stadteinwärts anlegen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
@@ -4579,7 +4499,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 6
+          "prioritaet_2": 6
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -4610,7 +4530,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 3,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 7
+          "prioritaet_2": 7
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -4636,12 +4556,11 @@
         "bewertungGesamt": 6,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Straße grundhaft für den Radverkehr ausbauen und die Einrichtung einer Fahrradstraße prüfen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 3,
           "radverkehrsmengen": 0,
-          "prioritaet_1": 6
+          "prioritaet_2": 6
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -4672,7 +4591,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 3,
           "radverkehrsmengen": 0,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50/80",
@@ -4703,7 +4622,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 3,
           "radverkehrsmengen": 0,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "70",
@@ -4729,12 +4648,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Bau eines straßenbegleitenden Geh- und Radwegs.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 0,
-          "prioritaet_1": 4
+          "prioritaet_2": 4
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "70",
@@ -4760,12 +4678,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Bei einer grundhafter Erneuerung der Straße den Radverkehr berücksichtigen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 0,
-          "prioritaet_1": 2
+          "prioritaet_2": 2
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "70",
@@ -4791,12 +4708,11 @@
         "bewertungGesamt": 6,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Nebenanlage in Fahrtrichtung Havelkanal auf 2,50m verbreitern. Roteinfärbung der Radfurten.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 3,
           "radverkehrsmengen": 0,
-          "prioritaet_1": 6
+          "prioritaet_2": 6
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -4822,12 +4738,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Gemeinsamen Geh und Radweg parallel der Paretzer Straße herstellen, sobald Weg an der L 92 gebaut wird..",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 0,
-          "prioritaet_1": 4
+          "prioritaet_2": 4
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "70",
@@ -4889,7 +4804,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 3,
           "radverkehrsmengen": 0,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "0",
@@ -4920,7 +4835,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 3,
           "radverkehrsmengen": 0,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "0",
@@ -4946,12 +4861,11 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Anordnung von Tempo 30 prüfen",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 0,
-          "prioritaet_1": 3
+          "prioritaet_2": 3
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -4977,12 +4891,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Bei grundhafter Erneuerung der Straße eine Radverkehrsanlage vorsehen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 0,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -5013,7 +4926,7 @@
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 7
+          "prioritaet_2": 7
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50 / 60",
@@ -5039,12 +4952,11 @@
         "bewertungGesamt": 3,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Verbreiterung des Geh- und Radwegs vornehmen auf Regelbreite.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "60",
@@ -5101,12 +5013,11 @@
         "bewertungGesamt": 3,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Bei Erneuerung der Ortsdurchfahrt Radverkehrsanlagen berücksichtigen. Roteinfärbung der Radfurten.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 0,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -5137,7 +5048,7 @@
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 3,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 8
+          "prioritaet_2": 8
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -5168,7 +5079,7 @@
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 3,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 8
+          "prioritaet_2": 8
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -5199,7 +5110,7 @@
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 0,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30 / 50",
@@ -5229,7 +5140,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 3,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 7
+          "prioritaet_2": 7
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "0",
@@ -5260,7 +5171,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -5286,12 +5197,11 @@
         "bewertungGesamt": 6,
         "verkehrssicherheit": "Keine Auffälligkeiten",
         "maßnahmen": "Bau einer Brücke über den Sacrow-Paretzer Kanal. Potentialanalyse vorhanden, daher Radverkehrsmengen 2.000 Radfahrer pro Tag angnommen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 3,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 7
+          "prioritaet_2": 7
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "",
@@ -5322,7 +5232,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -5348,12 +5258,11 @@
         "bewertungGesamt": 6,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Machbarkeitsuntersuchung durchführen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 3,
           "radverkehrsmengen": 0,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "0",
@@ -5384,7 +5293,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 0,
-          "prioritaet_1": 4
+          "prioritaet_2": 4
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -5410,12 +5319,11 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "",
         "maßnahmen": "Bei einer Erneuerung der Straße durchgängige Radverkehrsanlagen herstellen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 6
+          "prioritaet_2": 6
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -5441,12 +5349,11 @@
         "bewertungGesamt": 3,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Bei einer grundhaften Erneuerung Radverkehrsanlagen in beide Fahrtrichtungen herstellen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -5477,7 +5384,7 @@
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 7
+          "prioritaet_2": 7
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -5503,12 +5410,11 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Bei Anpassung der Tramhaltestelle für den Beginn des Schutzstreifens eine bauliche Trennung zur Fahrbahn vorsehen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -5539,7 +5445,7 @@
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 3,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 8
+          "prioritaet_2": 8
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "keine Angabe",
@@ -5569,7 +5475,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "keine Angabe",
@@ -5599,7 +5505,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "10",
@@ -5629,7 +5535,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "keine Angabe",
@@ -5655,7 +5561,6 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Roteinfärbung der Radfurten. Bei einer Erneuerung der Markierung einen größeren Sicherheitsabstand zu den parkenden Autos markieren.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 3,
@@ -5686,7 +5591,6 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "Unfallschwerpunkt in der Gleiskruve in Fahrtrichtung stadtauswärts. Der ganze Straßenabschnnitt ist außerdem ein Präventionsbereich.",
         "maßnahmen": "Entwicklung und Umsetzung von Maßnahmen zur Beseitigung des Unfallschwerpunkts.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
@@ -5748,12 +5652,11 @@
         "bewertungGesamt": 2,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Einrichtung einer Fahrradstraße prüfen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 6
+          "prioritaet_2": 6
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -5784,7 +5687,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 0,
           "radverkehrsmengen": 0,
-          "prioritaet_1": 1
+          "prioritaet_2": 1
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -5810,12 +5713,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Verbreiterung der Radverkehrsanlagen bei einer grundhaften Erneuerung der Straße",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 0,
-          "prioritaet_1": 2
+          "prioritaet_2": 2
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -5846,7 +5748,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 6
+          "prioritaet_2": 6
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -5872,7 +5774,6 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Qualifizierung des nichtbenutzungspflichtigen Radwegs für unsichere Radfahrer.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
@@ -5903,12 +5804,11 @@
         "bewertungGesamt": 3,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Die Einrichtung einer Fahrradstraße prüfen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -5939,7 +5839,7 @@
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 3,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 8
+          "prioritaet_2": 8
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -5965,12 +5865,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Bei einer Deckenerneuerung einen höheren Sicherheitsabstand zum Parken herstellen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 6
+          "prioritaet_2": 6
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -6001,7 +5900,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 3,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 7
+          "prioritaet_2": 7
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -6027,12 +5926,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Verbreiterung des gemeinsamen Geh- und Radwegs in abgestreuten Asphalt und Ergänzung einer Beleuchtung prüfen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 7
+          "prioritaet_2": 7
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "keine Angabe",
@@ -6058,12 +5956,11 @@
         "bewertungGesamt": 6,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Alternativenprüfung vornehmen zwischen den Varianten: Eigene Fuß- und Radbrücke über die Nuthe auf Höhe des Uferwegs oder bei Ersatzneubau der Trambrücke über die Nuthe eine breitere Fläche für den Fuß- und Radverkehr mit vorsehen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 3,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 8
+          "prioritaet_2": 8
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "keine Angabe",
@@ -6089,12 +5986,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Bei einer grundhaften Erneuerung der Brücke eine ausreichend Breitre Brückenfläche für den Fuß- und Radverkehr bereitstellen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 7
+          "prioritaet_2": 7
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "keine Angabe",
@@ -6125,7 +6021,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -6151,12 +6047,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Prüfung, ob der Radweg bis zur Mendelssohn- Bartholdy-Straße verlängert und der Radverkehr in der Kreuzung auf die Fahrbahn übergeleitet werden kann.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 4
+          "prioritaet_2": 4
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -6182,12 +6077,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Radweg in Asphalt herstellen und an den Grundstückszufahfrten in Asphalt durchführen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 4
+          "prioritaet_2": 4
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -6212,12 +6106,11 @@
         "bewertungGesamt": 3,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Bei Erneuerung der Markierung oder Fahrbahndecke einen größeren Sicherheitsraum zu den parkenden Fahrzeugen herstellen oder Parken neu ordnen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 4,
-          "prioritaet_1": 7
+          "prioritaet_2": 7
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -6243,12 +6136,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Bei Erneuerung der Markierung oder Fahrbahndecke einen größeren Sicherheitsraum zu den parkenden Fahrzeugen herstellen oder Parken neu ordnen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 4,
-          "prioritaet_1": 8
+          "prioritaet_2": 8
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -6274,7 +6166,6 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Fahrbahn verbreitern, um Radfahrstreifen in beiden Fahrtrichtungen herzustellen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 3,
@@ -6305,12 +6196,11 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Weg grundhaft erneuern.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 0,
-          "prioritaet_1": 3
+          "prioritaet_2": 3
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -6397,12 +6287,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Herstellung eines gemeinsamen Geh- und Radwegs.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 0,
-          "prioritaet_1": 4
+          "prioritaet_2": 4
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "keine Angabe",
@@ -6428,12 +6317,11 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Mittelinsel in Höhe Abzweig Radweg Schlaatz- Drewitz durch Markierung oder andere Inselköpfe verbeitern.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 6
+          "prioritaet_2": 6
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -6464,7 +6352,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 0,
-          "prioritaet_1": 4
+          "prioritaet_2": 4
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "keine Angabe",
@@ -6490,12 +6378,11 @@
         "bewertungGesamt": 6,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Herstellung eines gemeinsamen Geh- und Radwegs.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 0,
-          "prioritaet_1": 3
+          "prioritaet_2": 3
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "keine Angabe",
@@ -6521,12 +6408,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "In den Bereichen ohne ausreichenden Sicherheitsabstand zwischen Querparker und Schutzstreifen das Parken anpassen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 4
+          "prioritaet_2": 4
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -6552,12 +6438,11 @@
         "bewertungGesamt": 6,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Getrennten Geh- und Radweg verbreitern.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 0,
-          "prioritaet_1": 3
+          "prioritaet_2": 3
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "keine Angabe",
@@ -6583,12 +6468,11 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Kreuzuungsbereich Uferweg Nuthe/ Nuthebrücke aufweiten.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 6
+          "prioritaet_2": 6
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "keine Angabe",
@@ -6614,7 +6498,6 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Radfahrstreifen in Fahrtrichtung Norden prüfen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
@@ -6645,12 +6528,11 @@
         "bewertungGesamt": 6,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Radfahrstreifen in Fahrtrichtung stadteinwärts prüfen unter Wegnahme eines Kfz-Fahrstreifens.I",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 3,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 8
+          "prioritaet_2": 8
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -6707,12 +6589,11 @@
         "bewertungGesamt": 2,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Roteinfärbung der Radfurten",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 4,
-          "prioritaet_1": 8
+          "prioritaet_2": 8
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -6769,12 +6650,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Auflösung des Zweirichtungsradwegs und Führung des Radverkehrs in Fahrtrichtung Babelsberg auf der Fahrbahn bzw. Seitenraum bis zur Glasmeisterstraße. Roteinfärbung der Radfurten.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 7
+          "prioritaet_2": 7
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -6805,7 +6685,7 @@
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 3,
           "radverkehrsmengen": 0,
-          "prioritaet_1": 6
+          "prioritaet_2": 6
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -6836,7 +6716,7 @@
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 0,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -6862,12 +6742,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Bei einer Erneueurng der Straße den Radweg auf 3,0m verbreitern.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 0,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -6893,12 +6772,11 @@
         "bewertungGesamt": 3,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Nichtamtliche Seitenmarkierung zur besseren Befahrbarkeit des Radwegs bei Dunkelheit.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 7
+          "prioritaet_2": 7
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "70",
@@ -6924,12 +6802,11 @@
         "bewertungGesamt": 3,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Weg zwischen Zufahrt zur Hausnummer 35 und Uferweg in Betonsteinpflaster herstellen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 0,
-          "prioritaet_1": 3
+          "prioritaet_2": 3
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "keine Angabe",
@@ -6955,12 +6832,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Pflasterabschnitt für den Radverkehr verbessern und dadurch auch die Sicherheit von Fußgängern verbessern.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 4
+          "prioritaet_2": 4
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "5",
@@ -6986,12 +6862,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Bei einer grundhaften Erneueurng die Fahrbahn verbreitern und einen Radfahrstreifen in Fahrtrichtung stadteinwärt markieren.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 7
+          "prioritaet_2": 7
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -7017,12 +6892,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Roteinfärbung der Radfurten. Bei einer grundhaften Erneuerung der Fahrbahn breitere Radverkehrsanlagen einplanen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 7
+          "prioritaet_2": 7
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -7048,12 +6922,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Roteinfärbung der Radfurten. Bei einer grundhaften Erneuerung der Fahrbahn breitere Radverkehrsanlagen einplanen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 7
+          "prioritaet_2": 7
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -7079,12 +6952,11 @@
         "bewertungGesamt": 3,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Ende des Zweirichtungsradweg verdeutlichen und Radweg zwischen Querungshilfe und Alter Tornow grundhaft ausbauen. Roteinfärbungen der Radfurten.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 7
+          "prioritaet_2": 7
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "70",
@@ -7115,7 +6987,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 0,
-          "prioritaet_1": 3
+          "prioritaet_2": 3
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "keine Angabe",
@@ -7146,7 +7018,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 0,
-          "prioritaet_1": 3
+          "prioritaet_2": 3
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "keine Angabe",
@@ -7171,12 +7043,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Qualifizierung der Fahrbahn für den Radverkehr",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 0,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -7202,12 +7073,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Markierung einer Piktogrammkette prüfen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 4
+          "prioritaet_2": 4
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -7233,12 +7103,11 @@
         "bewertungGesamt": 2,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Markierung einer Begrenzungslinie zum Fahrbahnrand zur besseren Nutzbarkeit bei Dunkelheit.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 0,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 4
+          "prioritaet_2": 4
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -7269,7 +7138,7 @@
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 3,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 8
+          "prioritaet_2": 8
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -7295,12 +7164,11 @@
         "bewertungGesamt": 3,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Roteinfärbung der Radfurten.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 7
+          "prioritaet_2": 7
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -7326,12 +7194,11 @@
         "bewertungGesamt": 3,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Radwegbegrenzungslinie markieren zur besseren Orientierung bei Dunkelheit. Roteinfärbung der Radfurten.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 7
+          "prioritaet_2": 7
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "70",
@@ -7362,7 +7229,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 3,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 6
+          "prioritaet_2": 6
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -7388,12 +7255,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Breitere Mittelinsel in Höhe An der Pirschheide herstellen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 7
+          "prioritaet_2": 7
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -7455,7 +7321,7 @@
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 0,
-          "prioritaet_1": 4
+          "prioritaet_2": 4
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -7481,12 +7347,11 @@
         "bewertungGesamt": 2,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Markierung einer Piktogrammkette prüfen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 0,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 3
+          "prioritaet_2": 3
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -7543,12 +7408,11 @@
         "bewertungGesamt": 3,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Markierung einer Piktogrammkette prüfen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 0,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 3
+          "prioritaet_2": 3
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -7574,12 +7438,11 @@
         "bewertungGesamt": 3,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Markierung einer Piktogrammkette prüfen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 0,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 3
+          "prioritaet_2": 3
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -7605,12 +7468,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Markierung einer Piktogrammkette prüfen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 4
+          "prioritaet_2": 4
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -7636,12 +7498,11 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Markierung einer Piktogrammkette prüfen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -7667,12 +7528,11 @@
         "bewertungGesamt": 2,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Markierung einer Piktogrammkette prüfen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 0,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 3
+          "prioritaet_2": 3
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -7698,12 +7558,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Das Land Brandenburg im Rahmen der Herstellung des Radnetz Brandenburg auffordern, den Werdersteig in Asphalt auszubauen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 0,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "keine Angabe",
@@ -7734,7 +7593,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 0,
-          "prioritaet_1": 3
+          "prioritaet_2": 3
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "0",
@@ -7765,7 +7624,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 3,
           "radverkehrsmengen": 0,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -7796,7 +7655,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 0,
-          "prioritaet_1": 3
+          "prioritaet_2": 3
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -7822,12 +7681,11 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Verbreiterung des Gehwegs und Beschilderung als gemeinsamer Geh und Radweg. Roteinfärbung der Radfurten.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 3,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 8
+          "prioritaet_2": 8
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -7853,12 +7711,11 @@
         "bewertungGesamt": 4,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Herstellung von Radwegüberfahrten, wo die Fläche der Radfurt auf Radwegniveau durchgeführt wird. Roteinfärbung der Radfurten.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 0,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -7889,7 +7746,7 @@
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 3,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 8
+          "prioritaet_2": 8
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -7920,7 +7777,7 @@
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 7
+          "prioritaet_2": 7
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -7946,12 +7803,11 @@
         "bewertungGesamt": 5,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Roteinfärbung der Radfurten.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 3,
           "radverkehrsmengen": 0,
-          "prioritaet_1": 6
+          "prioritaet_2": 6
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -7977,12 +7833,11 @@
         "bewertungGesamt": 3,
         "verkehrssicherheit": "keine Auffälligkeit",
         "maßnahmen": "Bei Herstellung der Verbindung nach Krampnitz, die Einrichtung einer Fahrradstraße prüfen.",
-        "kommentar": "",
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 2,
-          "prioritaet_1": 5
+          "prioritaet_2": 5
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",

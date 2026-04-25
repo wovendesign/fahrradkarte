@@ -47,6 +47,9 @@ async function main() {
         }
         const verkehrssicherheit = table.querySelector("tbody > tr:nth-child(12) > td:nth-child(2) > p:nth-child(1)")?.textContent
         const maßnahmen = table.querySelector("tbody > tr:nth-child(13) > td:nth-child(3) > p:nth-child(1)")?.textContent
+        const kommentar = table.querySelector("tbody > tr:nth-child(14) > td:nth-child(2)")?.textContent
+
+        const isPrioTwo = table.querySelector("tbody > tr:nth-child(15) > td:nth-child(2) > p:nth-child(2)")?.textContent.includes("Priorität II")
 
         const abschnitt: Abschnitt = {
             abschnittsnummer,
@@ -61,20 +64,20 @@ async function main() {
             bewertungAnlagenzustand: Number(table.querySelector("tbody > tr:nth-child(10) > td:nth-child(2)")?.textContent),
             bewertungGesamt: Number(table.querySelector("tbody > tr:nth-child(11) > td:nth-child(2)")?.textContent),
             verkehrssicherheit,
-            maßnahmen,
-            kommentar: table.querySelector("tbody > tr:nth-child(14) > td:nth-child(2)")?.textContent,
+            maßnahmen: maßnahmen && maßnahmen.length > 0 ? maßnahmen : undefined,
+            kommentar: kommentar && kommentar.length > 0 ? kommentar : undefined,
             prioritaet: {
-                radnetzfunktion: Number(table.querySelector("tbody:nth-child(1) > tr:nth-child(15) > td:nth-child(3) > p:nth-child(1)")?.textContent.replace("Punkte", "")),
-                bewertung_soll_ist: Number(table.querySelector("tbody:nth-child(1) > tr:nth-child(15) > td:nth-child(3) > p:nth-child(2)")?.textContent),
-                radverkehrsmengen: Number(table.querySelector("tbody:nth-child(1) > tr:nth-child(15) > td:nth-child(3) > p:nth-child(4)")?.textContent),
-                prioritaet_1: Number(table.querySelector("tbody:nth-child(1) > tr:nth-child(15) > td:nth-child(3) > p:nth-child(5)")?.textContent),
-                prioritaet_2: undefined
+                radnetzfunktion: Number(table.querySelector("tbody > tr:nth-child(15) > td:nth-child(3) > p:nth-child(1)")?.textContent.replace("Punkte", "")),
+                bewertung_soll_ist: Number(table.querySelector("tbody > tr:nth-child(15) > td:nth-child(3) > p:nth-child(2)")?.textContent),
+                radverkehrsmengen: Number(table.querySelector("tbody > tr:nth-child(15) > td:nth-child(3) > p:nth-child(4)")?.textContent),
+                prioritaet_1: isPrioTwo ? undefined : Number(table.querySelector("tbody > tr:nth-child(15) > td:nth-child(3) > p:nth-child(5)")?.textContent),
+                prioritaet_2: isPrioTwo ? Number(table.querySelector("tbody > tr:nth-child(15) > td:nth-child(3) > p:nth-child(5)")?.textContent) : undefined
             },
             kfzVerkehr: {
                 zulässigeHöchstgeschwindigkeit: table.querySelector("tbody > tr:nth-child(7) > td:nth-child(2)")?.textContent,
                 sicherheitsabstandParken: table.querySelector("tbody > tr:nth-child(6) > td:nth-child(2)")?.textContent,
-                kfzParkenAufstellform: table.querySelector("tbody:nth-child(1) > tr:nth-child(5) > td:nth-child(2)")?.textContent,
-                summeKfzSpitzenstunde: Number(table.querySelector("tbody:nth-child(1) > tr:nth-child(4) > td:nth-child(3)")?.textContent.replace(".", "")),
+                kfzParkenAufstellform: table.querySelector("tbody > tr:nth-child(5) > td:nth-child(2)")?.textContent,
+                summeKfzSpitzenstunde: Number(table.querySelector("tbody > tr:nth-child(4) > td:nth-child(3)")?.textContent.replace(".", "")),
             }
         }
 
