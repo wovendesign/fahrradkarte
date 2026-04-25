@@ -220,136 +220,6 @@
         "coordinates": [
           [
             [
-              13.06251560893091,
-              52.4108005539366
-            ],
-            [
-              13.06248242217688,
-              52.4105681155035
-            ],
-            [
-              13.06253388971138,
-              52.41044388545722
-            ],
-            [
-              13.06257565049705,
-              52.41035995866167
-            ],
-            [
-              13.06276795171625,
-              52.41007861517383
-            ],
-            [
-              13.0628812267231,
-              52.40992293818449
-            ],
-            [
-              13.06298582746843,
-              52.40974374066135
-            ],
-            [
-              13.06293109953925,
-              52.40951967118343
-            ]
-          ]
-        ],
-        "type": "MultiLineString"
-      },
-      "properties": {
-        "name": "202. Am Neuen Garten",
-        "Zwischen": "zwischen Große Weinmeisterstraße und Alleestraße",
-        "Zielnetz": "Grundnetz",
-        "Vorhandene Radwegeinfrastruktur": "Mischverkehr im Straßenraum",
-        "Maßnahmen": "-",
-        "Priorität": "Keine Maßnahmen",
-        "Länge in Meter": "149",
-        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen Große Weinmeisterstraße und Alleestraße</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Grundnetz</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Mischverkehr im Straßenraum</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Mischverkehr (freigegebene Einbahnstraße)</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">-</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Keine Maßnahmen</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">149</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
-        "geo_point_2d": {
-          "lon": 13.06272498953436,
-          "lat": 52.410154584607646
-        },
-        "color": "#36cbbc"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              13.06505749522919,
-              52.40681879871737
-            ],
-            [
-              13.06545244428733,
-              52.40686717973385
-            ],
-            [
-              13.06571083412676,
-              52.40674056143327
-            ],
-            [
-              13.06611941202032,
-              52.40651529079056
-            ],
-            [
-              13.06637119952885,
-              52.40631719173563
-            ],
-            [
-              13.06655080074449,
-              52.4062130730126
-            ],
-            [
-              13.06687784967661,
-              52.40602710661138
-            ],
-            [
-              13.06688153103461,
-              52.40595972951368
-            ],
-            [
-              13.06689401348497,
-              52.40593988231797
-            ],
-            [
-              13.06694477641583,
-              52.40590195861576
-            ],
-            [
-              13.06697205410828,
-              52.40586652810821
-            ],
-            [
-              13.0669447592242,
-              52.40578803423613
-            ]
-          ]
-        ],
-        "type": "MultiLineString"
-      },
-      "properties": {
-        "name": "322.",
-        "Zwischen": "&lt;Null&gt;",
-        "Zielnetz": "Grundnetz",
-        "Vorhandene Radwegeinfrastruktur": "&lt;Null&gt;",
-        "Maßnahmen": "&lt;Null&gt;",
-        "Priorität": "&lt;Null&gt;",
-        "Länge in Meter": "191",
-        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF;\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Grundnetz</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">191</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
-        "geo_point_2d": {
-          "lon": 13.06610585461157,
-          "lat": 52.40645632283978
-        },
-        "color": "#af6dfc"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "coordinates": [
-          [
-            [
               13.07292877993964,
               52.40090518754771
             ],
@@ -1090,771 +960,6 @@
           "lat": 52.43971879581389
         },
         "color": "#00ee5a"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              13.06888187821574,
-              52.44674699779742
-            ],
-            [
-              13.06898572237133,
-              52.44597101175555
-            ],
-            [
-              13.0690012733151,
-              52.44576688702166
-            ],
-            [
-              13.06901199550657,
-              52.44563614466473
-            ],
-            [
-              13.06896078436987,
-              52.44524597263406
-            ],
-            [
-              13.06890230619651,
-              52.44504549423613
-            ],
-            [
-              13.06883881462049,
-              52.44488899268409
-            ],
-            [
-              13.06872702714894,
-              52.4446693005954
-            ],
-            [
-              13.06858680162408,
-              52.4444404219901
-            ],
-            [
-              13.06829977656757,
-              52.44407247269835
-            ],
-            [
-              13.06823222154586,
-              52.44398873624733
-            ],
-            [
-              13.06812915604549,
-              52.44386575569544
-            ],
-            [
-              13.06801749755565,
-              52.44373067581865
-            ],
-            [
-              13.06784703455026,
-              52.44352378112234
-            ],
-            [
-              13.06758417436884,
-              52.44330998105705
-            ],
-            [
-              13.06730556015182,
-              52.44305276321957
-            ],
-            [
-              13.06709733570029,
-              52.44290189711415
-            ],
-            [
-              13.06680826685085,
-              52.4427155407066
-            ],
-            [
-              13.06676738028443,
-              52.44269158393289
-            ],
-            [
-              13.06633055728553,
-              52.4424352833669
-            ],
-            [
-              13.06592923600948,
-              52.44225877784976
-            ],
-            [
-              13.06562795487405,
-              52.44211627750931
-            ],
-            [
-              13.06510370843194,
-              52.44199170743299
-            ],
-            [
-              13.06467810910886,
-              52.44189932126479
-            ],
-            [
-              13.06402473398452,
-              52.44139768294112
-            ],
-            [
-              13.06348067372509,
-              52.44095357936768
-            ],
-            [
-              13.06321984458683,
-              52.4407613823744
-            ],
-            [
-              13.06294297447825,
-              52.44059949340629
-            ],
-            [
-              13.06279236380094,
-              52.44054194837543
-            ],
-            [
-              13.06266513234335,
-              52.44049333576611
-            ],
-            [
-              13.06232586612432,
-              52.4404122464116
-            ],
-            [
-              13.06187835201942,
-              52.44031679334258
-            ],
-            [
-              13.06158482526543,
-              52.44023285501069
-            ],
-            [
-              13.0612301291316,
-              52.44010115651793
-            ],
-            [
-              13.06112653768312,
-              52.44003344191965
-            ],
-            [
-              13.06102130805352,
-              52.4399646561889
-            ],
-            [
-              13.06088190666387,
-              52.43982210082443
-            ],
-            [
-              13.06083302105004,
-              52.43966214761362
-            ],
-            [
-              13.06082179987356,
-              52.43948213147813
-            ],
-            [
-              13.06088778165849,
-              52.43928629758268
-            ],
-            [
-              13.06096279191207,
-              52.43911938486139
-            ],
-            [
-              13.06098683754774,
-              52.43909783972164
-            ],
-            [
-              13.06105928414414,
-              52.43903284968853
-            ],
-            [
-              13.06129963070832,
-              52.4388533624998
-            ],
-            [
-              13.06177074722595,
-              52.43851131372536
-            ],
-            [
-              13.06233934112638,
-              52.43809353297608
-            ],
-            [
-              13.06249725038375,
-              52.43798192759025
-            ],
-            [
-              13.06257660710629,
-              52.43788342128993
-            ],
-            [
-              13.06266988164081,
-              52.43770242025126
-            ],
-            [
-              13.06285238842438,
-              52.43726482224147
-            ],
-            [
-              13.06293378158034,
-              52.43716679865279
-            ],
-            [
-              13.06299529189522,
-              52.43709272657589
-            ],
-            [
-              13.06349807995057,
-              52.43663160161325
-            ],
-            [
-              13.06395811748786,
-              52.43620574087876
-            ],
-            [
-              13.06426022311271,
-              52.43592565401584
-            ],
-            [
-              13.06441334184693,
-              52.43578879118579
-            ],
-            [
-              13.06463973009853,
-              52.4356585226142
-            ],
-            [
-              13.06488630512015,
-              52.43553757564938
-            ],
-            [
-              13.06515603298867,
-              52.43539183061462
-            ],
-            [
-              13.06576967229869,
-              52.43511953568262
-            ],
-            [
-              13.06644817107719,
-              52.43481053369426
-            ],
-            [
-              13.06749105039387,
-              52.43434383767156
-            ],
-            [
-              13.06779870956288,
-              52.43420500085159
-            ],
-            [
-              13.06800335864752,
-              52.43410044626081
-            ],
-            [
-              13.0682015051594,
-              52.43394273461381
-            ],
-            [
-              13.06851523990917,
-              52.43365140775376
-            ],
-            [
-              13.0691095851745,
-              52.43309257779961
-            ],
-            [
-              13.06944125429992,
-              52.43280125619047
-            ],
-            [
-              13.06966032573279,
-              52.43260883211459
-            ],
-            [
-              13.0701485280007,
-              52.43214204621872
-            ],
-            [
-              13.07067842958372,
-              52.43166335064458
-            ],
-            [
-              13.07108924415426,
-              52.43131758370895
-            ],
-            [
-              13.07140918270303,
-              52.43109891274862
-            ],
-            [
-              13.07169632629186,
-              52.43092376484685
-            ],
-            [
-              13.0719506966407,
-              52.43075797250845
-            ],
-            [
-              13.07223484516353,
-              52.43067493837772
-            ],
-            [
-              13.07260949593926,
-              52.4305944581395
-            ],
-            [
-              13.0724157075846,
-              52.43024853864466
-            ],
-            [
-              13.07234391913467,
-              52.42997222506643
-            ],
-            [
-              13.07229892670319,
-              52.42952011298441
-            ],
-            [
-              13.07227008519742,
-              52.4290349952927
-            ],
-            [
-              13.07238665527108,
-              52.42867273622888
-            ],
-            [
-              13.07246324701931,
-              52.42854567494053
-            ],
-            [
-              13.07250686093966,
-              52.42847319442812
-            ],
-            [
-              13.07269275729689,
-              52.4281165612137
-            ],
-            [
-              13.07292649030403,
-              52.42773553104488
-            ],
-            [
-              13.07312257121466,
-              52.427415029599
-            ],
-            [
-              13.07337357674964,
-              52.4270863414856
-            ],
-            [
-              13.07349150847666,
-              52.42693198940145
-            ],
-            [
-              13.0746924436025,
-              52.42610634428807
-            ],
-            [
-              13.07528476228632,
-              52.42571136775371
-            ],
-            [
-              13.07560005956345,
-              52.42559781185504
-            ],
-            [
-              13.0762352152163,
-              52.42536717514651
-            ],
-            [
-              13.07681231566907,
-              52.4251185065188
-            ],
-            [
-              13.07694133076707,
-              52.42507211226506
-            ],
-            [
-              13.07730989142573,
-              52.42493957531545
-            ],
-            [
-              13.07807693396766,
-              52.42468589739504
-            ],
-            [
-              13.07842652983569,
-              52.42456120259258
-            ],
-            [
-              13.07992851908506,
-              52.4240470120187
-            ],
-            [
-              13.08016378708599,
-              52.42398069876411
-            ],
-            [
-              13.08033699837165,
-              52.42395473864406
-            ],
-            [
-              13.08051602203624,
-              52.42399810796258
-            ],
-            [
-              13.08073987900105,
-              52.4241267259569
-            ],
-            [
-              13.08092718817989,
-              52.42425025438818
-            ],
-            [
-              13.0816399792368,
-              52.42469647780764
-            ],
-            [
-              13.08201822823748,
-              52.4249346886521
-            ],
-            [
-              13.08242051686241,
-              52.42516132939574
-            ],
-            [
-              13.08271658508538,
-              52.42533103759001
-            ],
-            [
-              13.08308502534321,
-              52.4255108203096
-            ],
-            [
-              13.08368863741782,
-              52.42572498584758
-            ],
-            [
-              13.08459778852957,
-              52.42592476742941
-            ],
-            [
-              13.08509577874247,
-              52.42603435044308
-            ],
-            [
-              13.08534168129696,
-              52.42609264274427
-            ],
-            [
-              13.0858482216094,
-              52.42614076866226
-            ],
-            [
-              13.08597391116691,
-              52.42614577105301
-            ],
-            [
-              13.08631300223702,
-              52.42619540964792
-            ],
-            [
-              13.0864104021118,
-              52.42626945857165
-            ],
-            [
-              13.0865596104856,
-              52.42637329893216
-            ],
-            [
-              13.08659048709557,
-              52.42638036257056
-            ],
-            [
-              13.08670961522982,
-              52.42640782685207
-            ],
-            [
-              13.08685642634684,
-              52.42643798693266
-            ],
-            [
-              13.0869211242333,
-              52.42644865498077
-            ],
-            [
-              13.08703898222623,
-              52.42646809586014
-            ],
-            [
-              13.08710572631946,
-              52.4264790666667
-            ],
-            [
-              13.08723798332828,
-              52.42647509247649
-            ],
-            [
-              13.0874674370792,
-              52.42646837474229
-            ],
-            [
-              13.08780045493739,
-              52.42643465192604
-            ],
-            [
-              13.08808452757621,
-              52.42640588472826
-            ],
-            [
-              13.08850763943613,
-              52.42632227185811
-            ],
-            [
-              13.08877458154317,
-              52.42622417386409
-            ],
-            [
-              13.08923783950897,
-              52.42597241712031
-            ],
-            [
-              13.08939124999694,
-              52.42588904540989
-            ],
-            [
-              13.08962094690523,
-              52.42573036967723
-            ],
-            [
-              13.08972801740808,
-              52.42562510011031
-            ],
-            [
-              13.08993851409721,
-              52.42547159836391
-            ],
-            [
-              13.0901042086629,
-              52.42535073118172
-            ],
-            [
-              13.09045327053143,
-              52.42520314663265
-            ],
-            [
-              13.09057779587728,
-              52.42515049639857
-            ],
-            [
-              13.09128555759992,
-              52.42494972515531
-            ],
-            [
-              13.09201735846523,
-              52.42478476454908
-            ],
-            [
-              13.09224171918182,
-              52.42475952265726
-            ],
-            [
-              13.09271970474234,
-              52.42470573330445
-            ],
-            [
-              13.09323176047139,
-              52.42465995460275
-            ],
-            [
-              13.0933314400205,
-              52.42465751620646
-            ],
-            [
-              13.09362738041583,
-              52.42465042029563
-            ],
-            [
-              13.09419214783144,
-              52.42471239738579
-            ],
-            [
-              13.09448726513983,
-              52.42474484899694
-            ],
-            [
-              13.09475034535646,
-              52.42472553152078
-            ],
-            [
-              13.09479416936964,
-              52.42471544794736
-            ],
-            [
-              13.09488243986717,
-              52.42469789834171
-            ],
-            [
-              13.0949232389887,
-              52.42468974411797
-            ],
-            [
-              13.09511825846034,
-              52.42462859709455
-            ],
-            [
-              13.09545453050561,
-              52.4245354677098
-            ],
-            [
-              13.09568940808444,
-              52.42452207778407
-            ],
-            [
-              13.09580702067173,
-              52.42455400427087
-            ],
-            [
-              13.09582795256247,
-              52.42457340359373
-            ],
-            [
-              13.09590785127561,
-              52.42464770220496
-            ],
-            [
-              13.09598065931317,
-              52.42474319658765
-            ],
-            [
-              13.09597115217841,
-              52.42496378666458
-            ],
-            [
-              13.09601501988036,
-              52.42508237280148
-            ],
-            [
-              13.09611259949039,
-              52.42516963416099
-            ],
-            [
-              13.09625963918853,
-              52.42524914998134
-            ],
-            [
-              13.09637980613913,
-              52.42530035898764
-            ],
-            [
-              13.09646025395968,
-              52.42533807033319
-            ],
-            [
-              13.09653841359787,
-              52.42543571858487
-            ],
-            [
-              13.09666622059205,
-              52.42559297106562
-            ],
-            [
-              13.09679408678172,
-              52.42574204201881
-            ],
-            [
-              13.09677443325807,
-              52.42586365134489
-            ],
-            [
-              13.09674332391996,
-              52.42594731161277
-            ],
-            [
-              13.09672893050083,
-              52.42596389411677
-            ],
-            [
-              13.09669519624873,
-              52.42600264415441
-            ],
-            [
-              13.09663843935059,
-              52.42604659826835
-            ],
-            [
-              13.09658057135017,
-              52.42611292348462
-            ],
-            [
-              13.09655884151767,
-              52.42619394734179
-            ],
-            [
-              13.09655150519665,
-              52.426258388715
-            ],
-            [
-              13.09655772232722,
-              52.42632574579593
-            ],
-            [
-              13.09658290032801,
-              52.42640024177418
-            ],
-            [
-              13.0966065966762,
-              52.42648181723213
-            ],
-            [
-              13.09663131104429,
-              52.42654659483265
-            ],
-            [
-              13.09663261170805,
-              52.42662223490783
-            ],
-            [
-              13.09658831960797,
-              52.42669435348962
-            ],
-            [
-              13.09650229406298,
-              52.42678261430208
-            ],
-            [
-              13.09641732923066,
-              52.42684283842457
-            ],
-            [
-              13.09629901976628,
-              52.42693615399598
-            ],
-            [
-              13.09643735083573,
-              52.42710526518908
-            ]
-          ]
-        ],
-        "type": "MultiLineString"
-      },
-      "properties": {
-        "name": "239.",
-        "Zwischen": "&lt;Null&gt;",
-        "Zielnetz": "Grundnetz",
-        "Vorhandene Radwegeinfrastruktur": "&lt;Null&gt;",
-        "Maßnahmen": "&lt;Null&gt;",
-        "Priorität": "&lt;Null&gt;",
-        "Länge in Meter": "4.899",
-        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Grundnetz</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">4.899</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
-        "geo_point_2d": {
-          "lon": 13.075803753533261,
-          "lat": 52.431559436994434
-        },
-        "color": "#d8f113"
       }
     },
     {
@@ -7276,99 +6381,6 @@
         "coordinates": [
           [
             [
-              13.04840364408627,
-              52.39865801727591
-            ],
-            [
-              13.04841057018242,
-              52.39862764986852
-            ],
-            [
-              13.04841669490699,
-              52.39860877857304
-            ],
-            [
-              13.04842585254994,
-              52.3985078633544
-            ],
-            [
-              13.04842716883101,
-              52.39799841667308
-            ],
-            [
-              13.04842032661047,
-              52.397720460847
-            ],
-            [
-              13.04842168008082,
-              52.39763650092753
-            ],
-            [
-              13.04841665333543,
-              52.3973040854958
-            ],
-            [
-              13.04841553625372,
-              52.39711623088639
-            ],
-            [
-              13.04840435050631,
-              52.39698332898848
-            ],
-            [
-              13.04839639808467,
-              52.39688707661512
-            ],
-            [
-              13.04839578642547,
-              52.39688095217247
-            ],
-            [
-              13.04839042162058,
-              52.3968493027843
-            ],
-            [
-              13.04835251477553,
-              52.396625773052
-            ],
-            [
-              13.0482950246438,
-              52.39638636427412
-            ],
-            [
-              13.04824430590375,
-              52.3961134384052
-            ],
-            [
-              13.04825434217328,
-              52.39604589680742
-            ]
-          ]
-        ],
-        "type": "MultiLineString"
-      },
-      "properties": {
-        "name": "142. Schopenhauerstraße",
-        "Zwischen": "zwischen Charlottenstraße und Breite Straße",
-        "Zielnetz": "Hauptroute 1. Stufe",
-        "Vorhandene Radwegeinfrastruktur": "Mischverkehr im Straßenraum",
-        "Maßnahmen": "-",
-        "Priorität": "Keine Maßnahmen",
-        "Länge in Meter": "291",
-        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen Charlottenstraße und Breite Straße</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Hauptroute 1. Stufe</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Mischverkehr im Straßenraum</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Mischverkehr</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">-</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Keine Maßnahmen</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">291</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
-        "geo_point_2d": {
-          "lon": 13.048386061091612,
-          "lat": 52.397347571879166
-        },
-        "color": "#294102"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "coordinates": [
-          [
-            [
               13.07292877993964,
               52.40090518754771
             ],
@@ -10692,179 +9704,6 @@
         "coordinates": [
           [
             [
-              13.06655356308759,
-              52.42138706149785
-            ],
-            [
-              13.06638228213244,
-              52.42130846042951
-            ],
-            [
-              13.06620242677439,
-              52.42120400279623
-            ],
-            [
-              13.0660091610136,
-              52.42104978163333
-            ],
-            [
-              13.06587562636451,
-              52.42087495760872
-            ],
-            [
-              13.06535351656787,
-              52.42013629361318
-            ],
-            [
-              13.06507416294514,
-              52.41973159379981
-            ],
-            [
-              13.06448816518927,
-              52.41887408952645
-            ],
-            [
-              13.06424569756593,
-              52.41850056309243
-            ],
-            [
-              13.06421056968316,
-              52.41844639770842
-            ],
-            [
-              13.06406936358625,
-              52.41822882551919
-            ],
-            [
-              13.06396991222288,
-              52.41804844306715
-            ],
-            [
-              13.06390589040305,
-              52.41793212175008
-            ],
-            [
-              13.06388357902246,
-              52.41780362557854
-            ],
-            [
-              13.06386141587738,
-              52.41769859998097
-            ],
-            [
-              13.06382806639337,
-              52.4173521457092
-            ],
-            [
-              13.06380163370673,
-              52.41712305557073
-            ],
-            [
-              13.06379654617862,
-              52.41685655021641
-            ],
-            [
-              13.06379490934337,
-              52.41677308106887
-            ],
-            [
-              13.06378196693653,
-              52.41650449999926
-            ],
-            [
-              13.06376671909018,
-              52.41618807333078
-            ],
-            [
-              13.06376622624206,
-              52.41612548349961
-            ],
-            [
-              13.06371715758237,
-              52.41515780943751
-            ],
-            [
-              13.06374320345118,
-              52.41483183981204
-            ],
-            [
-              13.06373455805224,
-              52.41474052302144
-            ],
-            [
-              13.06371194766331,
-              52.41466588173105
-            ],
-            [
-              13.06366188787106,
-              52.4145834176182
-            ],
-            [
-              13.06357442260645,
-              52.41445187576851
-            ],
-            [
-              13.06280435308596,
-              52.413361070184
-            ],
-            [
-              13.06237242261883,
-              52.41276207070452
-            ],
-            [
-              13.06225026285043,
-              52.41256009399113
-            ],
-            [
-              13.06218042927486,
-              52.41244916117883
-            ],
-            [
-              13.06207144794798,
-              52.41237256393998
-            ],
-            [
-              13.06195139814645,
-              52.41232707601387
-            ],
-            [
-              13.06203499525358,
-              52.41215427866577
-            ],
-            [
-              13.06228418938506,
-              52.41141061949492
-            ],
-            [
-              13.06251560893023,
-              52.41080055393663
-            ]
-          ]
-        ],
-        "type": "MultiLineString"
-      },
-      "properties": {
-        "name": "233. Große Weinmeisterstraße",
-        "Zwischen": "zwischen Kleine Weinmeisterstraße und Am Pfingstberg",
-        "Zielnetz": "Grundnetz",
-        "Vorhandene Radwegeinfrastruktur": "Mischverkehr",
-        "Maßnahmen": "-",
-        "Priorität": "Keine Maßnahmen",
-        "Länge in Meter": "1.255",
-        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen Kleine Weinmeisterstraße und Am Pfingstberg</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Grundnetz</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Mischverkehr</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Mischverkehr</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">-</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Keine Maßnahmen</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">1.255</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
-        "geo_point_2d": {
-          "lon": 13.063838787124027,
-          "lat": 52.416228378742574
-        },
-        "color": "#231f05"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "coordinates": [
-          [
-            [
               13.05384898442684,
               52.40611540448389
             ],
@@ -11026,87 +9865,6 @@
           "lat": 52.4073822452026
         },
         "color": "#9fc622"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              13.05490774884571,
-              52.40943519912958
-            ],
-            [
-              13.05509902597286,
-              52.40945884780057
-            ],
-            [
-              13.05571938703912,
-              52.40981909947633
-            ],
-            [
-              13.05588170093297,
-              52.40991294479015
-            ],
-            [
-              13.05629281043668,
-              52.41015025221871
-            ],
-            [
-              13.05662691194547,
-              52.41034331192721
-            ],
-            [
-              13.05713345078955,
-              52.41063424704677
-            ],
-            [
-              13.05746026049213,
-              52.41090640088788
-            ],
-            [
-              13.05807403874114,
-              52.4113939432918
-            ],
-            [
-              13.05840104569318,
-              52.41164847403907
-            ],
-            [
-              13.05846829530488,
-              52.41170083111557
-            ],
-            [
-              13.0587891938202,
-              52.4119505847508
-            ],
-            [
-              13.05893950889388,
-              52.41205683812306
-            ],
-            [
-              13.05915539452875,
-              52.41201594343941
-            ]
-          ]
-        ],
-        "type": "MultiLineString"
-      },
-      "properties": {
-        "name": "325. Russische Kolonie",
-        "Zwischen": "&lt;Null&gt;",
-        "Zielnetz": "Grundnetz",
-        "Vorhandene Radwegeinfrastruktur": "&lt;Null&gt;",
-        "Maßnahmen": "&lt;Null&gt;",
-        "Priorität": "&lt;Null&gt;",
-        "Länge in Meter": "419",
-        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Grundnetz</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">419</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
-        "geo_point_2d": {
-          "lon": 13.057070229506513,
-          "lat": 52.41070453685231
-        },
-        "color": "#1748ab"
       }
     },
     {
@@ -12762,103 +11520,6 @@
         "coordinates": [
           [
             [
-              13.06642418757729,
-              52.39897365128294
-            ],
-            [
-              13.0663600140793,
-              52.39901252424732
-            ],
-            [
-              13.06590700284562,
-              52.39932431500173
-            ],
-            [
-              13.06563580252898,
-              52.39950888089705
-            ],
-            [
-              13.06537293857486,
-              52.39968764815529
-            ],
-            [
-              13.06509777530745,
-              52.39982494178774
-            ],
-            [
-              13.0642136913121,
-              52.40022515908489
-            ],
-            [
-              13.06372341808429,
-              52.40044057014199
-            ],
-            [
-              13.06362184707506,
-              52.40047397342888
-            ],
-            [
-              13.06353360032668,
-              52.40047837207948
-            ],
-            [
-              13.06340324815037,
-              52.40046742431622
-            ],
-            [
-              13.06306649136162,
-              52.40042324146089
-            ],
-            [
-              13.06267062964227,
-              52.40036253320288
-            ],
-            [
-              13.06261897318743,
-              52.40037058814047
-            ],
-            [
-              13.06255180627548,
-              52.40037029629321
-            ],
-            [
-              13.06239074706781,
-              52.40035228009405
-            ],
-            [
-              13.06227974975345,
-              52.40036259896635
-            ],
-            [
-              13.06216447117216,
-              52.4003800408592
-            ]
-          ]
-        ],
-        "type": "MultiLineString"
-      },
-      "properties": {
-        "name": "206. Charlottenstraße",
-        "Zwischen": "zwischen Französische Straße und Berliner Straße",
-        "Zielnetz": "Hauptroute 1. Stufe",
-        "Vorhandene Radwegeinfrastruktur": "Mischverkehr im Straßenraum",
-        "Maßnahmen": "Genauere Betrachtung der Unfälle",
-        "Priorität": "Keine Maßnahmen",
-        "Länge in Meter": "356",
-        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen Französische Straße und Berliner Straße</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Hauptroute 1. Stufe</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Mischverkehr im Straßenraum</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">-</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Genauere Betrachtung der Unfälle</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Keine Maßnahmen</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">356</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
-        "geo_point_2d": {
-          "lon": 13.064375560304297,
-          "lat": 52.399983439667025
-        },
-        "color": "#6f326a"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "coordinates": [
-          [
-            [
               13.01175309378143,
               52.39426831384395
             ],
@@ -14495,143 +13156,69 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              13.06642418757729,
-              52.39897365128294
-            ],
-            [
-              13.06636721256855,
-              52.39891849943347
-            ],
-            [
-              13.06635784867219,
-              52.39890404949821
-            ],
-            [
-              13.06617648654231,
-              52.39874534654943
-            ],
-            [
-              13.06608239781205,
-              52.39867502077171
-            ],
-            [
-              13.06593546567322,
-              52.39860634779085
-            ],
-            [
-              13.06575205610922,
-              52.39852475904218
-            ],
-            [
-              13.06559840723296,
-              52.39848196157958
-            ],
-            [
-              13.06538034765849,
-              52.3984431448516
-            ],
-            [
-              13.06501555683615,
-              52.39838151430091
-            ],
-            [
-              13.06491706298194,
-              52.39836488554155
-            ],
-            [
-              13.06407044849688,
-              52.3982355671863
-            ],
-            [
-              13.06264183174634,
-              52.39802369096103
-            ],
-            [
-              13.06153410580061,
-              52.39784889175519
-            ],
-            [
-              13.06093396663779,
-              52.39775425495539
-            ],
-            [
-              13.06048565951407,
-              52.39768674414867
-            ],
-            [
-              13.06035966963157,
-              52.39767037964105
-            ],
-            [
-              13.06025001004289,
-              52.39766039736879
-            ],
-            [
-              13.06013582565642,
-              52.39765303822033
-            ],
-            [
-              13.0599595665419,
-              52.39758972089769
-            ],
-            [
-              13.05995782361281,
-              52.39758924270247
-            ],
-            [
-              13.05984750257024,
-              52.39755748937301
-            ],
-            [
-              13.05977785357833,
-              52.39754016092913
-            ],
-            [
-              13.05972100053859,
-              52.39752600977868
-            ],
-            [
-              13.05955967382555,
-              52.39749090108361
-            ],
-            [
-              13.05929210735307,
-              52.3974482929051
-            ],
-            [
-              13.05888413348015,
-              52.39738629381514
-            ],
-            [
-              13.05870059273473,
-              52.39735162831509
-            ],
-            [
-              13.05861691150906,
-              52.39733586700841
-            ],
-            [
-              13.05851705622862,
-              52.39731687268081
-            ],
-            [
-              13.05845130792162,
-              52.3973044630288
-            ],
-            [
-              13.05840057329366,
-              52.39729311710224
-            ],
-            [
-              13.05835887595912,
-              52.39728379219028
-            ]
+            13.06642418757729,
+            52.39897365128294
+          ],
+          [
+            13.06636721256855,
+            52.39891849943347
+          ],
+          [
+            13.06635784867219,
+            52.39890404949821
+          ],
+          [
+            13.06617648654231,
+            52.39874534654943
+          ],
+          [
+            13.06608239781205,
+            52.39867502077171
+          ],
+          [
+            13.06593546567322,
+            52.39860634779085
+          ],
+          [
+            13.06575205610922,
+            52.39852475904218
+          ],
+          [
+            13.06559840723296,
+            52.39848196157958
+          ],
+          [
+            13.06538034765849,
+            52.3984431448516
+          ],
+          [
+            13.06501555683615,
+            52.39838151430091
+          ],
+          [
+            13.06491706298194,
+            52.39836488554155
+          ],
+          [
+            13.06407044849688,
+            52.3982355671863
+          ],
+          [
+            13.06264183174634,
+            52.39802369096103
+          ],
+          [
+            13.06153410580061,
+            52.39784889175519
+          ],
+          [
+            13.06093396663779,
+            52.39775425495539
           ]
-        ],
-        "type": "MultiLineString"
+        ]
       },
       "properties": {
         "name": "132. Am Kanal",
@@ -14646,7 +13233,108 @@
           "lon": 13.062450679229444,
           "lat": 52.39799647350728
         },
-        "color": "#c65545"
+        "color": "#c65545",
+        "id": "365"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.06093396663779,
+            52.39775425495539
+          ],
+          [
+            13.06048565951407,
+            52.39768674414867
+          ],
+          [
+            13.06035966963157,
+            52.39767037964105
+          ],
+          [
+            13.06025001004289,
+            52.39766039736879
+          ],
+          [
+            13.06013582565642,
+            52.39765303822033
+          ],
+          [
+            13.0599595665419,
+            52.39758972089769
+          ],
+          [
+            13.05995782361281,
+            52.39758924270247
+          ],
+          [
+            13.05984750257024,
+            52.39755748937301
+          ],
+          [
+            13.05977785357833,
+            52.39754016092913
+          ],
+          [
+            13.05972100053859,
+            52.39752600977868
+          ],
+          [
+            13.05955967382555,
+            52.39749090108361
+          ],
+          [
+            13.05929210735307,
+            52.3974482929051
+          ],
+          [
+            13.05888413348015,
+            52.39738629381514
+          ],
+          [
+            13.05870059273473,
+            52.39735162831509
+          ],
+          [
+            13.05861691150906,
+            52.39733586700841
+          ],
+          [
+            13.05851705622862,
+            52.39731687268081
+          ],
+          [
+            13.05845130792162,
+            52.3973044630288
+          ],
+          [
+            13.05840057329366,
+            52.39729311710224
+          ],
+          [
+            13.05835887595912,
+            52.39728379219028
+          ]
+        ]
+      },
+      "properties": {
+        "name": "132. Am Kanal",
+        "Zwischen": "zwischen Friedrich-Ebert-Straße und Charlottenstraße",
+        "Zielnetz": "Hauptroute 1. Stufe",
+        "Vorhandene Radwegeinfrastruktur": "Schutzstreifen, im Straßenraum, Einrichtungsverkehr (Anlagen für beide Fahrtrichtungen vorhanden)",
+        "Maßnahmen": "An den Engstellen Verbreiterung der Fahrbahn zur durchgängigen Markierung von Schutzstreifen.",
+        "Priorität": "Priorität III",
+        "Länge in Meter": "592",
+        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen Friedrich-Ebert-Straße und Charlottenstraße</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Hauptroute 1. Stufe</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Schutzstreifen, im Straßenraum, Einrichtungsverkehr (Anlagen für beide Fahrtrichtungen vorhanden)</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Schutzstreifen</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">An den Engstellen Verbreiterung der Fahrbahn zur durchgängigen Markierung von Schutzstreifen.</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Priorität III</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">592</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
+        "geo_point_2d": {
+          "lon": 13.062450679229444,
+          "lat": 52.39799647350728
+        },
+        "color": "hsl(126, 70%, 50%)",
+        "id": "367"
       }
     },
     {
@@ -15271,47 +13959,6 @@
           "lat": 52.38537375216268
         },
         "color": "#53886f"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              13.06195139814645,
-              52.41232707601387
-            ],
-            [
-              13.06062045667263,
-              52.4121711797328
-            ],
-            [
-              13.0595448988851,
-              52.41205291031411
-            ],
-            [
-              13.05915539452875,
-              52.41201594343941
-            ]
-          ]
-        ],
-        "type": "MultiLineString"
-      },
-      "properties": {
-        "name": "324. Beyerstraße",
-        "Zwischen": "&lt;Null&gt;",
-        "Zielnetz": "Grundnetz",
-        "Vorhandene Radwegeinfrastruktur": "&lt;Null&gt;",
-        "Maßnahmen": "&lt;Null&gt;",
-        "Priorität": "&lt;Null&gt;",
-        "Länge in Meter": "193",
-        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Grundnetz</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">193</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
-        "geo_point_2d": {
-          "lon": 13.06055393225691,
-          "lat": 52.412166545490415
-        },
-        "color": "#4ede1a"
       }
     },
     {
@@ -31817,83 +30464,21 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              13.05254399242148,
-              52.39547915465626
-            ],
-            [
-              13.05528723352517,
-              52.39516043629476
-            ],
-            [
-              13.05680118509606,
-              52.39496612331188
-            ],
-            [
-              13.05851129846759,
-              52.39476952895412
-            ],
-            [
-              13.0588119839633,
-              52.39472024871439
-            ],
-            [
-              13.05921621793532,
-              52.39458221214606
-            ],
-            [
-              13.0593556892761,
-              52.39451220957662
-            ],
-            [
-              13.05944367972152,
-              52.39445979440865
-            ],
-            [
-              13.05955956344495,
-              52.39439138243544
-            ],
-            [
-              13.05963760248539,
-              52.39435471897368
-            ],
-            [
-              13.05973953273073,
-              52.39432356525015
-            ],
-            [
-              13.0597484430009,
-              52.3943208419295
-            ],
-            [
-              13.05994496491341,
-              52.39428045875439
-            ],
-            [
-              13.06008765140699,
-              52.39425450313192
-            ],
-            [
-              13.06020928851849,
-              52.39423237637118
-            ],
-            [
-              13.06051375974236,
-              52.39418378338979
-            ],
-            [
-              13.06076927140489,
-              52.39412881139009
-            ],
-            [
-              13.06087726030012,
-              52.39408231622911
-            ]
+            13.05254399242148,
+            52.39547915465626
+          ],
+          [
+            13.05528723352517,
+            52.39516043629476
+          ],
+          [
+            13.05680118509606,
+            52.39496612331188
           ]
-        ],
-        "type": "MultiLineString"
+        ]
       },
       "properties": {
         "name": "104. Breite Straße",
@@ -31908,7 +30493,96 @@
           "lon": 13.056744507238365,
           "lat": 52.394915719413355
         },
-        "color": "#a9a109"
+        "color": "#a9a109",
+        "id": "58_1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.05680118509606,
+            52.39496612331188
+          ],
+          [
+            13.05851129846759,
+            52.39476952895412
+          ],
+          [
+            13.0588119839633,
+            52.39472024871439
+          ],
+          [
+            13.05921621793532,
+            52.39458221214606
+          ],
+          [
+            13.0593556892761,
+            52.39451220957662
+          ],
+          [
+            13.05944367972152,
+            52.39445979440865
+          ],
+          [
+            13.05955956344495,
+            52.39439138243544
+          ],
+          [
+            13.05963760248539,
+            52.39435471897368
+          ],
+          [
+            13.05973953273073,
+            52.39432356525015
+          ],
+          [
+            13.0597484430009,
+            52.3943208419295
+          ],
+          [
+            13.05994496491341,
+            52.39428045875439
+          ],
+          [
+            13.06008765140699,
+            52.39425450313192
+          ],
+          [
+            13.06020928851849,
+            52.39423237637118
+          ],
+          [
+            13.06051375974236,
+            52.39418378338979
+          ],
+          [
+            13.06076927140489,
+            52.39412881139009
+          ],
+          [
+            13.06087726030012,
+            52.39408231622911
+          ]
+        ]
+      },
+      "properties": {
+        "name": "104. Breite Straße",
+        "Zwischen": "zwischen Dortustraße und Humboldtstraße",
+        "Zielnetz": "Hauptroute 1. Stufe",
+        "Vorhandene Radwegeinfrastruktur": "Getrennter Geh- und Radweg beidseitigzwischen Dortustraße und Schlossstraße\r\r\n4,50 m – 6,00 m gemeinsamer Geh- und Radweg/ Zweirichtungsverkehr im Bereich des Landtags\r\r\n2,50 m  - 4,50 m gemeinsamer Geh- und Radweg im Bereich des Hotels.",
+        "Maßnahmen": "Maßnahmen der Sicherheitsbetrachtung umsetzen. Aufweitung der Furt an der Ampel Filmmuseum über die Breite Straße.",
+        "Priorität": "Priorität II",
+        "Länge in Meter": "595",
+        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen Dortustraße und Humboldtstraße</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Hauptroute 1. Stufe</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Getrennter Geh- und Radweg beidseitigzwischen Dortustraße und Schlossstraße\r\r\n4,50 m – 6,00 m gemeinsamer Geh- und Radweg/ Zweirichtungsverkehr im Bereich des Landtags\r\r\n2,50 m  - 4,50 m gemeinsamer Geh- und Radweg im Bereich des Hotels.</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Getrennter Geh- und Radweg</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Maßnahmen der Sicherheitsbetrachtung umsetzen. Aufweitung der Furt an der Ampel Filmmuseum über die Breite Straße.</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Priorität II</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">595</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
+        "geo_point_2d": {
+          "lon": 13.056744507238365,
+          "lat": 52.394915719413355
+        },
+        "color": "hsl(95, 70%, 50%)",
+        "id": "58_1"
       }
     },
     {
@@ -34447,7 +33121,8 @@
           "lon": 13.058012464773865,
           "lat": 52.39852198258518
         },
-        "color": "#589f72"
+        "color": "#589f72",
+        "id": "26"
       }
     },
     {
@@ -34736,87 +33411,6 @@
           "lat": 52.40390380481423
         },
         "color": "#efab07"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              13.06319865947788,
-              52.40942658654677
-            ],
-            [
-              13.06351967107981,
-              52.40954981681323
-            ],
-            [
-              13.06359172181499,
-              52.40951278280411
-            ],
-            [
-              13.06367385389248,
-              52.40948391647351
-            ],
-            [
-              13.06389166183855,
-              52.40942562209242
-            ],
-            [
-              13.06403568742049,
-              52.40936333138898
-            ],
-            [
-              13.06425474655068,
-              52.40922943714159
-            ],
-            [
-              13.06432926231561,
-              52.40918309175445
-            ],
-            [
-              13.06452483751623,
-              52.40895149865641
-            ],
-            [
-              13.06468206403035,
-              52.40869237851604
-            ],
-            [
-              13.0647591999788,
-              52.40848547527919
-            ],
-            [
-              13.06453246474439,
-              52.40833307234824
-            ],
-            [
-              13.06433176294433,
-              52.40825246663238
-            ],
-            [
-              13.0640371692712,
-              52.40823508449347
-            ]
-          ]
-        ],
-        "type": "MultiLineString"
-      },
-      "properties": {
-        "name": "323. Im Neuen Garten",
-        "Zwischen": "&lt;Null&gt;",
-        "Zielnetz": "Grundnetz",
-        "Vorhandene Radwegeinfrastruktur": "&lt;Null&gt;",
-        "Maßnahmen": "&lt;Null&gt;",
-        "Priorität": "&lt;Null&gt;",
-        "Länge in Meter": "238",
-        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Grundnetz</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">238</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
-        "geo_point_2d": {
-          "lon": 13.064180927694522,
-          "lat": 52.40894775348463
-        },
-        "color": "#52db40"
       }
     },
     {
@@ -48405,55 +46999,6 @@
         "coordinates": [
           [
             [
-              13.06171220257043,
-              52.40941912313505
-            ],
-            [
-              13.06203719580828,
-              52.40974320614358
-            ],
-            [
-              13.06222285303837,
-              52.40993876121851
-            ],
-            [
-              13.06232494023106,
-              52.41008529025275
-            ],
-            [
-              13.0624076358855,
-              52.41023815511367
-            ],
-            [
-              13.06248242217688,
-              52.4105681155035
-            ]
-          ]
-        ],
-        "type": "MultiLineString"
-      },
-      "properties": {
-        "name": "326. Große Weinmeisterstraße",
-        "Zwischen": "&lt;Null&gt;",
-        "Zielnetz": "Grundnetz",
-        "Vorhandene Radwegeinfrastruktur": "&lt;Null&gt;",
-        "Maßnahmen": "&lt;Null&gt;",
-        "Priorität": "&lt;Null&gt;",
-        "Länge in Meter": "140",
-        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Grundnetz</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">140</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
-        "geo_point_2d": {
-          "lon": 13.062169582169261,
-          "lat": 52.40995176416991
-        },
-        "color": "#f87853"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "coordinates": [
-          [
-            [
               13.05397836376451,
               52.3759837203929
             ],
@@ -49991,63 +48536,6 @@
           "lat": 52.405589983026125
         },
         "color": "#3800c7"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              13.061988238189,
-              52.39553631160281
-            ],
-            [
-              13.06196927933029,
-              52.39555973867894
-            ],
-            [
-              13.06173633005878,
-              52.39587781973582
-            ],
-            [
-              13.06159698097962,
-              52.39607245154787
-            ],
-            [
-              13.06135748828931,
-              52.39665702731193
-            ],
-            [
-              13.06127272419867,
-              52.39686379374246
-            ],
-            [
-              13.06102060445309,
-              52.39747801397765
-            ],
-            [
-              13.06093396663779,
-              52.39775425495539
-            ]
-          ]
-        ],
-        "type": "MultiLineString"
-      },
-      "properties": {
-        "name": "152. Am Alten Markt",
-        "Zwischen": "zwischen Am Kanal und Humboldtstraße",
-        "Zielnetz": "Hauptroute 2. Stufe",
-        "Vorhandene Radwegeinfrastruktur": "Mischverkehr",
-        "Maßnahmen": "-",
-        "Priorität": "Keine Maßnahmen",
-        "Länge in Meter": "258",
-        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen Am Kanal und Humboldtstraße</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Hauptroute 2. Stufe</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Mischverkehr</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Mischverkehr</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">-</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Keine Maßnahmen</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">258</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
-        "geo_point_2d": {
-          "lon": 13.061399609352868,
-          "lat": 52.39661284021656
-        },
-        "color": "#81293e"
       }
     },
     {
@@ -51910,216 +50398,33 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              13.06555198977549,
-              52.39847369885937
-            ],
-            [
-              13.06559112106066,
-              52.39840658217867
-            ],
-            [
-              13.06569365395943,
-              52.39823678959
-            ],
-            [
-              13.06590271552034,
-              52.39780915133468
-            ],
-            [
-              13.06619273084806,
-              52.3970663311804
-            ],
-            [
-              13.06645515650336,
-              52.39709885885591
-            ],
-            [
-              13.06653799992176,
-              52.39710021424148
-            ],
-            [
-              13.06659106590643,
-              52.39707662511491
-            ],
-            [
-              13.06661382716604,
-              52.39704687544666
-            ],
-            [
-              13.06666122096183,
-              52.39694793334925
-            ],
-            [
-              13.06675792558568,
-              52.3966994574442
-            ],
-            [
-              13.06676986031784,
-              52.39666854155622
-            ],
-            [
-              13.06678007666031,
-              52.39659623594702
-            ],
-            [
-              13.06637941513857,
-              52.3965237865355
-            ],
-            [
-              13.06628365162421,
-              52.39650646991238
-            ],
-            [
-              13.06614333893545,
-              52.39648825870385
-            ],
-            [
-              13.06518188861393,
-              52.39635383184634
-            ],
-            [
-              13.0649084083184,
-              52.39630196806051
-            ],
-            [
-              13.06472081195784,
-              52.39626256984046
-            ],
-            [
-              13.06436753687722,
-              52.3962405091861
-            ],
-            [
-              13.06397837532266,
-              52.39617865594454
-            ],
-            [
-              13.06346517180216,
-              52.39609633594612
-            ],
-            [
-              13.06334136098909,
-              52.39607056905699
-            ],
-            [
-              13.06321386921051,
-              52.39603152397049
-            ],
-            [
-              13.06310820142566,
-              52.39598753135535
-            ],
-            [
-              13.0627719230504,
-              52.39582583423697
-            ],
-            [
-              13.06254083993508,
-              52.39576926491885
-            ],
-            [
-              13.061988238189,
-              52.39553631160281
-            ],
-            [
-              13.06167479977458,
-              52.39534414625975
-            ],
-            [
-              13.0615384920314,
-              52.39525983328392
-            ],
-            [
-              13.06142503290336,
-              52.39518660067908
-            ],
-            [
-              13.06137017928797,
-              52.39510719222491
-            ],
-            [
-              13.0613083570353,
-              52.39492061220958
-            ],
-            [
-              13.06126417920812,
-              52.39473075304588
-            ],
-            [
-              13.06119241915017,
-              52.39450475560292
-            ],
-            [
-              13.06111612613845,
-              52.39438217238455
-            ],
-            [
-              13.06101209492954,
-              52.39422701682656
-            ],
-            [
-              13.06087726030012,
-              52.39408231622911
-            ]
-          ]
-        ],
-        "type": "MultiLineString"
-      },
-      "properties": {
-        "name": "155. Humboldtstraße / Burgstraße",
-        "Zwischen": "zwischen Breite Straße und Am Kanal",
-        "Zielnetz": "Hauptroute 2. Stufe",
-        "Vorhandene Radwegeinfrastruktur": "Mischverkehr und sonstiger Weg",
-        "Maßnahmen": "-",
-        "Priorität": "Keine Maßnahmen",
-        "Länge in Meter": "782",
-        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen Breite Straße und Am Kanal</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Hauptroute 2. Stufe</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Mischverkehr und sonstiger Weg</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Mischverkehr und Grünweg</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">-</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Keine Maßnahmen</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">782</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
-        "geo_point_2d": {
-          "lon": 13.064215369665497,
-          "lat": 52.39625172132765
-        },
-        "color": "#acde79"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "coordinates": [
+            13.06008765140699,
+            52.39425450313192
+          ],
           [
-            [
-              13.06008765140699,
-              52.39425450313192
-            ],
-            [
-              13.05980719769933,
-              52.39441413216879
-            ],
-            [
-              13.05958102300108,
-              52.39460550074171
-            ],
-            [
-              13.05944075855227,
-              52.39478876344568
-            ],
-            [
-              13.05924780827722,
-              52.39510914565675
-            ],
-            [
-              13.05886210788016,
-              52.39574515433087
-            ],
-            [
-              13.05835887595912,
-              52.39728379219028
-            ]
+            13.05980719769933,
+            52.39441413216879
+          ],
+          [
+            13.05958102300108,
+            52.39460550074171
+          ],
+          [
+            13.05944075855227,
+            52.39478876344568
+          ],
+          [
+            13.05924780827722,
+            52.39510914565675
+          ],
+          [
+            13.05886210788016,
+            52.39574515433087
           ]
-        ],
-        "type": "MultiLineString"
+        ]
       },
       "properties": {
         "name": "144. Friedrich-Ebert-Straße",
@@ -52134,7 +50439,40 @@
           "lon": 13.059046947025424,
           "lat": 52.39564699326117
         },
-        "color": "#06d16a"
+        "color": "#06d16a",
+        "id": "362_1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.05886210788016,
+            52.39574515433087
+          ],
+          [
+            13.05835887595912,
+            52.39728379219028
+          ]
+        ]
+      },
+      "properties": {
+        "name": "144. Friedrich-Ebert-Straße",
+        "Zwischen": "zwischen Am Kanal und Breite Straße",
+        "Zielnetz": "Hauptroute 1. Stufe",
+        "Vorhandene Radwegeinfrastruktur": "Abgesetzter getrennter Geh- und Radweg im Zweirichtungsverkehr sowie Mischverkehr auf der Fahrbahn.",
+        "Maßnahmen": "Unfallentwicklung weiter beobachten",
+        "Priorität": "Priorität III",
+        "Länge in Meter": "363",
+        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen Am Kanal und Breite Straße</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Hauptroute 1. Stufe</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Abgesetzter getrennter Geh- und Radweg im Zweirichtungsverkehr sowie Mischverkehr auf der Fahrbahn.</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Wie Bestand</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Unfallentwicklung weiter beobachten</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Priorität III</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">363</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
+        "geo_point_2d": {
+          "lon": 13.059046947025424,
+          "lat": 52.39564699326117
+        },
+        "color": "hsl(107, 70%, 50%)",
+        "id": "362_2"
       }
     },
     {
@@ -56814,115 +55152,6 @@
           "lat": 52.391954604372316
         },
         "color": "#b8a4d1"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              13.06346517180216,
-              52.39609633594612
-            ],
-            [
-              13.06374291921105,
-              52.39585249934171
-            ],
-            [
-              13.06355511340929,
-              52.3957007316168
-            ],
-            [
-              13.06299274495098,
-              52.39522165328653
-            ],
-            [
-              13.06284764418767,
-              52.39512628724252
-            ],
-            [
-              13.06092317441412,
-              52.39386139321071
-            ],
-            [
-              13.06072563031387,
-              52.39374975290671
-            ],
-            [
-              13.06054414015764,
-              52.39341504898074
-            ],
-            [
-              13.06010583214858,
-              52.3923253868384
-            ],
-            [
-              13.05959950767242,
-              52.39198810542195
-            ],
-            [
-              13.0573169302361,
-              52.39069739298908
-            ],
-            [
-              13.05694640278909,
-              52.39063420385612
-            ],
-            [
-              13.05649272955509,
-              52.39069335685053
-            ],
-            [
-              13.05616005664888,
-              52.39083062822534
-            ],
-            [
-              13.05578375883463,
-              52.39115392261267
-            ],
-            [
-              13.05506291211367,
-              52.39137403232225
-            ],
-            [
-              13.05477268549825,
-              52.3916512119832
-            ],
-            [
-              13.05428880721058,
-              52.39199887533717
-            ],
-            [
-              13.05402714139643,
-              52.39228956927355
-            ],
-            [
-              13.05386647635017,
-              52.39245057761543
-            ],
-            [
-              13.05071571173126,
-              52.39269962601579
-            ]
-          ]
-        ],
-        "type": "MultiLineString"
-      },
-      "properties": {
-        "name": "350.",
-        "Zwischen": "&lt;Null&gt;",
-        "Zielnetz": "Grundnetz",
-        "Vorhandene Radwegeinfrastruktur": "&lt;Null&gt;",
-        "Maßnahmen": "&lt;Null&gt;",
-        "Priorität": "&lt;Null&gt;",
-        "Länge in Meter": "1.317",
-        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Grundnetz</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">1.317</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
-        "geo_point_2d": {
-          "lon": 13.057726145237341,
-          "lat": 52.39266529282027
-        },
-        "color": "#0955d1"
       }
     },
     {
