@@ -185,6 +185,7 @@
         font-weight: 500;
         padding: 0.25rem 1rem;
         transition: .1s ease-out translate, .1s ease-out background;
+        border: none;
 
         &:hover {
             background: color-mix(in oklch, var(--button-color) 70%, white 30%);
