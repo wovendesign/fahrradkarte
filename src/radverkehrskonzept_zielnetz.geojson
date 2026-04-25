@@ -6380,123 +6380,53 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              13.05790658312669,
-              52.40363616218895
-            ],
-            [
-              13.05776767278481,
-              52.40363244079083
-            ],
-            [
-              13.05762461016955,
-              52.40361615258343
-            ],
-            [
-              13.0574198112716,
-              52.4035829342449
-            ],
-            [
-              13.05691014609523,
-              52.40345856354868
-            ],
-            [
-              13.0564531016318,
-              52.40337794620051
-            ],
-            [
-              13.05640437885159,
-              52.4033693222058
-            ],
-            [
-              13.05574966279143,
-              52.40325398037246
-            ],
-            [
-              13.05546026429072,
-              52.40321235335076
-            ],
-            [
-              13.05518153110737,
-              52.40317224987103
-            ],
-            [
-              13.05398157196109,
-              52.40295306252465
-            ],
-            [
-              13.0530034159789,
-              52.40275828788731
-            ],
-            [
-              13.05275829569443,
-              52.40270947097923
-            ],
-            [
-              13.05249147044145,
-              52.40266281356035
-            ],
-            [
-              13.05245256403822,
-              52.40265497910022
-            ],
-            [
-              13.05195332538222,
-              52.40255476640181
-            ],
-            [
-              13.05136867807774,
-              52.40244118446433
-            ],
-            [
-              13.05057643604885,
-              52.40230142663398
-            ],
-            [
-              13.04980761213931,
-              52.402164117971
-            ],
-            [
-              13.04923064255782,
-              52.40205334956743
-            ],
-            [
-              13.04903691869248,
-              52.40201931032016
-            ],
-            [
-              13.04791729398687,
-              52.40181658297638
-            ],
-            [
-              13.04746906602942,
-              52.40174012250378
-            ],
-            [
-              13.04720944247553,
-              52.40168709804586
-            ],
-            [
-              13.04706926823068,
-              52.40163892426432
-            ],
-            [
-              13.04703134792476,
-              52.401605478028
-            ],
-            [
-              13.04699149412818,
-              52.40156921240838
-            ],
-            [
-              13.04697441734774,
-              52.40151650874456
-            ]
+            13.05790658312669,
+            52.40363616218895
+          ],
+          [
+            13.05776767278481,
+            52.40363244079083
+          ],
+          [
+            13.05762461016955,
+            52.40361615258343
+          ],
+          [
+            13.0574198112716,
+            52.4035829342449
+          ],
+          [
+            13.05691014609523,
+            52.40345856354868
+          ],
+          [
+            13.0564531016318,
+            52.40337794620051
+          ],
+          [
+            13.05640437885159,
+            52.4033693222058
+          ],
+          [
+            13.05574966279143,
+            52.40325398037246
+          ],
+          [
+            13.05546026429072,
+            52.40321235335076
+          ],
+          [
+            13.05518153110737,
+            52.40317224987103
+          ],
+          [
+            13.05398157196109,
+            52.40295306252465
           ]
-        ],
-        "type": "MultiLineString"
+        ]
       },
       "properties": {
         "name": "140. Hegelallee",
@@ -6511,7 +6441,132 @@
           "lon": 13.052406448534523,
           "lat": 52.40264368530346
         },
-        "color": "#830fcd"
+        "color": "#830fcd",
+        "id": "379"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.05398157196109,
+            52.40295306252465
+          ],
+          [
+            13.0530034159789,
+            52.40275828788731
+          ],
+          [
+            13.05275829569443,
+            52.40270947097923
+          ]
+        ]
+      },
+      "properties": {
+        "name": "140. Hegelallee",
+        "Zwischen": "zwischen Friedrich-Ebert-Straße und Schopenhauerstraße",
+        "Zielnetz": "Hauptroute 1. Stufe",
+        "Vorhandene Radwegeinfrastruktur": "getrennter Rad- und Fußweg, im Einrichtungsver- kehr, Radfahren auf der Mittelpromenade der He- gelallee in beiden Fahrtrichtungen zulässig",
+        "Maßnahmen": "Beobachtung der Unfallentwicklung und ggf. Kreuzungsumbau Hegelallee/Jägerallee wie im Radsicherheitskonzept dargestellt.",
+        "Priorität": "&lt;Null&gt;",
+        "Länge in Meter": "786",
+        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen Friedrich-Ebert-Straße und Schopenhauerstraße</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Hauptroute 1. Stufe</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">getrennter Rad- und Fußweg, im Einrichtungsver- kehr, Radfahren auf der Mittelpromenade der He- gelallee in beiden Fahrtrichtungen zulässig</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Auf Mittelpromenade wie im Bestand\r\r\ngetrennter  Geh-  und  Radweg  (in  Fahrtrichtung Westen)</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Beobachtung der Unfallentwicklung und ggf. Kreuzungsumbau Hegelallee/Jägerallee wie im Radsicherheitskonzept dargestellt.</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">786</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
+        "geo_point_2d": {
+          "lon": 13.052406448534523,
+          "lat": 52.40264368530346
+        },
+        "color": "hsl(164, 70%, 50%)",
+        "id": "378"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.05275829569443,
+            52.40270947097923
+          ],
+          [
+            13.05249147044145,
+            52.40266281356035
+          ],
+          [
+            13.05245256403822,
+            52.40265497910022
+          ],
+          [
+            13.05195332538222,
+            52.40255476640181
+          ],
+          [
+            13.05136867807774,
+            52.40244118446433
+          ],
+          [
+            13.05057643604885,
+            52.40230142663398
+          ],
+          [
+            13.04980761213931,
+            52.402164117971
+          ],
+          [
+            13.04923064255782,
+            52.40205334956743
+          ],
+          [
+            13.04903691869248,
+            52.40201931032016
+          ],
+          [
+            13.04791729398687,
+            52.40181658297638
+          ],
+          [
+            13.04746906602942,
+            52.40174012250378
+          ],
+          [
+            13.04720944247553,
+            52.40168709804586
+          ],
+          [
+            13.04706926823068,
+            52.40163892426432
+          ],
+          [
+            13.04703134792476,
+            52.401605478028
+          ],
+          [
+            13.04699149412818,
+            52.40156921240838
+          ],
+          [
+            13.04697441734774,
+            52.40151650874456
+          ]
+        ]
+      },
+      "properties": {
+        "name": "140. Hegelallee",
+        "Zwischen": "zwischen Friedrich-Ebert-Straße und Schopenhauerstraße",
+        "Zielnetz": "Hauptroute 1. Stufe",
+        "Vorhandene Radwegeinfrastruktur": "getrennter Rad- und Fußweg, im Einrichtungsver- kehr, Radfahren auf der Mittelpromenade der He- gelallee in beiden Fahrtrichtungen zulässig",
+        "Maßnahmen": "Beobachtung der Unfallentwicklung und ggf. Kreuzungsumbau Hegelallee/Jägerallee wie im Radsicherheitskonzept dargestellt.",
+        "Priorität": "&lt;Null&gt;",
+        "Länge in Meter": "786",
+        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen Friedrich-Ebert-Straße und Schopenhauerstraße</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Hauptroute 1. Stufe</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">getrennter Rad- und Fußweg, im Einrichtungsver- kehr, Radfahren auf der Mittelpromenade der He- gelallee in beiden Fahrtrichtungen zulässig</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Auf Mittelpromenade wie im Bestand\r\r\ngetrennter  Geh-  und  Radweg  (in  Fahrtrichtung Westen)</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Beobachtung der Unfallentwicklung und ggf. Kreuzungsumbau Hegelallee/Jägerallee wie im Radsicherheitskonzept dargestellt.</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">786</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
+        "geo_point_2d": {
+          "lon": 13.052406448534523,
+          "lat": 52.40264368530346
+        },
+        "color": "hsl(289, 70%, 50%)",
+        "id": "73"
       }
     },
     {
@@ -9843,175 +9898,6 @@
         "coordinates": [
           [
             [
-              13.05384898442684,
-              52.40611540448389
-            ],
-            [
-              13.0538071268212,
-              52.4061210993049
-            ],
-            [
-              13.05323860691442,
-              52.40618097196583
-            ],
-            [
-              13.0530753958369,
-              52.4061980651431
-            ],
-            [
-              13.05286762001378,
-              52.40622890048061
-            ],
-            [
-              13.05259021425433,
-              52.4062584083378
-            ],
-            [
-              13.05240217056305,
-              52.40627850824571
-            ],
-            [
-              13.05159316359602,
-              52.40627065896052
-            ],
-            [
-              13.05156091404292,
-              52.40627183571845
-            ],
-            [
-              13.05140025787416,
-              52.40627763921334
-            ],
-            [
-              13.05059866254291,
-              52.40637510777161
-            ],
-            [
-              13.05042858870763,
-              52.40639442194104
-            ],
-            [
-              13.04988069292068,
-              52.40645650694503
-            ],
-            [
-              13.04981702241483,
-              52.40644673444547
-            ],
-            [
-              13.04974706901521,
-              52.40641941440784
-            ],
-            [
-              13.04968571580147,
-              52.40638711099777
-            ],
-            [
-              13.04964329065514,
-              52.40635233249358
-            ],
-            [
-              13.04944462309068,
-              52.40641990821062
-            ],
-            [
-              13.04934178107247,
-              52.40645489687594
-            ],
-            [
-              13.04894329009218,
-              52.40655621923411
-            ],
-            [
-              13.04769201880912,
-              52.40689162661177
-            ],
-            [
-              13.04759237872059,
-              52.40692729607621
-            ],
-            [
-              13.04745449284056,
-              52.4069767202888
-            ],
-            [
-              13.04703210312181,
-              52.40722942076675
-            ],
-            [
-              13.04701337358262,
-              52.40726399894385
-            ],
-            [
-              13.04691136684495,
-              52.40742308431823
-            ],
-            [
-              13.04694535757151,
-              52.40751563076118
-            ],
-            [
-              13.04729556098318,
-              52.4080218034657
-            ],
-            [
-              13.04736255399908,
-              52.40809286544194
-            ],
-            [
-              13.04742588207951,
-              52.40816036008181
-            ],
-            [
-              13.04794300903722,
-              52.40871235836108
-            ],
-            [
-              13.04827110404523,
-              52.40904372454423
-            ],
-            [
-              13.04863997176278,
-              52.40942081116129
-            ],
-            [
-              13.04876841455019,
-              52.40955214187116
-            ],
-            [
-              13.04941753793861,
-              52.41021574090078
-            ],
-            [
-              13.04962971166799,
-              52.41042227396267
-            ]
-          ]
-        ],
-        "type": "MultiLineString"
-      },
-      "properties": {
-        "name": "320. Schlegelstraße / Brentanoweg / Ulanenweg",
-        "Zwischen": "&lt;Null&gt;",
-        "Zielnetz": "Grundnetz",
-        "Vorhandene Radwegeinfrastruktur": "&lt;Null&gt;",
-        "Maßnahmen": "&lt;Null&gt;",
-        "Priorität": "&lt;Null&gt;",
-        "Länge in Meter": "904",
-        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Grundnetz</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">904</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
-        "geo_point_2d": {
-          "lon": 13.049537799347945,
-          "lat": 52.4073822452026
-        },
-        "color": "#9fc622"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "coordinates": [
-          [
-            [
               13.04059060441689,
               52.38005618776111
             ],
@@ -12513,7 +12399,8 @@
           "lon": 13.045529359144137,
           "lat": 52.39812118751582
         },
-        "color": "#3000d3"
+        "color": "#3000d3",
+        "id": "151_1"
       }
     },
     {
@@ -12566,7 +12453,8 @@
           "lon": 13.047853512491605,
           "lat": 52.39612411951051
         },
-        "color": "#23e6cb"
+        "color": "hsl(350, 70%, 50%)",
+        "id": "20"
       }
     },
     {
@@ -37643,63 +37531,37 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              13.04697825237742,
-              52.40150290477608
-            ],
-            [
-              13.04698627147545,
-              52.40145448225201
-            ],
-            [
-              13.04703822012317,
-              52.40135337512049
-            ],
-            [
-              13.0471537649641,
-              52.40113705649065
-            ],
-            [
-              13.04726916572131,
-              52.40092064545085
-            ],
-            [
-              13.04750972979748,
-              52.40046973122239
-            ],
-            [
-              13.04753674911404,
-              52.40042045364347
-            ],
-            [
-              13.04764255000384,
-              52.4001949818833
-            ],
-            [
-              13.04772862254568,
-              52.39997350013535
-            ],
-            [
-              13.04778456148073,
-              52.39975529705792
-            ],
-            [
-              13.0477931673656,
-              52.39972019184771
-            ],
-            [
-              13.04782270436637,
-              52.3996005509696
-            ],
-            [
-              13.04785181760285,
-              52.39951381261756
-            ]
+            13.04697825237742,
+            52.40150290477608
+          ],
+          [
+            13.04698627147545,
+            52.40145448225201
+          ],
+          [
+            13.04703822012317,
+            52.40135337512049
+          ],
+          [
+            13.0471537649641,
+            52.40113705649065
+          ],
+          [
+            13.04726916572131,
+            52.40092064545085
+          ],
+          [
+            13.04750972979748,
+            52.40046973122239
+          ],
+          [
+            13.04753674911404,
+            52.40042045364347
           ]
-        ],
-        "type": "MultiLineString"
+        ]
       },
       "properties": {
         "name": "141. Schopenhauerstraße",
@@ -37714,7 +37576,88 @@
           "lon": 13.047453089058914,
           "lat": 52.40052417414107
         },
-        "color": "#c1d7da"
+        "color": "#c1d7da",
+        "id": "374"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.04753674911404,
+            52.40042045364347
+          ],
+          [
+            13.04764255000384,
+            52.4001949818833
+          ],
+          [
+            13.04772862254568,
+            52.39997350013535
+          ]
+        ]
+      },
+      "properties": {
+        "name": "141. Schopenhauerstraße",
+        "Zwischen": "zwischen Hegelallee und Brandenburger Tor",
+        "Zielnetz": "Hauptroute 1. Stufe",
+        "Vorhandene Radwegeinfrastruktur": "Mittelpromenade lässt Radverkehr im Zweirich- tungsverkehr zu und zusätzlicher Einrichtungsrad- weg in Fahrtrichtung Süd.",
+        "Maßnahmen": "Bordabsenkung im ganzen Bereich der Fußgänger- und Radfurten am Brandenburger Tor sowie Verbesserungen an der Furtmarkierung prüfen.",
+        "Priorität": "Priorität III",
+        "Länge in Meter": "230",
+        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen Hegelallee und Brandenburger Tor</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Hauptroute 1. Stufe</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Mittelpromenade lässt Radverkehr im Zweirich- tungsverkehr zu und zusätzlicher Einrichtungsrad- weg in Fahrtrichtung Süd.</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Mittelpromenade Schopenhauerstraße wie im Be- stand belassen.\r\r\ngetrennter Geh- und Radweg in Fahrtrichtung Sü- den</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Bordabsenkung im ganzen Bereich der Fußgänger- und Radfurten am Brandenburger Tor sowie Verbesserungen an der Furtmarkierung prüfen.</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Priorität III</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">230</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
+        "geo_point_2d": {
+          "lon": 13.047453089058914,
+          "lat": 52.40052417414107
+        },
+        "color": "hsl(207, 70%, 50%)",
+        "id": "375"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.04772862254568,
+            52.39997350013535
+          ],
+          [
+            13.04778456148073,
+            52.39975529705792
+          ],
+          [
+            13.0477931673656,
+            52.39972019184771
+          ],
+          [
+            13.04782270436637,
+            52.3996005509696
+          ],
+          [
+            13.04785181760285,
+            52.39951381261756
+          ]
+        ]
+      },
+      "properties": {
+        "name": "141. Schopenhauerstraße",
+        "Zwischen": "zwischen Hegelallee und Brandenburger Tor",
+        "Zielnetz": "Hauptroute 1. Stufe",
+        "Vorhandene Radwegeinfrastruktur": "Mittelpromenade lässt Radverkehr im Zweirich- tungsverkehr zu und zusätzlicher Einrichtungsrad- weg in Fahrtrichtung Süd.",
+        "Maßnahmen": "Bordabsenkung im ganzen Bereich der Fußgänger- und Radfurten am Brandenburger Tor sowie Verbesserungen an der Furtmarkierung prüfen.",
+        "Priorität": "Priorität III",
+        "Länge in Meter": "230",
+        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen Hegelallee und Brandenburger Tor</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Hauptroute 1. Stufe</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Mittelpromenade lässt Radverkehr im Zweirich- tungsverkehr zu und zusätzlicher Einrichtungsrad- weg in Fahrtrichtung Süd.</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Mittelpromenade Schopenhauerstraße wie im Be- stand belassen.\r\r\ngetrennter Geh- und Radweg in Fahrtrichtung Sü- den</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Bordabsenkung im ganzen Bereich der Fußgänger- und Radfurten am Brandenburger Tor sowie Verbesserungen an der Furtmarkierung prüfen.</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Priorität III</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">230</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
+        "geo_point_2d": {
+          "lon": 13.047453089058914,
+          "lat": 52.40052417414107
+        },
+        "color": "hsl(141, 70%, 50%)",
+        "id": "151_2"
       }
     },
     {
@@ -42020,7 +41963,8 @@
           "lon": 13.044088817161366,
           "lat": 52.40302722262621
         },
-        "color": "#cbbd42"
+        "color": "#cbbd42",
+        "id": "153"
       }
     },
     {
@@ -48806,83 +48750,29 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              13.05275829569443,
-              52.40270947097923
-            ],
-            [
-              13.05278624703572,
-              52.40281918023928
-            ],
-            [
-              13.05287615607474,
-              52.4031710667151
-            ],
-            [
-              13.05294801876022,
-              52.40340198766211
-            ],
-            [
-              13.05317171098116,
-              52.40412113931411
-            ],
-            [
-              13.05329848032921,
-              52.40447740903551
-            ],
-            [
-              13.05341230983164,
-              52.40479704923573
-            ],
-            [
-              13.05345256831106,
-              52.40490444332178
-            ],
-            [
-              13.05359811675262,
-              52.40532781024773
-            ],
-            [
-              13.05364180311215,
-              52.40545488225541
-            ],
-            [
-              13.05384898442684,
-              52.40611540448389
-            ],
-            [
-              13.05390365739995,
-              52.40626277886676
-            ],
-            [
-              13.05411127744804,
-              52.40691699212474
-            ],
-            [
-              13.05423664353006,
-              52.40731201296485
-            ],
-            [
-              13.05430241336653,
-              52.40754804770512
-            ],
-            [
-              13.05436233909947,
-              52.40776321546531
-            ],
-            [
-              13.05456594016045,
-              52.40836190445557
-            ],
-            [
-              13.05460108926273,
-              52.40846525761783
-            ]
+            13.05275829569443,
+            52.40270947097923
+          ],
+          [
+            13.05278624703572,
+            52.40281918023928
+          ],
+          [
+            13.05287615607474,
+            52.4031710667151
+          ],
+          [
+            13.05294801876022,
+            52.40340198766211
+          ],
+          [
+            13.05317171098116,
+            52.40412113931411
           ]
-        ],
-        "type": "MultiLineString"
+        ]
       },
       "properties": {
         "name": "108. Jägerallee",
@@ -48897,7 +48787,116 @@
           "lon": 13.05367046891374,
           "lat": 52.405589983026125
         },
-        "color": "#3800c7"
+        "color": "#3800c7",
+        "id": "440_2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.05317171098116,
+            52.40412113931411
+          ],
+          [
+            13.05329848032921,
+            52.40447740903551
+          ],
+          [
+            13.05341230983164,
+            52.40479704923573
+          ],
+          [
+            13.05345256831106,
+            52.40490444332178
+          ],
+          [
+            13.05359811675262,
+            52.40532781024773
+          ],
+          [
+            13.05364180311215,
+            52.40545488225541
+          ],
+          [
+            13.05384898442684,
+            52.40611540448389
+          ]
+        ]
+      },
+      "properties": {
+        "name": "108. Jägerallee",
+        "Zwischen": "zwischen Voltaireweg/ Reiterweg und Hegelallee",
+        "Zielnetz": "Hauptroute 1. Stufe",
+        "Vorhandene Radwegeinfrastruktur": "Schutzstreifen, im Straßenraum, Einrichtungsverkehr",
+        "Maßnahmen": "Unfälle  an  der  Kreuzung  Jägerallee/  Hegelallee weiter beobachten.",
+        "Priorität": "Keine Maßnahmen",
+        "Länge in Meter": "653",
+        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen Voltaireweg/ Reiterweg und Hegelallee</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Hauptroute 1. Stufe</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Schutzstreifen, im Straßenraum, Einrichtungsverkehr</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Schutzstreifen</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Unfälle  an  der  Kreuzung  Jägerallee/  Hegelallee weiter beobachten.</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Keine Maßnahmen</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">653</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
+        "geo_point_2d": {
+          "lon": 13.05367046891374,
+          "lat": 52.405589983026125
+        },
+        "color": "hsl(242, 70%, 50%)",
+        "id": "440_1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.05384898442684,
+            52.40611540448389
+          ],
+          [
+            13.05390365739995,
+            52.40626277886676
+          ],
+          [
+            13.05411127744804,
+            52.40691699212474
+          ],
+          [
+            13.05423664353006,
+            52.40731201296485
+          ],
+          [
+            13.05430241336653,
+            52.40754804770512
+          ],
+          [
+            13.05436233909947,
+            52.40776321546531
+          ],
+          [
+            13.05456594016045,
+            52.40836190445557
+          ],
+          [
+            13.05460108926273,
+            52.40846525761783
+          ]
+        ]
+      },
+      "properties": {
+        "name": "108. Jägerallee",
+        "Zwischen": "zwischen Voltaireweg/ Reiterweg und Hegelallee",
+        "Zielnetz": "Hauptroute 1. Stufe",
+        "Vorhandene Radwegeinfrastruktur": "Schutzstreifen, im Straßenraum, Einrichtungsverkehr",
+        "Maßnahmen": "Unfälle  an  der  Kreuzung  Jägerallee/  Hegelallee weiter beobachten.",
+        "Priorität": "Keine Maßnahmen",
+        "Länge in Meter": "653",
+        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen Voltaireweg/ Reiterweg und Hegelallee</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Hauptroute 1. Stufe</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Schutzstreifen, im Straßenraum, Einrichtungsverkehr</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Schutzstreifen</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Unfälle  an  der  Kreuzung  Jägerallee/  Hegelallee weiter beobachten.</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Keine Maßnahmen</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">653</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
+        "geo_point_2d": {
+          "lon": 13.05367046891374,
+          "lat": 52.405589983026125
+        },
+        "color": "hsl(71, 70%, 50%)",
+        "id": "166"
       }
     },
     {
@@ -49413,471 +49412,73 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              13.04772862254568,
-              52.39997350013535
-            ],
-            [
-              13.04686670229891,
-              52.39983499369428
-            ],
-            [
-              13.04673267625779,
-              52.39981416584882
-            ],
-            [
-              13.04657382560192,
-              52.39980956212749
-            ],
-            [
-              13.04639735983371,
-              52.39982435877931
-            ],
-            [
-              13.0462528094014,
-              52.39990199511796
-            ],
-            [
-              13.04618455572425,
-              52.39991965934804
-            ],
-            [
-              13.04601534259085,
-              52.39996325878861
-            ],
-            [
-              13.04596984134463,
-              52.39997500490327
-            ],
-            [
-              13.04592865159976,
-              52.39998565337115
-            ],
-            [
-              13.04555927336906,
-              52.40005804264695
-            ],
-            [
-              13.04539200864026,
-              52.40009079349223
-            ],
-            [
-              13.04506533533163,
-              52.40015480592985
-            ],
-            [
-              13.04468423846092,
-              52.40022951630859
-            ],
-            [
-              13.04429821672343,
-              52.40031916007293
-            ],
-            [
-              13.04386103802242,
-              52.40041541894146
-            ],
-            [
-              13.04365665665707,
-              52.40040322400043
-            ],
-            [
-              13.04340554816251,
-              52.40037398016463
-            ],
-            [
-              13.04313696802316,
-              52.40033761281838
-            ],
-            [
-              13.04277618340774,
-              52.4002887480266
-            ],
-            [
-              13.04251853415189,
-              52.40025121154243
-            ],
-            [
-              13.04137215094997,
-              52.40008415891431
-            ],
-            [
-              13.0412597998865,
-              52.40006778628977
-            ],
-            [
-              13.04075440113167,
-              52.39998837438372
-            ],
-            [
-              13.04005704334713,
-              52.39987862206433
-            ],
-            [
-              13.0398283038824,
-              52.39984893230609
-            ],
-            [
-              13.03902779170868,
-              52.39974501590697
-            ],
-            [
-              13.03892065793344,
-              52.39973109940708
-            ],
-            [
-              13.03891025300382,
-              52.39982318146616
-            ],
-            [
-              13.03886266215923,
-              52.40023663878446
-            ],
-            [
-              13.03881359514457,
-              52.40066346918074
-            ],
-            [
-              13.038684824683,
-              52.40065674644443
-            ],
-            [
-              13.03859889118235,
-              52.40065532027969
-            ],
-            [
-              13.037885249318,
-              52.40061757809797
-            ],
-            [
-              13.03782540799877,
-              52.40061451647559
-            ],
-            [
-              13.03758018297975,
-              52.40060181271308
-            ],
-            [
-              13.03697077751195,
-              52.40057047148822
-            ],
-            [
-              13.03612210541057,
-              52.4005379387666
-            ],
-            [
-              13.03593520560034,
-              52.40052934787956
-            ],
-            [
-              13.0346791315231,
-              52.40047169037332
-            ],
-            [
-              13.03423954039685,
-              52.40043983195022
-            ],
-            [
-              13.03416229207831,
-              52.40043153349736
-            ],
-            [
-              13.03408722872421,
-              52.40040384928179
-            ],
-            [
-              13.03402279250268,
-              52.40036528202035
-            ],
-            [
-              13.03397106020995,
-              52.40032863448471
-            ],
-            [
-              13.03391474606663,
-              52.40027932232928
-            ],
-            [
-              13.03383604318576,
-              52.40022109555894
-            ],
-            [
-              13.03373123520785,
-              52.40014166359131
-            ],
-            [
-              13.03364095057667,
-              52.40010257613454
-            ],
-            [
-              13.0335587563978,
-              52.40007989819484
-            ],
-            [
-              13.03340746472604,
-              52.40003754750436
-            ],
-            [
-              13.03329401266229,
-              52.40000706595222
-            ],
-            [
-              13.03301965088297,
-              52.39993236460631
-            ],
-            [
-              13.03282299369315,
-              52.39987882772523
-            ],
-            [
-              13.03267456446582,
-              52.3998151234948
-            ],
-            [
-              13.03252022520033,
-              52.3997355852141
-            ],
-            [
-              13.03233433310378,
-              52.39964167417213
-            ],
-            [
-              13.03215607457113,
-              52.39957774237516
-            ],
-            [
-              13.03200498215845,
-              52.39956731370934
-            ],
-            [
-              13.03173681945068,
-              52.39957471686252
-            ],
-            [
-              13.03140951991899,
-              52.39960289425768
-            ],
-            [
-              13.031023671579,
-              52.39963266148642
-            ],
-            [
-              13.03030720322679,
-              52.39968793176213
-            ],
-            [
-              13.02995049027538,
-              52.39970977028738
-            ],
-            [
-              13.02856794164088,
-              52.39982545721893
-            ],
-            [
-              13.0282931267804,
-              52.39984353164398
-            ],
-            [
-              13.028062268274,
-              52.39986152963431
-            ],
-            [
-              13.02759980305061,
-              52.39989121758527
-            ],
-            [
-              13.02733959783692,
-              52.399908005037
-            ],
-            [
-              13.02684450139581,
-              52.39994748581344
-            ],
-            [
-              13.02642764314471,
-              52.399976312131884
-            ],
-            [
-              13.02619264776113,
-              52.39999144996451
-            ],
-            [
-              13.02579391191274,
-              52.3999864082434
-            ],
-            [
-              13.02474063231191,
-              52.3999045177518
-            ],
-            [
-              13.02457773003818,
-              52.39990179489401
-            ],
-            [
-              13.0243727921263,
-              52.39989234466088
-            ],
-            [
-              13.02414795645685,
-              52.39989065393988
-            ],
-            [
-              13.02394930523562,
-              52.39988526442976
-            ],
-            [
-              13.02376022269551,
-              52.3998861489577
-            ],
-            [
-              13.02352213710005,
-              52.39988819182731
-            ],
-            [
-              13.02321333723568,
-              52.3998969641109
-            ],
-            [
-              13.02301663571082,
-              52.39991372524977
-            ],
-            [
-              13.02280303627949,
-              52.39994018415278
-            ],
-            [
-              13.02247598752664,
-              52.39995269546951
-            ],
-            [
-              13.02223085080955,
-              52.39995461775149
-            ],
-            [
-              13.02201586620576,
-              52.39994301711696
-            ],
-            [
-              13.02180815289517,
-              52.39991346446377
-            ],
-            [
-              13.02140884705637,
-              52.39985876414151
-            ],
-            [
-              13.02114521800096,
-              52.39984032304496
-            ],
-            [
-              13.02085472067848,
-              52.39983428955053
-            ],
-            [
-              13.02082912552354,
-              52.3998346701624
-            ],
-            [
-              13.02074954721748,
-              52.39983909212477
-            ],
-            [
-              13.02053049942381,
-              52.39984603357689
-            ],
-            [
-              13.02032384279828,
-              52.39985857722131
-            ],
-            [
-              13.02011882600092,
-              52.39987060847434
-            ],
-            [
-              13.01998756218607,
-              52.39987371443347
-            ],
-            [
-              13.01993213007167,
-              52.39987071760353
-            ],
-            [
-              13.01976846976015,
-              52.3998619509612
-            ],
-            [
-              13.01925214164186,
-              52.39982722221661
-            ],
-            [
-              13.01900627120648,
-              52.39982912550544
-            ],
-            [
-              13.01877350828166,
-              52.3998272017525
-            ],
-            [
-              13.01840020162702,
-              52.39981896467616
-            ],
-            [
-              13.01818309586397,
-              52.39981208709712
-            ],
-            [
-              13.01766538302244,
-              52.39978533081097
-            ],
-            [
-              13.01697183695222,
-              52.39976560274436
-            ],
-            [
-              13.01688881589708,
-              52.39976483905944
-            ],
-            [
-              13.01673449053703,
-              52.39976755441658
-            ],
-            [
-              13.01660848671832,
-              52.39977137431264
-            ],
-            [
-              13.01632365675837,
-              52.3997701004759
-            ],
-            [
-              13.0162252163047,
-              52.39976898758746
-            ],
-            [
-              13.01579883290928,
-              52.39976425726164
-            ],
-            [
-              13.01540743826564,
-              52.39975291959236
-            ],
-            [
-              13.01536383618687,
-              52.39975164786959
-            ],
-            [
-              13.01531142475577,
-              52.3997501382708
-            ],
-            [
-              13.01457209545694,
-              52.39972863812771
-            ]
+            13.04772862254568,
+            52.39997350013535
+          ],
+          [
+            13.04686670229891,
+            52.39983499369428
+          ],
+          [
+            13.04673267625779,
+            52.39981416584882
+          ],
+          [
+            13.04657382560192,
+            52.39980956212749
+          ],
+          [
+            13.04639735983371,
+            52.39982435877931
+          ],
+          [
+            13.0462528094014,
+            52.39990199511796
+          ],
+          [
+            13.04618455572425,
+            52.39991965934804
+          ],
+          [
+            13.04601534259085,
+            52.39996325878861
+          ],
+          [
+            13.04596984134463,
+            52.39997500490327
+          ],
+          [
+            13.04592865159976,
+            52.39998565337115
+          ],
+          [
+            13.04555927336906,
+            52.40005804264695
+          ],
+          [
+            13.04539200864026,
+            52.40009079349223
+          ],
+          [
+            13.04506533533163,
+            52.40015480592985
+          ],
+          [
+            13.04468423846092,
+            52.40022951630859
+          ],
+          [
+            13.04429821672343,
+            52.40031916007293
+          ],
+          [
+            13.04386103802242,
+            52.40041541894146
           ]
-        ],
-        "type": "MultiLineString"
+        ]
       },
       "properties": {
         "name": "31. Allee nach Sanssouci/ Am Grünen Gitter/ Ökonomieweg Park Sanssouci",
@@ -49892,7 +49493,432 @@
           "lon": 13.03139612926113,
           "lat": 52.400007314909196
         },
-        "color": "#5c11b1"
+        "color": "#5c11b1",
+        "id": "335_1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.04386103802242,
+            52.40041541894146
+          ],
+          [
+            13.04365665665707,
+            52.40040322400043
+          ],
+          [
+            13.04340554816251,
+            52.40037398016463
+          ],
+          [
+            13.04313696802316,
+            52.40033761281838
+          ],
+          [
+            13.04277618340774,
+            52.4002887480266
+          ],
+          [
+            13.04251853415189,
+            52.40025121154243
+          ],
+          [
+            13.04137215094997,
+            52.40008415891431
+          ],
+          [
+            13.0412597998865,
+            52.40006778628977
+          ],
+          [
+            13.04075440113167,
+            52.39998837438372
+          ],
+          [
+            13.04005704334713,
+            52.39987862206433
+          ],
+          [
+            13.0398283038824,
+            52.39984893230609
+          ],
+          [
+            13.03902779170868,
+            52.39974501590697
+          ],
+          [
+            13.03892065793344,
+            52.39973109940708
+          ],
+          [
+            13.03891025300382,
+            52.39982318146616
+          ],
+          [
+            13.03886266215923,
+            52.40023663878446
+          ],
+          [
+            13.03881359514457,
+            52.40066346918074
+          ],
+          [
+            13.038684824683,
+            52.40065674644443
+          ],
+          [
+            13.03859889118235,
+            52.40065532027969
+          ],
+          [
+            13.037885249318,
+            52.40061757809797
+          ],
+          [
+            13.03782540799877,
+            52.40061451647559
+          ],
+          [
+            13.03758018297975,
+            52.40060181271308
+          ],
+          [
+            13.03697077751195,
+            52.40057047148822
+          ],
+          [
+            13.03612210541057,
+            52.4005379387666
+          ],
+          [
+            13.03593520560034,
+            52.40052934787956
+          ],
+          [
+            13.0346791315231,
+            52.40047169037332
+          ],
+          [
+            13.03423954039685,
+            52.40043983195022
+          ],
+          [
+            13.03416229207831,
+            52.40043153349736
+          ],
+          [
+            13.03408722872421,
+            52.40040384928179
+          ],
+          [
+            13.03402279250268,
+            52.40036528202035
+          ],
+          [
+            13.03397106020995,
+            52.40032863448471
+          ],
+          [
+            13.03391474606663,
+            52.40027932232928
+          ],
+          [
+            13.03383604318576,
+            52.40022109555894
+          ],
+          [
+            13.03373123520785,
+            52.40014166359131
+          ],
+          [
+            13.03364095057667,
+            52.40010257613454
+          ],
+          [
+            13.0335587563978,
+            52.40007989819484
+          ],
+          [
+            13.03340746472604,
+            52.40003754750436
+          ],
+          [
+            13.03329401266229,
+            52.40000706595222
+          ],
+          [
+            13.03301965088297,
+            52.39993236460631
+          ],
+          [
+            13.03282299369315,
+            52.39987882772523
+          ],
+          [
+            13.03267456446582,
+            52.3998151234948
+          ],
+          [
+            13.03252022520033,
+            52.3997355852141
+          ],
+          [
+            13.03233433310378,
+            52.39964167417213
+          ],
+          [
+            13.03215607457113,
+            52.39957774237516
+          ],
+          [
+            13.03200498215845,
+            52.39956731370934
+          ],
+          [
+            13.03173681945068,
+            52.39957471686252
+          ],
+          [
+            13.03140951991899,
+            52.39960289425768
+          ],
+          [
+            13.031023671579,
+            52.39963266148642
+          ],
+          [
+            13.03030720322679,
+            52.39968793176213
+          ],
+          [
+            13.02995049027538,
+            52.39970977028738
+          ],
+          [
+            13.02856794164088,
+            52.39982545721893
+          ],
+          [
+            13.0282931267804,
+            52.39984353164398
+          ],
+          [
+            13.028062268274,
+            52.39986152963431
+          ],
+          [
+            13.02759980305061,
+            52.39989121758527
+          ],
+          [
+            13.02733959783692,
+            52.399908005037
+          ],
+          [
+            13.02684450139581,
+            52.39994748581344
+          ],
+          [
+            13.02642764314471,
+            52.399976312131884
+          ],
+          [
+            13.02619264776113,
+            52.39999144996451
+          ],
+          [
+            13.02579391191274,
+            52.3999864082434
+          ],
+          [
+            13.02474063231191,
+            52.3999045177518
+          ],
+          [
+            13.02457773003818,
+            52.39990179489401
+          ],
+          [
+            13.0243727921263,
+            52.39989234466088
+          ],
+          [
+            13.02414795645685,
+            52.39989065393988
+          ],
+          [
+            13.02394930523562,
+            52.39988526442976
+          ],
+          [
+            13.02376022269551,
+            52.3998861489577
+          ],
+          [
+            13.02352213710005,
+            52.39988819182731
+          ],
+          [
+            13.02321333723568,
+            52.3998969641109
+          ],
+          [
+            13.02301663571082,
+            52.39991372524977
+          ],
+          [
+            13.02280303627949,
+            52.39994018415278
+          ],
+          [
+            13.02247598752664,
+            52.39995269546951
+          ],
+          [
+            13.02223085080955,
+            52.39995461775149
+          ],
+          [
+            13.02201586620576,
+            52.39994301711696
+          ],
+          [
+            13.02180815289517,
+            52.39991346446377
+          ],
+          [
+            13.02140884705637,
+            52.39985876414151
+          ],
+          [
+            13.02114521800096,
+            52.39984032304496
+          ],
+          [
+            13.02085472067848,
+            52.39983428955053
+          ],
+          [
+            13.02082912552354,
+            52.3998346701624
+          ],
+          [
+            13.02074954721748,
+            52.39983909212477
+          ],
+          [
+            13.02053049942381,
+            52.39984603357689
+          ],
+          [
+            13.02032384279828,
+            52.39985857722131
+          ],
+          [
+            13.02011882600092,
+            52.39987060847434
+          ],
+          [
+            13.01998756218607,
+            52.39987371443347
+          ],
+          [
+            13.01993213007167,
+            52.39987071760353
+          ],
+          [
+            13.01976846976015,
+            52.3998619509612
+          ],
+          [
+            13.01925214164186,
+            52.39982722221661
+          ],
+          [
+            13.01900627120648,
+            52.39982912550544
+          ],
+          [
+            13.01877350828166,
+            52.3998272017525
+          ],
+          [
+            13.01840020162702,
+            52.39981896467616
+          ],
+          [
+            13.01818309586397,
+            52.39981208709712
+          ],
+          [
+            13.01766538302244,
+            52.39978533081097
+          ],
+          [
+            13.01697183695222,
+            52.39976560274436
+          ],
+          [
+            13.01688881589708,
+            52.39976483905944
+          ],
+          [
+            13.01673449053703,
+            52.39976755441658
+          ],
+          [
+            13.01660848671832,
+            52.39977137431264
+          ],
+          [
+            13.01632365675837,
+            52.3997701004759
+          ],
+          [
+            13.0162252163047,
+            52.39976898758746
+          ],
+          [
+            13.01579883290928,
+            52.39976425726164
+          ],
+          [
+            13.01540743826564,
+            52.39975291959236
+          ],
+          [
+            13.01536383618687,
+            52.39975164786959
+          ],
+          [
+            13.01531142475577,
+            52.3997501382708
+          ],
+          [
+            13.01457209545694,
+            52.39972863812771
+          ]
+        ]
+      },
+      "properties": {
+        "name": "31. Allee nach Sanssouci/ Am Grünen Gitter/ Ökonomieweg Park Sanssouci",
+        "Zwischen": "zwischen Luisenplatz und Mopke",
+        "Zielnetz": "Hauptroute 1. Stufe",
+        "Vorhandene Radwegeinfrastruktur": "keine",
+        "Maßnahmen": "Erneuerung des Ökonomiewegs gemeinsam mit der SPSG in Asphalt",
+        "Priorität": "Priorität III",
+        "Länge in Meter": "2.417",
+        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen Luisenplatz und Mopke</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Hauptroute 1. Stufe</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">keine</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Wie im Bestand</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Erneuerung des Ökonomiewegs gemeinsam mit der SPSG in Asphalt</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Priorität III</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">2.417</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
+        "geo_point_2d": {
+          "lon": 13.03139612926113,
+          "lat": 52.400007314909196
+        },
+        "color": "hsl(59, 70%, 50%)",
+        "id": "335_2"
       }
     },
     {
@@ -50301,63 +50327,37 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              13.04785181760285,
-              52.39951381261756
-            ],
-            [
-              13.04789501210753,
-              52.3994177756762
-            ],
-            [
-              13.04793994940994,
-              52.39932554400976
-            ],
-            [
-              13.04795086989683,
-              52.39929794011015
-            ],
-            [
-              13.04796112744144,
-              52.39927203367789
-            ],
-            [
-              13.04798065313295,
-              52.39919934377948
-            ],
-            [
-              13.04798037773701,
-              52.39916229352415
-            ],
-            [
-              13.04810715990793,
-              52.39896755975985
-            ],
-            [
-              13.04814470550499,
-              52.39890622721571
-            ],
-            [
-              13.04817985375737,
-              52.39885924174846
-            ],
-            [
-              13.04827304923267,
-              52.39877266246667
-            ],
-            [
-              13.04832467676084,
-              52.3987286466121
-            ],
-            [
-              13.04840364408627,
-              52.39865801727591
-            ]
+            13.04785181760285,
+            52.39951381261756
+          ],
+          [
+            13.04789501210753,
+            52.3994177756762
+          ],
+          [
+            13.04793994940994,
+            52.39932554400976
+          ],
+          [
+            13.04795086989683,
+            52.39929794011015
+          ],
+          [
+            13.04796112744144,
+            52.39927203367789
+          ],
+          [
+            13.04798065313295,
+            52.39919934377948
+          ],
+          [
+            13.04798037773701,
+            52.39916229352415
           ]
-        ],
-        "type": "MultiLineString"
+        ]
       },
       "properties": {
         "name": "200. Schopenhauerstraße",
@@ -50372,7 +50372,60 @@
           "lon": 13.048085297592255,
           "lat": 52.399057274732755
         },
-        "color": "#1dd612"
+        "color": "#1dd612",
+        "id": "151_2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.04798037773701,
+            52.39916229352415
+          ],
+          [
+            13.04810715990793,
+            52.39896755975985
+          ],
+          [
+            13.04814470550499,
+            52.39890622721571
+          ],
+          [
+            13.04817985375737,
+            52.39885924174846
+          ],
+          [
+            13.04827304923267,
+            52.39877266246667
+          ],
+          [
+            13.04832467676084,
+            52.3987286466121
+          ],
+          [
+            13.04840364408627,
+            52.39865801727591
+          ]
+        ]
+      },
+      "properties": {
+        "name": "200. Schopenhauerstraße",
+        "Zwischen": "zwischen Brandenburger Tor und Charlottenstraße",
+        "Zielnetz": "Hauptroute 1. Stufe",
+        "Vorhandene Radwegeinfrastruktur": "Gemeinsamer Geh- und Radweg zwischen Bran- denburger Tor und Charlottenstraße im Zweirich- tungsverkehr",
+        "Maßnahmen": "-",
+        "Priorität": "Keine Maßnahmen",
+        "Länge in Meter": "104",
+        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen Brandenburger Tor und Charlottenstraße</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Hauptroute 1. Stufe</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Gemeinsamer Geh- und Radweg zwischen Bran- denburger Tor und Charlottenstraße im Zweirich- tungsverkehr</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Status quo belassen.</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">-</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Keine Maßnahmen</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">104</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
+        "geo_point_2d": {
+          "lon": 13.048085297592255,
+          "lat": 52.399057274732755
+        },
+        "color": "hsl(63, 70%, 50%)",
+        "id": "22_1"
       }
     },
     {
@@ -50574,79 +50627,37 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              13.05860277914466,
-              52.4089135615618
-            ],
-            [
-              13.05861820413912,
-              52.40864604362639
-            ],
-            [
-              13.05850964644344,
-              52.40799776082616
-            ],
-            [
-              13.05832110871194,
-              52.40678706796226
-            ],
-            [
-              13.05829462173504,
-              52.4066169772391
-            ],
-            [
-              13.05819085807413,
-              52.40583632558964
-            ],
-            [
-              13.05818807611785,
-              52.40575238775561
-            ],
-            [
-              13.05816458710841,
-              52.40563235872173
-            ],
-            [
-              13.05811603492533,
-              52.40538425471281
-            ],
-            [
-              13.05808898449713,
-              52.40522357897803
-            ],
-            [
-              13.05807291009768,
-              52.4051276436586
-            ],
-            [
-              13.05798973829397,
-              52.40446071472914
-            ],
-            [
-              13.0579804795795,
-              52.40438701084914
-            ],
-            [
-              13.05797092840242,
-              52.40430323150719
-            ],
-            [
-              13.05795859306026,
-              52.404185777620484
-            ],
-            [
-              13.05790980524014,
-              52.40372010729374
-            ],
-            [
-              13.05790658312669,
-              52.40363616218895
-            ]
+            13.05860277914466,
+            52.4089135615618
+          ],
+          [
+            13.05861820413912,
+            52.40864604362639
+          ],
+          [
+            13.05850964644344,
+            52.40799776082616
+          ],
+          [
+            13.05832110871194,
+            52.40678706796226
+          ],
+          [
+            13.05829462173504,
+            52.4066169772391
+          ],
+          [
+            13.05819085807413,
+            52.40583632558964
+          ],
+          [
+            13.05818807611785,
+            52.40575238775561
           ]
-        ],
-        "type": "MultiLineString"
+        ]
       },
       "properties": {
         "name": "111. Friedrich-Ebert-Straße",
@@ -50661,7 +50672,76 @@
           "lon": 13.058255155259944,
           "lat": 52.40627686214782
         },
-        "color": "#a81e61"
+        "color": "#a81e61",
+        "id": "385"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.05818807611785,
+            52.40575238775561
+          ],
+          [
+            13.05816458710841,
+            52.40563235872173
+          ],
+          [
+            13.05811603492533,
+            52.40538425471281
+          ],
+          [
+            13.05808898449713,
+            52.40522357897803
+          ],
+          [
+            13.05807291009768,
+            52.4051276436586
+          ],
+          [
+            13.05798973829397,
+            52.40446071472914
+          ],
+          [
+            13.0579804795795,
+            52.40438701084914
+          ],
+          [
+            13.05797092840242,
+            52.40430323150719
+          ],
+          [
+            13.05795859306026,
+            52.404185777620484
+          ],
+          [
+            13.05790980524014,
+            52.40372010729374
+          ],
+          [
+            13.05790658312669,
+            52.40363616218895
+          ]
+        ]
+      },
+      "properties": {
+        "name": "111. Friedrich-Ebert-Straße",
+        "Zwischen": "zwischen Alleestraße und Kurfürstenstraße",
+        "Zielnetz": "Hauptroute 1. Stufe",
+        "Vorhandene Radwegeinfrastruktur": "Schutzstreifen beidseitig",
+        "Maßnahmen": "-",
+        "Priorität": "Keine Maßnahmen",
+        "Länge in Meter": "589",
+        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen Alleestraße und Kurfürstenstraße</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Hauptroute 1. Stufe</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Schutzstreifen beidseitig</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Schutzstreifen als Führungsform</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">-</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Keine Maßnahmen</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">589</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
+        "geo_point_2d": {
+          "lon": 13.058255155259944,
+          "lat": 52.40627686214782
+        },
+        "color": "hsl(345, 70%, 50%)",
+        "id": "165"
       }
     },
     {
@@ -51007,7 +51087,8 @@
           "lon": 13.059939194299881,
           "lat": 52.407433367298985
         },
-        "color": "#d301ed"
+        "color": "#d301ed",
+        "id": "146"
       }
     },
     {
