@@ -175,7 +175,8 @@
     }
 
     :global(.button) {
-        background: #000;
+        --button-color: #000;
+        background: var(--button-color);
         color: white;
         font-size: 1.5rem;
         text-decoration: none;
@@ -183,5 +184,16 @@
         font-style: normal;
         font-weight: 500;
         padding: 0.25rem 1rem;
+        transition: .1s ease-out translate, .1s ease-out background;
+
+        &:hover {
+            background: color-mix(in oklch, var(--button-color) 70%, white 30%);
+            translate: 0 -1px;
+        }
+
+        &:focus, &:active {
+            outline: 2px dashed var(--button-color);
+            outline-offset: 2px;
+        }
     }
 </style>
