@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { LineLayer, GeoJSON, MapLibre } from "svelte-maplibre";
+	import { LineLayer, GeoJSON, MapLibre, SymbolLayer } from "svelte-maplibre";
 	import zielnetz from "./radverkehrskonzept_zielnetz.geojson?url";
 	import * as turf from "@turf/turf";
 	import type { Feature, LineString, FeatureCollection, Position } from "geojson";
@@ -221,6 +221,22 @@
 						}}
 						interactive
 					/>
+					<SymbolLayer
+						id="zielnetz-labels"
+						filter={["has", "id"]}
+						layout={{
+							"text-field": ["get", "id"],
+							"text-font": ["Open Sans Bold", "Arial Unicode MS Bold"],
+							"text-size": 12,
+							"text-anchor": "center",
+							"symbol-placement": "line-center"
+						}}
+						paint={{
+							"text-color": "#ffffff",
+							"text-halo-color": "#000000",
+							"text-halo-width": 2
+						}}
+					/>
 				</GeoJSON>
 			{/if}
 		</MapLibre>
@@ -230,6 +246,9 @@
 		{#if selectedFeature}
 			<button class="close-btn" onclick={() => (selectedFeatureIndex = null)} type="button">Close</button>
 			<div class="details">
+				{#if selectedFeature.id}
+					<span class="id-pill">{selectedFeature.id}</span>
+				{/if}
 				<h2>Route Details</h2>
 				{#if editMode === "editing"}
 					<div class="property id-edit">
@@ -337,6 +356,17 @@
 		background: #e8f5e9;
 		border-radius: 4px;
 		border: none;
+		margin-bottom: 0.5rem;
+	}
+
+	.id-pill {
+		display: inline-block;
+		padding: 0.25rem 0.75rem;
+		background: #1976d2;
+		color: white;
+		border-radius: 16px;
+		font-size: 0.85rem;
+		font-weight: 500;
 		margin-bottom: 0.5rem;
 	}
 

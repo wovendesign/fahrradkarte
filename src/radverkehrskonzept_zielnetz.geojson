@@ -13091,51 +13091,29 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              13.05330893315888,
-              52.3992316637469
-            ],
-            [
-              13.05319084574628,
-              52.39860839416403
-            ],
-            [
-              13.05313789048172,
-              52.3983054016847
-            ],
-            [
-              13.05306746472608,
-              52.3980052684333
-            ],
-            [
-              13.05303784514384,
-              52.39787673906805
-            ],
-            [
-              13.05300354206365,
-              52.39772772143717
-            ],
-            [
-              13.05297825131123,
-              52.3976077155379
-            ],
-            [
-              13.05283470567916,
-              52.39682505317642
-            ],
-            [
-              13.0525657841799,
-              52.39554838999734
-            ],
-            [
-              13.05254399242151,
-              52.39547915465631
-            ]
+            13.05330893315888,
+            52.3992316637469
+          ],
+          [
+            13.05319084574628,
+            52.39860839416403
+          ],
+          [
+            13.05313789048172,
+            52.3983054016847
+          ],
+          [
+            13.05306746472608,
+            52.3980052684333
+          ],
+          [
+            13.05303784514384,
+            52.39787673906805
           ]
-        ],
-        "type": "MultiLineString"
+        ]
       },
       "properties": {
         "name": "134. Dortustraße",
@@ -13150,7 +13128,56 @@
           "lon": 13.05293523698676,
           "lat": 52.39735351455469
         },
-        "color": "#7e1445"
+        "color": "#7e1445",
+        "id": "376"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.05303784514384,
+            52.39787673906805
+          ],
+          [
+            13.05300354206365,
+            52.39772772143717
+          ],
+          [
+            13.05297825131123,
+            52.3976077155379
+          ],
+          [
+            13.05283470567916,
+            52.39682505317642
+          ],
+          [
+            13.0525657841799,
+            52.39554838999734
+          ],
+          [
+            13.05254399242151,
+            52.39547915465631
+          ]
+        ]
+      },
+      "properties": {
+        "name": "134. Dortustraße",
+        "Zwischen": "zwischen Breite Straße und Charlottenstraße",
+        "Zielnetz": "Hauptroute 1. Stufe",
+        "Vorhandene Radwegeinfrastruktur": "getrennter Rad- und Gehweg zw. Breite Straße und Spornstraße in Fahrtrichtung Nord; Schutzstreifen   beidseitig   im   Straßenraum   zw. Charlottenstraße und Spornstraße, teilweise  un- terbrochen im Kreuzungsbereich Yorckstraße, Ein- richtungsverkehr",
+        "Maßnahmen": "Durchgängige Führung des Radverkehrs auch im Kreuzungsbereich Breite Str./ Dortustr. prüfen.",
+        "Priorität": "Priorität II",
+        "Länge in Meter": "421",
+        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen Breite Straße und Charlottenstraße</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Hauptroute 1. Stufe</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">getrennter Rad- und Gehweg zw. Breite Straße und Spornstraße in Fahrtrichtung Nord; Schutzstreifen   beidseitig   im   Straßenraum   zw. Charlottenstraße und Spornstraße, teilweise  un- terbrochen im Kreuzungsbereich Yorckstraße, Ein- richtungsverkehr</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Schutzstreifen</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Durchgängige Führung des Radverkehrs auch im Kreuzungsbereich Breite Str./ Dortustr. prüfen.</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Priorität II</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">421</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
+        "geo_point_2d": {
+          "lon": 13.05293523698676,
+          "lat": 52.39735351455469
+        },
+        "color": "hsl(329, 70%, 50%)",
+        "id": "79"
       }
     },
     {
@@ -37440,39 +37467,29 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              13.05398157196109,
-              52.40295306252465
-            ],
-            [
-              13.05402059919076,
-              52.40280786036085
-            ],
-            [
-              13.05400279855472,
-              52.40268456130762
-            ],
-            [
-              13.05393703486256,
-              52.40232165389226
-            ],
-            [
-              13.05370031392197,
-              52.40121043217053
-            ],
-            [
-              13.05351811467164,
-              52.4002500887206
-            ],
-            [
-              13.05330893315888,
-              52.3992316637469
-            ]
+            13.05398157196109,
+            52.40295306252465
+          ],
+          [
+            13.05402059919076,
+            52.40280786036085
+          ],
+          [
+            13.05400279855472,
+            52.40268456130762
+          ],
+          [
+            13.05393703486256,
+            52.40232165389226
+          ],
+          [
+            13.05370031392197,
+            52.40121043217053
           ]
-        ],
-        "type": "MultiLineString"
+        ]
       },
       "properties": {
         "name": "139. Dortustraße",
@@ -37487,7 +37504,44 @@
           "lon": 13.053682064438869,
           "lat": 52.40109276558369
         },
-        "color": "#1dcbf5"
+        "color": "#1dcbf5",
+        "id": "377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.05370031392197,
+            52.40121043217053
+          ],
+          [
+            13.05351811467164,
+            52.4002500887206
+          ],
+          [
+            13.05330893315888,
+            52.3992316637469
+          ]
+        ]
+      },
+      "properties": {
+        "name": "139. Dortustraße",
+        "Zwischen": "zwischen Charlottenstraße und Hegelallee",
+        "Zielnetz": "Hauptroute 1. Stufe",
+        "Vorhandene Radwegeinfrastruktur": "Mischverkehr im Straßenraum",
+        "Maßnahmen": "Prüfung von geeineten Maßnahmen, um das Radfahren auf der Fahrbahn zu ermöglichen (z.B. geschnittenes Pflaster an den Fahrbahnrändern.",
+        "Priorität": "Priorität II",
+        "Länge in Meter": "417",
+        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen Charlottenstraße und Hegelallee</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Hauptroute 1. Stufe</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Mischverkehr im Straßenraum</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Mischverkehr</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Prüfung von geeineten Maßnahmen, um das Radfahren auf der Fahrbahn zu ermöglichen (z.B. geschnittenes Pflaster an den Fahrbahnrändern.</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Priorität II</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">417</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
+        "geo_point_2d": {
+          "lon": 13.053682064438869,
+          "lat": 52.40109276558369
+        },
+        "color": "hsl(22, 70%, 50%)",
+        "id": "120"
       }
     },
     {
@@ -49536,363 +49590,301 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              13.04126324655324,
-              52.39318686350889
-            ],
-            [
-              13.04202492296822,
-              52.39321261378597
-            ],
-            [
-              13.04208233738549,
-              52.39321383480198
-            ],
-            [
-              13.04212572561905,
-              52.39319324334615
-            ],
-            [
-              13.04218574507921,
-              52.39318209893639
-            ],
-            [
-              13.04246318324389,
-              52.39318669500862
-            ],
-            [
-              13.04280807453664,
-              52.39319483536467
-            ],
-            [
-              13.04312934810033,
-              52.39319530035244
-            ],
-            [
-              13.04351432394957,
-              52.39319439138439
-            ],
-            [
-              13.04366126223258,
-              52.39319196849562
-            ],
-            [
-              13.0438597124906,
-              52.39318797036254
-            ],
-            [
-              13.04398863748361,
-              52.39318075304449
-            ],
-            [
-              13.04403576397473,
-              52.39316202110676
-            ],
-            [
-              13.04401185789527,
-              52.39311765605614
-            ],
-            [
-              13.04398103369927,
-              52.39306022845717
-            ],
-            [
-              13.04397638374633,
-              52.39301249553292
-            ],
-            [
-              13.043978849532749,
-              52.39299662105542
-            ],
-            [
-              13.04403417180739,
-              52.39299861574688
-            ],
-            [
-              13.0440684083939,
-              52.39299882274677
-            ],
-            [
-              13.04418296708436,
-              52.39299739186964
-            ],
-            [
-              13.0444247389799,
-              52.39299752661798
-            ],
-            [
-              13.04478247471976,
-              52.39299769133334
-            ],
-            [
-              13.044815282335,
-              52.39299697530504
-            ],
-            [
-              13.04492610571723,
-              52.39299692057659
-            ],
-            [
-              13.04491881712955,
-              52.39302215655579
-            ],
-            [
-              13.04490911885833,
-              52.39305535527118
-            ],
-            [
-              13.04488002503123,
-              52.39311502833039
-            ],
-            [
-              13.04487550355424,
-              52.3931242149642
-            ],
-            [
-              13.04487761399639,
-              52.39317289491651
-            ],
-            [
-              13.04492675960273,
-              52.3931916014558
-            ],
-            [
-              13.0449807284836,
-              52.39319761957115
-            ],
-            [
-              13.04505152014687,
-              52.39319879070002
-            ],
-            [
-              13.04511839013611,
-              52.39319225397738
-            ],
-            [
-              13.04521060134741,
-              52.39318101114362
-            ],
-            [
-              13.04531103726732,
-              52.39316990428187
-            ],
-            [
-              13.04541950724317,
-              52.39316657315263
-            ],
-            [
-              13.04573217108209,
-              52.39315897597266
-            ],
-            [
-              13.04607832133381,
-              52.39315193164581
-            ],
-            [
-              13.04667871633942,
-              52.39313883853039
-            ],
-            [
-              13.04721702826223,
-              52.39311707354549
-            ],
-            [
-              13.04756751256068,
-              52.39310506113323
-            ],
-            [
-              13.04775205304185,
-              52.39309651064244
-            ],
-            [
-              13.04791416233656,
-              52.39309667093139
-            ],
-            [
-              13.04808923956708,
-              52.39308940226211
-            ],
-            [
-              13.04826383681458,
-              52.39308967842116
-            ],
-            [
-              13.048417495362,
-              52.39309482370789
-            ],
-            [
-              13.04851714537952,
-              52.39310150468174
-            ],
-            [
-              13.04854966419308,
-              52.39311732754508
-            ],
-            [
-              13.04856434577083,
-              52.39316099981936
-            ],
-            [
-              13.04869360343504,
-              52.39315288369655
-            ],
-            [
-              13.04873965309037,
-              52.39314851880825
-            ],
-            [
-              13.04876559607591,
-              52.39312350070637
-            ],
-            [
-              13.04882750296762,
-              52.39304287838485
-            ],
-            [
-              13.04886902802626,
-              52.39292451411069
-            ],
-            [
-              13.0488761505673,
-              52.3928830002137
-            ],
-            [
-              13.04887380186656,
-              52.39283962151973
-            ],
-            [
-              13.0488502175712,
-              52.39281117807079
-            ],
-            [
-              13.04879087099647,
-              52.39275714725514
-            ],
-            [
-              13.04883399431425,
-              52.39274581041799
-            ],
-            [
-              13.04887030279205,
-              52.39274569056895
-            ],
-            [
-              13.04930900508532,
-              52.39273953544817
-            ],
-            [
-              13.04935279994361,
-              52.39273962894537
-            ],
-            [
-              13.04945698195721,
-              52.39274017967782
-            ],
-            [
-              13.05003543123433,
-              52.39270368583372
-            ],
-            [
-              13.05035736505254,
-              52.39268337406423
-            ],
-            [
-              13.05057066135247,
-              52.39266926917267
-            ],
-            [
-              13.05066435250027,
-              52.39267441137089
-            ],
-            [
-              13.05070227358013,
-              52.39268438824306
-            ],
-            [
-              13.05071571173126,
-              52.39269962601579
-            ],
-            [
-              13.0507548835887,
-              52.3927879410464
-            ],
-            [
-              13.05078847778377,
-              52.39286942030047
-            ],
-            [
-              13.05080308915801,
-              52.39290472886257
-            ],
-            [
-              13.05086109427237,
-              52.39308264188314
-            ],
-            [
-              13.05089143364014,
-              52.39323465210862
-            ],
-            [
-              13.05091730906606,
-              52.39336455907983
-            ],
-            [
-              13.0509636179073,
-              52.39351440491225
-            ],
-            [
-              13.05099663554672,
-              52.39357897022482
-            ],
-            [
-              13.05111454722372,
-              52.39372828846518
-            ],
-            [
-              13.05123315967466,
-              52.39385504902077
-            ],
-            [
-              13.05154087217053,
-              52.3942535089039
-            ],
-            [
-              13.05196607124815,
-              52.39480451524808
-            ],
-            [
-              13.05205117106918,
-              52.39491471730837
-            ],
-            [
-              13.05229358554338,
-              52.39511742893426
-            ],
-            [
-              13.05229358158625,
-              52.3951175187858
-            ],
-            [
-              13.05238132963266,
-              52.39522102048311
-            ],
-            [
-              13.05241011058141,
-              52.39525503375798
-            ],
-            [
-              13.05251401449254,
-              52.3954322635915
-            ],
-            [
-              13.05254399242016,
-              52.39547915465209
-            ]
+            13.04126324655324,
+            52.39318686350889
+          ],
+          [
+            13.04202492296822,
+            52.39321261378597
+          ],
+          [
+            13.04208233738549,
+            52.39321383480198
+          ],
+          [
+            13.04212572561905,
+            52.39319324334615
+          ],
+          [
+            13.04218574507921,
+            52.39318209893639
+          ],
+          [
+            13.04246318324389,
+            52.39318669500862
+          ],
+          [
+            13.04280807453664,
+            52.39319483536467
+          ],
+          [
+            13.04312934810033,
+            52.39319530035244
+          ],
+          [
+            13.04351432394957,
+            52.39319439138439
+          ],
+          [
+            13.04366126223258,
+            52.39319196849562
+          ],
+          [
+            13.0438597124906,
+            52.39318797036254
+          ],
+          [
+            13.04398863748361,
+            52.39318075304449
+          ],
+          [
+            13.04403576397473,
+            52.39316202110676
+          ],
+          [
+            13.04401185789527,
+            52.39311765605614
+          ],
+          [
+            13.04398103369927,
+            52.39306022845717
+          ],
+          [
+            13.04397638374633,
+            52.39301249553292
+          ],
+          [
+            13.043978849532749,
+            52.39299662105542
+          ],
+          [
+            13.04403417180739,
+            52.39299861574688
+          ],
+          [
+            13.0440684083939,
+            52.39299882274677
+          ],
+          [
+            13.04418296708436,
+            52.39299739186964
+          ],
+          [
+            13.0444247389799,
+            52.39299752661798
+          ],
+          [
+            13.04478247471976,
+            52.39299769133334
+          ],
+          [
+            13.044815282335,
+            52.39299697530504
+          ],
+          [
+            13.04492610571723,
+            52.39299692057659
+          ],
+          [
+            13.04491881712955,
+            52.39302215655579
+          ],
+          [
+            13.04490911885833,
+            52.39305535527118
+          ],
+          [
+            13.04488002503123,
+            52.39311502833039
+          ],
+          [
+            13.04487550355424,
+            52.3931242149642
+          ],
+          [
+            13.04487761399639,
+            52.39317289491651
+          ],
+          [
+            13.04492675960273,
+            52.3931916014558
+          ],
+          [
+            13.0449807284836,
+            52.39319761957115
+          ],
+          [
+            13.04505152014687,
+            52.39319879070002
+          ],
+          [
+            13.04511839013611,
+            52.39319225397738
+          ],
+          [
+            13.04521060134741,
+            52.39318101114362
+          ],
+          [
+            13.04531103726732,
+            52.39316990428187
+          ],
+          [
+            13.04541950724317,
+            52.39316657315263
+          ],
+          [
+            13.04573217108209,
+            52.39315897597266
+          ],
+          [
+            13.04607832133381,
+            52.39315193164581
+          ],
+          [
+            13.04667871633942,
+            52.39313883853039
+          ],
+          [
+            13.04721702826223,
+            52.39311707354549
+          ],
+          [
+            13.04756751256068,
+            52.39310506113323
+          ],
+          [
+            13.04775205304185,
+            52.39309651064244
+          ],
+          [
+            13.04791416233656,
+            52.39309667093139
+          ],
+          [
+            13.04808923956708,
+            52.39308940226211
+          ],
+          [
+            13.04826383681458,
+            52.39308967842116
+          ],
+          [
+            13.048417495362,
+            52.39309482370789
+          ],
+          [
+            13.04851714537952,
+            52.39310150468174
+          ],
+          [
+            13.04854966419308,
+            52.39311732754508
+          ],
+          [
+            13.04856434577083,
+            52.39316099981936
+          ],
+          [
+            13.04869360343504,
+            52.39315288369655
+          ],
+          [
+            13.04873965309037,
+            52.39314851880825
+          ],
+          [
+            13.04876559607591,
+            52.39312350070637
+          ],
+          [
+            13.04882750296762,
+            52.39304287838485
+          ],
+          [
+            13.04886902802626,
+            52.39292451411069
+          ],
+          [
+            13.0488761505673,
+            52.3928830002137
+          ],
+          [
+            13.04887380186656,
+            52.39283962151973
+          ],
+          [
+            13.0488502175712,
+            52.39281117807079
+          ],
+          [
+            13.04879087099647,
+            52.39275714725514
+          ],
+          [
+            13.04883399431425,
+            52.39274581041799
+          ],
+          [
+            13.04887030279205,
+            52.39274569056895
+          ],
+          [
+            13.04930900508532,
+            52.39273953544817
+          ],
+          [
+            13.04935279994361,
+            52.39273962894537
+          ],
+          [
+            13.04945698195721,
+            52.39274017967782
+          ],
+          [
+            13.05003543123433,
+            52.39270368583372
+          ],
+          [
+            13.05035736505254,
+            52.39268337406423
+          ],
+          [
+            13.05057066135247,
+            52.39266926917267
+          ],
+          [
+            13.05066435250027,
+            52.39267441137089
+          ],
+          [
+            13.05070227358013,
+            52.39268438824306
+          ],
+          [
+            13.05071571173126,
+            52.39269962601579
+          ],
+          [
+            13.0507548835887,
+            52.3927879410464
+          ],
+          [
+            13.05078847778377,
+            52.39286942030047
+          ],
+          [
+            13.05080308915801,
+            52.39290472886257
+          ],
+          [
+            13.05086109427237,
+            52.39308264188314
           ]
-        ],
-        "type": "MultiLineString"
+        ]
       },
       "properties": {
         "name": "314. Untere Planitz / Weg zur Unteren Planitz / Dortustraße",
@@ -49908,6 +49900,94 @@
           "lat": 52.39332016054879
         },
         "color": "#0e63a6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.05086109427237,
+            52.39308264188314
+          ],
+          [
+            13.05089143364014,
+            52.39323465210862
+          ],
+          [
+            13.05091730906606,
+            52.39336455907983
+          ],
+          [
+            13.0509636179073,
+            52.39351440491225
+          ],
+          [
+            13.05099663554672,
+            52.39357897022482
+          ],
+          [
+            13.05111454722372,
+            52.39372828846518
+          ],
+          [
+            13.05123315967466,
+            52.39385504902077
+          ],
+          [
+            13.05154087217053,
+            52.3942535089039
+          ],
+          [
+            13.05196607124815,
+            52.39480451524808
+          ],
+          [
+            13.05205117106918,
+            52.39491471730837
+          ],
+          [
+            13.05229358554338,
+            52.39511742893426
+          ],
+          [
+            13.05229358158625,
+            52.3951175187858
+          ],
+          [
+            13.05238132963266,
+            52.39522102048311
+          ],
+          [
+            13.05241011058141,
+            52.39525503375798
+          ],
+          [
+            13.05251401449254,
+            52.3954322635915
+          ],
+          [
+            13.05254399242016,
+            52.39547915465209
+          ]
+        ]
+      },
+      "properties": {
+        "name": "314. Untere Planitz / Weg zur Unteren Planitz / Dortustraße",
+        "Zwischen": "&lt;Null&gt;",
+        "Zielnetz": "Grundnetz",
+        "Vorhandene Radwegeinfrastruktur": "&lt;Null&gt;",
+        "Maßnahmen": "&lt;Null&gt;",
+        "Priorität": "&lt;Null&gt;",
+        "Länge in Meter": "1.079",
+        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Grundnetz</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">1.079</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
+        "geo_point_2d": {
+          "lon": 13.047389447409564,
+          "lat": 52.39332016054879
+        },
+        "color": "hsl(97, 70%, 50%)",
+        "id": "306_1"
       }
     },
     {
