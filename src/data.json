@@ -1210,7 +1210,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 0,
           "radverkehrsmengen": 2,
-          "prioritaet_2": 3
+          "prioritaet_3": 3
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -1820,8 +1820,7 @@
         "prioritaet": {
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 2,
-          "radverkehrsmengen": 2,
-          "prioritaet_1": 5
+          "radverkehrsmengen": 2
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -2370,7 +2369,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 2,
-          "prioritaet_2": 4
+          "prioritaet_3": 4
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -2555,7 +2554,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 0,
-          "prioritaet_2": 3
+          "prioritaet_3": 3
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -2585,7 +2584,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 0,
           "radverkehrsmengen": 2,
-          "prioritaet_2": 3
+          "prioritaet_3": 3
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "keine Angabe",
@@ -2615,7 +2614,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 2,
-          "prioritaet_2": 4
+          "prioritaet_3": 4
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "keine Angabe",
@@ -2645,7 +2644,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 0,
           "radverkehrsmengen": 2,
-          "prioritaet_2": 4
+          "prioritaet_3": 4
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -2948,7 +2947,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 2,
-          "prioritaet_2": 4
+          "prioritaet_3": 4
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -3221,7 +3220,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 2,
-          "prioritaet_2": 4
+          "prioritaet_3": 4
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -3494,7 +3493,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 0,
           "radverkehrsmengen": 0,
-          "prioritaet_2": 2
+          "prioritaet_3": 2
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -4226,8 +4225,7 @@
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
-          "radverkehrsmengen": 2,
-          "prioritaet_1": 6
+          "radverkehrsmengen": 2
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "keine Angabe",
@@ -4652,7 +4650,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 0,
-          "prioritaet_2": 4
+          "prioritaet_3": 4
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "70",
@@ -4682,7 +4680,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 0,
-          "prioritaet_2": 2
+          "prioritaet_3": 2
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "70",
@@ -4742,7 +4740,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 0,
-          "prioritaet_2": 4
+          "prioritaet_3": 4
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "70",
@@ -4865,7 +4863,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 0,
-          "prioritaet_2": 3
+          "prioritaet_3": 3
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -5293,7 +5291,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 0,
-          "prioritaet_2": 4
+          "prioritaet_3": 4
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -5687,7 +5685,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 0,
           "radverkehrsmengen": 0,
-          "prioritaet_2": 1
+          "prioritaet_3": 1
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -5717,7 +5715,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 0,
-          "prioritaet_2": 2
+          "prioritaet_3": 2
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -5777,8 +5775,7 @@
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
-          "radverkehrsmengen": 2,
-          "prioritaet_1": 6
+          "radverkehrsmengen": 2
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -6051,7 +6048,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 2,
-          "prioritaet_2": 4
+          "prioritaet_3": 4
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -6081,7 +6078,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 2,
-          "prioritaet_2": 4
+          "prioritaet_3": 4
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -6200,7 +6197,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 0,
-          "prioritaet_2": 3
+          "prioritaet_3": 3
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -6291,7 +6288,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 0,
-          "prioritaet_2": 4
+          "prioritaet_3": 4
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "keine Angabe",
@@ -6352,7 +6349,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 0,
-          "prioritaet_2": 4
+          "prioritaet_3": 4
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "keine Angabe",
@@ -6382,7 +6379,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 0,
-          "prioritaet_2": 3
+          "prioritaet_3": 3
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "keine Angabe",
@@ -6412,7 +6409,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 2,
-          "prioritaet_2": 4
+          "prioritaet_3": 4
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -6442,7 +6439,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 0,
-          "prioritaet_2": 3
+          "prioritaet_3": 3
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "keine Angabe",
@@ -6501,8 +6498,7 @@
         "prioritaet": {
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 2,
-          "radverkehrsmengen": 2,
-          "prioritaet_1": 7
+          "radverkehrsmengen": 2
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -6806,7 +6802,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 0,
-          "prioritaet_2": 3
+          "prioritaet_3": 3
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "keine Angabe",
@@ -6836,7 +6832,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 2,
-          "prioritaet_2": 4
+          "prioritaet_3": 4
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "5",
@@ -6987,7 +6983,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 0,
-          "prioritaet_2": 3
+          "prioritaet_3": 3
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "keine Angabe",
@@ -7018,7 +7014,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 0,
-          "prioritaet_2": 3
+          "prioritaet_3": 3
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "keine Angabe",
@@ -7077,7 +7073,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 2,
-          "prioritaet_2": 4
+          "prioritaet_3": 4
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -7107,7 +7103,7 @@
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 0,
           "radverkehrsmengen": 2,
-          "prioritaet_2": 4
+          "prioritaet_3": 4
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -7321,7 +7317,7 @@
           "radnetzfunktion": 3,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 0,
-          "prioritaet_2": 4
+          "prioritaet_3": 4
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",
@@ -7351,7 +7347,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 0,
           "radverkehrsmengen": 2,
-          "prioritaet_2": 3
+          "prioritaet_3": 3
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -7381,8 +7377,7 @@
         "prioritaet": {
           "radnetzfunktion": 2,
           "bewertung_soll_ist": 3,
-          "radverkehrsmengen": 0,
-          "prioritaet_1": 5
+          "radverkehrsmengen": 0
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "70",
@@ -7412,7 +7407,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 0,
           "radverkehrsmengen": 2,
-          "prioritaet_2": 3
+          "prioritaet_3": 3
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -7442,7 +7437,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 0,
           "radverkehrsmengen": 2,
-          "prioritaet_2": 3
+          "prioritaet_3": 3
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -7472,7 +7467,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 1,
           "radverkehrsmengen": 2,
-          "prioritaet_2": 4
+          "prioritaet_3": 4
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -7532,7 +7527,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 0,
           "radverkehrsmengen": 2,
-          "prioritaet_2": 3
+          "prioritaet_3": 3
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "50",
@@ -7593,7 +7588,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 0,
-          "prioritaet_2": 3
+          "prioritaet_3": 3
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "0",
@@ -7655,7 +7650,7 @@
           "radnetzfunktion": 1,
           "bewertung_soll_ist": 2,
           "radverkehrsmengen": 0,
-          "prioritaet_2": 3
+          "prioritaet_3": 3
         },
         "kfzVerkehr": {
           "zulässigeHöchstgeschwindigkeit": "30",

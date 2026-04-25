@@ -66,6 +66,7 @@ describe("Abschnittsnummer 4", () => {
         expect(section.prioritaet?.radverkehrsmengen).toBe(4);
         expect(section.prioritaet?.prioritaet_1).toBe(10);
         expect(section.prioritaet?.prioritaet_2).toBe(undefined);
+        expect(section.prioritaet?.prioritaet_3).toBe(undefined);
     });
 
     describe("kfzVerkehr", () => {
@@ -151,6 +152,7 @@ describe("Abschnittsnummer 379", () => {
         expect(section.prioritaet?.radverkehrsmengen).toBe(4);
         expect(section.prioritaet?.prioritaet_1).toBe(undefined);
         expect(section.prioritaet?.prioritaet_2).toBe(8);
+        expect(section.prioritaet?.prioritaet_3).toBe(undefined);
     });
 
     describe("kfzVerkehr", () => {
@@ -174,6 +176,95 @@ describe("Abschnittsnummer 379", () => {
     });
 });
 
+describe("Abschnittsnummer 129", () => {
+    const data = JSON.parse(str, reviver) as Map<string, Abschnitt>;
+    const section = data.get("129")
+
+    if (!section) {
+        throw new Error("No section")
+    }
+
+    test("has correct abschnittsnummer", () => {
+        expect(section.abschnittsnummer).toBe("129");
+    });
+
+    test("has correct straße", () => {
+        expect(section.straße).toBe("Kastanienallee");
+    });
+
+    test("has correct abschnitt", () => {
+        expect(section.abschnitt).toBe("zw. Geschwister-Scholl-Straße und Zeppelinstraße");
+    });
+
+    test("has correct bereich", () => {
+        expect(section.bereich).toBe("M 2");
+    });
+
+    test("has correct radnetzfunktion", () => {
+        expect(section.radnetzfunktion).toBe("Hauptroute 2. Stufe");
+    });
+
+    test("has correct längeInMeter", () => {
+        expect(section.längeInMeter).toBe(557);
+    });
+
+    test("has correct führungsform", () => {
+        expect(section.führungsform).toBe("Mischverkehr")
+    })
+
+    test("has correct bewertungFührungsform", () => {
+        expect(section.bewertungFührungsform).toBe(1);
+    });
+
+    test("has correct bewertungAnlagenzustand", () => {
+        expect(section.bewertungAnlagenzustand).toBe(4);
+    });
+
+    test("has correct gesamtBewertung", () => {
+        expect(section.bewertungGesamt).toBe(4);
+    });
+
+    test("has correct verkehrssicherheit", () => {
+        expect(section.verkehrssicherheit).toBe("keine Auffälligkeit");
+    });
+
+    test("has correct maßnahmen", () => {
+        expect(section.maßnahmen).toBe("Bei grundhafter Erneuerung der Straße beiseitig Radverkehrsanlage berücksichtigen.");
+    });
+
+    test("has correct kommentar", () => {
+        expect(section.kommentar).toBe(undefined);
+    });
+
+    test("has correct priority", () => {
+        expect(section.prioritaet?.radnetzfunktion).toBe(1);
+        expect(section.prioritaet?.bewertung_soll_ist).toBe(1);
+        expect(section.prioritaet?.radverkehrsmengen).toBe(2);
+        expect(section.prioritaet?.prioritaet_1).toBe(undefined);
+        expect(section.prioritaet?.prioritaet_2).toBe(undefined);
+        expect(section.prioritaet?.prioritaet_3).toBe(4);
+    });
+
+    describe("kfzVerkehr", () => {
+        const kfzVerkehr = section.kfzVerkehr;
+
+        test("has correct summeKfzSpitzenstunde", () => {
+            expect(kfzVerkehr.summeKfzSpitzenstunde).toBe(300);
+        });
+
+        test("has correct kfzParkenAufstellform", () => {
+            expect(kfzVerkehr.kfzParkenAufstellform).toBe("Parken nicht vorhanden oder nicht relevant");
+        });
+
+        test("has correct sicherheitsabstandParken", () => {
+            expect(kfzVerkehr.sicherheitsabstandParken).toBe("Parken nicht vorhanden oder nicht relevant");
+        });
+
+        test("has correct zulässigeHöchstgeschwindigkeit", () => {
+            expect(kfzVerkehr.zulässigeHöchstgeschwindigkeit).toBe("30");
+        });
+    });
+});
 
 function reviver(key, value) {
     if (typeof value === 'object' && value !== null) {

@@ -21,6 +21,7 @@ export interface Abschnitt {
         radverkehrsmengen?: number;
         prioritaet_1?: number;
         prioritaet_2?: number;
+        prioritaet_3?: number;
     };
     kfzVerkehr: {
         summeKfzSpitzenstunde?: number;
@@ -49,7 +50,9 @@ async function main() {
         const maßnahmen = table.querySelector("tbody > tr:nth-child(13) > td:nth-child(3) > p:nth-child(1)")?.textContent
         const kommentar = table.querySelector("tbody > tr:nth-child(14) > td:nth-child(2)")?.textContent
 
-        const isPrioTwo = table.querySelector("tbody > tr:nth-child(15) > td:nth-child(2) > p:nth-child(2)")?.textContent.includes("Priorität II")
+        const isPrioOne = table.querySelector("tbody > tr:nth-child(15) > td:nth-child(2) > p:nth-child(2)")?.textContent === "Priorität I"
+        const isPrioTwo = table.querySelector("tbody > tr:nth-child(15) > td:nth-child(2) > p:nth-child(2)")?.textContent === "Priorität II"
+        const isPrioThree = table.querySelector("tbody > tr:nth-child(15) > td:nth-child(2) > p:nth-child(2)")?.textContent === "Priorität III"
 
         const abschnitt: Abschnitt = {
             abschnittsnummer,
@@ -70,8 +73,9 @@ async function main() {
                 radnetzfunktion: Number(table.querySelector("tbody > tr:nth-child(15) > td:nth-child(3) > p:nth-child(1)")?.textContent.replace("Punkte", "")),
                 bewertung_soll_ist: Number(table.querySelector("tbody > tr:nth-child(15) > td:nth-child(3) > p:nth-child(2)")?.textContent),
                 radverkehrsmengen: Number(table.querySelector("tbody > tr:nth-child(15) > td:nth-child(3) > p:nth-child(4)")?.textContent),
-                prioritaet_1: isPrioTwo ? undefined : Number(table.querySelector("tbody > tr:nth-child(15) > td:nth-child(3) > p:nth-child(5)")?.textContent),
-                prioritaet_2: isPrioTwo ? Number(table.querySelector("tbody > tr:nth-child(15) > td:nth-child(3) > p:nth-child(5)")?.textContent) : undefined
+                prioritaet_1: isPrioOne ? Number(table.querySelector("tbody > tr:nth-child(15) > td:nth-child(3) > p:nth-child(5)")?.textContent) : undefined,
+                prioritaet_2: isPrioTwo ? Number(table.querySelector("tbody > tr:nth-child(15) > td:nth-child(3) > p:nth-child(5)")?.textContent) : undefined,
+                prioritaet_3: isPrioThree ? Number(table.querySelector("tbody > tr:nth-child(15) > td:nth-child(3) > p:nth-child(5)")?.textContent) : undefined
             },
             kfzVerkehr: {
                 zulässigeHöchstgeschwindigkeit: table.querySelector("tbody > tr:nth-child(7) > td:nth-child(2)")?.textContent,
