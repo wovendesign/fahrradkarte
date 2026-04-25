@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { LineLayer, GeoJSON, MapLibre, SymbolLayer } from "svelte-maplibre";
-	import zielnetz from "./radverkehrskonzept_zielnetz.geojson?url";
+	import zielnetz from "../../radverkehrskonzept_zielnetz.geojson?url";
 	import * as turf from "@turf/turf";
 	import type { Feature, LineString, FeatureCollection, Position } from "geojson";
 
