@@ -6575,95 +6575,6 @@
         "coordinates": [
           [
             [
-              13.07292877993964,
-              52.40090518754771
-            ],
-            [
-              13.07223566853794,
-              52.40015910917922
-            ],
-            [
-              13.07138071429581,
-              52.40008040840776
-            ],
-            [
-              13.0707065603412,
-              52.40002336774681
-            ],
-            [
-              13.07042068132113,
-              52.39998884824632
-            ],
-            [
-              13.07023680723211,
-              52.39994790122261
-            ],
-            [
-              13.06977870955669,
-              52.39990517294073
-            ],
-            [
-              13.06964763015623,
-              52.39987048224332
-            ],
-            [
-              13.06951984716689,
-              52.39983773349083
-            ],
-            [
-              13.06820725353063,
-              52.39965813357961
-            ],
-            [
-              13.06793701046947,
-              52.39962115470534
-            ],
-            [
-              13.06773507490096,
-              52.39959330604204
-            ],
-            [
-              13.06755137013023,
-              52.39956539546809
-            ],
-            [
-              13.0671493872051,
-              52.3995089657242
-            ],
-            [
-              13.06707215490238,
-              52.39949812379992
-            ],
-            [
-              13.06698988190206,
-              52.39952060602207
-            ]
-          ]
-        ],
-        "type": "MultiLineString"
-      },
-      "properties": {
-        "name": "329. Türkstraße",
-        "Zwischen": "&lt;Null&gt;",
-        "Zielnetz": "Grundnetz",
-        "Vorhandene Radwegeinfrastruktur": "&lt;Null&gt;",
-        "Maßnahmen": "&lt;Null&gt;",
-        "Priorität": "&lt;Null&gt;",
-        "Länge in Meter": "461",
-        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Grundnetz</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">461</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
-        "geo_point_2d": {
-          "lon": 13.070088308428938,
-          "lat": 52.3999601656157
-        },
-        "color": "#568572"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "coordinates": [
-          [
-            [
               13.10163994533067,
               52.47077835694411
             ],
@@ -11305,7 +11216,8 @@
           "lon": 13.06200627491167,
           "lat": 52.39327751968274
         },
-        "color": "#0e99e8"
+        "color": "#0e99e8",
+        "id": "180"
       }
     },
     {
@@ -12406,39 +12318,21 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              13.05254399242151,
-              52.39547915465631
-            ],
-            [
-              13.05041349853813,
-              52.39575450920222
-            ],
-            [
-              13.04825434217328,
-              52.39604589680742
-            ],
-            [
-              13.04573463166553,
-              52.39642623545465
-            ],
-            [
-              13.04353004429404,
-              52.39676291316068
-            ],
-            [
-              13.04341169561608,
-              52.3967800161714
-            ],
-            [
-              13.04317078941106,
-              52.39682296399945
-            ]
+            13.05254399242151,
+            52.39547915465631
+          ],
+          [
+            13.05041349853813,
+            52.39575450920222
+          ],
+          [
+            13.04825434217328,
+            52.39604589680742
           ]
-        ],
-        "type": "MultiLineString"
+        ]
       },
       "properties": {
         "name": "103. Breite Straße",
@@ -12454,6 +12348,50 @@
           "lat": 52.39612411951051
         },
         "color": "hsl(350, 70%, 50%)",
+        "id": "360"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.04825434217328,
+            52.39604589680742
+          ],
+          [
+            13.04573463166553,
+            52.39642623545465
+          ],
+          [
+            13.04353004429404,
+            52.39676291316068
+          ],
+          [
+            13.04341169561608,
+            52.3967800161714
+          ],
+          [
+            13.04317078941106,
+            52.39682296399945
+          ]
+        ]
+      },
+      "properties": {
+        "name": "103. Breite Straße",
+        "Zwischen": "zwischen Zeppelinstraße und Dortustraße",
+        "Zielnetz": "Hauptroute 1. Stufe",
+        "Vorhandene Radwegeinfrastruktur": "getrennter Rad- und Gehweg, Einrichtungsverkehr (Anlagen für beide Fahrtrichtungen vorhanden), südliche Straßenseite zwischen Zeppelinstraße und Wall am Kiez im Zweirichtungsverkehr",
+        "Maßnahmen": "Vertiefende Untersuchung zur Anpassung / Änderung der Ampelsteuerung",
+        "Priorität": "&lt;Null&gt;",
+        "Länge in Meter": "655",
+        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen Zeppelinstraße und Dortustraße</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Hauptroute 1. Stufe</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">getrennter Rad- und Gehweg, Einrichtungsverkehr (Anlagen für beide Fahrtrichtungen vorhanden), südliche Straßenseite zwischen Zeppelinstraße und Wall am Kiez im Zweirichtungsverkehr</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Getrennter Geh- und Radweg</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Vertiefende Untersuchung zur Anpassung / Änderung der Ampelsteuerung</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">655</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
+        "geo_point_2d": {
+          "lon": 13.047853512491605,
+          "lat": 52.39612411951051
+        },
+        "color": "hsl(331, 70%, 50%)",
         "id": "20"
       }
     },
@@ -13271,6 +13209,34 @@
           [
             13.06559840723296,
             52.39848196157958
+          ]
+        ]
+      },
+      "properties": {
+        "name": "132. Am Kanal",
+        "Zwischen": "zwischen Friedrich-Ebert-Straße und Charlottenstraße",
+        "Zielnetz": "Hauptroute 1. Stufe",
+        "Vorhandene Radwegeinfrastruktur": "Schutzstreifen, im Straßenraum, Einrichtungsverkehr (Anlagen für beide Fahrtrichtungen vorhanden)",
+        "Maßnahmen": "An den Engstellen Verbreiterung der Fahrbahn zur durchgängigen Markierung von Schutzstreifen.",
+        "Priorität": "Priorität III",
+        "Länge in Meter": "592",
+        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen Friedrich-Ebert-Straße und Charlottenstraße</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Hauptroute 1. Stufe</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Schutzstreifen, im Straßenraum, Einrichtungsverkehr (Anlagen für beide Fahrtrichtungen vorhanden)</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Schutzstreifen</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">An den Engstellen Verbreiterung der Fahrbahn zur durchgängigen Markierung von Schutzstreifen.</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Priorität III</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">592</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
+        "geo_point_2d": {
+          "lon": 13.062450679229444,
+          "lat": 52.39799647350728
+        },
+        "color": "#c65545",
+        "id": "368"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.06559840723296,
+            52.39848196157958
           ],
           [
             13.06538034765849,
@@ -13315,7 +13281,7 @@
           "lon": 13.062450679229444,
           "lat": 52.39799647350728
         },
-        "color": "#c65545",
+        "color": "hsl(220, 70%, 50%)",
         "id": "365"
       }
     },
@@ -19352,71 +19318,6 @@
           "lat": 52.39599521361819
         },
         "color": "#e1474b"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              13.07275998308273,
-              52.40511452463775
-            ],
-            [
-              13.07270789670264,
-              52.40514106317553
-            ],
-            [
-              13.07260692285318,
-              52.40519777226298
-            ],
-            [
-              13.07259521882672,
-              52.40520657302983
-            ],
-            [
-              13.07210219455621,
-              52.40549822299703
-            ],
-            [
-              13.07168286550809,
-              52.40582254406258
-            ],
-            [
-              13.07138591541592,
-              52.40605777544672
-            ],
-            [
-              13.07094686608803,
-              52.40636208046374
-            ],
-            [
-              13.07039810144753,
-              52.40672771396228
-            ],
-            [
-              13.07008443181255,
-              52.4069078201778
-            ]
-          ]
-        ],
-        "type": "MultiLineString"
-      },
-      "properties": {
-        "name": "147. Otto-Nagelstraße",
-        "Zwischen": "zwischen Mangerstraße und Berliner Straße",
-        "Zielnetz": "Hauptroute 2. Stufe",
-        "Vorhandene Radwegeinfrastruktur": "Mischverkehr",
-        "Maßnahmen": "-",
-        "Priorität": "Keine Maßnahmen",
-        "Länge in Meter": "271",
-        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen Mangerstraße und Berliner Straße</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Hauptroute 2. Stufe</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Mischverkehr</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Mischverkehr</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">-</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Keine Maßnahmen</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">271</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
-        "geo_point_2d": {
-          "lon": 13.071422627785829,
-          "lat": 52.406010760985396
-        },
-        "color": "#09dc48"
       }
     },
     {
@@ -37746,75 +37647,6 @@
         "coordinates": [
           [
             [
-              13.07292877993964,
-              52.40090518754771
-            ],
-            [
-              13.07189187290601,
-              52.40091894721497
-            ],
-            [
-              13.07155897129935,
-              52.40091081811577
-            ],
-            [
-              13.06968461096628,
-              52.40085854875689
-            ],
-            [
-              13.06957498428666,
-              52.40085547473338
-            ],
-            [
-              13.06903191958121,
-              52.40084376121151
-            ],
-            [
-              13.06888918862929,
-              52.40084483492024
-            ],
-            [
-              13.06871827268375,
-              52.40085382108966
-            ],
-            [
-              13.06865726779547,
-              52.4008684690955
-            ],
-            [
-              13.06852157763337,
-              52.40090104978329
-            ],
-            [
-              13.06844213921773,
-              52.40091917344373
-            ]
-          ]
-        ],
-        "type": "MultiLineString"
-      },
-      "properties": {
-        "name": "262. Holzmarktstraße",
-        "Zwischen": "zwischen Berliner Straße und Uferweg",
-        "Zielnetz": "Grundnetz",
-        "Vorhandene Radwegeinfrastruktur": "Mischverkehr",
-        "Maßnahmen": "-",
-        "Priorität": "Keine Maßnahmen",
-        "Länge in Meter": "307",
-        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen Berliner Straße und Uferweg</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Grundnetz</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Mischverkehr</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Mischverkehr</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">-</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Keine Maßnahmen</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">307</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
-        "geo_point_2d": {
-          "lon": 13.070681788749795,
-          "lat": 52.40088583158936
-        },
-        "color": "#9a4242"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "coordinates": [
-          [
-            [
               13.05473001888495,
               52.42695257726314
             ],
@@ -50851,55 +50683,29 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              13.0701848662173,
-              52.40264355701141
-            ],
-            [
-              13.07006793568618,
-              52.40254049165633
-            ],
-            [
-              13.06958343791302,
-              52.4020479293922
-            ],
-            [
-              13.06887714397712,
-              52.40133603153606
-            ],
-            [
-              13.06844213921705,
-              52.40091917344591
-            ],
-            [
-              13.06805412774669,
-              52.40054732079688
-            ],
-            [
-              13.06778294266383,
-              52.40028752459959
-            ],
-            [
-              13.06736039263703,
-              52.39987877860497
-            ],
-            [
-              13.06698988190335,
-              52.39952060602614
-            ],
-            [
-              13.0669100554284,
-              52.39944341080916
-            ],
-            [
-              13.06642418757729,
-              52.39897365128294
-            ]
+            13.0701848662173,
+            52.40264355701141
+          ],
+          [
+            13.07006793568618,
+            52.40254049165633
+          ],
+          [
+            13.06958343791302,
+            52.4020479293922
+          ],
+          [
+            13.06887714397712,
+            52.40133603153606
+          ],
+          [
+            13.06844213921705,
+            52.40091917344591
           ]
-        ],
-        "type": "MultiLineString"
+        ]
       },
       "properties": {
         "name": "131. Berliner Straße",
@@ -50914,7 +50720,88 @@
           "lon": 13.068310644106107,
           "lat": 52.400802595523075
         },
-        "color": "#7d0a1b"
+        "color": "#7d0a1b",
+        "id": "369_1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.06844213921705,
+            52.40091917344591
+          ],
+          [
+            13.06805412774669,
+            52.40054732079688
+          ],
+          [
+            13.06778294266383,
+            52.40028752459959
+          ],
+          [
+            13.06736039263703,
+            52.39987877860497
+          ],
+          [
+            13.06698988190335,
+            52.39952060602614
+          ]
+        ]
+      },
+      "properties": {
+        "name": "131. Berliner Straße",
+        "Zwischen": "zwischen Charlottenstraße und Gutenbergstraße/ Nuthestraße",
+        "Zielnetz": "Hauptroute 1. Stufe",
+        "Vorhandene Radwegeinfrastruktur": "stadteinwärts teilweise getrennter Rad- und Geh- weg oder nicht benutzungspflichtiger Radweg, stra- ßenbegleitend",
+        "Maßnahmen": "Herstellung von Radverkehrsfurten im Kreuzungsbereich Nuthestraße/ Berliner Straße einschließlich der Signalisierung. Umbau der Mischverkehrsflächen im Kreuzungsbereich in getrennte Geh- und Radwege.",
+        "Priorität": "Priorität II",
+        "Länge in Meter": "482",
+        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen Charlottenstraße und Gutenbergstraße/ Nuthestraße</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Hauptroute 1. Stufe</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">stadteinwärts teilweise getrennter Rad- und Geh- weg oder nicht benutzungspflichtiger Radweg, stra- ßenbegleitend</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Getrennter Geh- und Radweg</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Herstellung von Radverkehrsfurten im Kreuzungsbereich Nuthestraße/ Berliner Straße einschließlich der Signalisierung. Umbau der Mischverkehrsflächen im Kreuzungsbereich in getrennte Geh- und Radwege.</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Priorität II</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">482</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
+        "geo_point_2d": {
+          "lon": 13.068310644106107,
+          "lat": 52.400802595523075
+        },
+        "color": "hsl(253, 70%, 50%)",
+        "id": "369_2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.06698988190335,
+            52.39952060602614
+          ],
+          [
+            13.0669100554284,
+            52.39944341080916
+          ],
+          [
+            13.06642418757729,
+            52.39897365128294
+          ]
+        ]
+      },
+      "properties": {
+        "name": "131. Berliner Straße",
+        "Zwischen": "zwischen Charlottenstraße und Gutenbergstraße/ Nuthestraße",
+        "Zielnetz": "Hauptroute 1. Stufe",
+        "Vorhandene Radwegeinfrastruktur": "stadteinwärts teilweise getrennter Rad- und Geh- weg oder nicht benutzungspflichtiger Radweg, stra- ßenbegleitend",
+        "Maßnahmen": "Herstellung von Radverkehrsfurten im Kreuzungsbereich Nuthestraße/ Berliner Straße einschließlich der Signalisierung. Umbau der Mischverkehrsflächen im Kreuzungsbereich in getrennte Geh- und Radwege.",
+        "Priorität": "Priorität II",
+        "Länge in Meter": "482",
+        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen Charlottenstraße und Gutenbergstraße/ Nuthestraße</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Hauptroute 1. Stufe</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">stadteinwärts teilweise getrennter Rad- und Geh- weg oder nicht benutzungspflichtiger Radweg, stra- ßenbegleitend</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Getrennter Geh- und Radweg</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Herstellung von Radverkehrsfurten im Kreuzungsbereich Nuthestraße/ Berliner Straße einschließlich der Signalisierung. Umbau der Mischverkehrsflächen im Kreuzungsbereich in getrennte Geh- und Radwege.</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Priorität II</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">482</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
+        "geo_point_2d": {
+          "lon": 13.068310644106107,
+          "lat": 52.400802595523075
+        },
+        "color": "hsl(285, 70%, 50%)",
+        "id": "189"
       }
     },
     {
