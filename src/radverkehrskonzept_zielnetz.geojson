@@ -7634,187 +7634,41 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              13.09027432103407,
-              52.38270347318153
-            ],
-            [
-              13.09001191618671,
-              52.3828558664028
-            ],
-            [
-              13.08950575165368,
-              52.38310646322773
-            ],
-            [
-              13.08880421186718,
-              52.3834779827466
-            ],
-            [
-              13.08730184448086,
-              52.38434483579182
-            ],
-            [
-              13.08696348790441,
-              52.38455066210721
-            ],
-            [
-              13.08688346219975,
-              52.38459342556673
-            ],
-            [
-              13.0868673992155,
-              52.3846046748088
-            ],
-            [
-              13.08663214756199,
-              52.38473349255127
-            ],
-            [
-              13.08637269616201,
-              52.38489177019297
-            ],
-            [
-              13.08627957708293,
-              52.38494843809074
-            ],
-            [
-              13.08610482122358,
-              52.38505449657929
-            ],
-            [
-              13.08597054270543,
-              52.38512164722603
-            ],
-            [
-              13.08585498905397,
-              52.38518055897978
-            ],
-            [
-              13.08539939489772,
-              52.38534464874005
-            ],
-            [
-              13.08472157663037,
-              52.38556034381197
-            ],
-            [
-              13.08468656147151,
-              52.38557146541206
-            ],
-            [
-              13.08384245010671,
-              52.38584335528186
-            ],
-            [
-              13.08361967867587,
-              52.38590421279696
-            ],
-            [
-              13.083533608418,
-              52.3859303313585
-            ],
-            [
-              13.08351837282944,
-              52.38593601874978
-            ],
-            [
-              13.08334421889239,
-              52.38598723392607
-            ],
-            [
-              13.0830932114033,
-              52.38606210902029
-            ],
-            [
-              13.08252703372409,
-              52.38625118898651
-            ],
-            [
-              13.08241639566227,
-              52.38628805772696
-            ],
-            [
-              13.0819801861842,
-              52.38643833210838
-            ],
-            [
-              13.08164048852177,
-              52.38656229761413
-            ],
-            [
-              13.0803003204985,
-              52.38700108578235
-            ],
-            [
-              13.07923816644752,
-              52.38733503969721
-            ],
-            [
-              13.07888108153756,
-              52.38745296006965
-            ],
-            [
-              13.07879117912042,
-              52.38748935330462
-            ],
-            [
-              13.07875698173996,
-              52.38751541259895
-            ],
-            [
-              13.07873726584598,
-              52.38753963925357
-            ],
-            [
-              13.07872761123974,
-              52.38756906481302
-            ],
-            [
-              13.0787288113758,
-              52.38761925773527
-            ],
-            [
-              13.07873824532913,
-              52.3877471824697
-            ],
-            [
-              13.07874233926203,
-              52.38780857208548
-            ],
-            [
-              13.07873088576867,
-              52.38784219447267
-            ],
-            [
-              13.07870961529717,
-              52.38786837401028
-            ],
-            [
-              13.07867754955986,
-              52.38787918213505
-            ],
-            [
-              13.07852352165394,
-              52.38789304248925
-            ],
-            [
-              13.07829364717091,
-              52.38790387089714
-            ],
-            [
-              13.07809423517305,
-              52.38792049937796
-            ],
-            [
-              13.07798133297063,
-              52.38793826488092
-            ]
+            13.09027432103407,
+            52.38270347318153
+          ],
+          [
+            13.09001191618671,
+            52.3828558664028
+          ],
+          [
+            13.08950575165368,
+            52.38310646322773
+          ],
+          [
+            13.08880421186718,
+            52.3834779827466
+          ],
+          [
+            13.08730184448086,
+            52.38434483579182
+          ],
+          [
+            13.08696348790441,
+            52.38455066210721
+          ],
+          [
+            13.08688346219975,
+            52.38459342556673
+          ],
+          [
+            13.0868673992155,
+            52.3846046748088
           ]
-        ],
-        "type": "MultiLineString"
+        ]
       },
       "properties": {
         "name": "97. Schlaatzweg",
@@ -7829,7 +7683,208 @@
           "lon": 13.084129213955178,
           "lat": 52.38556468003749
         },
-        "color": "#9cc391"
+        "color": "#9cc391",
+        "id": "241_4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.0868673992155,
+            52.3846046748088
+          ],
+          [
+            13.08663214756199,
+            52.38473349255127
+          ],
+          [
+            13.08637269616201,
+            52.38489177019297
+          ],
+          [
+            13.08627957708293,
+            52.38494843809074
+          ],
+          [
+            13.08610482122358,
+            52.38505449657929
+          ],
+          [
+            13.08597054270543,
+            52.38512164722603
+          ],
+          [
+            13.08585498905397,
+            52.38518055897978
+          ],
+          [
+            13.08539939489772,
+            52.38534464874005
+          ],
+          [
+            13.08472157663037,
+            52.38556034381197
+          ],
+          [
+            13.08468656147151,
+            52.38557146541206
+          ],
+          [
+            13.08384245010671,
+            52.38584335528186
+          ],
+          [
+            13.08361967867587,
+            52.38590421279696
+          ],
+          [
+            13.083533608418,
+            52.3859303313585
+          ],
+          [
+            13.08351837282944,
+            52.38593601874978
+          ],
+          [
+            13.08334421889239,
+            52.38598723392607
+          ],
+          [
+            13.0830932114033,
+            52.38606210902029
+          ],
+          [
+            13.08252703372409,
+            52.38625118898651
+          ],
+          [
+            13.08241639566227,
+            52.38628805772696
+          ],
+          [
+            13.0819801861842,
+            52.38643833210838
+          ],
+          [
+            13.08164048852177,
+            52.38656229761413
+          ]
+        ]
+      },
+      "properties": {
+        "name": "97. Schlaatzweg",
+        "Zwischen": "zwischen Horstweg und Friedrich-Engels-Straße",
+        "Zielnetz": "Hauptroute 1. Stufe",
+        "Vorhandene Radwegeinfrastruktur": "Südlich der Kleingärten gemeinsamer Geh- und Radweg, im Straßenraum/ eigenständig geführt, Zweirichtungsverkehr",
+        "Maßnahmen": "-",
+        "Priorität": "Priorität III",
+        "Länge in Meter": "1.048",
+        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen Horstweg und Friedrich-Engels-Straße</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Hauptroute 1. Stufe</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Südlich der Kleingärten gemeinsamer Geh- und Radweg, im Straßenraum/ eigenständig geführt, Zweirichtungsverkehr</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Mischverkehr</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">-</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Priorität III</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">1.048</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
+        "geo_point_2d": {
+          "lon": 13.084129213955178,
+          "lat": 52.38556468003749
+        },
+        "color": "hsl(277, 70%, 50%)",
+        "id": "241_3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.08164048852177,
+            52.38656229761413
+          ],
+          [
+            13.0803003204985,
+            52.38700108578235
+          ],
+          [
+            13.07923816644752,
+            52.38733503969721
+          ],
+          [
+            13.07888108153756,
+            52.38745296006965
+          ],
+          [
+            13.07879117912042,
+            52.38748935330462
+          ],
+          [
+            13.07875698173996,
+            52.38751541259895
+          ],
+          [
+            13.07873726584598,
+            52.38753963925357
+          ],
+          [
+            13.07872761123974,
+            52.38756906481302
+          ],
+          [
+            13.0787288113758,
+            52.38761925773527
+          ],
+          [
+            13.07873824532913,
+            52.3877471824697
+          ],
+          [
+            13.07874233926203,
+            52.38780857208548
+          ],
+          [
+            13.07873088576867,
+            52.38784219447267
+          ],
+          [
+            13.07870961529717,
+            52.38786837401028
+          ],
+          [
+            13.07867754955986,
+            52.38787918213505
+          ],
+          [
+            13.07852352165394,
+            52.38789304248925
+          ],
+          [
+            13.07829364717091,
+            52.38790387089714
+          ],
+          [
+            13.07809423517305,
+            52.38792049937796
+          ],
+          [
+            13.07798133297063,
+            52.38793826488092
+          ]
+        ]
+      },
+      "properties": {
+        "name": "97. Schlaatzweg",
+        "Zwischen": "zwischen Horstweg und Friedrich-Engels-Straße",
+        "Zielnetz": "Hauptroute 1. Stufe",
+        "Vorhandene Radwegeinfrastruktur": "Südlich der Kleingärten gemeinsamer Geh- und Radweg, im Straßenraum/ eigenständig geführt, Zweirichtungsverkehr",
+        "Maßnahmen": "-",
+        "Priorität": "Priorität III",
+        "Länge in Meter": "1.048",
+        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen Horstweg und Friedrich-Engels-Straße</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Hauptroute 1. Stufe</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Südlich der Kleingärten gemeinsamer Geh- und Radweg, im Straßenraum/ eigenständig geführt, Zweirichtungsverkehr</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Mischverkehr</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">-</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Priorität III</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">1.048</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
+        "geo_point_2d": {
+          "lon": 13.084129213955178,
+          "lat": 52.38556468003749
+        },
+        "color": "hsl(338, 70%, 50%)",
+        "id": "241_2"
       }
     },
     {
@@ -7898,7 +7953,8 @@
           "lon": 13.07193672285536,
           "lat": 52.38590772678578
         },
-        "color": "#ef9f56"
+        "color": "#ef9f56",
+        "id": "242_2"
       }
     },
     {
@@ -26953,87 +27009,65 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              13.06313819283994,
-              52.39247345179721
-            ],
-            [
-              13.06337095854217,
-              52.39225625147043
-            ],
-            [
-              13.0634687511441,
-              52.39212073116924
-            ],
-            [
-              13.06354767580905,
-              52.39198310327613
-            ],
-            [
-              13.06356590701802,
-              52.3919225284498
-            ],
-            [
-              13.06357684333,
-              52.39187415266517
-            ],
-            [
-              13.06362527227129,
-              52.39166094459785
-            ],
-            [
-              13.06366531501449,
-              52.39147142700748
-            ],
-            [
-              13.06370921020695,
-              52.39131811901999
-            ],
-            [
-              13.06381030925708,
-              52.39117078361602
-            ],
-            [
-              13.06390629922226,
-              52.39106292775043
-            ],
-            [
-              13.06407483682352,
-              52.39091939449547
-            ],
-            [
-              13.06437900421576,
-              52.39067225075434
-            ],
-            [
-              13.06448780075934,
-              52.39058402619099
-            ],
-            [
-              13.06522181035408,
-              52.39008567921789
-            ],
-            [
-              13.06539307370954,
-              52.38996700573782
-            ],
-            [
-              13.06554576725288,
-              52.38987302485661
-            ],
-            [
-              13.06570434096738,
-              52.38977563328214
-            ],
-            [
-              13.06579833181301,
-              52.38972340159058
-            ]
+            13.06313819283994,
+            52.39247345179721
+          ],
+          [
+            13.06337095854217,
+            52.39225625147043
+          ],
+          [
+            13.0634687511441,
+            52.39212073116924
+          ],
+          [
+            13.06354767580905,
+            52.39198310327613
+          ],
+          [
+            13.06356590701802,
+            52.3919225284498
+          ],
+          [
+            13.06357684333,
+            52.39187415266517
+          ],
+          [
+            13.06362527227129,
+            52.39166094459785
+          ],
+          [
+            13.06366531501449,
+            52.39147142700748
+          ],
+          [
+            13.06370921020695,
+            52.39131811901999
+          ],
+          [
+            13.06381030925708,
+            52.39117078361602
+          ],
+          [
+            13.06390629922226,
+            52.39106292775043
+          ],
+          [
+            13.06407483682352,
+            52.39091939449547
+          ],
+          [
+            13.06437900421576,
+            52.39067225075434
+          ],
+          [
+            13.06448780075934,
+            52.39058402619099
           ]
-        ],
-        "type": "MultiLineString"
+        ]
       },
       "properties": {
         "name": "102. Heinrich-Mann-Allee",
@@ -27048,7 +27082,56 @@
           "lon": 13.064302430433754,
           "lat": 52.39095769981052
         },
-        "color": "#48051b"
+        "color": "#48051b",
+        "id": "239"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.06448780075934,
+            52.39058402619099
+          ],
+          [
+            13.06522181035408,
+            52.39008567921789
+          ],
+          [
+            13.06539307370954,
+            52.38996700573782
+          ],
+          [
+            13.06554576725288,
+            52.38987302485661
+          ],
+          [
+            13.06570434096738,
+            52.38977563328214
+          ],
+          [
+            13.06579833181301,
+            52.38972340159058
+          ]
+        ]
+      },
+      "properties": {
+        "name": "102. Heinrich-Mann-Allee",
+        "Zwischen": "zwischen Friedrich-List-Straße/ Babelsberger Straße und Brauhausberg",
+        "Zielnetz": "Hauptroute 1. Stufe",
+        "Vorhandene Radwegeinfrastruktur": "getrennter Rad- und Gehweg (Richtung Süden), im Straßenraum / straßenbegleitend, Einrichtungsverkehr",
+        "Maßnahmen": "Anpassung der Kreuzung Lange Brücke/ Babelsberger Straße an die hohen Radfahrerbelastung (größere Aufstellflächen, breitere Furt). Verbesserung der Radverkehrsführung und größere Aufstellbereiche am Leipziger Dreieck.",
+        "Priorität": "Priorität I",
+        "Länge in Meter": "365",
+        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen Friedrich-List-Straße/ Babelsberger Straße und Brauhausberg</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Hauptroute 1. Stufe</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">getrennter Rad- und Gehweg (Richtung Süden), im Straßenraum / straßenbegleitend, Einrichtungsverkehr</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Stadteinwärts: Radfahrstreifen bis Kreuzung Leipziger Straße, dann getrennter Geh- und Radweg\r\r\nStadtauswärts: getrennter Geh- und Radweg</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Anpassung der Kreuzung Lange Brücke/ Babelsberger Straße an die hohen Radfahrerbelastung (größere Aufstellflächen, breitere Furt). Verbesserung der Radverkehrsführung und größere Aufstellbereiche am Leipziger Dreieck.</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Priorität I</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">365</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
+        "geo_point_2d": {
+          "lon": 13.064302430433754,
+          "lat": 52.39095769981052
+        },
+        "color": "hsl(58, 70%, 50%)",
+        "id": "96"
       }
     },
     {
@@ -27105,7 +27188,8 @@
           "lon": 13.06804878784361,
           "lat": 52.38839538823802
         },
-        "color": "#84d0cf"
+        "color": "#84d0cf",
+        "id": "242_1"
       }
     },
     {
@@ -28818,227 +28902,125 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              13.08396962544504,
-              52.39046658228723
-            ],
-            [
-              13.08388614490493,
-              52.39046325055592
-            ],
-            [
-              13.08384843953399,
-              52.39046174000998
-            ],
-            [
-              13.08382672687551,
-              52.39046084844146
-            ],
-            [
-              13.08369700726325,
-              52.39045622729937
-            ],
-            [
-              13.08339757524797,
-              52.39044399813658
-            ],
-            [
-              13.08288686507432,
-              52.39043373581612
-            ],
-            [
-              13.08288245134223,
-              52.39043384404474
-            ],
-            [
-              13.08284494630229,
-              52.39043449442193
-            ],
-            [
-              13.0827864045478,
-              52.39043561273974
-            ],
-            [
-              13.08274125085351,
-              52.39043640874213
-            ],
-            [
-              13.08252727713908,
-              52.39044291770544
-            ],
-            [
-              13.08190551933881,
-              52.39047564795236
-            ],
-            [
-              13.08167565715099,
-              52.39048774739494
-            ],
-            [
-              13.08163947361816,
-              52.39048965197551
-            ],
-            [
-              13.08121800849214,
-              52.39051922548983
-            ],
-            [
-              13.08099350682648,
-              52.39053464229422
-            ],
-            [
-              13.08096271459563,
-              52.3905363901647
-            ],
-            [
-              13.08091792730982,
-              52.39053889983345
-            ],
-            [
-              13.08078858222524,
-              52.39054597071587
-            ],
-            [
-              13.08065187435929,
-              52.39055337145354
-            ],
-            [
-              13.08060080693814,
-              52.39055496975261
-            ],
-            [
-              13.08056608051808,
-              52.3905559342877
-            ],
-            [
-              13.08051104383798,
-              52.39055755799309
-            ],
-            [
-              13.08040263536258,
-              52.39056308028251
-            ],
-            [
-              13.08037261251265,
-              52.39056403124924
-            ],
-            [
-              13.08020057636397,
-              52.39056932899742
-            ],
-            [
-              13.08004467460968,
-              52.39056859448181
-            ],
-            [
-              13.079594696449,
-              52.39054060201125
-            ],
-            [
-              13.07932481768935,
-              52.39051534831875
-            ],
-            [
-              13.07917489672228,
-              52.3905013193041
-            ],
-            [
-              13.07892831693286,
-              52.39047436329287
-            ],
-            [
-              13.07871267088595,
-              52.39045078849935
-            ],
-            [
-              13.07866089070403,
-              52.39044512773942
-            ],
-            [
-              13.07822728418544,
-              52.39039554652438
-            ],
-            [
-              13.07782723370942,
-              52.3903279867396
-            ],
-            [
-              13.07755784942061,
-              52.39025679670964
-            ],
-            [
-              13.07711722016554,
-              52.3900882275485
-            ],
-            [
-              13.07691749773693,
-              52.38999344251562
-            ],
-            [
-              13.0767805870135,
-              52.3899244064412
-            ],
-            [
-              13.0765505414028,
-              52.3897665453806
-            ],
-            [
-              13.0763841745023,
-              52.38964829463018
-            ],
-            [
-              13.07627134737254,
-              52.38956283559998
-            ],
-            [
-              13.07624069475106,
-              52.38952421199548
-            ],
-            [
-              13.07618105430245,
-              52.38944923977648
-            ],
-            [
-              13.07617345563672,
-              52.38944222902092
-            ],
-            [
-              13.07613442691183,
-              52.38940621991318
-            ],
-            [
-              13.07603734866907,
-              52.38934727266638
-            ],
-            [
-              13.07590227186759,
-              52.38929696803939
-            ],
-            [
-              13.07569120553892,
-              52.38924012078079
-            ],
-            [
-              13.07553334654552,
-              52.38921354236433
-            ],
-            [
-              13.07535992500858,
-              52.3891933640932
-            ],
-            [
-              13.07512327004136,
-              52.38917746065154
-            ],
-            [
-              13.07477334846433,
-              52.38918084184333
-            ]
+            13.08396962544504,
+            52.39046658228723
+          ],
+          [
+            13.08388614490493,
+            52.39046325055592
+          ],
+          [
+            13.08384843953399,
+            52.39046174000998
+          ],
+          [
+            13.08382672687551,
+            52.39046084844146
+          ],
+          [
+            13.08369700726325,
+            52.39045622729937
+          ],
+          [
+            13.08339757524797,
+            52.39044399813658
+          ],
+          [
+            13.08288686507432,
+            52.39043373581612
+          ],
+          [
+            13.08288245134223,
+            52.39043384404474
+          ],
+          [
+            13.08284494630229,
+            52.39043449442193
+          ],
+          [
+            13.0827864045478,
+            52.39043561273974
+          ],
+          [
+            13.08274125085351,
+            52.39043640874213
+          ],
+          [
+            13.08252727713908,
+            52.39044291770544
+          ],
+          [
+            13.08190551933881,
+            52.39047564795236
+          ],
+          [
+            13.08167565715099,
+            52.39048774739494
+          ],
+          [
+            13.08163947361816,
+            52.39048965197551
+          ],
+          [
+            13.08121800849214,
+            52.39051922548983
+          ],
+          [
+            13.08099350682648,
+            52.39053464229422
+          ],
+          [
+            13.08096271459563,
+            52.3905363901647
+          ],
+          [
+            13.08091792730982,
+            52.39053889983345
+          ],
+          [
+            13.08078858222524,
+            52.39054597071587
+          ],
+          [
+            13.08065187435929,
+            52.39055337145354
+          ],
+          [
+            13.08060080693814,
+            52.39055496975261
+          ],
+          [
+            13.08056608051808,
+            52.3905559342877
+          ],
+          [
+            13.08051104383798,
+            52.39055755799309
+          ],
+          [
+            13.08040263536258,
+            52.39056308028251
+          ],
+          [
+            13.08037261251265,
+            52.39056403124924
+          ],
+          [
+            13.08020057636397,
+            52.39056932899742
+          ],
+          [
+            13.08004467460968,
+            52.39056859448181
+          ],
+          [
+            13.079594696449,
+            52.39054060201125
           ]
-        ],
-        "type": "MultiLineString"
+        ]
       },
       "properties": {
         "name": "100. Friedrich-Engels-Straße",
@@ -29053,7 +29035,136 @@
           "lon": 13.079281685032333,
           "lat": 52.39018796957252
         },
-        "color": "#ecf83d"
+        "color": "#ecf83d",
+        "id": "240_2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.079594696449,
+            52.39054060201125
+          ],
+          [
+            13.07932481768935,
+            52.39051534831875
+          ],
+          [
+            13.07917489672228,
+            52.3905013193041
+          ],
+          [
+            13.07892831693286,
+            52.39047436329287
+          ],
+          [
+            13.07871267088595,
+            52.39045078849935
+          ],
+          [
+            13.07866089070403,
+            52.39044512773942
+          ],
+          [
+            13.07822728418544,
+            52.39039554652438
+          ],
+          [
+            13.07782723370942,
+            52.3903279867396
+          ],
+          [
+            13.07755784942061,
+            52.39025679670964
+          ],
+          [
+            13.07711722016554,
+            52.3900882275485
+          ],
+          [
+            13.07691749773693,
+            52.38999344251562
+          ],
+          [
+            13.0767805870135,
+            52.3899244064412
+          ],
+          [
+            13.0765505414028,
+            52.3897665453806
+          ],
+          [
+            13.0763841745023,
+            52.38964829463018
+          ],
+          [
+            13.07627134737254,
+            52.38956283559998
+          ],
+          [
+            13.07624069475106,
+            52.38952421199548
+          ],
+          [
+            13.07618105430245,
+            52.38944923977648
+          ],
+          [
+            13.07617345563672,
+            52.38944222902092
+          ],
+          [
+            13.07613442691183,
+            52.38940621991318
+          ],
+          [
+            13.07603734866907,
+            52.38934727266638
+          ],
+          [
+            13.07590227186759,
+            52.38929696803939
+          ],
+          [
+            13.07569120553892,
+            52.38924012078079
+          ],
+          [
+            13.07553334654552,
+            52.38921354236433
+          ],
+          [
+            13.07535992500858,
+            52.3891933640932
+          ],
+          [
+            13.07512327004136,
+            52.38917746065154
+          ],
+          [
+            13.07477334846433,
+            52.38918084184333
+          ]
+        ]
+      },
+      "properties": {
+        "name": "100. Friedrich-Engels-Straße",
+        "Zwischen": "zwischen Auffahrt Nuthestraße und Schlaatzstraße",
+        "Zielnetz": "Radschnellverbindung",
+        "Vorhandene Radwegeinfrastruktur": "Schutzstreifen zwischen Schlaatzstraße und Zufahrt MAZ, danach getrennter Geh- und Radweg in Richtung Babelsberg,\r\r\nin Richtung  Innenstadt gemeinsamer Geh- und Radweg, straßenbegleitend, Einrichtungsverkehr",
+        "Maßnahmen": null,
+        "Priorität": null,
+        "Länge in Meter": null,
+        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen Auffahrt Nuthestraße und Schlaatzstraße</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Radschnellverbindung</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Schutzstreifen zwischen Schlaatzstraße und Zufahrt MAZ, danach getrennter Geh- und Radweg in Richtung Babelsberg,\r\r\nin Richtung  Innenstadt gemeinsamer Geh- und Radweg, straßenbegleitend, Einrichtungsverkehr</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">MindestbreitenderbenutzungspflichtigenRadverkehrsanlagenachStVO</td>\r\r\n<td style=\"border-bottom:1px solid white;\">nur abschnittsweise</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Getrennter Geh- und Radweg</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Bau von getrennten Geh- und Radwegen im Zuge des Vollausbaus</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">678</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
+        "geo_point_2d": {
+          "lon": 13.079281685032333,
+          "lat": 52.39018796957252
+        },
+        "color": "hsl(15, 70%, 50%)",
+        "id": "240_3"
       }
     },
     {
@@ -35005,115 +35116,53 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              13.09308260416167,
-              52.38494179641108
-            ],
-            [
-              13.09304573095757,
-              52.38489039862587
-            ],
-            [
-              13.09300674355652,
-              52.3848437322756
-            ],
-            [
-              13.09294825668459,
-              52.3847551199462
-            ],
-            [
-              13.09288063878415,
-              52.38466357281033
-            ],
-            [
-              13.09277322541899,
-              52.38453730503335
-            ],
-            [
-              13.09262784514274,
-              52.38439507697227
-            ],
-            [
-              13.09258950092353,
-              52.38435756397347
-            ],
-            [
-              13.0924853551508,
-              52.38426120089698
-            ],
-            [
-              13.0923405709545,
-              52.38414287148856
-            ],
-            [
-              13.09220865248761,
-              52.38405334302067
-            ],
-            [
-              13.09193587926101,
-              52.38383961344172
-            ],
-            [
-              13.0918626686006,
-              52.38378583017543
-            ],
-            [
-              13.09182890913658,
-              52.38376109751559
-            ],
-            [
-              13.0918084341115,
-              52.38374521134273
-            ],
-            [
-              13.09167539439474,
-              52.38364766159422
-            ],
-            [
-              13.09152167501832,
-              52.38353898772981
-            ],
-            [
-              13.09149708861328,
-              52.38352303509835
-            ],
-            [
-              13.09145944232477,
-              52.38349644122467
-            ],
-            [
-              13.09141081868117,
-              52.38346202714086
-            ],
-            [
-              13.09136023622517,
-              52.38342533348715
-            ],
-            [
-              13.09129595580926,
-              52.38338257398478
-            ],
-            [
-              13.09122767248216,
-              52.38333723212647
-            ],
-            [
-              13.09027432103407,
-              52.38270347318153
-            ],
-            [
-              13.09017481275422,
-              52.38263604610511
-            ],
-            [
-              13.08946439629855,
-              52.3820666304094
-            ]
+            13.09308260416167,
+            52.38494179641108
+          ],
+          [
+            13.09304573095757,
+            52.38489039862587
+          ],
+          [
+            13.09300674355652,
+            52.3848437322756
+          ],
+          [
+            13.09294825668459,
+            52.3847551199462
+          ],
+          [
+            13.09288063878415,
+            52.38466357281033
+          ],
+          [
+            13.09277322541899,
+            52.38453730503335
+          ],
+          [
+            13.09262784514274,
+            52.38439507697227
+          ],
+          [
+            13.09258950092353,
+            52.38435756397347
+          ],
+          [
+            13.0924853551508,
+            52.38426120089698
+          ],
+          [
+            13.0923405709545,
+            52.38414287148856
+          ],
+          [
+            13.09220865248761,
+            52.38405334302067
           ]
-        ],
-        "type": "MultiLineString"
+        ]
       },
       "properties": {
         "name": "95. Horstweg",
@@ -35128,7 +35177,152 @@
           "lon": 13.091328907668803,
           "lat": 52.38344615062434
         },
-        "color": "#873600"
+        "color": "#873600",
+        "id": "248_2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.09220865248761,
+            52.38405334302067
+          ],
+          [
+            13.09193587926101,
+            52.38383961344172
+          ],
+          [
+            13.0918626686006,
+            52.38378583017543
+          ],
+          [
+            13.09182890913658,
+            52.38376109751559
+          ],
+          [
+            13.0918084341115,
+            52.38374521134273
+          ],
+          [
+            13.09167539439474,
+            52.38364766159422
+          ],
+          [
+            13.09152167501832,
+            52.38353898772981
+          ],
+          [
+            13.09149708861328,
+            52.38352303509835
+          ],
+          [
+            13.09145944232477,
+            52.38349644122467
+          ]
+        ]
+      },
+      "properties": {
+        "name": "95. Horstweg",
+        "Zwischen": "zwischen An der alten Zauche und Ausfahrt/Auffahrt Nuthestraße",
+        "Zielnetz": "Hauptroute 1. Stufe",
+        "Vorhandene Radwegeinfrastruktur": "in Richtung H.-Mann-Allee: gemeinsamer Geh- und Radweg\r\r\nin Richtung Großbeerenstraße: getrennter Geh- und Radweg, im Brückenbereich gemeinsame Führung",
+        "Maßnahmen": "Prüfung von Radfahrstreifen, alternativ Schutzstreifen mit einer Queungshilfe in Höhe Schlaatzweg.",
+        "Priorität": "Priorität I",
+        "Länge in Meter": "406",
+        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen An der alten Zauche und Ausfahrt/Auffahrt Nuthestraße</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Hauptroute 1. Stufe</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">in Richtung H.-Mann-Allee: gemeinsamer Geh- und Radweg\r\r\nin Richtung Großbeerenstraße: getrennter Geh- und Radweg, im Brückenbereich gemeinsame Führung</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Radfahrstreifen</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Prüfung von Radfahrstreifen, alternativ Schutzstreifen mit einer Queungshilfe in Höhe Schlaatzweg.</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Priorität I</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">406</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
+        "geo_point_2d": {
+          "lon": 13.091328907668803,
+          "lat": 52.38344615062434
+        },
+        "color": "hsl(158, 70%, 50%)",
+        "id": "248_1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.09145944232477,
+            52.38349644122467
+          ],
+          [
+            13.09141081868117,
+            52.38346202714086
+          ],
+          [
+            13.09136023622517,
+            52.38342533348715
+          ],
+          [
+            13.09129595580926,
+            52.38338257398478
+          ],
+          [
+            13.09122767248216,
+            52.38333723212647
+          ],
+          [
+            13.09027432103407,
+            52.38270347318153
+          ]
+        ]
+      },
+      "properties": {
+        "name": "95. Horstweg",
+        "Zwischen": "zwischen An der alten Zauche und Ausfahrt/Auffahrt Nuthestraße",
+        "Zielnetz": "Hauptroute 1. Stufe",
+        "Vorhandene Radwegeinfrastruktur": "in Richtung H.-Mann-Allee: gemeinsamer Geh- und Radweg\r\r\nin Richtung Großbeerenstraße: getrennter Geh- und Radweg, im Brückenbereich gemeinsame Führung",
+        "Maßnahmen": "Prüfung von Radfahrstreifen, alternativ Schutzstreifen mit einer Queungshilfe in Höhe Schlaatzweg.",
+        "Priorität": "Priorität I",
+        "Länge in Meter": "406",
+        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen An der alten Zauche und Ausfahrt/Auffahrt Nuthestraße</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Hauptroute 1. Stufe</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">in Richtung H.-Mann-Allee: gemeinsamer Geh- und Radweg\r\r\nin Richtung Großbeerenstraße: getrennter Geh- und Radweg, im Brückenbereich gemeinsame Führung</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Radfahrstreifen</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Prüfung von Radfahrstreifen, alternativ Schutzstreifen mit einer Queungshilfe in Höhe Schlaatzweg.</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Priorität I</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">406</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
+        "geo_point_2d": {
+          "lon": 13.091328907668803,
+          "lat": 52.38344615062434
+        },
+        "color": "hsl(84, 70%, 50%)",
+        "id": "247"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.09027432103407,
+            52.38270347318153
+          ],
+          [
+            13.09017481275422,
+            52.38263604610511
+          ],
+          [
+            13.08946439629855,
+            52.3820666304094
+          ]
+        ]
+      },
+      "properties": {
+        "name": "95. Horstweg",
+        "Zwischen": "zwischen An der alten Zauche und Ausfahrt/Auffahrt Nuthestraße",
+        "Zielnetz": "Hauptroute 1. Stufe",
+        "Vorhandene Radwegeinfrastruktur": "in Richtung H.-Mann-Allee: gemeinsamer Geh- und Radweg\r\r\nin Richtung Großbeerenstraße: getrennter Geh- und Radweg, im Brückenbereich gemeinsame Führung",
+        "Maßnahmen": "Prüfung von Radfahrstreifen, alternativ Schutzstreifen mit einer Queungshilfe in Höhe Schlaatzweg.",
+        "Priorität": "Priorität I",
+        "Länge in Meter": "406",
+        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen An der alten Zauche und Ausfahrt/Auffahrt Nuthestraße</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Hauptroute 1. Stufe</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">in Richtung H.-Mann-Allee: gemeinsamer Geh- und Radweg\r\r\nin Richtung Großbeerenstraße: getrennter Geh- und Radweg, im Brückenbereich gemeinsame Führung</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Radfahrstreifen</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Prüfung von Radfahrstreifen, alternativ Schutzstreifen mit einer Queungshilfe in Höhe Schlaatzweg.</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Priorität I</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">406</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
+        "geo_point_2d": {
+          "lon": 13.091328907668803,
+          "lat": 52.38344615062434
+        },
+        "color": "hsl(214, 70%, 50%)",
+        "id": "17"
       }
     },
     {
@@ -35671,7 +35865,8 @@
           "lon": 13.067537575234118,
           "lat": 52.391935238595224
         },
-        "color": "#d7ab9b"
+        "color": "#d7ab9b",
+        "id": "9"
       }
     },
     {
@@ -38319,79 +38514,25 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              13.09502765578605,
-              52.38886240815508
-            ],
-            [
-              13.09476363495617,
-              52.38833187176067
-            ],
-            [
-              13.09470487897456,
-              52.38821520218201
-            ],
-            [
-              13.09457099531167,
-              52.38794913916125
-            ],
-            [
-              13.0943296284524,
-              52.38746949988966
-            ],
-            [
-              13.09419994171032,
-              52.387211866287
-            ],
-            [
-              13.0941423949278,
-              52.38708766292127
-            ],
-            [
-              13.09402907877721,
-              52.38685600919431
-            ],
-            [
-              13.09386001199461,
-              52.38649604463991
-            ],
-            [
-              13.09371271298379,
-              52.38621075481371
-            ],
-            [
-              13.09364218277973,
-              52.38607415004995
-            ],
-            [
-              13.09346070315687,
-              52.38569546182372
-            ],
-            [
-              13.09342348306909,
-              52.38562139965616
-            ],
-            [
-              13.09333659508395,
-              52.38543818689323
-            ],
-            [
-              13.0931599968868,
-              52.3850656912092
-            ],
-            [
-              13.09311065206115,
-              52.38498316096958
-            ],
-            [
-              13.09308260416167,
-              52.38494179641108
-            ]
+            13.09502765578605,
+            52.38886240815508
+          ],
+          [
+            13.09476363495617,
+            52.38833187176067
+          ],
+          [
+            13.09470487897456,
+            52.38821520218201
+          ],
+          [
+            13.09457099531167,
+            52.38794913916125
           ]
-        ],
-        "type": "MultiLineString"
+        ]
       },
       "properties": {
         "name": "96. Horstweg",
@@ -38406,7 +38547,144 @@
           "lon": 13.094055204259796,
           "lat": 52.386901593562825
         },
-        "color": "#fbe434"
+        "color": "#fbe434",
+        "id": "14_1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.09457099531167,
+            52.38794913916125
+          ],
+          [
+            13.0943296284524,
+            52.38746949988966
+          ],
+          [
+            13.09419994171032,
+            52.387211866287
+          ],
+          [
+            13.0941423949278,
+            52.38708766292127
+          ],
+          [
+            13.09402907877721,
+            52.38685600919431
+          ],
+          [
+            13.09386001199461,
+            52.38649604463991
+          ],
+          [
+            13.09371271298379,
+            52.38621075481371
+          ]
+        ]
+      },
+      "properties": {
+        "name": "96. Horstweg",
+        "Zwischen": "zwischen Abfahrt/Auffahrt Nuthestraße und Großbeerenstraße",
+        "Zielnetz": "Hauptroute 1. Stufe",
+        "Vorhandene Radwegeinfrastruktur": "Schutzstreifen, im Straßenraum, Einrichtungsverkehr (Anlagen für beide Fahrtrichtungen vorhanden)",
+        "Maßnahmen": "Herstellung einer durchgängigen Radverkehrsanlage auch in den Kreuzungsbereichen prüfen.ketziner",
+        "Priorität": "Priorität I",
+        "Länge in Meter": "456",
+        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen Abfahrt/Auffahrt Nuthestraße und Großbeerenstraße</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Hauptroute 1. Stufe</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Schutzstreifen, im Straßenraum, Einrichtungsverkehr (Anlagen für beide Fahrtrichtungen vorhanden)</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Radfahrstreifen</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Herstellung einer durchgängigen Radverkehrsanlage auch in den Kreuzungsbereichen prüfen.ketziner</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Priorität I</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">456</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
+        "geo_point_2d": {
+          "lon": 13.094055204259796,
+          "lat": 52.386901593562825
+        },
+        "color": "hsl(108, 70%, 50%)",
+        "id": "14_2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.09371271298379,
+            52.38621075481371
+          ],
+          [
+            13.09364218277973,
+            52.38607415004995
+          ],
+          [
+            13.09346070315687,
+            52.38569546182372
+          ],
+          [
+            13.09342348306909,
+            52.38562139965616
+          ]
+        ]
+      },
+      "properties": {
+        "name": "96. Horstweg",
+        "Zwischen": "zwischen Abfahrt/Auffahrt Nuthestraße und Großbeerenstraße",
+        "Zielnetz": "Hauptroute 1. Stufe",
+        "Vorhandene Radwegeinfrastruktur": "Schutzstreifen, im Straßenraum, Einrichtungsverkehr (Anlagen für beide Fahrtrichtungen vorhanden)",
+        "Maßnahmen": "Herstellung einer durchgängigen Radverkehrsanlage auch in den Kreuzungsbereichen prüfen.ketziner",
+        "Priorität": "Priorität I",
+        "Länge in Meter": "456",
+        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen Abfahrt/Auffahrt Nuthestraße und Großbeerenstraße</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Hauptroute 1. Stufe</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Schutzstreifen, im Straßenraum, Einrichtungsverkehr (Anlagen für beide Fahrtrichtungen vorhanden)</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Radfahrstreifen</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Herstellung einer durchgängigen Radverkehrsanlage auch in den Kreuzungsbereichen prüfen.ketziner</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Priorität I</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">456</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
+        "geo_point_2d": {
+          "lon": 13.094055204259796,
+          "lat": 52.386901593562825
+        },
+        "color": "hsl(277, 70%, 50%)",
+        "id": "14_3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.09342348306909,
+            52.38562139965616
+          ],
+          [
+            13.09333659508395,
+            52.38543818689323
+          ],
+          [
+            13.0931599968868,
+            52.3850656912092
+          ],
+          [
+            13.09311065206115,
+            52.38498316096958
+          ],
+          [
+            13.09308260416167,
+            52.38494179641108
+          ]
+        ]
+      },
+      "properties": {
+        "name": "96. Horstweg",
+        "Zwischen": "zwischen Abfahrt/Auffahrt Nuthestraße und Großbeerenstraße",
+        "Zielnetz": "Hauptroute 1. Stufe",
+        "Vorhandene Radwegeinfrastruktur": "Schutzstreifen, im Straßenraum, Einrichtungsverkehr (Anlagen für beide Fahrtrichtungen vorhanden)",
+        "Maßnahmen": "Herstellung einer durchgängigen Radverkehrsanlage auch in den Kreuzungsbereichen prüfen.ketziner",
+        "Priorität": "Priorität I",
+        "Länge in Meter": "456",
+        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen Abfahrt/Auffahrt Nuthestraße und Großbeerenstraße</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Hauptroute 1. Stufe</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Schutzstreifen, im Straßenraum, Einrichtungsverkehr (Anlagen für beide Fahrtrichtungen vorhanden)</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Radfahrstreifen</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Herstellung einer durchgängigen Radverkehrsanlage auch in den Kreuzungsbereichen prüfen.ketziner</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Priorität I</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">456</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
+        "geo_point_2d": {
+          "lon": 13.094055204259796,
+          "lat": 52.386901593562825
+        },
+        "color": "hsl(329, 70%, 50%)",
+        "id": "248_3"
       }
     },
     {
@@ -38764,7 +39042,8 @@
           "lon": 13.076325601000345,
           "lat": 52.38842980258427
         },
-        "color": "#d3e000"
+        "color": "#d3e000",
+        "id": "241_1"
       }
     },
     {
@@ -41360,7 +41639,8 @@
           "lon": 13.069636136745245,
           "lat": 52.38993911907948
         },
-        "color": "#0ea470"
+        "color": "#0ea470",
+        "id": "114"
       }
     },
     {
@@ -43587,7 +43867,8 @@
           "lon": 13.090825397203059,
           "lat": 52.391038378740625
         },
-        "color": "#5e9545"
+        "color": "#5e9545",
+        "id": "105"
       }
     },
     {
@@ -43789,7 +44070,8 @@
           "lon": 13.0925614035177,
           "lat": 52.39085609625738
         },
-        "color": "#2bac5d"
+        "color": "#2bac5d",
+        "id": "183"
       }
     },
     {
@@ -52429,103 +52711,53 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              13.07353397546297,
-              52.38470662559963
-            ],
-            [
-              13.07365296300608,
-              52.38456245091346
-            ],
-            [
-              13.07395403767383,
-              52.38419843082288
-            ],
-            [
-              13.07400466652362,
-              52.38414260857584
-            ],
-            [
-              13.07412504900714,
-              52.38400007465356
-            ],
-            [
-              13.07426817059648,
-              52.38383812953685
-            ],
-            [
-              13.07438373259857,
-              52.3836881436332
-            ],
-            [
-              13.0746715117201,
-              52.3833659860549
-            ],
-            [
-              13.07477002555659,
-              52.38327003163759
-            ],
-            [
-              13.07485895227451,
-              52.38318839752078
-            ],
-            [
-              13.07515277995317,
-              52.38296686411069
-            ],
-            [
-              13.0767613501195,
-              52.38185848852945
-            ],
-            [
-              13.07710403433813,
-              52.38162470762396
-            ],
-            [
-              13.07835314514138,
-              52.38077247755906
-            ],
-            [
-              13.07855931405728,
-              52.38062656872302
-            ],
-            [
-              13.07929994323095,
-              52.38012725421255
-            ],
-            [
-              13.07960758719868,
-              52.37991816313816
-            ],
-            [
-              13.08016443643739,
-              52.37953949160877
-            ],
-            [
-              13.08091252520659,
-              52.37904010851165
-            ],
-            [
-              13.0812454117381,
-              52.3788211727197
-            ],
-            [
-              13.0816408406896,
-              52.37854228797273
-            ],
-            [
-              13.08168343730553,
-              52.37851546506106
-            ],
-            [
-              13.08261981177549,
-              52.37792543490488
-            ]
+            13.07353397546297,
+            52.38470662559963
+          ],
+          [
+            13.07365296300608,
+            52.38456245091346
+          ],
+          [
+            13.07395403767383,
+            52.38419843082288
+          ],
+          [
+            13.07400466652362,
+            52.38414260857584
+          ],
+          [
+            13.07412504900714,
+            52.38400007465356
+          ],
+          [
+            13.07426817059648,
+            52.38383812953685
+          ],
+          [
+            13.07438373259857,
+            52.3836881436332
+          ],
+          [
+            13.0746715117201,
+            52.3833659860549
+          ],
+          [
+            13.07477002555659,
+            52.38327003163759
+          ],
+          [
+            13.07485895227451,
+            52.38318839752078
+          ],
+          [
+            13.07515277995317,
+            52.38296686411069
           ]
-        ],
-        "type": "MultiLineString"
+        ]
       },
       "properties": {
         "name": "53. Heinrich-Mann-Allee",
@@ -52540,7 +52772,84 @@
           "lon": 13.077918344522514,
           "lat": 52.381133099044746
         },
-        "color": "#d6cf24"
+        "color": "#d6cf24",
+        "id": "242_3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.07515277995317,
+            52.38296686411069
+          ],
+          [
+            13.0767613501195,
+            52.38185848852945
+          ],
+          [
+            13.07710403433813,
+            52.38162470762396
+          ],
+          [
+            13.07835314514138,
+            52.38077247755906
+          ],
+          [
+            13.07855931405728,
+            52.38062656872302
+          ],
+          [
+            13.07929994323095,
+            52.38012725421255
+          ],
+          [
+            13.07960758719868,
+            52.37991816313816
+          ],
+          [
+            13.08016443643739,
+            52.37953949160877
+          ],
+          [
+            13.08091252520659,
+            52.37904010851165
+          ],
+          [
+            13.0812454117381,
+            52.3788211727197
+          ],
+          [
+            13.0816408406896,
+            52.37854228797273
+          ],
+          [
+            13.08168343730553,
+            52.37851546506106
+          ],
+          [
+            13.08261981177549,
+            52.37792543490488
+          ]
+        ]
+      },
+      "properties": {
+        "name": "53. Heinrich-Mann-Allee",
+        "Zwischen": "zwischen Am Alten Friedhof und Waldstraße/Horstweg",
+        "Zielnetz": "Hauptroute 1. Stufe",
+        "Vorhandene Radwegeinfrastruktur": "getrennter Rad- und Gehweg (Richtung Innenstadt) Nebenfahrbahn (Richtung Innenstadt und Waldstadt)",
+        "Maßnahmen": "Beschilderung einer Fahrradstraße auf der Kleinen Heinrich-Mann-Allee für beide Fahrtrichtungen.Die Radverkehrsanlage stadteinwärts sollte auf das Regelmaß 2,00 m verbreitert, oder ein Radfahrstreifen auf der Fahrbahn angelegt werden.",
+        "Priorität": "&lt;Null&gt;",
+        "Länge in Meter": "980",
+        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen Am Alten Friedhof und Waldstraße/Horstweg</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Hauptroute 1. Stufe</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">getrennter Rad- und Gehweg (Richtung Innenstadt) Nebenfahrbahn (Richtung Innenstadt und Waldstadt)</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Getrennter Geh- und Radweg oder Radfahrstreifen auf der östlichen Straßenseite in Fahrtrichtung Innenstadt\r\r\nFahrradstraße in der Kleinen Heinrich-Mann-Allee</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Beschilderung einer Fahrradstraße auf der Kleinen Heinrich-Mann-Allee für beide Fahrtrichtungen.Die Radverkehrsanlage stadteinwärts sollte auf das Regelmaß 2,00 m verbreitert, oder ein Radfahrstreifen auf der Fahrbahn angelegt werden.</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">980</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
+        "geo_point_2d": {
+          "lon": 13.077918344522514,
+          "lat": 52.381133099044746
+        },
+        "color": "hsl(58, 70%, 50%)",
+        "id": "242_4"
       }
     },
     {
@@ -53338,139 +53647,33 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              13.07319058988635,
-              52.39172710768389
-            ],
-            [
-              13.07321785198748,
-              52.39185703198022
-            ],
-            [
-              13.07329921032464,
-              52.39224652807904
-            ],
-            [
-              13.07328196683322,
-              52.39235558542178
-            ],
-            [
-              13.07316995602363,
-              52.39246918962481
-            ],
-            [
-              13.07303667122041,
-              52.39257897696568
-            ],
-            [
-              13.07285974696901,
-              52.39253305682293
-            ],
-            [
-              13.07247351021045,
-              52.39252304381183
-            ],
-            [
-              13.07229739256619,
-              52.39252736436605
-            ],
-            [
-              13.07211396856211,
-              52.39253408312538
-            ],
-            [
-              13.071796145913,
-              52.39254562223336
-            ],
-            [
-              13.07132077559786,
-              52.39256367088198
-            ],
-            [
-              13.07112854691953,
-              52.39257006458164
-            ],
-            [
-              13.07047308636379,
-              52.39260261401255
-            ],
-            [
-              13.06994343127802,
-              52.39262516575425
-            ],
-            [
-              13.06886661725948,
-              52.39266044493056
-            ],
-            [
-              13.06763399156348,
-              52.39270953141312
-            ],
-            [
-              13.06739274710174,
-              52.39272428902365
-            ],
-            [
-              13.0662492600407,
-              52.39275485732171
-            ],
-            [
-              13.0650967050138,
-              52.39282132265136
-            ],
-            [
-              13.06460767993804,
-              52.39284226782734
-            ],
-            [
-              13.06442245454454,
-              52.39284642749107
-            ],
-            [
-              13.0642611899859,
-              52.39284378602456
-            ],
-            [
-              13.06404955368421,
-              52.39282341482259
-            ],
-            [
-              13.06390913026451,
-              52.39279458888943
-            ],
-            [
-              13.06378493623012,
-              52.39276099336689
-            ],
-            [
-              13.06365627986977,
-              52.39272525651213
-            ],
-            [
-              13.06350491909075,
-              52.39265084297565
-            ],
-            [
-              13.06333770474453,
-              52.39256591893236
-            ],
-            [
-              13.06328033503182,
-              52.3925368348189
-            ],
-            [
-              13.06321376638055,
-              52.39250301416406
-            ],
-            [
-              13.06313819283994,
-              52.39247345179721
-            ]
+            13.07319058988635,
+            52.39172710768389
+          ],
+          [
+            13.07321785198748,
+            52.39185703198022
+          ],
+          [
+            13.07329921032464,
+            52.39224652807904
+          ],
+          [
+            13.07328196683322,
+            52.39235558542178
+          ],
+          [
+            13.07316995602363,
+            52.39246918962481
+          ],
+          [
+            13.07303667122041,
+            52.39257897696568
           ]
-        ],
-        "type": "MultiLineString"
+        ]
       },
       "properties": {
         "name": "180. Babelsberger Straße",
@@ -53485,217 +53688,312 @@
           "lon": 13.068516206847464,
           "lat": 52.39263306682551
         },
-        "color": "#994fb4"
+        "color": "#994fb4",
+        "id": "236"
       }
     },
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              13.1217547479696,
-              52.38322162784215
-            ],
-            [
-              13.12151382210591,
-              52.38326518382302
-            ],
-            [
-              13.12062718442913,
-              52.38344809160328
-            ],
-            [
-              13.11916029766329,
-              52.38375789131008
-            ],
-            [
-              13.11893909512829,
-              52.38380400390268
-            ],
-            [
-              13.11806065601669,
-              52.38398711296632
-            ],
-            [
-              13.11798451841237,
-              52.38400279933592
-            ],
-            [
-              13.11681776295558,
-              52.38424317439421
-            ],
-            [
-              13.11632928579584,
-              52.38434733419913
-            ],
-            [
-              13.11465248360738,
-              52.38470570337186
-            ],
-            [
-              13.1132980363085,
-              52.38499573471025
-            ],
-            [
-              13.113266103506,
-              52.38500367696885
-            ],
-            [
-              13.11311456341273,
-              52.38503551532372
-            ],
-            [
-              13.1127185071128,
-              52.38511883683153
-            ],
-            [
-              13.11116536019474,
-              52.38545008878612
-            ],
-            [
-              13.11065090090764,
-              52.38555983433142
-            ],
-            [
-              13.11022177958379,
-              52.3856463953291
-            ],
-            [
-              13.10987189012398,
-              52.38571857672985
-            ],
-            [
-              13.10960523782731,
-              52.38577360617441
-            ],
-            [
-              13.10949219823051,
-              52.38579693410571
-            ],
-            [
-              13.10856732247977,
-              52.3859919082734
-            ],
-            [
-              13.10819495711981,
-              52.38607064852432
-            ],
-            [
-              13.10757404390634,
-              52.38620205464362
-            ],
-            [
-              13.10719487062705,
-              52.38628526845929
-            ],
-            [
-              13.10657853405307,
-              52.38641260654452
-            ],
-            [
-              13.1063631214107,
-              52.38645672043715
-            ],
-            [
-              13.10585896106521,
-              52.38656562120768
-            ],
-            [
-              13.105494415690771,
-              52.38664339935362
-            ],
-            [
-              13.10420322075411,
-              52.38691887555748
-            ],
-            [
-              13.10393577637312,
-              52.38697680663004
-            ],
-            [
-              13.10321160254132,
-              52.38713386759503
-            ],
-            [
-              13.10214395074834,
-              52.38735680170834
-            ],
-            [
-              13.10146612373078,
-              52.38750200811374
-            ],
-            [
-              13.10127078525744,
-              52.38754382772206
-            ],
-            [
-              13.10117042217466,
-              52.38756415462225
-            ],
-            [
-              13.10087749052499,
-              52.38762337767591
-            ],
-            [
-              13.09998296625579,
-              52.3878113097979
-            ],
-            [
-              13.09864904613454,
-              52.3880979076575
-            ],
-            [
-              13.09862434709403,
-              52.38810497329725
-            ],
-            [
-              13.09682916075155,
-              52.38848304242274
-            ],
-            [
-              13.09502765578782,
-              52.38886240815871
-            ],
-            [
-              13.09358452680792,
-              52.38916148534304
-            ],
-            [
-              13.09347476497891,
-              52.38918489110586
-            ],
-            [
-              13.09207623221075,
-              52.3894717215219
-            ],
-            [
-              13.0908979775135,
-              52.38975526070612
-            ],
-            [
-              13.09068815267998,
-              52.38980195412709
-            ],
-            [
-              13.09049946693508,
-              52.38985600223153
-            ],
-            [
-              13.09021268430877,
-              52.38997182339173
-            ],
-            [
-              13.09015237067119,
-              52.39000788019661
-            ],
-            [
-              13.09003238634886,
-              52.3901034800681
-            ]
+            13.07303667122041,
+            52.39257897696568
+          ],
+          [
+            13.07285974696901,
+            52.39253305682293
+          ],
+          [
+            13.07247351021045,
+            52.39252304381183
+          ],
+          [
+            13.07229739256619,
+            52.39252736436605
+          ],
+          [
+            13.07211396856211,
+            52.39253408312538
+          ],
+          [
+            13.071796145913,
+            52.39254562223336
+          ],
+          [
+            13.07132077559786,
+            52.39256367088198
+          ],
+          [
+            13.07112854691953,
+            52.39257006458164
+          ],
+          [
+            13.07047308636379,
+            52.39260261401255
+          ],
+          [
+            13.06994343127802,
+            52.39262516575425
+          ],
+          [
+            13.06886661725948,
+            52.39266044493056
+          ],
+          [
+            13.06763399156348,
+            52.39270953141312
+          ],
+          [
+            13.06739274710174,
+            52.39272428902365
+          ],
+          [
+            13.0662492600407,
+            52.39275485732171
+          ],
+          [
+            13.0650967050138,
+            52.39282132265136
+          ],
+          [
+            13.06460767993804,
+            52.39284226782734
+          ],
+          [
+            13.06442245454454,
+            52.39284642749107
+          ],
+          [
+            13.0642611899859,
+            52.39284378602456
+          ],
+          [
+            13.06404955368421,
+            52.39282341482259
+          ],
+          [
+            13.06390913026451,
+            52.39279458888943
+          ],
+          [
+            13.06378493623012,
+            52.39276099336689
+          ],
+          [
+            13.06365627986977,
+            52.39272525651213
+          ],
+          [
+            13.06350491909075,
+            52.39265084297565
+          ],
+          [
+            13.06333770474453,
+            52.39256591893236
+          ],
+          [
+            13.06328033503182,
+            52.3925368348189
+          ],
+          [
+            13.06321376638055,
+            52.39250301416406
+          ],
+          [
+            13.06313819283994,
+            52.39247345179721
           ]
-        ],
-        "type": "MultiLineString"
+        ]
+      },
+      "properties": {
+        "name": "180. Babelsberger Straße",
+        "Zwischen": "zwischen Lange Brücke und Friedrich-List-Straße",
+        "Zielnetz": "Hauptroute 2. Stufe",
+        "Vorhandene Radwegeinfrastruktur": "Getrennter  Geh-  und  Radweg,  straßenbegleitend beidseitig, Einrichtungsverkehr\r\r\nZwischen Lange Brücke und Uferweg Neue Fahrt auch Zweirichtungsverkehr",
+        "Maßnahmen": "Der getrennte Geh- und Radweg ist in vielen Teilen zu schmal und sollte bei anstehenden Baumaßnahmen verbreitert oder ein Radfahrstreifen auf der Fahrbahn markiert werden. Auch sollte die Kennzeichnung des Radwegs mit Radpiktogrammen geprüft werden.",
+        "Priorität": "Priorität II",
+        "Länge in Meter": "789",
+        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen Lange Brücke und Friedrich-List-Straße</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Hauptroute 2. Stufe</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Getrennter  Geh-  und  Radweg,  straßenbegleitend beidseitig, Einrichtungsverkehr\r\r\nZwischen Lange Brücke und Uferweg Neue Fahrt auch Zweirichtungsverkehr</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Getrennter Geh- und Radweg oder Radfahrstreifen</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Der getrennte Geh- und Radweg ist in vielen Teilen zu schmal und sollte bei anstehenden Baumaßnahmen verbreitert oder ein Radfahrstreifen auf der Fahrbahn markiert werden. Auch sollte die Kennzeichnung des Radwegs mit Radpiktogrammen geprüft werden.</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Priorität II</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">789</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
+        "geo_point_2d": {
+          "lon": 13.068516206847464,
+          "lat": 52.39263306682551
+        },
+        "color": "hsl(215, 70%, 50%)",
+        "id": "161"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.1217547479696,
+            52.38322162784215
+          ],
+          [
+            13.12151382210591,
+            52.38326518382302
+          ],
+          [
+            13.12062718442913,
+            52.38344809160328
+          ],
+          [
+            13.11916029766329,
+            52.38375789131008
+          ],
+          [
+            13.11893909512829,
+            52.38380400390268
+          ],
+          [
+            13.11806065601669,
+            52.38398711296632
+          ],
+          [
+            13.11798451841237,
+            52.38400279933592
+          ],
+          [
+            13.11681776295558,
+            52.38424317439421
+          ],
+          [
+            13.11632928579584,
+            52.38434733419913
+          ],
+          [
+            13.11465248360738,
+            52.38470570337186
+          ],
+          [
+            13.1132980363085,
+            52.38499573471025
+          ],
+          [
+            13.113266103506,
+            52.38500367696885
+          ],
+          [
+            13.11311456341273,
+            52.38503551532372
+          ],
+          [
+            13.1127185071128,
+            52.38511883683153
+          ],
+          [
+            13.11116536019474,
+            52.38545008878612
+          ],
+          [
+            13.11065090090764,
+            52.38555983433142
+          ],
+          [
+            13.11022177958379,
+            52.3856463953291
+          ],
+          [
+            13.10987189012398,
+            52.38571857672985
+          ],
+          [
+            13.10960523782731,
+            52.38577360617441
+          ],
+          [
+            13.10949219823051,
+            52.38579693410571
+          ],
+          [
+            13.10856732247977,
+            52.3859919082734
+          ],
+          [
+            13.10819495711981,
+            52.38607064852432
+          ],
+          [
+            13.10757404390634,
+            52.38620205464362
+          ],
+          [
+            13.10719487062705,
+            52.38628526845929
+          ],
+          [
+            13.10657853405307,
+            52.38641260654452
+          ],
+          [
+            13.1063631214107,
+            52.38645672043715
+          ],
+          [
+            13.10585896106521,
+            52.38656562120768
+          ],
+          [
+            13.105494415690771,
+            52.38664339935362
+          ],
+          [
+            13.10420322075411,
+            52.38691887555748
+          ],
+          [
+            13.10393577637312,
+            52.38697680663004
+          ],
+          [
+            13.10321160254132,
+            52.38713386759503
+          ],
+          [
+            13.10214395074834,
+            52.38735680170834
+          ],
+          [
+            13.10146612373078,
+            52.38750200811374
+          ],
+          [
+            13.10127078525744,
+            52.38754382772206
+          ],
+          [
+            13.10117042217466,
+            52.38756415462225
+          ],
+          [
+            13.10087749052499,
+            52.38762337767591
+          ],
+          [
+            13.09998296625579,
+            52.3878113097979
+          ],
+          [
+            13.09864904613454,
+            52.3880979076575
+          ],
+          [
+            13.09862434709403,
+            52.38810497329725
+          ],
+          [
+            13.09682916075155,
+            52.38848304242274
+          ],
+          [
+            13.09502765578782,
+            52.38886240815871
+          ]
+        ]
       },
       "properties": {
         "name": "50. Großbeerenstraße",
@@ -53711,6 +54009,70 @@
           "lat": 52.38657046015466
         },
         "color": "#de2ec8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.09502765578782,
+            52.38886240815871
+          ],
+          [
+            13.09358452680792,
+            52.38916148534304
+          ],
+          [
+            13.09347476497891,
+            52.38918489110586
+          ],
+          [
+            13.09207623221075,
+            52.3894717215219
+          ],
+          [
+            13.0908979775135,
+            52.38975526070612
+          ],
+          [
+            13.09068815267998,
+            52.38980195412709
+          ],
+          [
+            13.09049946693508,
+            52.38985600223153
+          ],
+          [
+            13.09021268430877,
+            52.38997182339173
+          ],
+          [
+            13.09015237067119,
+            52.39000788019661
+          ],
+          [
+            13.09003238634886,
+            52.3901034800681
+          ]
+        ]
+      },
+      "properties": {
+        "name": "50. Großbeerenstraße",
+        "Zwischen": "zwischen Lutherplatz und Wetzlarer Straße",
+        "Zielnetz": "Hauptroute 1. Stufe",
+        "Vorhandene Radwegeinfrastruktur": "Radfahrstreifen zwischen Lutherplatz und Walter- Klausch-Straße, beidseitig\r\r\nSchutzstreifen zwischen Walter-Klausch-Straße und Wetzlarer Straße beidseitig außer zwischen Ahornstraße und Wetzlarer Straße getrennter Rad- und Gehweg in Richtung stadtauswärts",
+        "Maßnahmen": "Überbreite Schutzstreifen mit Sicherheitsabstand zu den parkenden Fahrzeugen markieren.",
+        "Priorität": "&lt;Null&gt;",
+        "Länge in Meter": "2.295",
+        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen Lutherplatz und Wetzlarer Straße</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Hauptroute 1. Stufe</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Radfahrstreifen zwischen Lutherplatz und Walter- Klausch-Straße, beidseitig\r\r\nSchutzstreifen zwischen Walter-Klausch-Straße und Wetzlarer Straße beidseitig außer zwischen Ahornstraße und Wetzlarer Straße getrennter Rad- und Gehweg in Richtung stadtauswärts</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Überbreite Schutzstreifen mit Sicherheitsabstand zu den parkenden Fahrzeugen</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Überbreite Schutzstreifen mit Sicherheitsabstand zu den parkenden Fahrzeugen markieren.</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">2.295</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
+        "geo_point_2d": {
+          "lon": 13.10586112208528,
+          "lat": 52.38657046015466
+        },
+        "color": "hsl(171, 70%, 50%)",
+        "id": "143"
       }
     },
     {
@@ -53891,7 +54253,8 @@
           "lon": 13.079688358779483,
           "lat": 52.39159206581267
         },
-        "color": "#4d0d7e"
+        "color": "#4d0d7e",
+        "id": "12"
       }
     },
     {
@@ -55622,99 +55985,41 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              13.09003238634886,
-              52.3901034800681
-            ],
-            [
-              13.08986934329639,
-              52.39010426243738
-            ],
-            [
-              13.0897371383132,
-              52.39008438757514
-            ],
-            [
-              13.08967535295407,
-              52.39007214925393
-            ],
-            [
-              13.08924918006924,
-              52.39000339671209
-            ],
-            [
-              13.08888504388738,
-              52.38993088035014
-            ],
-            [
-              13.08863866329949,
-              52.38989497524982
-            ],
-            [
-              13.08842924194696,
-              52.3898812474203
-            ],
-            [
-              13.08834339535172,
-              52.38988507386765
-            ],
-            [
-              13.08824549288181,
-              52.38989580860809
-            ],
-            [
-              13.08803501510335,
-              52.38994392543612
-            ],
-            [
-              13.08745178932002,
-              52.39008815474341
-            ],
-            [
-              13.08568568727,
-              52.39051948045356
-            ],
-            [
-              13.08557877552728,
-              52.39053797969252
-            ],
-            [
-              13.08549706342032,
-              52.39054109232685
-            ],
-            [
-              13.08547278357371,
-              52.39054201720067
-            ],
-            [
-              13.08492133926322,
-              52.39051869528136
-            ],
-            [
-              13.08451072468163,
-              52.3904945964568
-            ],
-            [
-              13.08425163044383,
-              52.39048077539145
-            ],
-            [
-              13.08413567813484,
-              52.39047386026015
-            ],
-            [
-              13.08405666967892,
-              52.39046907257415
-            ],
-            [
-              13.08396962544504,
-              52.39046658228723
-            ]
+            13.09003238634886,
+            52.3901034800681
+          ],
+          [
+            13.08986934329639,
+            52.39010426243738
+          ],
+          [
+            13.0897371383132,
+            52.39008438757514
+          ],
+          [
+            13.08967535295407,
+            52.39007214925393
+          ],
+          [
+            13.08924918006924,
+            52.39000339671209
+          ],
+          [
+            13.08888504388738,
+            52.38993088035014
+          ],
+          [
+            13.08863866329949,
+            52.38989497524982
+          ],
+          [
+            13.08842924194696,
+            52.3898812474203
           ]
-        ],
-        "type": "MultiLineString"
+        ]
       },
       "properties": {
         "name": "99. Friedrich-Engels-Straße",
@@ -55729,7 +56034,92 @@
           "lon": 13.087006172605966,
           "lat": 52.39022613394704
         },
-        "color": "#de3d6f"
+        "color": "#de3d6f",
+        "id": "240_1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.08842924194696,
+            52.3898812474203
+          ],
+          [
+            13.08834339535172,
+            52.38988507386765
+          ],
+          [
+            13.08824549288181,
+            52.38989580860809
+          ],
+          [
+            13.08803501510335,
+            52.38994392543612
+          ],
+          [
+            13.08745178932002,
+            52.39008815474341
+          ],
+          [
+            13.08568568727,
+            52.39051948045356
+          ],
+          [
+            13.08557877552728,
+            52.39053797969252
+          ],
+          [
+            13.08549706342032,
+            52.39054109232685
+          ],
+          [
+            13.08547278357371,
+            52.39054201720067
+          ],
+          [
+            13.08492133926322,
+            52.39051869528136
+          ],
+          [
+            13.08451072468163,
+            52.3904945964568
+          ],
+          [
+            13.08425163044383,
+            52.39048077539145
+          ],
+          [
+            13.08413567813484,
+            52.39047386026015
+          ],
+          [
+            13.08405666967892,
+            52.39046907257415
+          ],
+          [
+            13.08396962544504,
+            52.39046658228723
+          ]
+        ]
+      },
+      "properties": {
+        "name": "99. Friedrich-Engels-Straße",
+        "Zwischen": "zwischen Lutherplatz und Auffahrt Nuthestraße",
+        "Zielnetz": "Radschnellverbindung",
+        "Vorhandene Radwegeinfrastruktur": "Radfahrstreifen und Schutzstreifen im Straßenraum, Einrichtungsverkehr",
+        "Maßnahmen": null,
+        "Priorität": null,
+        "Länge in Meter": null,
+        "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\r\r\n<head>\r\r\n<META http-equiv=\"Content-Type\" content=\"text/html\">\r\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\r\r\n<style>\r\r\n\t\t\t\t.info a:visited {color:#FFFFFF;}\r\r\n\t\t\t\t.info a:link {color:#FFFFFF;}\r\r\n\t\t\t\t</style>\r\r\n</head>\r\r\n<div class=\"info\">\r\r\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\r\r\n<table style=\"font-family:Arial;font-size:12px;text-align:left;vertical-align:top;color:#FFFFFF;width:100%;border-spacing:1px; border-color:#FFFFFF; padding:3px 3px 3px 3px; border-bottom:1px;\">\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zwischen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">zwischen Lutherplatz und Auffahrt Nuthestraße</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Zielnetz</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Radschnellverbindung</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Vorhandene Radwegeinfrastruktur</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Radfahrstreifen und Schutzstreifen im Straßenraum, Einrichtungsverkehr</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">MindestbreitenderbenutzungspflichtigenRadverkehrsanlagenachStVO</td>\r\r\n<td style=\"border-bottom:1px solid white;\">nur abschnittsweise</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Empfehlungen zur Führungsform</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Schutzstreifen/ Radfahrstreifen</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Maßnahmen</td>\r\r\n<td style=\"border-bottom:1px solid white;\">Sicherheitsabstand  zu den parkenden Fahrzeugen beachten. Ggf. Markierung von Schutzstreifen</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Priorität</td>\r\r\n<td style=\"border-bottom:1px solid white;\">&lt;Null&gt;</td>\r\r\n</tr>\r\r\n<tr>\r\r\n<td style=\"border-bottom:1px solid white;text-align:left;font-weight:bold;color:#FFFFFF\">Länge in Meter</td>\r\r\n<td style=\"border-bottom:1px solid white;\">430</td>\r\r\n</tr>\r\r\n</table>\r\r\n</body>\r\r\n</div>\r\r\n</html>",
+        "geo_point_2d": {
+          "lon": 13.087006172605966,
+          "lat": 52.39022613394704
+        },
+        "color": "hsl(337, 70%, 50%)",
+        "id": "240_1"
       }
     },
     {
