@@ -26,7 +26,7 @@
 
 		<section>
 			<h3>Priorität</h3>
-			<div>
+			<div class="meters">
     			<meter min="0" max="10" value={hasPrioTwo || hasPrioThree ? 10 : selectedSection.prioritaet.prioritaet_1}></meter>
     			<meter min="0" max="10" value={hasPrioThree ? 10 : selectedSection.prioritaet.prioritaet_2}></meter>
     			<meter min="0" max="10" value={selectedSection.prioritaet.prioritaet_3}></meter>
@@ -126,6 +126,7 @@
 			flex-direction: column;
 			gap: 0.5rem;
 			align-items: start;
+			width: 100%;
 
 			h3 {
 				font-family: var(--font-serif);
@@ -137,7 +138,33 @@
 			p {
 				text-wrap: balance;
 			}
+
+			.meters {
+    			display: flex;
+    			gap: 6px;
+    			width: 100%;
+    			border-radius: 3px;
+    			overflow: hidden;
+
+    			meter {
+     			width: 100%;
+     			height: 6px;
+     			border: none;
+     			background: #D9D9D9;
+     			appearance: none;
+
+     			&::-webkit-meter-progress {
+        				background: #898989;
+     			}
+
+     			&::-moz-meter-bar {
+        				background: #898989;
+     			}
+      		}
+    		}
 		}
+
+
 
 		details {
 			summary {
