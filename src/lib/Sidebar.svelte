@@ -77,7 +77,6 @@
 
 		@media screen and (max-width: 640px) {
 			max-width: 100vw;
-			padding-top: 1rem;
 		}
 
 		header {

@@ -5,11 +5,24 @@
 	import type { FeatureCollection } from "geojson";
 	import type { Abschnitt } from "../types";
 	import Sidebar from "$lib/Sidebar.svelte";
+	import { BottomSheet } from "svelte-bottom-sheet";
 
 	let mapRef: maplibregl.Map | null = $state(null);
 	let geojsonData = $state<FeatureCollection | null>(null);
 	let sectionMap = $state<Map<string, Abschnitt> | null>(null);
 	let selectedSection = $state<Abschnitt | null>(null);
+	let sheetOpen = $state(false);
+	let isMobile = $state(false);
+
+	function checkMobile() {
+		isMobile = window.innerWidth <= 640;
+	}
+
+	$effect(() => {
+		checkMobile();
+		window.addEventListener('resize', checkMobile);
+		return () => window.removeEventListener('resize', checkMobile);
+	});
 
 	$effect(() => {
 		fetch(zielnetz)
@@ -26,6 +39,12 @@
 				sectionMap = new Map(entries);
 			})
 			.catch(console.error);
+	});
+
+	$effect(() => {
+		if (selectedSection && isMobile) {
+			sheetOpen = true;
+		}
 	});
 
 	const bounds: LngLatBoundsLike = [
@@ -57,6 +76,10 @@
 		if (section) {
 			selectedSection = section;
 		}
+	}
+
+	function closeSheet() {
+		sheetOpen = false;
 	}
 </script>
 
@@ -109,7 +132,24 @@
 		</div>
 	</div>
 
-	<Sidebar selectedSection={selectedSection} />
+	{#if isMobile}
+		<BottomSheet bind:isSheetOpen={sheetOpen} settings={{ maxHeight: 0.8, snapPoints: [0.5, 0.8], closeThreshold: 0.25 }}>
+			<BottomSheet.Overlay>
+				<BottomSheet.Sheet>
+					<BottomSheet.Handle>
+						<div class="sheet-handle"></div>
+					</BottomSheet.Handle>
+					<BottomSheet.Content>
+						<div class="sheet-content">
+							<Sidebar selectedSection={selectedSection} />
+						</div>
+					</BottomSheet.Content>
+				</BottomSheet.Sheet>
+			</BottomSheet.Overlay>
+		</BottomSheet>
+	{:else}
+		<Sidebar selectedSection={selectedSection} />
+	{/if}
 </main>
 
 <style>
@@ -128,7 +168,7 @@
 
 		@media screen and (max-width: 640px) {
 			width: 100vw;
-			height: 60vh;
+			height: 100vh;
 		}
 	}
 
@@ -140,5 +180,17 @@
 	:global(.map) {
 		height: 100%;
 		width: 100%;
+	}
+
+	.sheet-handle {
+		width: 40px;
+		height: 4px;
+		background: #ccc;
+		border-radius: 2px;
+		margin: 8px auto;
+	}
+
+	.sheet-content {
+		padding-bottom: 2rem;
 	}
 </style>
