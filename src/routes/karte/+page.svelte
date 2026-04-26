@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { LineLayer, GeoJSON, MapLibre, SymbolLayer, MapEvents } from "svelte-maplibre";
+	import { LineLayer, GeoJSON, MapLibre, SymbolLayer, MapEvents, type LngLatBoundsLike, type LngLatLike } from "svelte-maplibre";
 	import zielnetz from "../../radverkehrskonzept_zielnetz.geojson?url";
 	import data from "../../data.json?url";
 	import type { FeatureCollection } from "geojson";
@@ -27,6 +27,13 @@
 			})
 			.catch(console.error);
 	});
+
+	const bounds: LngLatBoundsLike = [
+        [12.9343, 52.3322],
+        [13.2052, 52.4819]
+    ];
+
+	const center: LngLatLike = [13.05768, 52.39968]
 
 	function handleClick(e: maplibregl.MapMouseEvent) {
 		console.log("click!", e.lngLat, "sectionMap:", !!sectionMap);
@@ -58,10 +65,11 @@
 		<div class="map-wrapper">
 			<MapLibre
 				bind:map={mapRef}
-				center={[13.08, 52.415]}
-				zoom={12}
+				zoom={14}
 				class="map"
 				standardControls
+				maxBounds={bounds}
+				center={center}
 				style="https://basemaps.cartocdn.com/gl/positron-gl-style/style.json"
 			>
 				<MapEvents onclick={handleClick} />
