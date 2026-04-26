@@ -1,15 +1,16 @@
 <script lang="ts">
 	import type { Abschnitt } from "../types";
 
-	let { selectedSection = null }: { selectedSection: Abschnitt | null } = $props();
+	let { selectedSection = null }: { selectedSection: Abschnitt | null } =
+		$props();
 
-	let hasPrioTwo = $state(false)
-	let hasPrioThree = $state(false)
+	let hasPrioTwo = $state(false);
+	let hasPrioThree = $state(false);
 
 	$effect(() => {
-    	hasPrioTwo = selectedSection?.prioritaet.prioritaet_2 !== undefined
-    	hasPrioThree = selectedSection?.prioritaet.prioritaet_3 !== undefined
-	})
+		hasPrioTwo = selectedSection?.prioritaet.prioritaet_2 !== undefined;
+		hasPrioThree = selectedSection?.prioritaet.prioritaet_3 !== undefined;
+	});
 </script>
 
 <section class="editor">
@@ -18,7 +19,9 @@
 			<div class="content">
 				<div class="title">
 					<h2>{selectedSection.straße}</h2>
-					<span class="identifier">{selectedSection.bereich} - {selectedSection.abschnittsnummer}</span>
+					<span class="identifier"
+						>{selectedSection.bereich} - {selectedSection.abschnittsnummer}</span
+					>
 				</div>
 				<p>{selectedSection.abschnitt}</p>
 			</div>
@@ -27,9 +30,25 @@
 		<section>
 			<h3>Priorität</h3>
 			<div class="meters">
-    			<meter min="0" max="10" value={hasPrioTwo || hasPrioThree ? 10 : selectedSection.prioritaet.prioritaet_1}></meter>
-    			<meter min="0" max="10" value={hasPrioThree ? 10 : selectedSection.prioritaet.prioritaet_2}></meter>
-    			<meter min="0" max="10" value={selectedSection.prioritaet.prioritaet_3}></meter>
+				<meter
+					min="0"
+					max="10"
+					value={hasPrioTwo || hasPrioThree
+						? 10
+						: selectedSection.prioritaet.prioritaet_1}
+				></meter>
+				<meter
+					min="0"
+					max="10"
+					value={hasPrioThree
+						? 10
+						: selectedSection.prioritaet.prioritaet_2}
+				></meter>
+				<meter
+					min="0"
+					max="10"
+					value={selectedSection.prioritaet.prioritaet_3}
+				></meter>
 			</div>
 		</section>
 
@@ -46,8 +65,14 @@
 		<details>
 			<summary>Aktuelle Kfz-Situation</summary>
 			{#if selectedSection.kfzVerkehr}
-				<p>Zulässige Höchstgeschwindigkeit: {selectedSection.kfzVerkehr.zulässigeHöchstgeschwindigkeit}</p>
-				<p>Kfz Spitzenstunde: {selectedSection.kfzVerkehr.summeKfzSpitzenstunde}</p>
+				<p>
+					Zulässige Höchstgeschwindigkeit: {selectedSection.kfzVerkehr
+						.zulässigeHöchstgeschwindigkeit}
+				</p>
+				<p>
+					Kfz Spitzenstunde: {selectedSection.kfzVerkehr
+						.summeKfzSpitzenstunde}
+				</p>
 			{/if}
 		</details>
 
@@ -66,7 +91,6 @@
 </section>
 
 <style>
-
 	section.editor {
 		display: flex;
 		gap: 2rem;
@@ -96,8 +120,8 @@
 					align-items: center;
 
 					@media screen and (max-width: 600px) {
-    					align-items: start;
-                        flex-direction: column-reverse;
+						align-items: start;
+						flex-direction: column-reverse;
 					}
 
 					h2 {
@@ -144,31 +168,35 @@
 			}
 
 			.meters {
-    			display: flex;
-    			gap: 6px;
-    			width: 100%;
-    			border-radius: 3px;
-    			overflow: hidden;
+				display: flex;
+				gap: 6px;
+				width: 100%;
+				border-radius: 3px;
+				overflow: hidden;
 
-    			meter {
-     			width: 100%;
-     			height: 6px;
-     			border: none;
-     			background: #D9D9D9;
-     			appearance: none;
+				meter {
+					width: 100%;
+					height: 6px;
+					border: none;
+					background: #d9d9d9;
+					appearance: none;
+					-webkit-appearance: none;
 
-     			&::-webkit-meter-progress {
-        				background: #898989;
-     			}
+					&::-webkit-meter-bar {
+						height: 6px;
+						background: #d9d9d9;
+						border: none;
+					}
 
-     			&::-moz-meter-bar {
-        				background: #898989;
-     			}
-      		}
-    		}
+					&::-webkit-meter-optimum-value,
+					&::-webkit-meter-suboptimum-value,
+					&::-webkit-meter-even-less-good-value,
+					&::-moz-meter-bar {
+						background: #898989;
+					}
+				}
+			}
 		}
-
-
 
 		details {
 			summary {
@@ -178,6 +206,7 @@
 				font-weight: 500;
 				opacity: 0.5;
 				cursor: pointer;
+				width: fit-content;
 
 				&:active,
 				&:focus {

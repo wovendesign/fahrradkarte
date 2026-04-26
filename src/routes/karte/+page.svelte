@@ -1,11 +1,19 @@
 <script lang="ts">
-	import { LineLayer, GeoJSON, MapLibre, SymbolLayer, MapEvents, type LngLatBoundsLike, type LngLatLike } from "svelte-maplibre";
-	import zielnetz from "../../radverkehrskonzept_zielnetz.geojson?url";
-	import data from "../../data.json?url";
 	import type { FeatureCollection } from "geojson";
-	import type { Abschnitt } from "../types";
-	import Sidebar from "$lib/Sidebar.svelte";
 	import { BottomSheet } from "svelte-bottom-sheet";
+	import {
+		GeoJSON,
+		LineLayer,
+		type LngLatBoundsLike,
+		type LngLatLike,
+		MapEvents,
+		MapLibre,
+		SymbolLayer,
+	} from "svelte-maplibre";
+	import Sidebar from "$lib/Sidebar.svelte";
+	import data from "../../data.json?url";
+	import zielnetz from "../../radverkehrskonzept_zielnetz.geojson?url";
+	import type { Abschnitt } from "../types";
 
 	let mapRef: maplibregl.Map | null = $state(null);
 	let geojsonData = $state<FeatureCollection | null>(null);
@@ -20,8 +28,8 @@
 
 	$effect(() => {
 		checkMobile();
-		window.addEventListener('resize', checkMobile);
-		return () => window.removeEventListener('resize', checkMobile);
+		window.addEventListener("resize", checkMobile);
+		return () => window.removeEventListener("resize", checkMobile);
 	});
 
 	$effect(() => {
@@ -48,11 +56,11 @@
 	});
 
 	const bounds: LngLatBoundsLike = [
-        [12.9343, 52.3322],
-        [13.2052, 52.4819]
-    ];
+		[12.9343, 52.3322],
+		[13.2052, 52.4819],
+	];
 
-	const center: LngLatLike = [13.05768, 52.39968]
+	const center: LngLatLike = [13.05768, 52.39968];
 
 	function handleClick(e: maplibregl.MapMouseEvent) {
 		console.log("click!", e.lngLat, "sectionMap:", !!sectionMap);
@@ -61,7 +69,9 @@
 		if (!mapRef.isStyleLoaded()) return;
 
 		const features = mapRef.queryRenderedFeatures(e.point);
-		console.log("features found:", features.length, "layers:", [...new Set(features.map(f => f.layer.id))]);
+		console.log("features found:", features.length, "layers:", [
+			...new Set(features.map((f) => f.layer.id)),
+		]);
 
 		const feature = features.find((f) => f.layer.id === "zielnetz");
 		if (!feature) return;
@@ -71,14 +81,15 @@
 
 		if (!id) return;
 
-		const section = sectionMap.get(id) ?? sectionMap.get(id.replace("_", " "));
+		const section =
+			sectionMap.get(id) ?? sectionMap.get(id.replace("_", " "));
 		console.log("section found:", !!section);
 		if (section) {
 			selectedSection = section;
 		}
 	}
 
-	let isScrollable = $state(false)
+	let isScrollable = $state(false);
 </script>
 
 <main>
@@ -90,7 +101,7 @@
 				class="map"
 				standardControls
 				maxBounds={bounds}
-				center={center}
+				{center}
 				style="https://basemaps.cartocdn.com/gl/positron-gl-style/style.json"
 			>
 				<MapEvents onclick={handleClick} />
@@ -99,11 +110,14 @@
 						<LineLayer
 							id="zielnetz"
 							filter={["has", "id"]}
-							layout={{ "line-cap": "round", "line-join": "round" }}
+							layout={{
+								"line-cap": "round",
+								"line-join": "round",
+							}}
 							paint={{
 								"line-width": 6,
 								"line-color": "#333",
-								"line-opacity": 1
+								"line-opacity": 1,
 							}}
 							interactive
 						/>
@@ -112,11 +126,14 @@
 							filter={["has", "id"]}
 							layout={{
 								"text-field": ["get", "id"],
-								"text-font": ["Open Sans Bold", "Arial Unicode MS Bold"],
+								"text-font": [
+									"Open Sans Bold",
+									"Arial Unicode MS Bold",
+								],
 								"text-size": 12,
 								"text-anchor": "center",
 								"text-rotation-alignment": "viewport",
-								"symbol-placement": "line-center"
+								"symbol-placement": "line-center",
 							}}
 							paint={{
 								"text-color": "#ffffff",
@@ -132,25 +149,33 @@
 
 	{#if isMobile}
 		<BottomSheet
-		    bind:isSheetOpen={sheetOpen}
-			settings={{ maxHeight: 1, snapPoints: [0.5, 1], closeThreshold: 0.25, startingSnapPoint: 0.5 }}
-			onclose={() => sheetOpen = false}
-			onsnap={(e) => isScrollable = e === 1}>
+			bind:isSheetOpen={sheetOpen}
+			settings={{
+				maxHeight: 1,
+				snapPoints: [0.5, 1],
+				closeThreshold: 0.25,
+				startingSnapPoint: 0.5,
+			}}
+			onclose={() => (sheetOpen = false)}
+			onsnap={(e) => (isScrollable = e === 1)}
+		>
 			<BottomSheet.Overlay>
-				<BottomSheet.Sheet class={[isScrollable ? "isScrollable" : "notScrollable"]}>
+				<BottomSheet.Sheet
+					class={[isScrollable ? "isScrollable" : "notScrollable"]}
+				>
 					<BottomSheet.Handle>
 						<div class="sheet-handle"></div>
 					</BottomSheet.Handle>
 					<BottomSheet.Content>
 						<div class="sheet-content">
-							<Sidebar selectedSection={selectedSection} />
+							<Sidebar {selectedSection} />
 						</div>
 					</BottomSheet.Content>
 				</BottomSheet.Sheet>
 			</BottomSheet.Overlay>
 		</BottomSheet>
 	{:else}
-		<Sidebar selectedSection={selectedSection} />
+		<Sidebar {selectedSection} />
 	{/if}
 </main>
 
@@ -197,8 +222,8 @@
 	}
 
 	:global {
-    	.notScrollable {
-    	    overflow-y: hidden !important;
-    	}
+		.notScrollable {
+			overflow-y: hidden !important;
+		}
 	}
 </style>

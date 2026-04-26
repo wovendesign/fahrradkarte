@@ -1,8 +1,13 @@
 <script lang="ts">
-	import { LineLayer, GeoJSON, MapLibre, SymbolLayer } from "svelte-maplibre";
-	import zielnetz from "../../radverkehrskonzept_zielnetz.geojson?url";
 	import * as turf from "@turf/turf";
-	import type { Feature, LineString, FeatureCollection, Position } from "geojson";
+	import type {
+		Feature,
+		FeatureCollection,
+		LineString,
+		Position,
+	} from "geojson";
+	import { GeoJSON, LineLayer, MapLibre, SymbolLayer } from "svelte-maplibre";
+	import zielnetz from "../../radverkehrskonzept_zielnetz.geojson?url";
 
 	type EditMode = "splitting" | "editing";
 
@@ -46,10 +51,8 @@
 	// Split line at a given point
 	function splitLineAtPoint(
 		coords: Position[],
-		clickPoint: Position
+		clickPoint: Position,
 	): [Position[], Position[]] {
-		const line = turf.lineString(coords);
-		const nearestPoint = turf.nearestPointOnLine(line, turf.point(clickPoint));
 		const clickAsPoint = turf.point(clickPoint);
 
 		// Find which vertex is actually closest to the click point
@@ -57,7 +60,9 @@
 		let closestDist = Infinity;
 
 		for (let i = 0; i < coords.length; i++) {
-			const dist = turf.distance(clickAsPoint, coords[i], { units: "meters" });
+			const dist = turf.distance(clickAsPoint, coords[i], {
+				units: "meters",
+			});
 			if (dist < closestDist) {
 				closestDist = dist;
 				closestIndex = i;
@@ -65,7 +70,10 @@
 		}
 
 		// Clamp to valid range
-		const splitIndex = Math.max(0, Math.min(coords.length - 1, closestIndex));
+		const splitIndex = Math.max(
+			0,
+			Math.min(coords.length - 1, closestIndex),
+		);
 
 		// Both segments include the split vertex so they connect perfectly
 		const beforeCoords = coords.slice(0, splitIndex + 1);
@@ -103,7 +111,9 @@
 			originalFeature.geometry.type !== "LineString" &&
 			originalFeature.geometry.type !== "MultiLineString"
 		) {
-			console.log("Only LineString and MultiLineString features can be split");
+			console.log(
+				"Only LineString and MultiLineString features can be split",
+			);
 			selectedFeature = originalFeature.properties ?? null;
 			selectedFeatureIndex = clickedIndex;
 			return;
@@ -119,7 +129,9 @@
 		const start = turf.point(coords[0] as Position);
 		const end = turf.point(coords[coords.length - 1] as Position);
 
-		const distToStart = turf.distance(clickPoint, start, { units: "meters" });
+		const distToStart = turf.distance(clickPoint, start, {
+			units: "meters",
+		});
 		const distToEnd = turf.distance(clickPoint, end, { units: "meters" });
 
 		if (distToStart < 5 || distToEnd < 5) {
@@ -130,7 +142,10 @@
 		}
 
 		// Split the line
-		const [beforeCoords, afterCoords] = splitLineAtPoint(coords, clickPoint);
+		const [beforeCoords, afterCoords] = splitLineAtPoint(
+			coords,
+			clickPoint,
+		);
 		const properties = { ...originalFeature.properties };
 		const color = randomColor();
 
@@ -138,13 +153,13 @@
 		const feature1: Feature<LineString> = {
 			type: "Feature",
 			geometry: { type: "LineString", coordinates: beforeCoords },
-			properties: { ...properties }
+			properties: { ...properties },
 		};
 
 		const feature2: Feature<LineString> = {
 			type: "Feature",
 			geometry: { type: "LineString", coordinates: afterCoords },
-			properties: { ...properties, color }
+			properties: { ...properties, color },
 		};
 
 		// Replace the original feature with the two new ones
@@ -153,7 +168,7 @@
 
 		geojsonData = {
 			...geojsonData,
-			features: updatedFeatures
+			features: updatedFeatures,
 		};
 
 		// Select the new (second) feature
@@ -166,11 +181,11 @@
 
 		const updatedFeatures = [...geojsonData.features];
 		const feature = updatedFeatures[selectedFeatureIndex];
-		if (feature && feature.properties) {
+		if (feature?.properties) {
 			feature.properties.id = editingId;
 			geojsonData = {
 				...geojsonData,
-				features: updatedFeatures
+				features: updatedFeatures,
 			};
 		}
 	}
@@ -179,7 +194,7 @@
 		if (!geojsonData) return;
 
 		const blob = new Blob([JSON.stringify(geojsonData, null, 2)], {
-			type: "application/geo+json"
+			type: "application/geo+json",
 		});
 		const url = URL.createObjectURL(blob);
 		const a = document.createElement("a");
@@ -217,7 +232,7 @@
 						paint={{
 							"line-width": 6,
 							"line-color": ["get", "color"],
-							"line-opacity": 1
+							"line-opacity": 1,
 						}}
 						interactive
 					/>
@@ -226,15 +241,18 @@
 						filter={["has", "id"]}
 						layout={{
 							"text-field": ["get", "id"],
-							"text-font": ["Open Sans Bold", "Arial Unicode MS Bold"],
+							"text-font": [
+								"Open Sans Bold",
+								"Arial Unicode MS Bold",
+							],
 							"text-size": 12,
 							"text-anchor": "center",
-							"symbol-placement": "line-center"
+							"symbol-placement": "line-center",
 						}}
 						paint={{
 							"text-color": "#ffffff",
 							"text-halo-color": "#000000",
-							"text-halo-width": 2
+							"text-halo-width": 2,
 						}}
 					/>
 				</GeoJSON>
@@ -244,7 +262,11 @@
 
 	<aside class="sidebar">
 		{#if selectedFeature}
-			<button class="close-btn" onclick={() => (selectedFeatureIndex = null)} type="button">Close</button>
+			<button
+				class="close-btn"
+				onclick={() => (selectedFeatureIndex = null)}
+				type="button">Close</button
+			>
 			<div class="details">
 				{#if selectedFeature.id}
 					<span class="id-pill">{selectedFeature.id}</span>
@@ -282,7 +304,9 @@
 				</p>
 			</div>
 		{/if}
-		<button class="save-btn" onclick={saveToFile} type="button">Save to File</button>
+		<button class="save-btn" onclick={saveToFile} type="button"
+			>Save to File</button
+		>
 	</aside>
 </div>
 
