@@ -78,9 +78,7 @@
 		}
 	}
 
-	function closeSheet() {
-		sheetOpen = false;
-	}
+	let isScrollable = $state(false)
 </script>
 
 <main>
@@ -133,9 +131,13 @@
 	</div>
 
 	{#if isMobile}
-		<BottomSheet bind:isSheetOpen={sheetOpen} settings={{ maxHeight: 0.8, snapPoints: [0.5, 0.8], closeThreshold: 0.25 }} onclose={() => sheetOpen = false}>
+		<BottomSheet
+		    bind:isSheetOpen={sheetOpen}
+			settings={{ maxHeight: 1, snapPoints: [0.5, 1], closeThreshold: 0.25, startingSnapPoint: 0.5 }}
+			onclose={() => sheetOpen = false}
+			onsnap={(e) => isScrollable = e === 1}>
 			<BottomSheet.Overlay>
-				<BottomSheet.Sheet>
+				<BottomSheet.Sheet class={[isScrollable ? "isScrollable" : "notScrollable"]}>
 					<BottomSheet.Handle>
 						<div class="sheet-handle"></div>
 					</BottomSheet.Handle>
@@ -192,5 +194,11 @@
 
 	.sheet-content {
 		padding-bottom: 2rem;
+	}
+
+	:global {
+    	.notScrollable {
+    	    overflow-y: hidden !important;
+    	}
 	}
 </style>
