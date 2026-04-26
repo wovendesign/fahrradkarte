@@ -95,6 +95,11 @@
 					justify-content: space-between;
 					align-items: center;
 
+					@media screen and (max-width: 600px) {
+    					align-items: start;
+                        flex-direction: column-reverse;
+					}
+
 					h2 {
 						font-family: var(--font-serif);
 						font-size: 2rem;
