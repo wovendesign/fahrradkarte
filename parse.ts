@@ -58,7 +58,7 @@ async function main() {
             abschnittsnummer,
             straße: table.querySelector("tbody > tr:nth-child(1) > td:nth-child(1) > p:nth-child(2)")?.textContent,
             abschnitt: table.querySelector("tbody > tr:nth-child(2) > td:nth-child(1)")?.textContent,
-            bereich: table.querySelector("tbody > tr:nth-child(1) > td:nth-child(2)")?.textContent.replace("Bereich: ", ""),
+            bereich: table.querySelector("tbody > tr:nth-child(1) > td:nth-child(2)")?.textContent.replace("Bereich:", "").trim(),
             lage: table.querySelector("tbody > tr:nth-child(3) > td:nth-child(1) > p:nth-child(1)")?.textContent.replace("Lage: ", ""),
             längeInMeter: Number(table.querySelector("tbody > tr:nth-child(3) > td:nth-child(1) > p:nth-child(2)")?.textContent.replace("Länge in Meter: ", "")),
             radnetzfunktion: table.querySelector("tbody > tr:nth-child(3) > td:nth-child(1) > p:nth-child(1)")?.textContent.split("Radnetzfunktion: ")[1],

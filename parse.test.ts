@@ -286,6 +286,19 @@ describe("Abschnittsnummer 151_2", () => {
     // })
 })
 
+describe("Abschnittsnummer 26", () => {
+    const data = JSON.parse(str, reviver) as Map<string, Abschnitt>;
+    const section = data.get("26");
+
+    if (!section) {
+        throw new Error("No section");
+    }
+
+    test("has correct bereich", () => {
+        expect(section.bereich).toBe("M 1");
+    });
+})
+
 function reviver(key, value) {
     if (typeof value === 'object' && value !== null) {
         if (value.dataType === 'Map') {
