@@ -73,7 +73,7 @@
 			...new Set(features.map((f) => f.layer.id)),
 		]);
 
-		const feature = features.find((f) => f.layer.id === "zielnetz");
+		const feature = features.find((f) => f.layer.id === "zielnetz-hitarea");
 		if (!feature) return;
 
 		const id = feature.properties?.id as string;
@@ -107,6 +107,16 @@
 				<MapEvents onclick={handleClick} />
 				{#if geojsonData}
 					<GeoJSON id="routes" data={geojsonData} generateId>
+						<LineLayer
+							id="zielnetz-hitarea"
+							filter={["has", "id"]}
+							paint={{
+								"line-width": 40,
+								"line-color": "transparent",
+								"line-opacity": 0,
+							}}
+							interactive
+						/>
 						<LineLayer
 							id="zielnetz"
 							filter={["has", "id"]}
