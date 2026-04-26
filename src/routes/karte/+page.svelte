@@ -133,7 +133,7 @@
 	</div>
 
 	{#if isMobile}
-		<BottomSheet bind:isSheetOpen={sheetOpen} settings={{ maxHeight: 0.8, snapPoints: [0.5, 0.8], closeThreshold: 0.25 }}>
+		<BottomSheet bind:isSheetOpen={sheetOpen} settings={{ maxHeight: 0.8, snapPoints: [0.5, 0.8], closeThreshold: 0.25 }} onclose={() => sheetOpen = false}>
 			<BottomSheet.Overlay>
 				<BottomSheet.Sheet>
 					<BottomSheet.Handle>
