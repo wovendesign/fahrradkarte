@@ -13,7 +13,7 @@
 	import Sidebar from "$lib/Sidebar.svelte";
 	import data from "../../data.json?url";
 	import zielnetz from "../../radverkehrskonzept_zielnetz.geojson?url";
-	import type { Abschnitt } from "../types";
+	import type { Abschnitt } from "../../types";
 
 	let mapRef: maplibregl.Map | null = $state(null);
 	let geojsonData = $state<FeatureCollection | null>(null);
