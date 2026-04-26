@@ -1,5 +1,10 @@
 <script lang="ts">
 	import type { Abschnitt } from "../types";
+	import Input from "./Input.svelte";
+	import { persisted } from 'svelte-persisted-store';
+	import { get } from 'svelte/store';
+
+	const allComments = persisted('fahrradkarte-comments', {});
 
 	let { selectedSection = null }: { selectedSection: Abschnitt | null } =
 		$props();
@@ -11,6 +16,12 @@
 		hasPrioTwo = selectedSection?.prioritaet.prioritaet_2 !== undefined;
 		hasPrioThree = selectedSection?.prioritaet.prioritaet_3 !== undefined;
 	});
+
+	function onCommentChange(routeId: string, value: string) {
+		const comments = get(allComments) as Record<string, string>;
+		comments[routeId] = value;
+		allComments.set(comments);
+	}
 </script>
 
 <section class="editor">
@@ -81,6 +92,12 @@
 			<p>Führungsform: {selectedSection.führungsform}</p>
 			<p>Verkehrssicherheit: {selectedSection.verkehrssicherheit}</p>
 		</details>
+
+		<Input
+			routeId={selectedSection?.abschnittsnummer}
+			comment={allComments}
+			onchange={onCommentChange}
+		/>
 	{:else}
 		<header>
 			<div class="placeholder">
@@ -155,13 +172,6 @@
 			gap: 0.5rem;
 			align-items: start;
 			width: 100%;
-
-			h3 {
-				font-family: var(--font-serif);
-				font-size: 1.25rem;
-				font-style: italic;
-				font-weight: 500;
-			}
 
 			p {
 				text-wrap: balance;
