@@ -77,8 +77,7 @@
 		const feature = features.find(
 			(f) =>
 				f.layer.id === "zielnetz-hitarea" ||
-				f.layer.id === "zielnetz-in-map" ||
-				f.layer.id === "zielnetz-not-in-map",
+				f.layer.id.startsWith("zielnetz-in-map"),
 		);
 		if (!feature) return;
 
@@ -105,6 +104,30 @@
 						k.replace(" ", "_"),
 					),
 				]
+			: [],
+	);
+
+	let plusrouteIds = $derived(
+		sectionMap
+			? Array.from(sectionMap.entries())
+					.filter(([_, v]) => v.radnetzfunktion === "Plusroute")
+					.flatMap(([k, _]) => [k, k.replace(" ", "_")])
+			: [],
+	);
+
+	let hauptroute1Ids = $derived(
+		sectionMap
+			? Array.from(sectionMap.entries())
+					.filter(([_, v]) => v.radnetzfunktion === "Hauptroute 1. Stufe")
+					.flatMap(([k, _]) => [k, k.replace(" ", "_")])
+			: [],
+	);
+
+	let hauptroute2Ids = $derived(
+		sectionMap
+			? Array.from(sectionMap.entries())
+					.filter(([_, v]) => v.radnetzfunktion === "Hauptroute 2. Stufe")
+					.flatMap(([k, _]) => [k, k.replace(" ", "_")])
 			: [],
 	);
 </script>
@@ -136,11 +159,93 @@
 						/>
 						{#if validIds.length > 0}
 							<LineLayer
-								id="zielnetz-in-map"
+								id="zielnetz-in-map-plusroute"
 								filter={[
 									"in",
 									["get", "id"],
-									["literal", validIds],
+									["literal", plusrouteIds],
+								]}
+								layout={{
+									"line-cap": "round",
+									"line-join": "round",
+								}}
+								paint={{
+									"line-width": 6,
+									"line-color": "#e63946",
+									"line-opacity": 1,
+								}}
+								interactive
+							/>
+							<LineLayer
+								id="zielnetz-in-map-hauptroute1"
+								filter={[
+									"in",
+									["get", "id"],
+									["literal", hauptroute1Ids],
+								]}
+								layout={{
+									"line-cap": "round",
+									"line-join": "round",
+								}}
+								paint={{
+									"line-width": 6,
+									"line-color": "#1d3557",
+									"line-opacity": 1,
+								}}
+								interactive
+							/>
+							<LineLayer
+								id="zielnetz-in-map-hauptroute2"
+								filter={[
+									"in",
+									["get", "id"],
+									["literal", hauptroute2Ids],
+								]}
+								layout={{
+									"line-cap": "round",
+									"line-join": "round",
+								}}
+								paint={{
+									"line-width": 6,
+									"line-color": "#457b9d",
+									"line-opacity": 1,
+								}}
+								interactive
+							/>
+							<LineLayer
+								id="zielnetz-in-map-other"
+								filter={[
+									"all",
+									["has", "id"],
+									[
+										"!",
+										[
+											"in",
+											["get", "id"],
+											["literal", plusrouteIds],
+										],
+									],
+									[
+										"!",
+										[
+											"in",
+											["get", "id"],
+											["literal", hauptroute1Ids],
+										],
+									],
+									[
+										"!",
+										[
+											"in",
+											["get", "id"],
+											["literal", hauptroute2Ids],
+										],
+									],
+									[
+										"in",
+										["get", "id"],
+										["literal", validIds],
+									],
 								]}
 								layout={{
 									"line-cap": "round",
@@ -153,14 +258,6 @@
 								}}
 								interactive
 							/>
-							<!-- filter={[
-								"!",
-								[
-									"in",
-									["get", "id"],
-									["literal", validIds],
-								],
-							]} -->
 							<LineLayer
 								id="zielnetz-not-in-map"
 								filter={[
