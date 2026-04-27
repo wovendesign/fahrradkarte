@@ -239,7 +239,10 @@
 				closeThreshold: 0.25,
 				startingSnapPoint: 0.5,
 			}}
-			onclose={() => (sheetOpen = false)}
+			onclose={() => {
+			sheetOpen = false
+			isScrollable = false
+			}}
 			onsnap={(e) => (isScrollable = e === 1)}
 		>
 			<BottomSheet.Overlay>
