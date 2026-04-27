@@ -2,6 +2,7 @@
 	import type { FeatureCollection } from "geojson";
 	import { BottomSheet } from "svelte-bottom-sheet";
 	import {
+		combineFilters,
 		GeoJSON,
 		LineLayer,
 		type LngLatBoundsLike,
@@ -73,7 +74,12 @@
 			...new Set(features.map((f) => f.layer.id)),
 		]);
 
-		const feature = features.find((f) => f.layer.id === "zielnetz-hitarea");
+		const feature = features.find(
+			(f) =>
+				f.layer.id === "zielnetz-hitarea" ||
+				f.layer.id === "zielnetz-in-map" ||
+				f.layer.id === "zielnetz-not-in-map",
+		);
 		if (!feature) return;
 
 		const id = feature.properties?.id as string;
@@ -90,6 +96,17 @@
 	}
 
 	let isScrollable = $state(false);
+
+	let validIds = $derived(
+		sectionMap
+			? [
+					...Array.from(sectionMap.keys()),
+					...Array.from(sectionMap.keys()).map((k) =>
+						k.replace(" ", "_"),
+					),
+				]
+			: [],
+	);
 </script>
 
 <main>
@@ -117,20 +134,76 @@
 							}}
 							interactive
 						/>
-						<LineLayer
-							id="zielnetz"
-							filter={["has", "id"]}
-							layout={{
-								"line-cap": "round",
-								"line-join": "round",
-							}}
-							paint={{
-								"line-width": 6,
-								"line-color": "#333",
-								"line-opacity": 1,
-							}}
-							interactive
-						/>
+						{#if validIds.length > 0}
+							<LineLayer
+								id="zielnetz-in-map"
+								filter={[
+									"in",
+									["get", "id"],
+									["literal", validIds],
+								]}
+								layout={{
+									"line-cap": "round",
+									"line-join": "round",
+								}}
+								paint={{
+									"line-width": 6,
+									"line-color": "#333",
+									"line-opacity": 1,
+								}}
+								interactive
+							/>
+							<!-- filter={[
+								"!",
+								[
+									"in",
+									["get", "id"],
+									["literal", validIds],
+								],
+							]} -->
+							<LineLayer
+								id="zielnetz-not-in-map"
+								filter={[
+    "all",
+    ["has", "id"],
+    [
+      "!",
+      [
+        "in",
+        ["get", "id"],
+        ["literal", validIds],
+      ],
+    ]
+  ]}
+								layout={{
+									"line-cap": "round",
+									"line-join": "round",
+								}}
+								paint={{
+									"line-width": 6,
+									"line-color": "#999",
+									"line-opacity": 1,
+									"line-dasharray": [2, 2],
+								}}
+								interactive
+							/>
+						{:else}
+							<LineLayer
+								id="zielnetz-not-in-map"
+								filter={["has", "id"]}
+								layout={{
+									"line-cap": "round",
+									"line-join": "round",
+								}}
+								paint={{
+									"line-width": 6,
+									"line-color": "#999",
+									"line-opacity": 1,
+									"line-dasharray": [2, 2],
+								}}
+								interactive
+							/>
+						{/if}
 						<SymbolLayer
 							id="zielnetz-labels"
 							filter={["has", "id"]}
