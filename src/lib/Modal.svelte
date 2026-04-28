@@ -2,10 +2,43 @@
 	let { showModal = $bindable(), children } = $props();
 
 	let dialog = $state(); // HTMLDialogElement
+	let pageWrapper = $state(); // HTMLElement
+	let currentIndex = $state(0);
 
 	$effect(() => {
-		if (showModal) dialog.showModal();
+		if (showModal) {
+			currentIndex = 0;
+			dialog?.showModal();
+		}
 	});
+
+	function getChildCount() {
+		return pageWrapper?.children?.length ?? 0;
+	}
+
+	function updateCurrentIndex() {
+		const children = pageWrapper?.children;
+		if (!children?.length) return;
+		const wrapperRect = pageWrapper.getBoundingClientRect();
+		currentIndex = [...children].findIndex((child) => {
+			const rect = child.getBoundingClientRect();
+			return rect.left >= wrapperRect.left;
+		});
+	}
+
+	function scrollToNextSection() {
+		const children = pageWrapper?.children;
+		if (!children?.length) return;
+		const next = children[currentIndex + 1];
+		if (next) next.scrollIntoView({ behavior: "smooth", inline: "start" });
+	}
+
+	function scrollToPrevSection() {
+		const children = pageWrapper?.children;
+		if (!children?.length) return;
+		const prev = children[currentIndex - 1];
+		if (prev) prev.scrollIntoView({ behavior: "smooth", inline: "start" });
+	}
 </script>
 
 <!-- svelte-ignore a11y_click_events_have_key_events, a11y_no_noninteractive_element_interactions -->
@@ -15,18 +48,28 @@
 	onclick={(e) => {
 		if (e.target === dialog) dialog.close();
 	}}
+	onscroll={updateCurrentIndex}
 >
 	<div>
-		<div class="page-wrapper">
+		<div class="page-wrapper" bind:this={pageWrapper} onscroll={updateCurrentIndex}>
 			{@render children?.()}
 		</div>
-		<!-- svelte-ignore a11y_autofocus -->
-		<button
-			autofocus
-			onclick={() => dialog.close()}
-			class="button"
-			type="button">close modal</button
-		>
+		<div class="button-row">
+			{#if currentIndex > 0}
+				<button onclick={scrollToPrevSection} class="button" type="button">previous</button>
+			{/if}
+			{#if currentIndex < getChildCount() - 1}
+				<button onclick={scrollToNextSection} class="button" type="button">next</button>
+				<button onclick={() => dialog.close()} class="skip" type="button">skip</button>
+			{:else}
+				<button
+					autofocus
+					onclick={() => dialog.close()}
+					class="button"
+					type="button">close modal</button
+				>
+			{/if}
+		</div>
 	</div>
 </dialog>
 
@@ -69,6 +112,21 @@
 	}
 	button {
 		display: block;
+	}
+	.button-row {
+		display: flex;
+		gap: 0.5em;
+		justify-content: flex-end;
+	}
+	.skip {
+		display: block;
+		background: none;
+		border: none;
+		padding: 0;
+		font-size: 0.75em;
+		color: #999;
+		text-decoration: underline;
+		cursor: pointer;
 	}
 
 	.page-wrapper {

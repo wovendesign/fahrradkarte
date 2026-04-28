@@ -10,6 +10,7 @@
 		MapEvents,
 		MapLibre,
 		SymbolLayer,
+		AttributionControl,
 	} from "svelte-maplibre";
 	import Sidebar from "$lib/Sidebar.svelte";
 	import data from "../data.json?url";
@@ -168,8 +169,13 @@
 				standardControls
 				maxBounds={bounds}
 				{center}
+				attributionControl={false}
 				style="https://basemaps.cartocdn.com/gl/positron-gl-style/style.json"
 			>
+				<AttributionControl
+					position="bottom-right"
+					customAttribution={'<a href="/impressum">Impressum</a>'}
+				/>
 				<MapEvents onclick={handleClick} />
 				{#if geojsonData}
 					<GeoJSON id="routes" data={geojsonData} generateId>
