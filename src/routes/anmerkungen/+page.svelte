@@ -459,6 +459,7 @@ Für das eigene Archiv können die Anmerkungen als CSV-Datei (Tabelle) oder Text
 			border: none;
 			border-radius: 0.125rem;
 			cursor: pointer;
+			min-width: max;
 			font-family: var(--font-sans);
 			font-size: 1.125rem;
 			color: black;

@@ -163,25 +163,28 @@
 	}
 
 	:global {
-    	h1 {
-    		font-size: 3rem;
-    		font-family: var(--font-serif);
-    		font-style: italic;
-    		text-wrap: balance;
-    	}
-     h2 {
-         font-size: 1.5rem;
-       		font-family: var(--font-serif);
-       		/*font-style: italic;*/
-       		text-wrap: balance;
-     }
+		h1 {
+			font-size: 3rem;
+			font-family: var(--font-serif);
+			font-style: italic;
+			text-wrap: balance;
+			@media screen and (max-width: 640px) {
+				font-size: 2rem;
+			}
+		}
+		h2 {
+			font-size: 1.5rem;
+			font-family: var(--font-serif);
+			/*font-style: italic;*/
+			text-wrap: balance;
+		}
 
-	h3 {
-		font-family: var(--font-serif);
-		font-size: 1.25rem;
-		font-style: italic;
-		font-weight: 500;
-	}
+		h3 {
+			font-family: var(--font-serif);
+			font-size: 1.25rem;
+			font-style: italic;
+			font-weight: 500;
+		}
 	}
 
 	:global(*) {
