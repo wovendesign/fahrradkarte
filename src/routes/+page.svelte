@@ -2,7 +2,8 @@
 	import type { FeatureCollection } from "geojson";
 	import { BottomSheet } from "svelte-bottom-sheet";
 	import {
-		combineFilters,
+		NavigationControl,
+		ScaleControl,
 		GeoJSON,
 		LineLayer,
 		type LngLatBoundsLike,
@@ -256,12 +257,13 @@
 				bind:map={mapRef}
 				zoom={14}
 				class="map"
-				standardControls
 				maxBounds={bounds}
 				{center}
 				attributionControl={false}
 				style="https://basemaps.cartocdn.com/gl/positron-gl-style/style.json"
 			>
+				<NavigationControl position="top-left" />
+				<ScaleControl position="bottom-left" />
 				<AttributionControl
 					position="bottom-right"
 					customAttribution={'<a href="/impressum">Impressum</a>'}
