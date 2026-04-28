@@ -1,5 +1,6 @@
 <main>
 	<a href="/" class="button">← Zurück zur Karte</a>
+	<h1>Impressum</h1>
 	<p>
 		Impressum Angaben gemäß § 5 TMG<br /><strong>woven</strong><br />Wätke,
 		Wolf GbR<br />Kiepenheuerallee 5<br />14469 Potsdam
@@ -28,11 +29,32 @@
 		Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren
 		vor einer Verbraucherschlichtungsstelle teilzunehmen.
 	</p>
+	<h2>Datenschutz</h2>
+	<p>
+		Wir speichern keine Eingaben und Anmerkungen von Nutzenden auf Servern.
+		Alles bleibt auf dem Endgerät der nutzenden Person.
+	</p>
+	<h2>Danke</h2>
+	<p>
+		für die Hilfe und Unterstüztung bei diesem Projekt, vor Allem an Martin
+		und Johanna.
+	</p>
 </main>
 
 <style>
 	main {
 		padding: 2rem;
 		max-width: 65ch;
+
+		h1 {
+			margin-top: 2rem;
+		}
+		h2,
+		h3 {
+			margin-top: 1rem;
+		}
+		p {
+			margin-top: 0.5rem;
+		}
 	}
 </style>
