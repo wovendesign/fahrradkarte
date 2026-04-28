@@ -66,6 +66,41 @@
 	}
 </script>
 
+<svelte:head>
+	<title>Anmerkungen · Besser Radeln: Potsdams Radverkehrkonzept kommentieren</title>
+	<meta
+		name="description"
+		content="Die Stadt möchte Feedback für das neu veröffentlichte Radverkehrskonzept. Auf unserer interaktiven Karte kannst du deine Anmerkungen einbringen"
+	/>
+
+	<!-- Facebook Meta Tags -->
+	<meta property="og:url" content="https://potsdam.transparenz.cool/" />
+	<meta property="og:type" content="website" />
+	<meta
+		property="og:title"
+		content="Anmerkungen · Besser Radeln: Potsdams Radverkehrkonzept kommentieren"
+	/>
+	<meta
+		property="og:description"
+		content="Die Stadt möchte Feedback für das neu veröffentlichte Radverkehrskonzept. Auf unserer interaktiven Karte kannst du deine Anmerkungen einbringen"
+	/>
+	<meta property="og:image" content="/og-image.png" />
+
+	<!-- Twitter Meta Tags -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="twitter:domain" content="potsdam.transparenz.cool" />
+	<meta property="twitter:url" content="https://potsdam.transparenz.cool/" />
+	<meta
+		name="twitter:title"
+		content="Anmerkungen · Besser Radeln: Potsdams Radverkehrkonzept kommentieren"
+	/>
+	<meta
+		name="twitter:description"
+		content="Die Stadt möchte Feedback für das neu veröffentlichte Radverkehrskonzept. Auf unserer interaktiven Karte kannst du deine Anmerkungen einbringen"
+	/>
+	<meta name="twitter:image" content="/og-image.png" />
+</svelte:head>
+
 <main>
 	<a href="/" class="button">← Zurück zur Karte</a>
 	<h1>Deine Anmerkungen</h1>

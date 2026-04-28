@@ -100,8 +100,13 @@
 			selectedSection = section;
 			isGeojsonOnly = false;
 			// @ts-expect-error
-			plausible('Route Opened', {props: {sectionId: section.abschnittsnummer}})
-		} else if (feature.properties?.straße || feature.properties?.abschnitt) {
+			plausible("Route Opened", {
+				props: { sectionId: section.abschnittsnummer },
+			});
+		} else if (
+			feature.properties?.straße ||
+			feature.properties?.abschnitt
+		) {
 			selectedSection = {
 				abschnittsnummer: id,
 				straße: feature.properties.straße || "",
@@ -117,7 +122,11 @@
 				verkehrssicherheit: "",
 				maßnahmen: "",
 				kommentar: "",
-				prioritaet: { radnetzfunktion: 0, bewertung_soll_ist: 0, radverkehrsmengen: 0 },
+				prioritaet: {
+					radnetzfunktion: 0,
+					bewertung_soll_ist: 0,
+					radverkehrsmengen: 0,
+				},
 			};
 			isGeojsonOnly = true;
 		}
@@ -174,7 +183,7 @@
 	);
 
 	let commentCount = $derived(
-		Object.values($allComments).filter(v => v && v.trim()).length
+		Object.values($allComments).filter((v) => v && v.trim()).length,
 	);
 
 	onMount(() => {
@@ -186,22 +195,37 @@
 
 <svelte:head>
 	<title>Besser Radeln: Potsdams Radverkehrkonzept kommentieren</title>
-	<meta name="description" content="Die Stadt möchte Feedback für das neu veröffentlichte Radverkehrskonzept. Auf unserer interaktiven Karte kannst du deine Anmerkungen einbringen">
+	<meta
+		name="description"
+		content="Die Stadt möchte Feedback für das neu veröffentlichte Radverkehrskonzept. Auf unserer interaktiven Karte kannst du deine Anmerkungen einbringen"
+	/>
 
 	<!-- Facebook Meta Tags -->
-	<meta property="og:url" content="https://potsdam.transparenz.cool/">
-	<meta property="og:type" content="website">
-	<meta property="og:title" content="Besser Radeln: Potsdams Radverkehrkonzept kommentieren">
-	<meta property="og:description" content="Die Stadt möchte Feedback für das neu veröffentlichte Radverkehrskonzept. Auf unserer interaktiven Karte kannst du deine Anmerkungen einbringen">
-	<meta property="og:image" content="">
+	<meta property="og:url" content="https://potsdam.transparenz.cool/" />
+	<meta property="og:type" content="website" />
+	<meta
+		property="og:title"
+		content="Besser Radeln: Potsdams Radverkehrkonzept kommentieren"
+	/>
+	<meta
+		property="og:description"
+		content="Die Stadt möchte Feedback für das neu veröffentlichte Radverkehrskonzept. Auf unserer interaktiven Karte kannst du deine Anmerkungen einbringen"
+	/>
+	<meta property="og:image" content="/og-image.png" />
 
 	<!-- Twitter Meta Tags -->
-	<meta name="twitter:card" content="summary_large_image">
-	<meta property="twitter:domain" content="potsdam.transparenz.cool">
-	<meta property="twitter:url" content="https://potsdam.transparenz.cool/">
-	<meta name="twitter:title" content="Besser Radeln: Potsdams Radverkehrkonzept kommentieren">
-	<meta name="twitter:description" content="Die Stadt möchte Feedback für das neu veröffentlichte Radverkehrskonzept. Auf unserer interaktiven Karte kannst du deine Anmerkungen einbringen">
-	<meta name="twitter:image" content="">
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="twitter:domain" content="potsdam.transparenz.cool" />
+	<meta property="twitter:url" content="https://potsdam.transparenz.cool/" />
+	<meta
+		name="twitter:title"
+		content="Besser Radeln: Potsdams Radverkehrkonzept kommentieren"
+	/>
+	<meta
+		name="twitter:description"
+		content="Die Stadt möchte Feedback für das neu veröffentlichte Radverkehrskonzept. Auf unserer interaktiven Karte kannst du deine Anmerkungen einbringen"
+	/>
+	<meta name="twitter:image" content="/og-image.png" />
 </svelte:head>
 
 <main>
@@ -449,20 +473,28 @@
 					</BottomSheet.Handle>
 					<BottomSheet.Content>
 						<div class="sheet-content">
-<Sidebar {selectedSection} {isGeojsonOnly} onclose={() => selectedSection = null} />
+							<Sidebar
+								{selectedSection}
+								{isGeojsonOnly}
+								onclose={() => (selectedSection = null)}
+							/>
 						</div>
 					</BottomSheet.Content>
 				</BottomSheet.Sheet>
 			</BottomSheet.Overlay>
 		</BottomSheet>
 	{:else if selectedSection}
-		<Sidebar {selectedSection} {isGeojsonOnly} onclose={() => selectedSection = null} />
+		<Sidebar
+			{selectedSection}
+			{isGeojsonOnly}
+			onclose={() => (selectedSection = null)}
+		/>
 	{/if}
 </main>
 
 {#if commentCount > 0}
 	<a href="/anmerkungen" class="fab">
-		{commentCount} Anmerkung{commentCount !== 1 ? 'en' : ''}
+		{commentCount} Anmerkung{commentCount !== 1 ? "en" : ""}
 	</a>
 {/if}
 
@@ -491,7 +523,6 @@
 
 	.map-wrapper {
 		flex: 1;
-		min-height: 0;
 		width: 100%;
 		min-height: 300px;
 	}
@@ -533,7 +564,9 @@
 		font-weight: 500;
 		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 		z-index: 9999;
-		transition: transform 0.2s, box-shadow 0.2s;
+		transition:
+			transform 0.2s,
+			box-shadow 0.2s;
 		white-space: nowrap;
 	}
 
