@@ -18,6 +18,7 @@
 	import type { Abschnitt } from "../types";
 	import Modal from "$lib/Modal.svelte";
 	import { onMount } from "svelte";
+	import { allComments } from "$lib/stores/comments";
 
 	let showModal = $state(false);
 
@@ -172,12 +173,36 @@
 			: [],
 	);
 
+	let commentCount = $derived(
+		Object.values($allComments).filter(v => v && v.trim()).length
+	);
+
 	onMount(() => {
 		if (!localStorage.getItem("modalDismissed")) {
 			showModal = true;
 		}
 	});
 </script>
+
+<svelte:head>
+	<title>Besser Radeln: Potsdams Radverkehrkonzept kommentieren</title>
+	<meta name="description" content="Die Stadt möchte Feedback für das neu veröffentlichte Radverkehrskonzept. Auf unserer interaktiven Karte kannst du deine Anmerkungen einbringen">
+
+	<!-- Facebook Meta Tags -->
+	<meta property="og:url" content="https://potsdam.transparenz.cool/">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Besser Radeln: Potsdams Radverkehrkonzept kommentieren">
+	<meta property="og:description" content="Die Stadt möchte Feedback für das neu veröffentlichte Radverkehrskonzept. Auf unserer interaktiven Karte kannst du deine Anmerkungen einbringen">
+	<meta property="og:image" content="">
+
+	<!-- Twitter Meta Tags -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta property="twitter:domain" content="potsdam.transparenz.cool">
+	<meta property="twitter:url" content="https://potsdam.transparenz.cool/">
+	<meta name="twitter:title" content="Besser Radeln: Potsdams Radverkehrkonzept kommentieren">
+	<meta name="twitter:description" content="Die Stadt möchte Feedback für das neu veröffentlichte Radverkehrskonzept. Auf unserer interaktiven Karte kannst du deine Anmerkungen einbringen">
+	<meta name="twitter:image" content="">
+</svelte:head>
 
 <main>
 	<Modal bind:showModal>
@@ -435,6 +460,12 @@
 	{/if}
 </main>
 
+{#if commentCount > 0}
+	<a href="/anmerkungen" class="fab">
+		{commentCount} Anmerkung{commentCount !== 1 ? 'en' : ''}
+	</a>
+{/if}
+
 <style>
 	main {
 		display: flex;
@@ -485,6 +516,38 @@
 	:global {
 		.notScrollable {
 			overflow-y: hidden !important;
+		}
+	}
+
+	.fab {
+		position: fixed;
+		bottom: 2rem;
+		left: 50%;
+		transform: translateX(-50%);
+		background: #000;
+		color: #fff;
+		padding: 0.75rem 1.5rem;
+		text-decoration: none;
+		font-family: var(--font-sans-serif);
+		font-size: 1rem;
+		font-weight: 500;
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+		z-index: 9999;
+		transition: transform 0.2s, box-shadow 0.2s;
+		white-space: nowrap;
+	}
+
+	.fab:hover {
+		transform: translateX(-50%) scale(1.05);
+	}
+
+	.fab:active {
+		transform: translateX(-50%) scale(0.98);
+	}
+
+	@media screen and (max-width: 640px) {
+		.fab {
+			bottom: 1rem;
 		}
 	}
 </style>
