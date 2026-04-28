@@ -1,13 +1,18 @@
 <script lang="ts">
 	import type { Abschnitt } from "../types";
 	import Input from "./Input.svelte";
-	import { persisted } from 'svelte-persisted-store';
-	import { get } from 'svelte/store';
+	import { persisted } from "svelte-persisted-store";
+	import { get } from "svelte/store";
 
-	const allComments = persisted('fahrradkarte-comments', {});
+	const allComments = persisted("fahrradkarte-comments", {});
 
-	let { selectedSection = null }: { selectedSection: Abschnitt | null } =
-		$props();
+	let {
+		selectedSection = null,
+		onclose = () => {},
+	}: {
+		selectedSection: Abschnitt | null;
+		onclose: () => void;
+	} = $props();
 
 	let hasPrioTwo = $state(false);
 	let hasPrioThree = $state(false);
@@ -26,6 +31,9 @@
 
 <section class="editor">
 	{#if selectedSection}
+		<button class="button close" onclick={onclose} type="button"
+			>Schließen</button
+		>
 		<header>
 			<div class="content">
 				<div class="title">
@@ -114,10 +122,19 @@
 		flex-direction: column;
 		align-items: start;
 		padding: 0 1rem;
-		max-width: 40vw;
+		width: 40vw;
+		min-width: 300px;
+		max-width: 500px;
+		padding-top: 1rem;
 
 		@media screen and (max-width: 640px) {
-			max-width: 100vw;
+			width: 100%;
+			max-width: 100%;
+			padding-top: 0rem;
+
+			.close {
+				display: none;
+			}
 		}
 
 		header {
@@ -126,6 +143,7 @@
 			flex-direction: column;
 			align-items: start;
 			width: 100%;
+			position: relative;
 
 			.content {
 				width: 100%;
@@ -134,7 +152,7 @@
 					display: flex;
 					width: 100%;
 					justify-content: space-between;
-					align-items: center;
+					align-items: start;
 
 					@media screen and (max-width: 600px) {
 						align-items: start;
@@ -148,6 +166,7 @@
 					span {
 						font-family: var(--font-serif);
 						font-size: 1.125rem;
+						min-width: max-content;
 					}
 				}
 

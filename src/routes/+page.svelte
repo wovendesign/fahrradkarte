@@ -391,40 +391,45 @@
 					</BottomSheet.Handle>
 					<BottomSheet.Content>
 						<div class="sheet-content">
-							<Sidebar {selectedSection} />
+<Sidebar {selectedSection} onclose={() => selectedSection = null} />
 						</div>
 					</BottomSheet.Content>
 				</BottomSheet.Sheet>
 			</BottomSheet.Overlay>
 		</BottomSheet>
-	{:else}
-		<Sidebar {selectedSection} />
+	{:else if selectedSection}
+		<Sidebar {selectedSection} onclose={() => selectedSection = null} />
 	{/if}
 </main>
 
 <style>
 	main {
 		display: flex;
+		width: 100%;
 
 		@media screen and (max-width: 640px) {
 			flex-direction: column;
+			height: 100dvh;
 		}
 	}
+
 	.container {
 		display: flex;
 		height: 100vh;
 		flex-direction: column;
-		width: 60vw;
+		flex: 1;
 
 		@media screen and (max-width: 640px) {
 			width: 100vw;
-			height: 100vh;
+			height: 100%;
 		}
 	}
 
 	.map-wrapper {
 		flex: 1;
 		min-height: 0;
+		width: 100%;
+		min-height: 300px;
 	}
 
 	:global(.map) {
