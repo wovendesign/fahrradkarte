@@ -96,6 +96,7 @@
 		console.log("section found:", !!section);
 		if (section) {
 			selectedSection = section;
+			plausible('Route Opened', {props: {sectionId: section.abschnittsnummer}})
 		}
 	}
 
