@@ -2,8 +2,51 @@
 	let { showModal = $bindable(), children } = $props();
 
 	let dialog = $state(); // HTMLDialogElement
-	let pageWrapper = $state(); // HTMLElement
+	let pageWrapper = $state(); // HTMLDivElement
 	let currentIndex = $state(0);
+
+	function getChildCount() {
+		return pageWrapper?.children?.length ?? 0;
+	}
+
+	function updateCurrentIndex() {
+		if (!pageWrapper) return;
+		const count = getChildCount();
+		if (count === 0) return;
+		currentIndex = Math.round(pageWrapper.scrollLeft / (pageWrapper.scrollWidth / count));
+	}
+
+	function scrollToNextSection() {
+		if (!pageWrapper) return;
+		const count = getChildCount();
+		if (count === 0) return;
+		const currentImage = Math.round(pageWrapper.scrollLeft / (pageWrapper.scrollWidth / count));
+		if (currentImage === count - 1) {
+			dialog.close();
+			return;
+		}
+		pageWrapper.scrollBy({ left: pageWrapper.clientWidth, behavior: "smooth" });
+	}
+
+	function scrollToPrevSection() {
+		if (!pageWrapper) return;
+		const count = getChildCount();
+		if (count === 0) return;
+		const currentImage = Math.round(pageWrapper.scrollLeft / (pageWrapper.scrollWidth / count));
+		if (currentImage === 0) {
+			pageWrapper.scrollTo({ left: pageWrapper.scrollWidth, behavior: "smooth" });
+			return;
+		}
+		pageWrapper.scrollBy({ left: -pageWrapper.clientWidth, behavior: "smooth" });
+	}
+
+	function handleKeydown(e) {
+		if (e.key === "ArrowLeft") {
+			scrollToPrevSection();
+		} else if (e.key === "ArrowRight") {
+			scrollToNextSection();
+		}
+	}
 
 	$effect(() => {
 		if (showModal) {
@@ -11,34 +54,6 @@
 			dialog?.showModal();
 		}
 	});
-
-	function getChildCount() {
-		return pageWrapper?.children?.length ?? 0;
-	}
-
-	function updateCurrentIndex() {
-		const children = pageWrapper?.children;
-		if (!children?.length) return;
-		const wrapperRect = pageWrapper.getBoundingClientRect();
-		currentIndex = [...children].findIndex((child) => {
-			const rect = child.getBoundingClientRect();
-			return rect.left >= wrapperRect.left;
-		});
-	}
-
-	function scrollToNextSection() {
-		const children = pageWrapper?.children;
-		if (!children?.length) return;
-		const next = children[currentIndex + 1];
-		if (next) next.scrollIntoView({ behavior: "smooth", inline: "start" });
-	}
-
-	function scrollToPrevSection() {
-		const children = pageWrapper?.children;
-		if (!children?.length) return;
-		const prev = children[currentIndex - 1];
-		if (prev) prev.scrollIntoView({ behavior: "smooth", inline: "start" });
-	}
 </script>
 
 <!-- svelte-ignore a11y_click_events_have_key_events, a11y_no_noninteractive_element_interactions -->
@@ -48,10 +63,16 @@
 	onclick={(e) => {
 		if (e.target === dialog) dialog.close();
 	}}
-	onscroll={updateCurrentIndex}
 >
 	<div>
-		<div class="page-wrapper" bind:this={pageWrapper} onscroll={updateCurrentIndex}>
+		<div
+			class="page-wrapper"
+			bind:this={pageWrapper}
+			onscroll={updateCurrentIndex}
+			onkeydown={handleKeydown}
+			role="region"
+			tabindex="0"
+		>
 			{@render children?.()}
 		</div>
 		<div class="button-row">
