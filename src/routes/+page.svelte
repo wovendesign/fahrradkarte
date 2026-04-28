@@ -340,7 +340,7 @@
 				maxBounds={bounds}
 				{center}
 				attributionControl={false}
-				style="https://basemaps.cartocdn.com/gl/positron-gl-style/style.json"
+			  	style={`https://api.maptiler.com/maps/019dd5bc-07bf-7ad9-8cd0-6cdec14dace9/style.json?key=HyGAyclqdflQIuLk7LQ9`}
 			>
 				<NavigationControl position="top-left" />
 				<ScaleControl position="bottom-left" />
