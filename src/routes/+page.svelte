@@ -101,6 +101,15 @@
 
 	let isScrollable = $state(false);
 
+	$effect(() => {
+		if (mapRef && mapRef.isStyleLoaded() && validIds.length > 0) {
+			const layer = mapRef.getLayer("zielnetz-labels");
+			if (layer) {
+				mapRef.moveLayer("zielnetz-labels");
+			}
+		}
+	});
+
 	let validIds = $derived(
 		sectionMap
 			? [
