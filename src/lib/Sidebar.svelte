@@ -170,13 +170,8 @@
 				.title {
 					display: flex;
 					width: 100%;
-					justify-content: space-between;
 					align-items: start;
-
-					@media screen and (max-width: 600px) {
-						align-items: start;
-						flex-direction: column-reverse;
-					}
+					flex-direction: column-reverse;
 
 					h2 {
 						font-family: var(--font-serif);
