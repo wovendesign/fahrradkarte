@@ -105,14 +105,12 @@
 	<a href="/" class="button">← Zurück zur Karte</a>
 	<h1>Deine Anmerkungen</h1>
 	<p>
-		Lorem ipsum dolor sit amet consectetur. Arcu habitasse cursus suscipit
-		semper. Turpis consectetur in tortor diam viverra. Non vel bibendum sit
-		in. Eget tortor est aliquam sollicitudin neque.
+		Die Stadt Potsdam stellt ein Rückmeldeformular zur Verfügung, in dem die Bereichs- und Abschnittsnummer, sowie die persönliche Anmerkung zum jeweiligen Routenabschnitt mitgeteilt werden muss.
 	</p>
 	<a
 		href="https://mitgestalten.potsdam.de/de/besserradeln/massnahmenrvk2035"
 		target="_blank"
-		>https://mitgestalten.potsdam.de/de/besserradeln/massnahmenrvk2035 <svg
+		>zum Rückmeldeformular der Stadt Potsdam <svg
 			width="24"
 			height="24"
 			viewBox="0 0 24 24"
@@ -128,7 +126,9 @@
 	</a>
 	<details>
 		<summary>Anleitung</summary>
-		<p>Hier kann dann mehr drin stehen</p>
+		<p>Jeder Eintrag kann einzeln kopiert werden, um diesen 1:1 in das Rückmeldeformular der Stadt einzufügen.
+Im Rückmeldeformular muss zunächst die Bereichs- und Abschnittsnummer eingetragen werden. Nach Klick auf den Button »Weiter« erscheint ein Feld, in welches jetzt die Anmerkung eingefügt werden kann. Erst mit Klick auf »Hinweis senden« wird die Anmerkung an die Stadt übermittelt.
+Für das eigene Archiv können die Anmerkungen als CSV-Datei (Tabelle) oder Textdatei heruntergeladen werden.</p>
 	</details>
 
 	{#if commentEntries.length === 0}

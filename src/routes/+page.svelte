@@ -20,7 +20,7 @@
 	import Modal from "$lib/Modal.svelte";
 	import { onMount } from "svelte";
 	import { allComments } from "$lib/stores/comments";
-	import Legend from "$lib/Legend.svelte"
+	import Legend from "$lib/Legend.svelte";
 
 	let showModal = $state(false);
 
@@ -249,8 +249,81 @@
 				Aufbereitung durch woven.design) Stand: 27.04.2026
 			</p>
 		</section>
-		<section>Anleitung seite eins</section>
-		<section>Anleitung seite zwei</section>
+		<section>
+			<p>
+				Die Karte fasst alle Routenabschnitte zusammen, auf denen
+				Maßnahmen für das Radverkehrskonzept bis 2035 geplant sind.
+				Unterschieden wird zwischen:
+			</p>
+			<div>
+				<svg
+					width="63"
+					height="5"
+					viewBox="0 0 63 5"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<title>Rote Linie</title>
+					<path
+						d="M2.5 2.5H60"
+						stroke="#E63946"
+						stroke-width="5"
+						stroke-linecap="round"
+					/>
+				</svg>
+				Plusroute (rot)
+			</div>
+			<div>
+				<svg
+					width="63"
+					height="5"
+					viewBox="0 0 63 5"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<title>Dunkelblaue Linie</title>
+					<path
+						d="M2.5 2.5H60"
+						stroke="#1D3557"
+						stroke-width="5"
+						stroke-linecap="round"
+					/>
+				</svg>
+				Hauptroute 1. Stufe (dunkelblau)
+			</div>
+			<div>
+				<svg
+					width="63"
+					height="5"
+					viewBox="0 0 63 5"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<title>Hellblaue Linie</title>
+					<path
+						d="M2.5 2.5H60"
+						stroke="#457B9D"
+						stroke-width="5"
+						stroke-linecap="round"
+					/>
+				</svg>
+				Hauptroute 2. Stufe (hellblau)
+			</div>
+			<p>
+				Bei Auswahl eines Abschnitts, wird die dort geplante Maßnahme
+				erläutert. Im gleichen Fenster kann eine persönliche Anmerkung
+				notiert werden.
+			</p>
+		</section>
+		<section>
+			<p>
+				Die Anmerkungen sind unter dem Button »X Anmerkungen« gesammelt.
+				Die dort aufzufindende Übersicht, dient dazu alle Anmerkungen
+				einfacher in das verlinkte Rückmeldeformular der Stadt Potsdam
+				einzutragen.
+			</p>
+			<img src="/anmerkungen.png" />
+		</section>
 	</Modal>
 	<div class="container">
 		<div class="map-wrapper">
