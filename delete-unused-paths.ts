@@ -4,7 +4,14 @@ async function main() {
 		"utf8",
 	).json();
 
-	console.log(geojson.features.length);
+	geojson.features = geojson.features.filter(
+		(path) => path.properties.id !== "x",
+	);
+
+	await Bun.write(
+		"src/radverkehrskonzept_zielnetz.geojson",
+		JSON.stringify(geojson, null, 2),
+	);
 }
 
 main();
