@@ -67,7 +67,9 @@
 </script>
 
 <svelte:head>
-	<title>Anmerkungen · Besser Radeln: Potsdams Radverkehrkonzept kommentieren</title>
+	<title
+		>Anmerkungen · Besser Radeln: Potsdams Radverkehrkonzept kommentieren</title
+	>
 	<meta
 		name="description"
 		content="Die Stadt möchte Feedback für das neu veröffentlichte Radverkehrskonzept. Auf unserer interaktiven Karte kannst du deine Anmerkungen einbringen"
@@ -105,7 +107,9 @@
 	<a href="/" class="button">← Zurück zur Karte</a>
 	<h1>Deine Anmerkungen</h1>
 	<p>
-		Die Stadt Potsdam stellt ein Rückmeldeformular zur Verfügung, in dem die Bereichs- und Abschnittsnummer, sowie die persönliche Anmerkung zum jeweiligen Routenabschnitt mitgeteilt werden muss.
+		Die Stadt Potsdam stellt ein Rückmeldeformular zur Verfügung, in dem die
+		Bereichs- und Abschnittsnummer, sowie die persönliche Anmerkung zum
+		jeweiligen Routenabschnitt mitgeteilt werden muss.
 	</p>
 	<a
 		href="https://mitgestalten.potsdam.de/de/besserradeln/massnahmenrvk2035"
@@ -126,9 +130,16 @@
 	</a>
 	<details>
 		<summary>Anleitung</summary>
-		<p>Jeder Eintrag kann einzeln kopiert werden, um diesen 1:1 in das Rückmeldeformular der Stadt einzufügen.
-Im Rückmeldeformular muss zunächst die Bereichs- und Abschnittsnummer eingetragen werden. Nach Klick auf den Button »Weiter« erscheint ein Feld, in welches jetzt die Anmerkung eingefügt werden kann. Erst mit Klick auf »Hinweis senden« wird die Anmerkung an die Stadt übermittelt.
-Für das eigene Archiv können die Anmerkungen als CSV-Datei (Tabelle) oder Textdatei heruntergeladen werden.</p>
+		<p>
+			Jeder Eintrag kann einzeln kopiert werden, um diesen 1:1 in das
+			Rückmeldeformular der Stadt einzufügen. Im Rückmeldeformular muss
+			zunächst die Bereichs- und Abschnittsnummer eingetragen werden. Nach
+			Klick auf den Button »Weiter« erscheint ein Feld, in welches jetzt
+			die Anmerkung eingefügt werden kann. Erst mit Klick auf »Hinweis
+			senden« wird die Anmerkung an die Stadt übermittelt. Für das eigene
+			Archiv können die Anmerkungen als CSV-Datei (Tabelle) oder Textdatei
+			heruntergeladen werden.
+		</p>
 	</details>
 
 	{#if commentEntries.length === 0}
@@ -152,7 +163,7 @@ Für das eigene Archiv können die Anmerkungen als CSV-Datei (Tabelle) oder Text
 							<div class="flex">
 								{routeId}
 								<button
-									class="copy-btn"
+									class="copy-btn nummer"
 									class:copied={copiedState[
 										`${routeId}-route`
 									] === "route"}
@@ -209,11 +220,11 @@ Für das eigene Archiv können die Anmerkungen als CSV-Datei (Tabelle) oder Text
 							<div class="flex">
 								{value}
 								<button
-									class="copy-btn"
+									class="copy-btn anmerkung"
 									class:copied={copiedState[
 										`${routeId}-comment`
 									] === "comment"}
-									aria-label="Inhalt kopieren"
+									aria-label="Anmerkung kopieren"
 									type="button"
 									onclick={() =>
 										writeClipboardText(
@@ -459,7 +470,7 @@ Für das eigene Archiv können die Anmerkungen als CSV-Datei (Tabelle) oder Text
 			border: none;
 			border-radius: 0.125rem;
 			cursor: pointer;
-			min-width: max;
+			min-width: max-content;
 			font-family: var(--font-sans);
 			font-size: 1.125rem;
 			color: black;
@@ -488,6 +499,13 @@ Für das eigene Archiv können die Anmerkungen als CSV-Datei (Tabelle) oder Text
 				&:not(:active) {
 					transform: scale(1);
 				}
+			}
+
+			&.anmerkung {
+				width: 20ch;
+			}
+			&.nummer {
+				width: 32ch;
 			}
 		}
 
