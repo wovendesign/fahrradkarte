@@ -2061,8 +2061,7 @@
       },
       "properties": {
         "id": "280_2",
-        "straße": "342. Am Stadtrand / Zur Nuthe",
-        "abschnitt": "&lt;Null&gt;"
+        "straße": "342. Am Stadtrand / Zur Nuthe"
       }
     },
     {
@@ -2102,8 +2101,7 @@
       },
       "properties": {
         "id": "280_1",
-        "straße": "342. Am Stadtrand / Zur Nuthe",
-        "abschnitt": "&lt;Null&gt;"
+        "straße": "342. Am Stadtrand / Zur Nuthe"
       }
     },
     {
@@ -2923,8 +2921,7 @@
       },
       "properties": {
         "id": "112",
-        "straße": "345. Ziolkowskistraße",
-        "abschnitt": "&lt;Null&gt;"
+        "straße": "345. Ziolkowskistraße"
       }
     },
     {
@@ -3861,8 +3858,7 @@
       },
       "properties": {
         "id": "503",
-        "straße": "302. Geiselbergstraße",
-        "abschnitt": "&lt;Null&gt;"
+        "straße": "302. Geiselbergstraße"
       }
     },
     {
@@ -8502,8 +8498,7 @@
       },
       "properties": {
         "id": "207",
-        "straße": "338.",
-        "abschnitt": "&lt;Null&gt;"
+        "straße": "338."
       }
     },
     {
@@ -8571,8 +8566,7 @@
       },
       "properties": {
         "id": "253_3",
-        "straße": "343. Fichtenallee / Turmstraße",
-        "abschnitt": "&lt;Null&gt;"
+        "straße": "343. Fichtenallee / Turmstraße"
       }
     },
     {
@@ -8844,8 +8838,7 @@
       },
       "properties": {
         "id": "253_2",
-        "straße": "343. Fichtenallee / Turmstraße",
-        "abschnitt": "&lt;Null&gt;"
+        "straße": "343. Fichtenallee / Turmstraße"
       }
     },
     {
@@ -10112,8 +10105,7 @@
         ]
       },
       "properties": {
-        "straße": "327. Mangerstraße / Seestraße / Böcklinstraße",
-        "abschnitt": "&lt;Null&gt;"
+        "straße": "327. Mangerstraße / Seestraße / Böcklinstraße"
       }
     },
     {
@@ -10149,8 +10141,7 @@
       },
       "properties": {
         "id": "15",
-        "straße": "327. Mangerstraße / Seestraße / Böcklinstraße",
-        "abschnitt": "&lt;Null&gt;"
+        "straße": "327. Mangerstraße / Seestraße / Böcklinstraße"
       }
     },
     {
@@ -15318,8 +15309,7 @@
       },
       "properties": {
         "id": "102_2",
-        "straße": "312. Schillerplatz",
-        "abschnitt": "&lt;Null&gt;"
+        "straße": "312. Schillerplatz"
       }
     },
     {
@@ -16263,8 +16253,7 @@
         "type": "MultiLineString"
       },
       "properties": {
-        "straße": "203.",
-        "abschnitt": "&lt;Null&gt;"
+        "straße": "203."
       }
     },
     {
@@ -18122,8 +18111,7 @@
       },
       "properties": {
         "id": "460/470",
-        "straße": "306.",
-        "abschnitt": "&lt;Null&gt;"
+        "straße": "306."
       }
     },
     {
@@ -18300,8 +18288,7 @@
       },
       "properties": {
         "id": "168",
-        "straße": "313. Auf dem Kiewitt",
-        "abschnitt": "&lt;Null&gt;"
+        "straße": "313. Auf dem Kiewitt"
       }
     },
     {
@@ -23587,8 +23574,7 @@
       },
       "properties": {
         "id": "135",
-        "straße": "305. Kuhforter Damm / Werderscher Damm",
-        "abschnitt": "&lt;Null&gt;"
+        "straße": "305. Kuhforter Damm / Werderscher Damm"
       }
     },
     {
@@ -23878,8 +23864,7 @@
       },
       "properties": {
         "id": "328_1",
-        "straße": "348.",
-        "abschnitt": "&lt;Null&gt;"
+        "straße": "348."
       }
     },
     {
@@ -23923,8 +23908,7 @@
       },
       "properties": {
         "id": "371",
-        "straße": "328. Gutenbergstraße",
-        "abschnitt": "&lt;Null&gt;"
+        "straße": "328. Gutenbergstraße"
       }
     },
     {
@@ -23968,8 +23952,7 @@
       },
       "properties": {
         "id": "372",
-        "straße": "328. Gutenbergstraße",
-        "abschnitt": "&lt;Null&gt;"
+        "straße": "328. Gutenbergstraße"
       }
     },
     {
@@ -23993,8 +23976,7 @@
       },
       "properties": {
         "id": "501",
-        "straße": "328. Gutenbergstraße",
-        "abschnitt": "&lt;Null&gt;"
+        "straße": "328. Gutenbergstraße"
       }
     },
     {
@@ -24026,8 +24008,7 @@
       },
       "properties": {
         "id": "500",
-        "straße": "328. Gutenbergstraße",
-        "abschnitt": "&lt;Null&gt;"
+        "straße": "328. Gutenbergstraße"
       }
     },
     {
@@ -24858,8 +24839,7 @@
         "type": "MultiLineString"
       },
       "properties": {
-        "straße": "319. Friedrich-Klausing-Straße / Am Pfingstberg / Graf-von-Schwerin-Straße / Vogelweide / Höhenstraße",
-        "abschnitt": "&lt;Null&gt;"
+        "straße": "319. Friedrich-Klausing-Straße / Am Pfingstberg / Graf-von-Schwerin-Straße / Vogelweide / Höhenstraße"
       }
     },
     {
@@ -25861,8 +25841,7 @@
         "type": "MultiLineString"
       },
       "properties": {
-        "straße": "318.",
-        "abschnitt": "&lt;Null&gt;"
+        "straße": "318."
       }
     },
     {
@@ -27456,8 +27435,7 @@
       },
       "properties": {
         "id": "9",
-        "straße": "335. Friedrich-List-Straße / Babelsberger Straße",
-        "abschnitt": "&lt;Null&gt;"
+        "straße": "335. Friedrich-List-Straße / Babelsberger Straße"
       }
     },
     {
@@ -27706,8 +27684,7 @@
       },
       "properties": {
         "id": "187",
-        "straße": "178.",
-        "abschnitt": "&lt;Null&gt;"
+        "straße": "178."
       }
     },
     {
@@ -28748,8 +28725,7 @@
       },
       "properties": {
         "id": "68",
-        "straße": "311. Kastanienallee",
-        "abschnitt": "&lt;Null&gt;"
+        "straße": "311. Kastanienallee"
       }
     },
     {
@@ -29855,8 +29831,7 @@
       },
       "properties": {
         "id": "128",
-        "straße": "339. Rudolf-Breitscheid-Straße",
-        "abschnitt": "&lt;Null&gt;"
+        "straße": "339. Rudolf-Breitscheid-Straße"
       }
     },
     {
@@ -38889,8 +38864,7 @@
       },
       "properties": {
         "id": "306_1",
-        "straße": "314. Untere Planitz / Weg zur Unteren Planitz / Dortustraße",
-        "abschnitt": "&lt;Null&gt;"
+        "straße": "314. Untere Planitz / Weg zur Unteren Planitz / Dortustraße"
       }
     },
     {
@@ -39535,8 +39509,7 @@
       },
       "properties": {
         "id": "146",
-        "straße": "321. Behlertstraße / Eisenhartstraße",
-        "abschnitt": "&lt;Null&gt;"
+        "straße": "321. Behlertstraße / Eisenhartstraße"
       }
     },
     {
@@ -41842,8 +41815,7 @@
         "type": "MultiLineString"
       },
       "properties": {
-        "straße": "316. Feldweg",
-        "abschnitt": "&lt;Null&gt;"
+        "straße": "316. Feldweg"
       }
     },
     {
@@ -42272,8 +42244,7 @@
       },
       "properties": {
         "id": "461_1",
-        "straße": "301. An der Bahn",
-        "abschnitt": "&lt;Null&gt;"
+        "straße": "301. An der Bahn"
       }
     },
     {
@@ -42333,8 +42304,7 @@
       },
       "properties": {
         "id": "529",
-        "straße": "301. An der Bahn",
-        "abschnitt": "&lt;Null&gt;"
+        "straße": "301. An der Bahn"
       }
     },
     {
@@ -42382,8 +42352,7 @@
       },
       "properties": {
         "id": "461_2",
-        "straße": "301. An der Bahn",
-        "abschnitt": "&lt;Null&gt;"
+        "straße": "301. An der Bahn"
       }
     },
     {

@@ -6,9 +6,11 @@
 
 	let {
 		selectedSection = null,
+		isGeojsonOnly = false,
 		onclose = () => {},
 	}: {
 		selectedSection: Abschnitt | null;
+		isGeojsonOnly?: boolean;
 		onclose: () => void;
 	} = $props();
 
@@ -35,69 +37,86 @@
 		<header>
 			<div class="content">
 				<div class="title">
-					<h2>{selectedSection.straße}</h2>
+					<h2>{selectedSection.straße || "Unbetitelte Straße"}</h2>
 					<span class="identifier"
-						>{selectedSection.bereich} - {selectedSection.abschnittsnummer}</span
+						>{selectedSection.bereich
+							? `${selectedSection.bereich} - `
+							: ""}{selectedSection.abschnittsnummer}</span
 					>
 				</div>
-				<p>{selectedSection.abschnitt}</p>
+				{#if selectedSection.abschnitt}
+					<p>{selectedSection.abschnitt}</p>
+				{/if}
 			</div>
 		</header>
 
-		<section>
-			<h3>Priorität</h3>
-			<div class="meters">
-				<meter
-					min="0"
-					max="10"
-					value={hasPrioTwo || hasPrioThree
-						? 10
-						: selectedSection.prioritaet.prioritaet_1}
-				></meter>
-				<meter
-					min="0"
-					max="10"
-					value={hasPrioThree
-						? 10
-						: selectedSection.prioritaet.prioritaet_2}
-				></meter>
-				<meter
-					min="0"
-					max="10"
-					value={selectedSection.prioritaet.prioritaet_3}
-				></meter>
-			</div>
-		</section>
-
-		<section>
-			<h3>Maßnahmen</h3>
-			<p>{selectedSection.maßnahmen}</p>
-		</section>
-
-		<section>
-			<h3>Kommentar</h3>
-			<p>{selectedSection.kommentar}</p>
-		</section>
-
-		<details>
-			<summary>Aktuelle Kfz-Situation</summary>
-			{#if selectedSection.kfzVerkehr}
-				<p>
-					Zulässige Höchstgeschwindigkeit: {selectedSection.kfzVerkehr
-						.zulässigeHöchstgeschwindigkeit}
+		{#if isGeojsonOnly}
+			<section class="empty-state">
+				<p class="empty-message">
+					Die Stadt hat für diese Route keine Maßnahmen vorgesehen.
+					Hast du trotzdem Anmerkungen?
 				</p>
-				<p>
-					Kfz Spitzenstunde: {selectedSection.kfzVerkehr
-						.summeKfzSpitzenstunde}
-				</p>
+			</section>
+		{:else}
+			<section>
+				<h3>Priorität</h3>
+				<div class="meters">
+					<meter
+						min="0"
+						max="10"
+						value={hasPrioTwo || hasPrioThree
+							? 10
+							: selectedSection.prioritaet.prioritaet_1}
+					></meter>
+					<meter
+						min="0"
+						max="10"
+						value={hasPrioThree
+							? 10
+							: selectedSection.prioritaet.prioritaet_2}
+					></meter>
+					<meter
+						min="0"
+						max="10"
+						value={selectedSection.prioritaet.prioritaet_3}
+					></meter>
+				</div>
+			</section>
+
+			{#if selectedSection.maßnahmen}
+				<section>
+					<h3>Maßnahmen</h3>
+					<p>{selectedSection.maßnahmen}</p>
+				</section>
 			{/if}
-		</details>
 
-		<details>
-			<summary>Aktuelle Radverkehr-Situation</summary>
-			<p>Führungsform: {selectedSection.führungsform}</p>
-			<p>Verkehrssicherheit: {selectedSection.verkehrssicherheit}</p>
-		</details>
+			{#if selectedSection.kommentar}
+				<section>
+					<h3>Kommentar</h3>
+					<p>{selectedSection.kommentar}</p>
+				</section>
+			{/if}
+
+			{#if selectedSection.kfzVerkehr}
+				<details>
+					<summary>Aktuelle Kfz-Situation</summary>
+					<p>
+						Zulässige Höchstgeschwindigkeit: {selectedSection
+							.kfzVerkehr.zulässigeHöchstgeschwindigkeit}
+					</p>
+					<p>
+						Kfz Spitzenstunde: {selectedSection.kfzVerkehr
+							.summeKfzSpitzenstunde}
+					</p>
+				</details>
+			{/if}
+
+			<details>
+				<summary>Aktuelle Radverkehr-Situation</summary>
+				<p>Führungsform: {selectedSection.führungsform}</p>
+				<p>Verkehrssicherheit: {selectedSection.verkehrssicherheit}</p>
+			</details>
+		{/if}
 
 		<Input
 			routeId={selectedSection?.abschnittsnummer}
@@ -249,6 +268,22 @@
 			p {
 				padding: 0.5rem 0;
 				font-size: 0.9rem;
+			}
+		}
+
+		.empty-state {
+			background: #f9f9f9;
+			border-radius: 8px;
+			padding: 1.5rem;
+			text-align: center;
+
+			.empty-message {
+				font-family: var(--font-serif);
+				font-size: 1.1rem;
+				font-style: italic;
+				color: #555;
+				line-height: 1.6;
+				margin: 0;
 			}
 		}
 	}

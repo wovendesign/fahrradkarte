@@ -25,6 +25,7 @@
 	let geojsonData = $state<FeatureCollection | null>(null);
 	let sectionMap = $state<Map<string, Abschnitt> | null>(null);
 	let selectedSection = $state<Abschnitt | null>(null);
+	let isGeojsonOnly = $state(false);
 	let sheetOpen = $state(false);
 	let isMobile = $state(false);
 
@@ -96,7 +97,28 @@
 		console.log("section found:", !!section);
 		if (section) {
 			selectedSection = section;
+			isGeojsonOnly = false;
+			// @ts-expect-error
 			plausible('Route Opened', {props: {sectionId: section.abschnittsnummer}})
+		} else if (feature.properties?.straße || feature.properties?.abschnitt) {
+			selectedSection = {
+				abschnittsnummer: id,
+				straße: feature.properties.straße || "",
+				abschnitt: feature.properties.abschnitt || "",
+				bereich: "",
+				lage: "",
+				längeInMeter: 0,
+				radnetzfunktion: "",
+				führungsform: "",
+				bewertungFührungsform: 0,
+				bewertungAnlagenzustand: 0,
+				bewertungGesamt: 0,
+				verkehrssicherheit: "",
+				maßnahmen: "",
+				kommentar: "",
+				prioritaet: { radnetzfunktion: 0, bewertung_soll_ist: 0, radverkehrsmengen: 0 },
+			};
+			isGeojsonOnly = true;
 		}
 	}
 
@@ -402,14 +424,14 @@
 					</BottomSheet.Handle>
 					<BottomSheet.Content>
 						<div class="sheet-content">
-<Sidebar {selectedSection} onclose={() => selectedSection = null} />
+<Sidebar {selectedSection} {isGeojsonOnly} onclose={() => selectedSection = null} />
 						</div>
 					</BottomSheet.Content>
 				</BottomSheet.Sheet>
 			</BottomSheet.Overlay>
 		</BottomSheet>
 	{:else if selectedSection}
-		<Sidebar {selectedSection} onclose={() => selectedSection = null} />
+		<Sidebar {selectedSection} {isGeojsonOnly} onclose={() => selectedSection = null} />
 	{/if}
 </main>
 
