@@ -56,17 +56,16 @@
 		</div>
 		<div class="button-row">
 			{#if currentIndex > 0}
-				<button onclick={scrollToPrevSection} class="button" type="button">previous</button>
+				<button onclick={scrollToPrevSection} class="button" type="button">Zurück</button>
 			{/if}
 			{#if currentIndex < getChildCount() - 1}
-				<button onclick={scrollToNextSection} class="button" type="button">next</button>
-				<button onclick={() => dialog.close()} class="skip" type="button">skip</button>
+				<button onclick={() => dialog.close()} class="skip" type="button">Überspringen</button>
+				<button onclick={scrollToNextSection} class="button" type="button">Weiter</button>
 			{:else}
 				<button
-					autofocus
 					onclick={() => dialog.close()}
 					class="button"
-					type="button">close modal</button
+					type="button">Zur Karte</button
 				>
 			{/if}
 		</div>
@@ -117,6 +116,7 @@
 		display: flex;
 		gap: 0.5em;
 		justify-content: flex-end;
+		margin-top: 1rem;
 	}
 	.skip {
 		display: block;
@@ -144,5 +144,18 @@
 				scroll-snap-align: center;
 			}
 		}
+	}
+
+	:global {
+	    section {
+					display: flex;
+					flex-direction: column;
+					gap: 1rem;
+
+					p.disclaimer {
+					font-size: 0.75rem;
+					opacity: 0.8;
+					}
+					}
 	}
 </style>

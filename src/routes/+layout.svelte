@@ -162,22 +162,31 @@
 		--font-sans-serif: "IBM Plex Sans Variable", sans-serif;
 	}
 
-	:global(h1) {
-		font-size: 4rem;
-		font-family: var(--font-serif);
-		font-style: italic;
-		text-wrap: balance;
-	}
+	:global {
+    	h1 {
+    		font-size: 3rem;
+    		font-family: var(--font-serif);
+    		font-style: italic;
+    		text-wrap: balance;
+    	}
+     h2 {
+         font-size: 1.5rem;
+       		font-family: var(--font-serif);
+       		/*font-style: italic;*/
+       		text-wrap: balance;
+     }
 
-	:global(h3) {
+	h3 {
 		font-family: var(--font-serif);
 		font-size: 1.25rem;
 		font-style: italic;
 		font-weight: 500;
 	}
+	}
 
 	:global(*) {
 		font-family: var(--font-sans-serif);
+		hyphens: auto;
 	}
 
 	:global(.button) {

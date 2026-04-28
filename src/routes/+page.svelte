@@ -150,12 +150,20 @@
 <main>
 	<Modal bind:showModal>
 		<section>
-			<h1>Potdams Radwege Zukunft</h1>
+			<h1>Radverkehrskonzept Potsdam</h1>
+			<h2>von 2026 für 2035</h2>
 			<p>
-				Die Stadt Potsdam nach Feedback zu ihrem neuen
-				Radverkehrskonzept. Wir finden eine gute Radinfrastruktur für
-				sehr wichtig. Deswegen haben wir ein Tool entworfen mit dem ihr
-				sehr einfach Anmerkungen an die Stadt schicken könnt.
+				Die Stadt Potsdam fragt nach Feedback zu ihrem neuen
+				Radverkehrskonzept. Eine bürger·innennahe
+				Radinfrastrukturplanung ist die Grundlage einer zukunftsfähigen
+				Stadt. Deswegen stellen wir eine Übersichtskarte zur Verfügung
+				mit der Anmerkungen für die Stadt Potsdam vorbereitet werden
+				können.
+			</p>
+			<p class="disclaimer">
+				(Visualisierung basierend auf öffentlich zugänglichen Daten der
+				Stadt Potsdam. Keine offizielle Kooperation; reine visuelle
+				Aufbereitung durch woven.design) Stand: 27.04.2026
 			</p>
 		</section>
 		<section>Anleitung seite eins</section>
