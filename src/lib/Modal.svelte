@@ -74,7 +74,6 @@
 			onscroll={updateCurrentIndex}
 			onkeydown={handleKeydown}
 			role="region"
-			tabindex="0"
 		>
 			{@render children?.()}
 		</div>
