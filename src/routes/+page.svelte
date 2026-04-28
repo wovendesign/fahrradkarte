@@ -167,6 +167,7 @@
 			</p>
 		</section>
 		<section>Anleitung seite eins</section>
+		<section>Anleitung seite zwei</section>
 	</Modal>
 	<div class="container">
 		<div class="map-wrapper">

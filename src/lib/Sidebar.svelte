@@ -1,10 +1,8 @@
 <script lang="ts">
 	import type { Abschnitt } from "../types";
 	import Input from "./Input.svelte";
-	import { persisted } from "svelte-persisted-store";
+	import { allComments } from "$lib/stores/comments";
 	import { get } from "svelte/store";
-
-	const allComments = persisted("fahrradkarte-comments", {});
 
 	let {
 		selectedSection = null,
