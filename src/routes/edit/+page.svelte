@@ -17,6 +17,7 @@
 	let selectedFeature = $state<Record<string, unknown> | null>(null);
 	let editMode = $state<EditMode>("splitting");
 	let editingId = $state<string>("");
+	let idInputRef: HTMLInputElement | null = $state(null);
 
 	// Load GeoJSON data
 	$effect(() => {
@@ -39,6 +40,13 @@
 		} else {
 			selectedFeature = null;
 			editingId = "";
+		}
+	});
+
+	// Auto-focus the ID input when in editing mode with a feature selected
+	$effect(() => {
+		if (editMode === "editing" && selectedFeature && idInputRef) {
+			idInputRef.focus();
 		}
 	});
 
@@ -278,6 +286,7 @@
 						<input
 							type="text"
 							id="id-input"
+							bind:this={idInputRef}
 							bind:value={editingId}
 							onchange={updateFeatureId}
 						/>
