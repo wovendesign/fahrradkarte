@@ -320,6 +320,7 @@
 			</button>
 		</div>
 	{/if}
+	<a href="/impressum" class="impressum">Impressum</a>
 </main>
 
 <style>
@@ -514,6 +515,10 @@
 			gap: 0.5rem;
 			margin-top: 1rem;
 			flex-wrap: wrap;
+		}
+
+		a.impressum {
+		    color: rgba(0,0,0,0.5);
 		}
 	}
 </style>
