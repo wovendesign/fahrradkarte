@@ -137,13 +137,33 @@
 	let isScrollable = $state(false);
 
 	$effect(() => {
-		if (mapRef && mapRef.isStyleLoaded() && validIds.length > 0) {
-			const layer = mapRef.getLayer("zielnetz-labels");
+		const map = mapRef;
+		if (!map) return;
+		const checkAndMove = () => {
+			const layer = map?.getLayer("zielnetz-labels");
 			if (layer) {
-				mapRef.moveLayer("zielnetz-labels");
+				moveLabelsToTop(map);
+			} else if (geojsonData) {
+				setTimeout(checkAndMove, 100);
 			}
+		};
+		if (map?.isStyleLoaded()) {
+			checkAndMove();
+		} else {
+			map?.once("style.load", checkAndMove);
 		}
 	});
+
+	function moveLabelsToTop(map: typeof mapRef) {
+		if (!map) return;
+		const layer = map.getLayer("zielnetz-labels");
+		if (!layer) return;
+		const style = map.getStyle();
+		const lastLayer = style.layers[style.layers.length - 1];
+		if (lastLayer && lastLayer.id !== "zielnetz-labels") {
+			map.moveLayer("zielnetz-labels", lastLayer.id);
+		}
+	}
 
 	let validIds = $derived(
 		sectionMap
