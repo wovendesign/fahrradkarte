@@ -132,13 +132,18 @@
 		<summary>Anleitung</summary>
 		<p>
 			Jeder Eintrag kann einzeln kopiert werden, um diesen 1:1 in das
-			Rückmeldeformular der Stadt einzufügen. Im Rückmeldeformular muss
-			zunächst die Bereichs- und Abschnittsnummer eingetragen werden. Nach
-			Klick auf den Button »Weiter« erscheint ein Feld, in welches jetzt
-			die Anmerkung eingefügt werden kann. Erst mit Klick auf »Hinweis
-			senden« wird die Anmerkung an die Stadt übermittelt. Für das eigene
-			Archiv können die Anmerkungen als CSV-Datei (Tabelle) oder Textdatei
-			heruntergeladen werden.
+			Rückmeldeformular der Stadt einzufügen.
+		</p>
+		<p>
+			Im Rückmeldeformular muss zunächst die Bereichs- und
+			Abschnittsnummer eingetragen werden.
+		</p>
+		<p>
+			Nach Klick auf den Button »Weiter« erscheint ein Feld, in welches
+			jetzt die Anmerkung eingefügt werden kann. Erst mit Klick auf
+			»Hinweis senden« wird die Anmerkung an die Stadt übermittelt. Für
+			das eigene Archiv können die Anmerkungen als CSV-Datei (Tabelle)
+			oder Textdatei heruntergeladen werden.
 		</p>
 	</details>
 
@@ -330,6 +335,7 @@
 		flex-direction: column;
 		gap: 1rem;
 		max-width: 75rem;
+		align-items: start;
 
 		> p {
 			max-width: 65ch;
@@ -359,6 +365,10 @@
 					outline: 2px dashed black;
 					outline-offset: 2px;
 				}
+			}
+			p {
+				text-wrap: balance;
+				margin-top: 0.5rem;
 			}
 		}
 
@@ -393,13 +403,13 @@
 					}
 				}
 
-				@media screen and (max-width: 640px) {
+				@media screen and (max-width: 860px) {
 					display: none;
 				}
 			}
 
 			tbody {
-				@media screen and (max-width: 640px) {
+				@media screen and (max-width: 860px) {
 					display: flex;
 					flex-direction: column;
 					gap: 1rem;
@@ -407,7 +417,7 @@
 
 				tr {
 					border-bottom: 1px solid rgba(0, 0, 0, 0.04);
-					@media screen and (max-width: 640px) {
+					@media screen and (max-width: 860px) {
 						display: flex;
 						flex-direction: column;
 						gap: 0;
@@ -428,7 +438,7 @@
 						padding: 0.375rem;
 						vertical-align: top;
 						text-align: left;
-						@media screen and (max-width: 640px) {
+						@media screen and (max-width: 860px) {
 							padding: 0.25rem 1rem;
 						}
 
@@ -438,7 +448,7 @@
 							width: 100%;
 							justify-content: space-between;
 
-							@media screen and (max-width: 640px) {
+							@media screen and (max-width: 860px) {
 								flex-direction: column;
 								align-items: start;
 							}
@@ -518,7 +528,7 @@
 		}
 
 		a.impressum {
-		    color: rgba(0,0,0,0.5);
+			color: rgba(0, 0, 0, 0.5);
 		}
 	}
 </style>
