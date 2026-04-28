@@ -20,6 +20,7 @@
 	import Modal from "$lib/Modal.svelte";
 	import { onMount } from "svelte";
 	import { allComments } from "$lib/stores/comments";
+	import Legend from "$lib/Legend.svelte"
 
 	let showModal = $state(false);
 
@@ -253,6 +254,7 @@
 	</Modal>
 	<div class="container">
 		<div class="map-wrapper">
+			<Legend />
 			<MapLibre
 				bind:map={mapRef}
 				zoom={14}
@@ -565,7 +567,7 @@
 		font-size: 1rem;
 		font-weight: 500;
 		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-		z-index: 9999;
+		z-index: 10;
 		transition:
 			transform 0.2s,
 			box-shadow 0.2s;

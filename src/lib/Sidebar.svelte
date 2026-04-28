@@ -143,6 +143,8 @@
 		min-width: 300px;
 		max-width: 500px;
 		padding-top: 1rem;
+		background: white;
+		z-index: 100;
 
 		@media screen and (max-width: 640px) {
 			width: 100%;
