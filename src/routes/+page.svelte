@@ -141,9 +141,9 @@
 	);
 
 	onMount(() => {
-		showModal = true;
-
-		// return () => clearInterval(interval);
+		if (!localStorage.getItem("modalDismissed")) {
+			showModal = true;
+		}
 	});
 </script>
 
