@@ -1,8 +1,8 @@
-<script>
+<script lang="ts">
 	let { showModal = $bindable(), children } = $props();
 
-	let dialog = $state(); // HTMLDialogElement
-	let pageWrapper = $state(); // HTMLDivElement
+	let dialog = $state<HTMLDialogElement | undefined>(); // HTMLDialogElement
+	let pageWrapper = $state<HTMLDivElement | undefined>(); // HTMLDivElement
 	let currentIndex = $state(0);
 
 	function getChildCount() {
@@ -22,7 +22,7 @@
 		if (count === 0) return;
 		const currentImage = Math.round(pageWrapper.scrollLeft / (pageWrapper.scrollWidth / count));
 		if (currentImage === count - 1) {
-			dialog.close();
+			dialog?.close();
 			return;
 		}
 		pageWrapper.scrollBy({ left: pageWrapper.clientWidth, behavior: "smooth" });
@@ -40,7 +40,7 @@
 		pageWrapper.scrollBy({ left: -pageWrapper.clientWidth, behavior: "smooth" });
 	}
 
-	function handleKeydown(e) {
+	function handleKeydown(e: KeyboardEvent) {
 		if (e.key === "ArrowLeft") {
 			scrollToPrevSection();
 		} else if (e.key === "ArrowRight") {
@@ -82,11 +82,11 @@
 				<button onclick={scrollToPrevSection} class="button" type="button">Zurück</button>
 			{/if}
 			{#if currentIndex < getChildCount() - 1}
-				<button onclick={() => dialog.close()} class="skip" type="button">Überspringen</button>
+				<button onclick={() => dialog?.close()} class="skip" type="button">Überspringen</button>
 				<button onclick={scrollToNextSection} class="button" type="button">Weiter</button>
 			{:else}
 				<button
-					onclick={() => dialog.close()}
+					onclick={() => dialog?.close()}
 					class="button"
 					type="button">Zur Karte</button
 				>

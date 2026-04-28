@@ -11,7 +11,7 @@
 
 	type EditMode = "splitting" | "editing";
 
-	let mapRef: maplibregl.Map | null = $state(null);
+	let mapRef: maplibregl.Map | undefined = $state(undefined);
 	let geojsonData = $state<FeatureCollection | null>(null);
 	let selectedFeatureIndex = $state<number | null>(null);
 	let selectedFeature = $state<Record<string, unknown> | null>(null);

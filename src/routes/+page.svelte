@@ -22,7 +22,7 @@
 
 	let showModal = $state(false);
 
-	let mapRef: maplibregl.Map | null = $state(null);
+	let mapRef: maplibregl.Map | undefined = $state(undefined);
 	let geojsonData = $state<FeatureCollection | null>(null);
 	let sectionMap = $state<Map<string, Abschnitt> | null>(null);
 	let selectedSection = $state<Abschnitt | null>(null);
