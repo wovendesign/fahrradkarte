@@ -271,7 +271,9 @@
 						stroke-linecap="round"
 					/>
 				</svg>
-				Plusroute (rot)
+				<strong>Plusroute</strong> – Für wichtigste Verbindungen ins Stadtzentrum,
+				zu Bahnhöfen oder großen Arbeitgeber·innen. Getrennter Radstreifen-/weg,
+				wenn Tramschienen oder Tempo > 30, Ampeln mit Vorrang, rote Radfurten
 			</div>
 			<div>
 				<svg
@@ -289,7 +291,9 @@
 						stroke-linecap="round"
 					/>
 				</svg>
-				Hauptroute 1. Stufe (dunkelblau)
+				<strong>Hauptroute 1. Stufe</strong> – Wichtigste Alltagsrouten zu
+				Bahnhöfen & Zentrum, innerorts durchgängig beleuchtet (außer in Parkanlagen
+				der SPSG), hoher Pflegestandard
 			</div>
 			<div>
 				<svg
@@ -307,7 +311,8 @@
 						stroke-linecap="round"
 					/>
 				</svg>
-				Hauptroute 2. Stufe (hellblau)
+				<strong>Hauptroute 2. Stufe</strong> – Ergänzende Routen auf Ufer-
+				oder Grünwegen, Alternativstrecken abseits der Hauptverkehrsstraßen
 			</div>
 			<p>
 				Bei Auswahl eines Abschnitts, wird die dort geplante Maßnahme
