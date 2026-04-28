@@ -13,31 +13,46 @@
 		if (!pageWrapper) return;
 		const count = getChildCount();
 		if (count === 0) return;
-		currentIndex = Math.round(pageWrapper.scrollLeft / (pageWrapper.scrollWidth / count));
+		currentIndex = Math.round(
+			pageWrapper.scrollLeft / (pageWrapper.scrollWidth / count),
+		);
 	}
 
 	function scrollToNextSection() {
 		if (!pageWrapper) return;
 		const count = getChildCount();
 		if (count === 0) return;
-		const currentImage = Math.round(pageWrapper.scrollLeft / (pageWrapper.scrollWidth / count));
+		const currentImage = Math.round(
+			pageWrapper.scrollLeft / (pageWrapper.scrollWidth / count),
+		);
 		if (currentImage === count - 1) {
 			dialog?.close();
 			return;
 		}
-		pageWrapper.scrollBy({ left: pageWrapper.clientWidth, behavior: "smooth" });
+		pageWrapper.scrollBy({
+			left: pageWrapper.clientWidth,
+			behavior: "smooth",
+		});
 	}
 
 	function scrollToPrevSection() {
 		if (!pageWrapper) return;
 		const count = getChildCount();
 		if (count === 0) return;
-		const currentImage = Math.round(pageWrapper.scrollLeft / (pageWrapper.scrollWidth / count));
+		const currentImage = Math.round(
+			pageWrapper.scrollLeft / (pageWrapper.scrollWidth / count),
+		);
 		if (currentImage === 0) {
-			pageWrapper.scrollTo({ left: pageWrapper.scrollWidth, behavior: "smooth" });
+			pageWrapper.scrollTo({
+				left: pageWrapper.scrollWidth,
+				behavior: "smooth",
+			});
 			return;
 		}
-		pageWrapper.scrollBy({ left: -pageWrapper.clientWidth, behavior: "smooth" });
+		pageWrapper.scrollBy({
+			left: -pageWrapper.clientWidth,
+			behavior: "smooth",
+		});
 	}
 
 	function handleKeydown(e: KeyboardEvent) {
@@ -78,26 +93,44 @@
 			{@render children?.()}
 		</div>
 		<div class="button-row">
-			{#if currentIndex > 0}
-				<button onclick={scrollToPrevSection} class="button" type="button">Zurück</button>
-			{/if}
-			{#if currentIndex < getChildCount() - 1}
-				<button onclick={() => dialog?.close()} class="skip" type="button">Überspringen</button>
-				<button onclick={scrollToNextSection} class="button" type="button">Weiter</button>
-			{:else}
-				<button
-					onclick={() => dialog?.close()}
-					class="button"
-					type="button">Zur Karte</button
-				>
-			{/if}
+			<div class="button-group">
+				<p>{currentIndex + 1} / 3</p>
+
+				{#if currentIndex > 0}
+					<button
+						onclick={scrollToPrevSection}
+						class="skip"
+						type="button">←</button
+					>
+				{/if}
+			</div>
+			<div class="button-group">
+				{#if currentIndex < getChildCount() - 1}
+					<button
+						onclick={() => dialog?.close()}
+						class="skip"
+						type="button">Überspringen</button
+					>
+					<button
+						onclick={scrollToNextSection}
+						class="button"
+						type="button">Weiter</button
+					>
+				{:else}
+					<button
+						onclick={() => dialog?.close()}
+						class="button"
+						type="button">Zur Karte</button
+					>
+				{/if}
+			</div>
 		</div>
 	</div>
 </dialog>
 
 <style>
 	dialog {
-		--modal-width: min(80vw, 32em);
+		--modal-width: min(90vw, 32em);
 		width: var(--modal-width);
 		border-radius: 0.2em;
 		border: none;
@@ -138,8 +171,19 @@
 	.button-row {
 		display: flex;
 		gap: 0.5em;
-		justify-content: flex-end;
+		justify-content: space-between;
 		margin-top: 1rem;
+
+		.button-group {
+			display: flex;
+			gap: 0.5em;
+			align-items: center;
+
+			p {
+				font-size: 0.75rem;
+				opacity: 0.75;
+			}
+		}
 	}
 	.skip {
 		display: block;
@@ -159,7 +203,7 @@
 
 		:global {
 			& > * {
-			    --child-width: calc(var(--modal-width) - 2rem);
+				--child-width: calc(var(--modal-width) - 2rem);
 				height: 100%;
 				width: var(--child-width);
 				min-width: var(--child-width);
@@ -170,15 +214,15 @@
 	}
 
 	:global {
-	    section {
-					display: flex;
-					flex-direction: column;
-					gap: 1rem;
+		section {
+			display: flex;
+			flex-direction: column;
+			gap: 1rem;
 
-					p.disclaimer {
-					font-size: 0.75rem;
-					opacity: 0.8;
-					}
-					}
+			p.disclaimer {
+				font-size: 0.75rem;
+				opacity: 0.8;
+			}
+		}
 	}
 </style>
