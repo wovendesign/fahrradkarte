@@ -3,13 +3,15 @@
 	import { get } from 'svelte/store';
 
 	let {
+	    bereichId,
 		routeId = "",
 		comment,
 		onchange,
 	}: {
+	bereichId?: string
 		routeId?: string;
 		comment: Writable<Record<string, string>>;
-		onchange: (routeId: string, value: string) => void;
+		onchange: (routeId: string, value: string, bereichId?: string) => void;
 	} = $props();
 
 	let currentValue = $state("");
@@ -17,7 +19,7 @@
 	$effect(() => {
 		if (routeId) {
 			const comments = get(comment) as Record<string, string>;
-			currentValue = comments[routeId] || "";
+			currentValue = comments[routeId] ? JSON.parse(comments[routeId]).value : "";
 		}
 	});
 </script>
@@ -30,7 +32,7 @@
 			oninput={(e) => {
 				const target = e.target as HTMLTextAreaElement;
 				currentValue = target.value;
-				onchange(routeId, target.value);
+				onchange(routeId, target.value, bereichId);
 			}}
 		></textarea>
 	{:else}

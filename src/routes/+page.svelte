@@ -141,10 +141,11 @@
 
 		if (!id) return;
 
-		selectSectionById(id)
+		selectSectionById(id, feature)
 	}
 
-	function selectSectionById(id: string) {
+	function selectSectionById(id: string, feature: Feature) {
+	if (!mapRef || !sectionMap) return;
 	const section =
 		sectionMap.get(id) ?? sectionMap.get(id.replace("_", " "));
 	console.log("section found:", !!section);
@@ -637,7 +638,7 @@
 													feature.properties?.route,
 												]}
 												style="opacity: 0.5;display:flex;height:20px;align-items:center;"
-												onclick={() => selectSectionById(feature.properties.id)}
+												onclick={() => selectSectionById(feature.properties.id, feature)}
 											>
 												<svg
 													xmlns="http://www.w3.org/2000/svg"

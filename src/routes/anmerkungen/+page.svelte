@@ -163,10 +163,15 @@
 			</thead>
 			<tbody>
 				{#each commentEntries as [routeId, value]}
+					{@const json = JSON.parse(value)}
+					<!-- TODO: parse try catch with fallback recovery -->
+					{@const anmerkung = json.value}
+					{@const bereich = json.bereichId}
+					{@const route = `${bereich && bereich !== undefined && bereich !== null ? `${bereich.trim()} - ` : ""}${routeId}`}
 					<tr class="comment">
 						<th scope="row">
 							<div class="flex">
-								{routeId}
+								{route}
 								<button
 									class="copy-btn nummer"
 									class:copied={copiedState[
@@ -176,7 +181,7 @@
 									type="button"
 									onclick={() =>
 										writeClipboardText(
-											routeId,
+											route,
 											`${routeId}-route`,
 											"route",
 										)}
@@ -223,7 +228,7 @@
 
 						<td class="comment-text">
 							<div class="flex">
-								{value}
+								{anmerkung}
 								<button
 									class="copy-btn anmerkung"
 									class:copied={copiedState[
@@ -233,7 +238,7 @@
 									type="button"
 									onclick={() =>
 										writeClipboardText(
-											value,
+											anmerkung,
 											`${routeId}-comment`,
 											"comment",
 										)}

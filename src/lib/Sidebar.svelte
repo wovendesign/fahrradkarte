@@ -22,9 +22,13 @@
 		hasPrioThree = selectedSection?.prioritaet.prioritaet_3 !== undefined;
 	});
 
-	function onCommentChange(routeId: string, value: string) {
+	function onCommentChange(
+		routeId: string,
+		value: string,
+		bereichId?: string,
+	) {
 		const comments = get(allComments) as Record<string, string>;
-		comments[routeId] = value;
+		comments[routeId] = JSON.stringify({ value, bereichId });
 		allComments.set(comments);
 	}
 </script>
@@ -119,6 +123,7 @@
 		{/if}
 
 		<Input
+			bereichId={selectedSection?.bereich}
 			routeId={selectedSection?.abschnittsnummer}
 			comment={allComments}
 			onchange={onCommentChange}
