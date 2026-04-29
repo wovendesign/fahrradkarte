@@ -213,6 +213,8 @@
 			showModal = true;
 		}
 	});
+
+	// TODO: derived geo json which changes DisplayName property when a comment is added (adds ✓ unicode)
 </script>
 
 <svelte:head>
@@ -263,6 +265,7 @@
 				mit der Anmerkungen für die Stadt Potsdam vorbereitet werden
 				können.
 			</p>
+			<!-- TODO: Enddatum angeben -->
 			<p class="disclaimer">
 				(Visualisierung basierend auf öffentlich zugänglichen Daten der
 				Stadt Potsdam. Keine offizielle Kooperation; reine visuelle
@@ -340,6 +343,7 @@
 				notiert werden.
 			</p>
 		</section>
+		<!-- TODO: neue seite mit streckenerklärungen -->
 		<section>
 			<p>
 				Die Anmerkungen sind unter dem Button »X Anmerkungen« gesammelt.
@@ -348,6 +352,7 @@
 				einzutragen.
 			</p>
 			<img src="/anmerkungen.png" alt="Eine Schaltfläche mit dem Text »2 Anmerkungen« im Vordergrund vor der Karte" />
+			<!-- TODO: Daten werden nur auf deinem Gerät gespeichert, dadurch aknnst dua uch später weiter mache -->
 		</section>
 	</Modal>
 	<div class="container">
@@ -364,6 +369,7 @@
 			>
 				<NavigationControl position="top-left" />
 				<ScaleControl position="bottom-left" />
+				<!-- TODO: New Controll Button mit Fragezeichen was Modal triggered -->
 				<AttributionControl
 					position="bottom-right"
 					customAttribution={'<a href="/impressum">Impressum</a>'}
