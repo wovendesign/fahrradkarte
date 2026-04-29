@@ -347,7 +347,7 @@
 				einfacher in das verlinkte Rückmeldeformular der Stadt Potsdam
 				einzutragen.
 			</p>
-			<img src="/anmerkungen.png" />
+			<img src="/anmerkungen.png" alt="Eine Schaltfläche mit dem Text »2 Anmerkungen« im Vordergrund vor der Karte" />
 		</section>
 	</Modal>
 	<div class="container">
