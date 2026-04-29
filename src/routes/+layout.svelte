@@ -168,6 +168,7 @@
 			font-family: var(--font-serif);
 			font-style: italic;
 			text-wrap: balance;
+			hyphens: auto;
 			@media screen and (max-width: 640px) {
 				font-size: 2rem;
 			}
@@ -177,6 +178,7 @@
 			font-family: var(--font-serif);
 			/*font-style: italic;*/
 			text-wrap: balance;
+			hyphens: auto;
 		}
 
 		h3 {
@@ -184,12 +186,12 @@
 			font-size: 1.25rem;
 			font-style: italic;
 			font-weight: 500;
+			hyphens: auto;
 		}
 	}
 
 	:global(*) {
 		font-family: var(--font-sans-serif);
-		hyphens: auto;
 	}
 
 	:global(.button) {

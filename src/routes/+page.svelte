@@ -78,9 +78,6 @@
 				}
 			: null,
 	);
-	$effect(() => {
-		console.log(enhancedGeojsonData);
-	});
 
 	$effect(() => {
 		checkMobile();
@@ -141,48 +138,51 @@
 
 		if (!id) return;
 
-		selectSectionById(id, feature)
+		selectSectionById(id, feature);
 	}
 
-	function selectSectionById(id: string, feature: Feature) {
-	if (!mapRef || !sectionMap) return;
-	const section =
-		sectionMap.get(id) ?? sectionMap.get(id.replace("_", " "));
-	console.log("section found:", !!section);
-	if (section) {
-		selectedSection = section;
-		isGeojsonOnly = false;
-		// @ts-expect-error
-		plausible("Route Opened", {
-			props: { sectionId: section.abschnittsnummer },
-		});
-	} else if (
-		feature.properties?.straße ||
-		feature.properties?.abschnitt
+	function selectSectionById(
+		id: string,
+		feature: FeatureCollection["features"],
 	) {
-		selectedSection = {
-			abschnittsnummer: id,
-			straße: feature.properties.straße || "",
-			abschnitt: feature.properties.abschnitt || "",
-			bereich: "",
-			lage: "",
-			längeInMeter: 0,
-			radnetzfunktion: "",
-			führungsform: "",
-			bewertungFührungsform: 0,
-			bewertungAnlagenzustand: 0,
-			bewertungGesamt: 0,
-			verkehrssicherheit: "",
-			maßnahmen: "",
-			kommentar: "",
-			prioritaet: {
-				radnetzfunktion: 0,
-				bewertung_soll_ist: 0,
-				radverkehrsmengen: 0,
-			},
-		};
-		isGeojsonOnly = true;
-	}
+		if (!mapRef || !sectionMap) return;
+		const section =
+			sectionMap.get(id) ?? sectionMap.get(id.replace("_", " "));
+		console.log("section found:", !!section);
+		if (section) {
+			selectedSection = section;
+			isGeojsonOnly = false;
+			// @ts-expect-error
+			plausible("Route Opened", {
+				props: { sectionId: section.abschnittsnummer },
+			});
+		} else if (
+			feature.properties?.straße ||
+			feature.properties?.abschnitt
+		) {
+			selectedSection = {
+				abschnittsnummer: id,
+				straße: feature.properties.straße || "",
+				abschnitt: feature.properties.abschnitt || "",
+				bereich: "",
+				lage: "",
+				längeInMeter: 0,
+				radnetzfunktion: "",
+				führungsform: "",
+				bewertungFührungsform: 0,
+				bewertungAnlagenzustand: 0,
+				bewertungGesamt: 0,
+				verkehrssicherheit: "",
+				maßnahmen: "",
+				kommentar: "",
+				prioritaet: {
+					radnetzfunktion: 0,
+					bewertung_soll_ist: 0,
+					radverkehrsmengen: 0,
+				},
+			};
+			isGeojsonOnly = true;
+		}
 	}
 
 	let isScrollable = $state(false);
@@ -266,8 +266,6 @@
 	});
 
 	let zoom = $state(14);
-
-	// TODO: derived geo json which changes DisplayName property when a comment is added (adds ✓ unicode)
 </script>
 
 <svelte:head>
@@ -311,37 +309,51 @@
 			<h1>Radverkehrskonzept Potsdam</h1>
 			<h2>von 2026 für 2035</h2>
 			<p>
-				Die Stadt Potsdam fragt nach Feedback zu ihrem neuen
-				Radverkehrskonzept. Eine bürger·innennahe
-				Radinfrastrukturplanung ist die Grundlage einer zukunftsfähigen
-				Stadt. Deswegen stellen wir eine Übersichtskarte zur Verfügung
-				mit der Anmerkungen für die Stadt Potsdam vorbereitet werden
-				können.
+				Die Stadt Potsdam <a
+					href="https://mitgestalten.potsdam.de/de/besserradeln"
+					target="_blank">fragt nach Feedback</a
+				>
+				zu ihrem neuen Radverkehrskonzept. Eine bürger·innennahe Radinfrastrukturplanung
+				ist die Grundlage einer zukunftsfähigen Stadt. Deswegen stellen wir
+				eine Übersichtskarte zur Verfügung mit der Anmerkungen für die Stadt
+				Potsdam vorbereitet werden können.
 			</p>
-			<!-- TODO: Enddatum angeben -->
+			<p>Feedback ist bist zum <strong>17. Mai</strong> möglich.</p>
 			<p class="disclaimer">
 				(Visualisierung basierend auf öffentlich zugänglichen Daten der
 				Stadt Potsdam. Keine offizielle Kooperation; reine visuelle
-				Aufbereitung durch woven.design) Stand: 27.04.2026
+				Aufbereitung durch woven.design) Stand: 29.04.2026
 			</p>
 		</section>
 		<section>
 			<p>
-				Die Karte fasst alle Routenabschnitte zusammen, auf denen
-				Maßnahmen für das Radverkehrskonzept bis 2035 geplant sind.
-				Unterschieden wird zwischen:
+				Die Karte zeigt alle Routenabschnitte des Radverkehrskonzeptes
+				auf welchen Maßnahmen bis 2035 geplant sind.
 			</p>
+
+			<p>
+				Bei Auswahl eines Abschnitts, wird die dort geplante Maßnahme
+				erläutert. Im gleichen Fenster kann eine persönliche Anmerkung
+				notiert werden.
+			</p>
+			<img
+				src="/route-selection.png"
+				alt="Ein Mauszeiger der auf eine Rote Pille mit dem Text »M1 - 26« auf einem Roten Pfad auf einer grauen Karte zeigt"
+			/>
+		</section>
+		<section>
+			<p>Das hier sind die verschiedenen Routentypen</p>
 			<div>
 				<svg
-					width="63"
+					width="33"
 					height="5"
-					viewBox="0 0 63 5"
+					viewBox="0 0 33 5"
 					fill="none"
 					xmlns="http://www.w3.org/2000/svg"
 				>
 					<title>Rote Linie</title>
 					<path
-						d="M2.5 2.5H60"
+						d="M2.5 2.5H30"
 						stroke="#E63946"
 						stroke-width="5"
 						stroke-linecap="round"
@@ -353,15 +365,15 @@
 			</div>
 			<div>
 				<svg
-					width="63"
+					width="33"
 					height="5"
-					viewBox="0 0 63 5"
+					viewBox="0 0 33 5"
 					fill="none"
 					xmlns="http://www.w3.org/2000/svg"
 				>
 					<title>Dunkelblaue Linie</title>
 					<path
-						d="M2.5 2.5H60"
+						d="M2.5 2.5H30"
 						stroke="#1D3557"
 						stroke-width="5"
 						stroke-linecap="round"
@@ -369,19 +381,19 @@
 				</svg>
 				<strong>Hauptroute 1. Stufe</strong> – Wichtigste Alltagsrouten zu
 				Bahnhöfen & Zentrum, innerorts durchgängig beleuchtet (außer in Parkanlagen
-				der SPSG), hoher Pflegestandard
+				der SPSG)
 			</div>
 			<div>
 				<svg
-					width="63"
+					width="33"
 					height="5"
-					viewBox="0 0 63 5"
+					viewBox="0 0 33 5"
 					fill="none"
 					xmlns="http://www.w3.org/2000/svg"
 				>
 					<title>Hellblaue Linie</title>
 					<path
-						d="M2.5 2.5H60"
+						d="M2.5 2.5H30"
 						stroke="#457B9D"
 						stroke-width="5"
 						stroke-linecap="round"
@@ -390,11 +402,6 @@
 				<strong>Hauptroute 2. Stufe</strong> – Ergänzende Routen auf Ufer-
 				oder Grünwegen, Alternativstrecken abseits der Hauptverkehrsstraßen
 			</div>
-			<p>
-				Bei Auswahl eines Abschnitts, wird die dort geplante Maßnahme
-				erläutert. Im gleichen Fenster kann eine persönliche Anmerkung
-				notiert werden.
-			</p>
 		</section>
 		<!-- TODO: neue seite mit streckenerklärungen -->
 		<section>
@@ -408,7 +415,10 @@
 				src="/anmerkungen.png"
 				alt="Eine Schaltfläche mit dem Text »2 Anmerkungen« im Vordergrund vor der Karte"
 			/>
-			<!-- TODO: Daten werden nur auf deinem Gerät gespeichert, dadurch aknnst dua uch später weiter mache -->
+			<p class="disclaimer">
+				Die Daten werden <strong>nur auf deinem Gerät</strong> gespeichert.
+				Dadurch kannst du auch später weiter machen
+			</p>
 		</section>
 	</Modal>
 	<div class="container">
@@ -456,7 +466,7 @@
 									"line-join": "round",
 								}}
 								paint={{
-								"line-width": zoom * 0.4,
+									"line-width": zoom * 0.4,
 									"line-color": "#e63946",
 									"line-opacity": 1,
 								}}
@@ -474,7 +484,7 @@
 									"line-join": "round",
 								}}
 								paint={{
-								"line-width": zoom * 0.4,
+									"line-width": zoom * 0.4,
 									"line-color": "#1d3557",
 									"line-opacity": 1,
 								}}
@@ -538,7 +548,7 @@
 									"line-join": "round",
 								}}
 								paint={{
-								"line-width": zoom * 0.4,
+									"line-width": zoom * 0.4,
 									"line-color": "#333",
 									"line-opacity": 1,
 								}}
@@ -638,7 +648,11 @@
 													feature.properties?.route,
 												]}
 												style="opacity: 0.5;display:flex;height:20px;align-items:center;"
-												onclick={() => selectSectionById(feature.properties.id, feature)}
+												onclick={() =>
+													selectSectionById(
+														feature.properties.id,
+														feature,
+													)}
 											>
 												<svg
 													xmlns="http://www.w3.org/2000/svg"

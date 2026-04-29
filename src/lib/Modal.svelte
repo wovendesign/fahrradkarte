@@ -94,7 +94,7 @@
 		</div>
 		<div class="button-row">
 			<div class="button-group">
-				<p>{currentIndex + 1} / 3</p>
+				<p>{currentIndex + 1} / 4</p>
 
 				{#if currentIndex > 0}
 					<button
@@ -203,12 +203,20 @@
 
 		:global {
 			& > * {
-				--child-width: calc(var(--modal-width) - 2rem);
+				--child-width: calc(var(--modal-width) - 3rem);
 				height: 100%;
 				width: var(--child-width);
 				min-width: var(--child-width);
 				max-width: var(--child-width);
 				scroll-snap-align: center;
+				margin: 0 6px;
+				text-wrap: balance;
+
+				img {
+    				max-height: 20vh;
+                    width: auto;
+                    object-fit: contain;
+				}
 			}
 		}
 	}
