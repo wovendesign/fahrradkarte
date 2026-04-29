@@ -36,6 +36,29 @@
 		isMobile = window.innerWidth <= 640;
 	}
 
+	let enhancedGeojsonData: FeatureCollection | null = $derived(
+		geojsonData
+			? {
+					...geojsonData,
+					features: geojsonData.features.map((f) => {
+						const hasComment = $allComments.hasOwnProperty(
+							f.properties.id,
+						);
+						return {
+							...f,
+							properties: {
+								...f.properties,
+								displayName: `${f.properties.id}${hasComment ? "  ✓" : ""}`,
+							},
+						};
+					}),
+				}
+			: null,
+	);
+	$effect(() => {
+		console.log(enhancedGeojsonData);
+	});
+
 	$effect(() => {
 		checkMobile();
 		window.addEventListener("resize", checkMobile);
@@ -351,7 +374,10 @@
 				einfacher in das verlinkte Rückmeldeformular der Stadt Potsdam
 				einzutragen.
 			</p>
-			<img src="/anmerkungen.png" alt="Eine Schaltfläche mit dem Text »2 Anmerkungen« im Vordergrund vor der Karte" />
+			<img
+				src="/anmerkungen.png"
+				alt="Eine Schaltfläche mit dem Text »2 Anmerkungen« im Vordergrund vor der Karte"
+			/>
 			<!-- TODO: Daten werden nur auf deinem Gerät gespeichert, dadurch aknnst dua uch später weiter mache -->
 		</section>
 	</Modal>
@@ -365,7 +391,7 @@
 				maxBounds={bounds}
 				{center}
 				attributionControl={false}
-			  	style={`https://api.maptiler.com/maps/019dd5bc-07bf-7ad9-8cd0-6cdec14dace9/style.json?key=HyGAyclqdflQIuLk7LQ9`}
+				style={`https://api.maptiler.com/maps/019dd5bc-07bf-7ad9-8cd0-6cdec14dace9/style.json?key=HyGAyclqdflQIuLk7LQ9`}
 			>
 				<NavigationControl position="top-left" />
 				<ScaleControl position="bottom-left" />
@@ -375,8 +401,8 @@
 					customAttribution={'<a href="/impressum">Impressum</a>'}
 				/>
 				<MapEvents onclick={handleClick} />
-				{#if geojsonData}
-					<GeoJSON id="routes" data={geojsonData} generateId>
+				{#if enhancedGeojsonData}
+					<GeoJSON id="routes" data={enhancedGeojsonData} generateId>
 						<LineLayer
 							id="zielnetz-hitarea"
 							filter={["has", "id"]}
@@ -533,10 +559,11 @@
 						{/if}
 						<SymbolLayer
 							id="zielnetz-labels"
-							filter={["has", "id"]}
+							filter={["has", "displayName"]}
 							layout={{
-								"text-field": ["get", "id"],
+								"text-field": ["get", "displayName"],
 								"text-font": [
+									"IBM Plex Sans",
 									"Open Sans Bold",
 									"Arial Unicode MS Bold",
 								],
