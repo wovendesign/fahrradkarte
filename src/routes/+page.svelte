@@ -451,7 +451,7 @@
 									"line-join": "round",
 								}}
 								paint={{
-									"line-width": 6,
+								"line-width": zoom * 0.4,
 									"line-color": "#e63946",
 									"line-opacity": 1,
 								}}
@@ -469,7 +469,7 @@
 									"line-join": "round",
 								}}
 								paint={{
-									"line-width": 6,
+								"line-width": zoom * 0.4,
 									"line-color": "#1d3557",
 									"line-opacity": 1,
 								}}
@@ -487,7 +487,7 @@
 									"line-join": "round",
 								}}
 								paint={{
-									"line-width": 6,
+									"line-width": zoom * 0.4,
 									"line-color": "#457b9d",
 									"line-opacity": 1,
 								}}
@@ -533,7 +533,7 @@
 									"line-join": "round",
 								}}
 								paint={{
-									"line-width": 6,
+								"line-width": zoom * 0.4,
 									"line-color": "#333",
 									"line-opacity": 1,
 								}}
@@ -605,8 +605,11 @@
 						/> -->
 						<MarkerLayer filter={["has", "id"]} minzoom={13}>
 							{#snippet children({ feature, position })}
-    							{@const route = feature.properties?.route}
-    							{@const pillVisible = route === "plus" || (route === "stufe-1" && zoom >= 14) || (route === "stufe-2" && zoom >= 15)}
+								{@const route = feature.properties?.route}
+								{@const pillVisible =
+									route === "plus" ||
+									(route === "stufe-1" && zoom >= 14) ||
+									(route === "stufe-2" && zoom >= 15)}
 								{#if pillVisible}
 									<div class="pill-container">
 										<div
@@ -617,7 +620,8 @@
 										>
 											{#if zoom >= 15 && feature.properties?.bereich}
 												<span style="opacity:0.5;"
-													>{feature.properties?.bereich} -
+													>{feature.properties
+														?.bereich} -
 												</span>
 											{/if}
 											{feature.properties?.id}
@@ -643,7 +647,7 @@
 											</div>
 										{/if}
 									</div>
-									{/if}
+								{/if}
 							{/snippet}
 						</MarkerLayer>
 					</GeoJSON>
