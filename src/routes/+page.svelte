@@ -6,6 +6,7 @@
 		ScaleControl,
 		GeoJSON,
 		LineLayer,
+		MarkerLayer,
 		type LngLatBoundsLike,
 		type LngLatLike,
 		MapEvents,
@@ -41,14 +42,36 @@
 			? {
 					...geojsonData,
 					features: geojsonData.features.map((f) => {
-						const hasComment = $allComments.hasOwnProperty(
-							f.properties.id,
-						);
+						const id = f?.properties?.id;
+						if (!id) return f;
+						const hasComment = $allComments.hasOwnProperty(id);
+						const section = sectionMap?.get(id);
+						const bereich = section?.bereich;
+						const displayName: string[] = [];
+						// if (bereich) displayName.push(bereich);
+						displayName.push(id);
+						if (hasComment) displayName.push(" ✓");
+
+						let route: "plus" | "stufe-1" | "stufe-2" | undefined;
+						if (section?.radnetzfunktion === "Plusroute")
+							route = "plus";
+						else if (
+							section?.radnetzfunktion === "Hauptroute 1. Stufe"
+						)
+							route = "stufe-1";
+						else if (
+							section?.radnetzfunktion === "Hauptroute 2. Stufe"
+						)
+							route = "stufe-2";
+
 						return {
 							...f,
 							properties: {
 								...f.properties,
-								displayName: `${f.properties.id}${hasComment ? "  ✓" : ""}`,
+								// displayName: displayName.join(" "),
+								bereich,
+								route,
+								hasComment,
 							},
 						};
 					}),
@@ -237,6 +260,8 @@
 		}
 	});
 
+	let zoom = $state(14);
+
 	// TODO: derived geo json which changes DisplayName property when a comment is added (adds ✓ unicode)
 </script>
 
@@ -386,7 +411,7 @@
 			<Legend />
 			<MapLibre
 				bind:map={mapRef}
-				zoom={14}
+				bind:zoom
 				class="map"
 				maxBounds={bounds}
 				{center}
@@ -557,7 +582,7 @@
 								interactive
 							/>
 						{/if}
-						<SymbolLayer
+						<!-- <SymbolLayer
 							id="zielnetz-labels"
 							filter={["has", "displayName"]}
 							layout={{
@@ -577,7 +602,50 @@
 								"text-halo-color": "#000000",
 								"text-halo-width": 2,
 							}}
-						/>
+						/> -->
+						<MarkerLayer filter={["has", "id"]} minzoom={13}>
+							{#snippet children({ feature, position })}
+    							{@const route = feature.properties?.route}
+    							{@const pillVisible = route === "plus" || (route === "stufe-1" && zoom >= 14) || (route === "stufe-2" && zoom >= 15)}
+								{#if pillVisible}
+									<div class="pill-container">
+										<div
+											class={[
+												"pill",
+												feature.properties?.route,
+											]}
+										>
+											{#if zoom >= 15 && feature.properties?.bereich}
+												<span style="opacity:0.5;"
+													>{feature.properties?.bereich} -
+												</span>
+											{/if}
+											{feature.properties?.id}
+										</div>
+										{#if feature.properties?.hasComment}
+											<div
+												class={[
+													"pill",
+													feature.properties?.route,
+												]}
+												style="opacity: 0.5;display:flex;height:20px;"
+											>
+												<svg
+													xmlns="http://www.w3.org/2000/svg"
+													width="12"
+													height="12"
+													fill="currentColor"
+													viewBox="0 0 256 256"
+													><path
+														d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"
+													></path></svg
+												>
+											</div>
+										{/if}
+									</div>
+									{/if}
+							{/snippet}
+						</MarkerLayer>
 					</GeoJSON>
 				{/if}
 			</MapLibre>
@@ -682,6 +750,27 @@
 	:global {
 		.notScrollable {
 			overflow-y: hidden !important;
+		}
+
+		.pill-container {
+			display: flex;
+			gap: 0.125rem;
+			.pill {
+				background: #999;
+				padding: 0 0.5rem;
+				border-radius: 1rem;
+				color: white;
+
+				&.plus {
+					background: #e63946;
+				}
+				&.stufe-1 {
+					background: #1d3557;
+				}
+				&.stufe-2 {
+					background: #457b9d;
+				}
+			}
 		}
 	}
 
