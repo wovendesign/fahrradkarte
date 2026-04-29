@@ -36,6 +36,7 @@
 	{:else}
 		<p>Wähle einen Abschnitt aus</p>
 	{/if}
+	<p class="disclaimer">Dies ist nur deine Anmerkung. Niemand sonst sieht sie. Gespeichert ist sie ausschließlich auf deinem Gerät</p>
 </section>
 
 <style>

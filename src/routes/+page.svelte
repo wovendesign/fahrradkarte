@@ -141,43 +141,47 @@
 
 		if (!id) return;
 
-		const section =
-			sectionMap.get(id) ?? sectionMap.get(id.replace("_", " "));
-		console.log("section found:", !!section);
-		if (section) {
-			selectedSection = section;
-			isGeojsonOnly = false;
-			// @ts-expect-error
-			plausible("Route Opened", {
-				props: { sectionId: section.abschnittsnummer },
-			});
-		} else if (
-			feature.properties?.straße ||
-			feature.properties?.abschnitt
-		) {
-			selectedSection = {
-				abschnittsnummer: id,
-				straße: feature.properties.straße || "",
-				abschnitt: feature.properties.abschnitt || "",
-				bereich: "",
-				lage: "",
-				längeInMeter: 0,
-				radnetzfunktion: "",
-				führungsform: "",
-				bewertungFührungsform: 0,
-				bewertungAnlagenzustand: 0,
-				bewertungGesamt: 0,
-				verkehrssicherheit: "",
-				maßnahmen: "",
-				kommentar: "",
-				prioritaet: {
-					radnetzfunktion: 0,
-					bewertung_soll_ist: 0,
-					radverkehrsmengen: 0,
-				},
-			};
-			isGeojsonOnly = true;
-		}
+		selectSectionById(id)
+	}
+
+	function selectSectionById(id: string) {
+	const section =
+		sectionMap.get(id) ?? sectionMap.get(id.replace("_", " "));
+	console.log("section found:", !!section);
+	if (section) {
+		selectedSection = section;
+		isGeojsonOnly = false;
+		// @ts-expect-error
+		plausible("Route Opened", {
+			props: { sectionId: section.abschnittsnummer },
+		});
+	} else if (
+		feature.properties?.straße ||
+		feature.properties?.abschnitt
+	) {
+		selectedSection = {
+			abschnittsnummer: id,
+			straße: feature.properties.straße || "",
+			abschnitt: feature.properties.abschnitt || "",
+			bereich: "",
+			lage: "",
+			längeInMeter: 0,
+			radnetzfunktion: "",
+			führungsform: "",
+			bewertungFührungsform: 0,
+			bewertungAnlagenzustand: 0,
+			bewertungGesamt: 0,
+			verkehrssicherheit: "",
+			maßnahmen: "",
+			kommentar: "",
+			prioritaet: {
+				radnetzfunktion: 0,
+				bewertung_soll_ist: 0,
+				radverkehrsmengen: 0,
+			},
+		};
+		isGeojsonOnly = true;
+	}
 	}
 
 	let isScrollable = $state(false);
@@ -632,7 +636,8 @@
 													"pill",
 													feature.properties?.route,
 												]}
-												style="opacity: 0.5;display:flex;height:20px;"
+												style="opacity: 0.5;display:flex;height:20px;align-items:center;"
+												onclick={() => selectSectionById(feature.properties.id)}
 											>
 												<svg
 													xmlns="http://www.w3.org/2000/svg"
@@ -701,7 +706,7 @@
 
 {#if commentCount > 0}
 	<a href="/anmerkungen" class="fab">
-		{commentCount} Anmerkung{commentCount !== 1 ? "en" : ""}
+		Meine {commentCount} Anmerkung{commentCount !== 1 ? "en" : ""}
 	</a>
 {/if}
 
