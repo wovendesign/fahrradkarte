@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { untrack } from "svelte";
+	import { get } from "svelte/store";
 	import { allComments } from "$lib/stores/comments";
 
 	let copiedState = $state<Record<string, "route" | "comment">>({});
@@ -14,9 +16,7 @@
 	}
 
 	let commentEntries = $derived(
-		Object.entries($allComments).filter(
-			([, value]) => value && value.trim(),
-		),
+		Object.entries($allComments).filter(([, value]) => value?.trim()),
 	);
 
 	async function writeClipboardText(
@@ -64,6 +64,35 @@
 		document.body.removeChild(a);
 		URL.revokeObjectURL(url);
 	}
+
+	function getValue(value: string) {
+		try {
+			return JSON.parse(value);
+		} catch {
+			return { value };
+		}
+	}
+
+	// Migrate legacy plain text comments to JSON format
+	$effect(() => {
+		const comments = get(allComments) as Record<string, string>;
+		let changed = false;
+		
+		for (const [routeId, value] of Object.entries(comments)) {
+			if (value?.trim()) {
+				try {
+					JSON.parse(value);
+				} catch {
+					comments[routeId] = JSON.stringify({ value });
+					changed = true;
+				}
+			}
+		}
+		
+		if (changed) {
+			untrack(() => allComments.set(comments));
+		}
+	});
 </script>
 
 <svelte:head>
@@ -163,7 +192,7 @@
 			</thead>
 			<tbody>
 				{#each commentEntries as [routeId, value]}
-					{@const json = JSON.parse(value)}
+					{@const json = getValue(value)}
 					<!-- TODO: parse try catch with fallback recovery -->
 					{@const anmerkung = json.value}
 					{@const bereich = json.bereichId}
