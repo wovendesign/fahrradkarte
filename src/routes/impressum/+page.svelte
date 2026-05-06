@@ -1,3 +1,8 @@
+<script lang="ts">
+	import data from "../../data.json?url";
+	import zielnetz from "../../radverkehrskonzept_zielnetz.geojson?url";
+</script>
+
 <main>
 	<a href="/" class="button">← Zurück zur Karte</a>
 	<h1>Impressum</h1>
@@ -34,6 +39,11 @@
 		Wir speichern keine Eingaben und Anmerkungen von Nutzenden auf Servern.
 		Alles bleibt auf dem Endgerät der nutzenden Person.
 	</p>
+	<h2>Daten</h2>
+	<p>Die genutzten Daten sind hier anschau- und herunterladbar. Sie basieren auf dem Radverkehrskonzept 2017 der Stadt Potsdam und sind händisch an das neue angepasst.</p>
+	<a href={zielnetz} download>Geodaten</a>
+	<a href={data} download>Routen Daten</a>
+
 	<h2>Danke</h2>
 	<p>
 		für die Hilfe und Unterstüztung bei diesem Projekt, vor Allem an Martin
