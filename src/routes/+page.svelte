@@ -33,6 +33,15 @@
 	let sectionMap = $state<Map<string, Abschnitt> | null>(null);
 	let selectedSection = $state<Abschnitt | null>(null);
 	let isGeojsonOnly = $state(false);
+
+	let selectedIds = $derived(
+		selectedSection
+			? [
+					selectedSection.abschnittsnummer,
+					selectedSection.abschnittsnummer.replace(" ", "_"),
+				]
+			: [],
+	);
 	let sheetOpen = $state(false);
 	let isMobile = $state(false);
 
@@ -477,8 +486,30 @@
 								}}
 								paint={{
 									"line-width": zoom * 0.4,
-									"line-color": "#e63946",
-									"line-opacity": 1,
+									"line-color": selectedSection
+										? [
+												"case",
+												[
+													"in",
+													["get", "id"],
+													["literal", selectedIds],
+												],
+												"#e63946",
+												"#c08a8a",
+											]
+										: "#e63946",
+									"line-opacity": selectedSection
+										? [
+												"case",
+												[
+													"in",
+													["get", "id"],
+													["literal", selectedIds],
+												],
+												1,
+												0.2,
+											]
+										: 1,
 								}}
 								interactive
 							/>
@@ -495,8 +526,30 @@
 								}}
 								paint={{
 									"line-width": zoom * 0.4,
-									"line-color": "#1d3557",
-									"line-opacity": 1,
+									"line-color": selectedSection
+										? [
+												"case",
+												[
+													"in",
+													["get", "id"],
+													["literal", selectedIds],
+												],
+												"#1d3557",
+												"#7a8a9a",
+											]
+										: "#1d3557",
+									"line-opacity": selectedSection
+										? [
+												"case",
+												[
+													"in",
+													["get", "id"],
+													["literal", selectedIds],
+												],
+												1,
+												0.2,
+											]
+										: 1,
 								}}
 								interactive
 							/>
@@ -513,8 +566,30 @@
 								}}
 								paint={{
 									"line-width": zoom * 0.4,
-									"line-color": "#457b9d",
-									"line-opacity": 1,
+									"line-color": selectedSection
+										? [
+												"case",
+												[
+													"in",
+													["get", "id"],
+													["literal", selectedIds],
+												],
+												"#457b9d",
+												"#8a9aaa",
+											]
+										: "#457b9d",
+									"line-opacity": selectedSection
+										? [
+												"case",
+												[
+													"in",
+													["get", "id"],
+													["literal", selectedIds],
+												],
+												1,
+												0.2,
+											]
+										: 1,
 								}}
 								interactive
 							/>
@@ -559,8 +634,30 @@
 								}}
 								paint={{
 									"line-width": zoom * 0.4,
-									"line-color": "#333",
-									"line-opacity": 1,
+									"line-color": selectedSection
+										? [
+												"case",
+												[
+													"in",
+													["get", "id"],
+													["literal", selectedIds],
+												],
+												"#333",
+												"#888",
+											]
+										: "#333",
+									"line-opacity": selectedSection
+										? [
+												"case",
+												[
+													"in",
+													["get", "id"],
+													["literal", selectedIds],
+												],
+												1,
+												0.2,
+											]
+										: 1,
 								}}
 								interactive
 							/>
@@ -584,8 +681,10 @@
 								}}
 								paint={{
 									"line-width": 6,
-									"line-color": "#999",
-									"line-opacity": 1,
+									"line-color": selectedSection
+										? "#bbb"
+										: "#999",
+									"line-opacity": selectedSection ? 0.2 : 1,
 									"line-dasharray": [2, 2],
 								}}
 								interactive
@@ -600,8 +699,10 @@
 								}}
 								paint={{
 									"line-width": 6,
-									"line-color": "#999",
-									"line-opacity": 1,
+									"line-color": selectedSection
+										? "#bbb"
+										: "#999",
+									"line-opacity": selectedSection ? 0.2 : 1,
 									"line-dasharray": [2, 2],
 								}}
 								interactive
@@ -636,7 +737,14 @@
 									(route === "stufe-1" && zoom >= 14) ||
 									(route === "stufe-2" && zoom >= 15)}
 								{#if pillVisible}
-									<div class="pill-container">
+									<div
+										class="pill-container"
+										style={selectedSection &&
+										feature.properties?.id &&
+										!selectedIds.includes(feature.properties?.id)
+											? "opacity:0.2;"
+											: ""}
+									>
 										<div
 											class={[
 												"pill",
