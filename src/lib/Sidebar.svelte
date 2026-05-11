@@ -14,12 +14,12 @@
 		onclose: () => void;
 	} = $props();
 
+	let hasPrioOne = $state(false);
 	let hasPrioTwo = $state(false);
-	let hasPrioThree = $state(false);
 
 	$effect(() => {
+		hasPrioOne = selectedSection?.prioritaet.prioritaet_1 !== undefined;
 		hasPrioTwo = selectedSection?.prioritaet.prioritaet_2 !== undefined;
-		hasPrioThree = selectedSection?.prioritaet.prioritaet_3 !== undefined;
 	});
 
 	function onCommentChange(
@@ -68,21 +68,21 @@
 					<meter
 						min="0"
 						max="10"
-						value={hasPrioTwo || hasPrioThree
+						value={hasPrioOne || hasPrioTwo
 							? 10
-							: selectedSection.prioritaet.prioritaet_1}
+							: selectedSection.prioritaet.prioritaet_3}
 					></meter>
 					<meter
 						min="0"
 						max="10"
-						value={hasPrioThree
+						value={hasPrioOne
 							? 10
 							: selectedSection.prioritaet.prioritaet_2}
 					></meter>
 					<meter
 						min="0"
 						max="10"
-						value={selectedSection.prioritaet.prioritaet_3}
+						value={selectedSection.prioritaet.prioritaet_1}
 					></meter>
 				</div>
 			</section>
