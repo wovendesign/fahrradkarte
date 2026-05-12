@@ -806,6 +806,7 @@
 			onclose={() => {
 				sheetOpen = false;
 				isScrollable = false;
+				selectedSection = null
 			}}
 			onsnap={(e) => (isScrollable = e === 1)}
 		>
