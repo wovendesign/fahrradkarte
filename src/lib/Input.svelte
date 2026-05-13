@@ -1,14 +1,14 @@
 <script lang="ts">
-	import type { Writable } from 'svelte/store';
-	import { get } from 'svelte/store';
+	import type { Writable } from "svelte/store";
+	import { get } from "svelte/store";
 
 	let {
-	    bereichId,
+		bereichId,
 		routeId = "",
 		comment,
 		onchange,
 	}: {
-	bereichId?: string
+		bereichId?: string;
 		routeId?: string;
 		comment: Writable<Record<string, string>>;
 		onchange: (routeId: string, value: string, bereichId?: string) => void;
@@ -19,7 +19,9 @@
 	$effect(() => {
 		if (routeId) {
 			const comments = get(comment) as Record<string, string>;
-			currentValue = comments[routeId] ? JSON.parse(comments[routeId]).value : "";
+			currentValue = comments[routeId]
+				? JSON.parse(comments[routeId]).value
+				: "";
 		}
 	});
 </script>
@@ -38,7 +40,11 @@
 	{:else}
 		<p>Wähle einen Abschnitt aus</p>
 	{/if}
-	<p class="disclaimer">Dies ist nur deine Anmerkung. Niemand sonst sieht sie. Gespeichert ist sie ausschließlich auf deinem Gerät</p>
+	<p class="disclaimer">
+		Diese Anmerkung ist erstmal nur für dich gespeichert. Du hast dann eine
+		Übersicht mit allen Anmerkungen, um diese gesammelt der Stadt zu
+		übermitteln
+	</p>
 </section>
 
 <style>
